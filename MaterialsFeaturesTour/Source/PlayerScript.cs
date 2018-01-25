@@ -19,17 +19,7 @@ namespace FpsTemplate
         public float AirAccelerate = 10000;
         public float MaxVelocityGround = 400;
         public float MaxVelocityAir = 200;
-
-        /// <summary>
-        /// Tthe rotation speed of the camera (in radian/screen units)
-        /// </summary>
-        public float RotationSpeed = 2.355f;
-
-        /// <summary>
-        /// The rate at which orientation is adapted to a target value.
-        /// </summary>
-        public float RotationAdaptationSpeed = 5.0f;
-
+        
         private Vector3 _velocity;
         private bool _jump;
         private float pitch;
@@ -44,9 +34,7 @@ namespace FpsTemplate
             Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             pitch = Mathf.Clamp(pitch + mouseDelta.Y, -88, 88);
             yaw += mouseDelta.X;
-
-			Debug.Log(mouseDelta);
-
+            
             // Jump
             if (CanJump && Input.GetAction("Jump"))
                 _jump = true;
