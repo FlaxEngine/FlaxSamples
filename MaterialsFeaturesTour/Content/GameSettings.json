@@ -1,0 +1,19 @@
+{
+	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
+	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
+	"EngineBuild": 6145,
+	"Data": {
+	"ProductName": "MaterialsFeaturesTour",
+	"CompanyName": "Flax",
+	"Version": "1.0",
+	"FirstScene": "a470726f441936acfe25318b162c336c",
+	"Time": "9acd18b0496064d35799f390d3a2b374",
+	"LayersAndTags": "bb6fbecf458db0ecffa5e2a5155b2b4f",
+	"Physics": "7871f0364d398555ccd9e297acdc8983",
+	"Input": "f4c1c67842f6b745a6976aa8e7eff360",
+	"Graphics": "4eaf325e4cd72aa4cdeb6393cad05466",
+	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
+	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
+	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973"
+}
+}
