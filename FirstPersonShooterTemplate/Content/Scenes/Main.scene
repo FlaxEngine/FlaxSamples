@@ -1,0 +1,921 @@
+{
+	"ID": "a470726f441936acfe25318b162c336c",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6146,
+	"Data": [
+		{
+			"TypeID": 9,
+			"ID": "a470726f441936acfe25318b162c336c",
+			"ParentID": "00000000000000000000000000000000",
+			"Name": "Main",
+			"Scripts": [
+				{
+					"Name": "FirstPersonShooterTemplate.ExitOnEsc",
+					"ID": "d91aaece49c11f4bfd8335915ee97b32",
+					"V": {}
+				}
+			],
+			"Lightmaps": [
+				{
+					"Lightmap0": "df86835e462c6392ddb459b6abee549d",
+					"Lightmap1": "46a2cf814ff68d53001b9787c7132eb2",
+					"Lightmap2": "02756a42447c700ab0b49f83f8ae8f91"
+				}
+			],
+			"LightmapSettings": {
+				"GlobalObjectsScale": 0.8,
+				"ChartsPadding": 2,
+				"AtlasSize": 1024,
+				"BounceCount": 2,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			},
+			"CSG": {
+				"Model": "8a042da5405a174845552cb384262281",
+				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
+				"Buffer": {
+					"Entries": [
+						{
+							"LightmapIndex": 0,
+							"LightmapArea": {
+								"Location": {
+									"X": 0.001952,
+									"Y": 0.658203
+								},
+								"Size": {
+									"X": 0.280272,
+									"Y": 0.280272
+								}
+							}
+						},
+						{
+							"LightmapIndex": 0,
+							"LightmapArea": {
+								"Location": {
+									"X": 0.001952,
+									"Y": 0.375
+								},
+								"Size": {
+									"X": 0.28125,
+									"Y": 0.28125
+								}
+							}
+						},
+						{
+							"LightmapIndex": 0,
+							"LightmapArea": {
+								"Location": {
+									"X": 0.001952,
+									"Y": 0.001952
+								},
+								"Size": {
+									"X": 0.371093,
+									"Y": 0.371093
+								}
+							}
+						}
+					]
+				},
+				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
+			}
+		},
+		{
+			"TypeID": 10,
+			"ID": "0442142849ec2b814cc380897a623811",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 297.975769,
+					"Z": 14.815793
+				}
+			},
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
+			"FogSunPower": 6.0
+		},
+		{
+			"TypeID": 4,
+			"ID": "9b72fc4a47c39fca64f3058b692784c3",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 272.996368,
+					"Z": 32.538253
+				},
+				"Orientation": {
+					"X": 0.373597,
+					"Y": 0.200121,
+					"Z": 0.082892,
+					"W": 0.901945
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.960699,
+				"B": 0.805,
+				"A": 1.0
+			},
+			"Brightness": 6.0,
+			"ShadowsDistance": 3000.0,
+			"ShadowsDepthBias": 0.009998
+		},
+		{
+			"TypeID": 25,
+			"ID": "280f19df46462adca0ad71983641cb0b",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 356.336791,
+					"Z": 0.0
+				}
+			},
+			"Brightness": 1.399999,
+			"AdditiveColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Radius": 100000.0,
+			"SkyDistanceThreshold": 150000.0,
+			"BakedProbe": "00000000000000000000000000000000",
+			"Mode": 1,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"TypeID": 7,
+			"ID": "739e26924c19e0641050bba8b8ebfe6c",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "EnvironmentProbe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 162.447753,
+					"Z": 0.0
+				}
+			},
+			"Radius": 3000.0,
+			"AutoUpdate": false,
+			"IsCustomProbe": false,
+			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
+		},
+		{
+			"TypeID": 3,
+			"ID": "532f46e6414fe755ee404d846a39c22a",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "StaticGeometry",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 125.35466,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"TypeID": 8,
+			"ID": "86427f3d469d4f6c0289d7ad281871e1",
+			"ParentID": "532f46e6414fe755ee404d846a39c22a",
+			"Name": "BoxBrush",
+			"Size": {
+				"X": 2000.0,
+				"Y": 300.0,
+				"Z": 2000.0
+			},
+			"Surfaces": [
+				{},
+				{},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"TypeID": 8,
+			"ID": "93f8724b4774bf35d310e7badcbfe898",
+			"ParentID": "86427f3d469d4f6c0289d7ad281871e1",
+			"Name": "BoxBrush 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 27.717184,
+					"Z": 0.0
+				}
+			},
+			"Mode": 1,
+			"Size": {
+				"X": 1900.0,
+				"Y": 300.0,
+				"Z": 1900.0
+			},
+			"Surfaces": [
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{},
+				{
+					"Material": "e4b087dc475dbc96a8a6bbbb32ba59db"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				}
+			]
+		},
+		{
+			"TypeID": 8,
+			"ID": "715e99994bfc9a9c38b0aeb058255bba",
+			"ParentID": "532f46e6414fe755ee404d846a39c22a",
+			"Name": "BoxBrush 1",
+			"Transform": {
+				"Translation": {
+					"X": -266.818359,
+					"Y": -5.22894,
+					"Z": -759.203369
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 1.5,
+					"Z": 1.0
+				}
+			},
+			"Size": {
+				"X": 150.0,
+				"Y": 200.0,
+				"Z": 400.0
+			},
+			"Surfaces": [
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				}
+			]
+		},
+		{
+			"TypeID": 8,
+			"ID": "d545fa844ba26a0217fcc0ae84f7af26",
+			"ParentID": "532f46e6414fe755ee404d846a39c22a",
+			"Name": "BoxBrush 0",
+			"Transform": {
+				"Translation": {
+					"X": -266.818359,
+					"Y": -5.22894,
+					"Z": 761.443969
+				},
+				"Scale": {
+					"X": 1.0,
+					"Y": 1.5,
+					"Z": 1.0
+				}
+			},
+			"Size": {
+				"X": 150.0,
+				"Y": 200.0,
+				"Z": 400.0
+			},
+			"Surfaces": [
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				},
+				{
+					"Material": "861be0ca4c7ec0e748bfb5954a14cdfe"
+				}
+			]
+		},
+		{
+			"TypeID": 3,
+			"ID": "c94348764a0e4794f68a89a2c7b831b9",
+			"ParentID": "532f46e6414fe755ee404d846a39c22a",
+			"Name": "Small bumps",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -125.35466,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 15,
+			"ID": "dc7be3e14867e004a830a38e24cdc390",
+			"ParentID": "c94348764a0e4794f68a89a2c7b831b9",
+			"Name": "SphereCollider",
+			"Transform": {
+				"Translation": {
+					"X": 391.374633,
+					"Y": 0.0,
+					"Z": -153.429687
+				}
+			},
+			"StaticFlags": 0,
+			"Radius": 50.0
+		},
+		{
+			"TypeID": 1,
+			"ID": "065761fc431056c1d6dddba2ee71b0f8",
+			"ParentID": "dc7be3e14867e004a830a38e24cdc390",
+			"Name": "Sphere",
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 15,
+			"ID": "5edca72e401b430d32e81f921cc24b81",
+			"ParentID": "c94348764a0e4794f68a89a2c7b831b9",
+			"Name": "SphereCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 510.494995,
+					"Y": -19.230903,
+					"Z": -323.927154
+				}
+			},
+			"StaticFlags": 0,
+			"Radius": 50.0
+		},
+		{
+			"TypeID": 1,
+			"ID": "24c8626949ebc7a75784d4aa4146b117",
+			"ParentID": "5edca72e401b430d32e81f921cc24b81",
+			"Name": "Sphere",
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 15,
+			"ID": "d3162ebf45da9f2396216aadff28a14d",
+			"ParentID": "c94348764a0e4794f68a89a2c7b831b9",
+			"Name": "SphereCollider 1",
+			"Transform": {
+				"Translation": {
+					"X": 333.187774,
+					"Y": -15.809967,
+					"Z": -328.698577
+				}
+			},
+			"StaticFlags": 0,
+			"Radius": 50.0
+		},
+		{
+			"TypeID": 1,
+			"ID": "afb18f5e4295c7aa7a06b19553b7d43a",
+			"ParentID": "d3162ebf45da9f2396216aadff28a14d",
+			"Name": "Sphere",
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 2,
+			"ID": "5543ed36412ccd0f04717a90d39e877e",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": -605.840576,
+					"Y": 260.224212,
+					"Z": 257.374053
+				},
+				"Orientation": {
+					"X": 0.092614,
+					"Y": 0.701015,
+					"Z": -0.092614,
+					"W": 0.701015
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"UsePerspective": true,
+			"FOV": 60.0,
+			"CustomAspectRatio": 0.0,
+			"Near": 2.0,
+			"Far": 10000.0
+		},
+		{
+			"TypeID": 17,
+			"ID": "8dd8b65446747a93c055c2aee97de390",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Player",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 122.213577,
+					"Z": 227.49414
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Scripts": [
+				{
+					"Name": "FirstPersonShooterTemplate.PlayerScript",
+					"ID": "f7fec37c45038b89876e93a1d74c66ad",
+					"V": {
+	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
+	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
+	"Camera": "5543ed36412ccd0f04717a90d39e877e",
+	"SphereModel": "dd86c4724bf734c4959d23b3c74faa05",
+	"CameraSmoothing": 20.0,
+	"CanJump": true,
+	"JumpForce": 800.0,
+	"Friction": 8.0,
+	"GroundAccelerate": 5000.0,
+	"AirAccelerate": 10000.0,
+	"MaxVelocityGround": 400.0,
+	"MaxVelocityAir": 200.0
+}
+				}
+			],
+			"ContactOffset": 0.1,
+			"StepOffset": 30.0,
+			"SlopeLimit": 45.0,
+			"Radius": 50.0,
+			"Height": 100.0
+		},
+		{
+			"TypeID": 1,
+			"ID": "dfaec6df4971de07eda4e1803e33de95",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"IsActive": false,
+			"Name": "Cylinder",
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "bd5a86b94be40f242ae1ad901eda3d3f",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"IsActive": false,
+			"Name": "Bottom Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "7238398c45232acccbe403905da6d266",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"IsActive": false,
+			"Name": "Upper Sphere",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 3,
+			"ID": "9b1b849f4ef1d7aa11977e91a446dde5",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"Name": "Cam Target",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 70.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player"
+		},
+		{
+			"TypeID": 24,
+			"ID": "c61c72eb40e0fc78a21fddb233fd5cab",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "CSG.Collider",
+			"CollisionData": "a5f97a164bddfd712f248088f10548ac"
+		},
+		{
+			"TypeID": 3,
+			"ID": "dc1066a44723911765c2c5b2635682ab",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Cubes",
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 11,
+			"ID": "667a6da84f85e05772813e923fc1558e",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 4",
+			"Transform": {
+				"Translation": {
+					"X": 413.171966,
+					"Y": 164.003692,
+					"Z": 436.764648
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "10e9070243579e3eef5eaaa4de9624d4",
+			"ParentID": "667a6da84f85e05772813e923fc1558e",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "4e127bc44db8d16b699942b5dd9c2b87",
+			"ParentID": "667a6da84f85e05772813e923fc1558e",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "464744be47d503e6f09d5ea8f73baa9e",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 3",
+			"Transform": {
+				"Translation": {
+					"X": 306.198394,
+					"Y": 164.003692,
+					"Z": 436.764648
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "32ab6b7c4bbaf9bb44c2058bbe237722",
+			"ParentID": "464744be47d503e6f09d5ea8f73baa9e",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "9ceda3664c296fd8b50603a9536cc4a1",
+			"ParentID": "464744be47d503e6f09d5ea8f73baa9e",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "254389f44944117d72d03f9bf9cb56f3",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 252.468322,
+					"Y": 58.358901,
+					"Z": 436.764648
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "5efebcb244ac0b3929ea0fa4077019e0",
+			"ParentID": "254389f44944117d72d03f9bf9cb56f3",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "e56a813946d05fdc98d25892e6889123",
+			"ParentID": "254389f44944117d72d03f9bf9cb56f3",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "1d1c3fc643ebd15153f88daaada6e67c",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 361.533538,
+					"Y": 58.358901,
+					"Z": 436.764648
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "23fa5841421565ed9cf24894a1cee8c1",
+			"ParentID": "1d1c3fc643ebd15153f88daaada6e67c",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "caf9ca6446906aa369a5f694382c430e",
+			"ParentID": "1d1c3fc643ebd15153f88daaada6e67c",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "4750528b41661c094d70febd54a0f0fb",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 7",
+			"Transform": {
+				"Translation": {
+					"X": 688.564636,
+					"Y": 58.358901,
+					"Z": -195.497772
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.736227,
+					"Z": 0.0,
+					"W": 0.676734
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "b256f54f4af31b90663e3c93a980c0dc",
+			"ParentID": "4750528b41661c094d70febd54a0f0fb",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "cefa1e544f1ce1b0649783967f1bb8ac",
+			"ParentID": "4750528b41661c094d70febd54a0f0fb",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "bf6cc81f4722af69c9f4b3ab964abba4",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 6",
+			"Transform": {
+				"Translation": {
+					"X": 782.041259,
+					"Y": 58.358901,
+					"Z": -81.336975
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.326307,
+					"Z": 0.0,
+					"W": 0.945263
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "a70f0ce946c0c229222b7582d36bc817",
+			"ParentID": "bf6cc81f4722af69c9f4b3ab964abba4",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "c175521f482bb59abaadfd87760ceef2",
+			"ParentID": "bf6cc81f4722af69c9f4b3ab964abba4",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "ea6d53bf468a235839a0d2abd713cfef",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 5",
+			"Transform": {
+				"Translation": {
+					"X": 696.026,
+					"Y": 58.358901,
+					"Z": 81.690872
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.326307,
+					"Z": 0.0,
+					"W": 0.945263
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "85025c8a488e23d90a1800b675a6fe50",
+			"ParentID": "ea6d53bf468a235839a0d2abd713cfef",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "5ef390d4457d564ecb29f595b5a35c1e",
+			"ParentID": "ea6d53bf468a235839a0d2abd713cfef",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 11,
+			"ID": "4455e3554e3b84f044bbe7943c362032",
+			"ParentID": "dc1066a44723911765c2c5b2635682ab",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 471.328887,
+					"Y": 58.358901,
+					"Z": 436.764648
+				}
+			},
+			"StaticFlags": 0,
+			"Mass": 500.0,
+			"EnableSimulation": true,
+			"EnableGravity": true,
+			"StartAwake": true,
+			"OverrideMass": true
+		},
+		{
+			"TypeID": 1,
+			"ID": "5e3a402b4960daf5bf2ea9b840f9686a",
+			"ParentID": "4455e3554e3b84f044bbe7943c362032",
+			"Name": "Model",
+			"StaticFlags": 0,
+			"Model": "62a9aa73424580375cd97a88a2302cef",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 24,
+			"ID": "5daf307842361b9370bf1e9ffaf76e9d",
+			"ParentID": "4455e3554e3b84f044bbe7943c362032",
+			"Name": "Collider",
+			"StaticFlags": 0,
+			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		}
+	]
+}
