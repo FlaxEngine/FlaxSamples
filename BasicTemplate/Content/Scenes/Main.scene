@@ -1,0 +1,230 @@
+{
+	"ID": "a470726f441936acfe25318b162c336c",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6146,
+	"Data": [
+		{
+			"TypeID": 9,
+			"ID": "a470726f441936acfe25318b162c336c",
+			"ParentID": "00000000000000000000000000000000",
+			"Name": "Main",
+			"Scripts": [
+				{
+					"Name": "BasicTemplate.ExitOnEsc",
+					"ID": "d91aaece49c11f4bfd8335915ee97b32",
+					"V": {}
+				}
+			],
+			"Lightmaps": [
+				{
+					"Lightmap0": "00000000000000000000000000000000",
+					"Lightmap1": "00000000000000000000000000000000",
+					"Lightmap2": "00000000000000000000000000000000"
+				}
+			],
+			"LightmapSettings": {
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 2,
+				"AtlasSize": 512,
+				"BounceCount": 1,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 100
+			}
+		},
+		{
+			"TypeID": 25,
+			"ID": "280f19df46462adca0ad71983641cb0b",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 250.0,
+					"Z": 0.0
+				}
+			},
+			"Brightness": 1.6,
+			"AdditiveColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 1.0
+			},
+			"Radius": 100000.0,
+			"SkyDistanceThreshold": 150000.0,
+			"BakedProbe": "00000000000000000000000000000000",
+			"Mode": 1,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"TypeID": 10,
+			"ID": "0442142849ec2b814cc380897a623811",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 300.0,
+					"Z": 20.0
+				}
+			},
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
+			"FogSunPower": 6.0
+		},
+		{
+			"TypeID": 4,
+			"ID": "9b72fc4a47c39fca64f3058b692784c3",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 270.0,
+					"Z": 40.0
+				},
+				"Orientation": {
+					"X": 0.308841,
+					"Y": 0.397323,
+					"Z": -0.144015,
+					"W": 0.852062
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.960699,
+				"B": 0.805,
+				"A": 1.0
+			},
+			"Brightness": 5.0,
+			"ShadowsDistance": 2000.0,
+			"ShadowsFadeDistance": 200.0,
+			"ShadowsDepthBias": 0.009998
+		},
+		{
+			"TypeID": 1,
+			"ID": "c186d8c64da6153e725e638df4679e98",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Floor",
+			"Transform": {
+				"Scale": {
+					"X": 10.0,
+					"Y": 0.2,
+					"Z": 10.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "c5bf75264ac08f205d16eea554e3d16e"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 14,
+			"ID": "03d22c35456f44334942829dfe2c5e8f",
+			"ParentID": "c186d8c64da6153e725e638df4679e98",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "a6c68c34424f3172473746b6852612bb",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": -3.792057,
+					"Y": 56.702232,
+					"Z": 176.779953
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.246134,
+					"Z": 0.0,
+					"W": 0.969235
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 14,
+			"ID": "20f7c15e46b71c16d46ddb85ebea39af",
+			"ParentID": "a6c68c34424f3172473746b6852612bb",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 2,
+			"ID": "5543ed36412ccd0f04717a90d39e877e",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": -71.052528,
+					"Y": 184.074188,
+					"Z": -225.050872
+				},
+				"Orientation": {
+					"X": 0.116992,
+					"Y": 0.199405,
+					"Z": -0.023985,
+					"W": 0.972612
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Scripts": [
+				{
+					"Name": "BasicTemplate.FreeCamera",
+					"ID": "5dd6fd6641ce223a7ec079803296d798",
+					"V": {
+	"MoveSpeed": 4.0
+}
+				}
+			],
+			"UsePerspective": true,
+			"FOV": 60.0,
+			"CustomAspectRatio": 0.0,
+			"Near": 2.0,
+			"Far": 10000.0
+		},
+		{
+			"TypeID": 3,
+			"ID": "8812fd944ac3dfb0dbe795b40de47637",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "EmptyActor",
+			"Transform": {
+				"Translation": {
+					"X": -390.0,
+					"Y": 268.0,
+					"Z": -260.0
+				},
+				"Orientation": {
+					"X": 0.148039,
+					"Y": 0.514742,
+					"Z": -0.090763,
+					"W": 0.839575
+				}
+			},
+			"StaticFlags": 0
+		}
+	]
+}

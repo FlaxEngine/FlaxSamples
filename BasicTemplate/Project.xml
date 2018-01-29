@@ -1,0 +1,15 @@
+<Project>
+	<Name>Basic Template</Name>
+	<DefaultSceneId>a470726f441936acfe25318b162c336c</DefaultSceneId>
+	<DefaultSceneSpawnPos>
+		<X>-390</X>
+		<Y>268</Y>
+		<Z>-260</Z>
+	</DefaultSceneSpawnPos>
+	<DefaultSceneSpawnDir>
+		<X>20</X>
+		<Y>63</Y>
+		<Z>0</Z>
+	</DefaultSceneSpawnDir>
+	<MinVersionSupported>6146</MinVersionSupported>
+</Project>
