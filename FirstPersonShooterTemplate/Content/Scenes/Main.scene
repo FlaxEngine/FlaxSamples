@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6146,
+	"EngineBuild": 6147,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -39,7 +39,7 @@
 							"LightmapIndex": 0,
 							"LightmapArea": {
 								"Location": {
-									"X": 0.001952,
+									"X": 0.001951,
 									"Y": 0.658203
 								},
 								"Size": {
@@ -52,7 +52,7 @@
 							"LightmapIndex": 0,
 							"LightmapArea": {
 								"Location": {
-									"X": 0.001952,
+									"X": 0.001951,
 									"Y": 0.375
 								},
 								"Size": {
@@ -65,8 +65,8 @@
 							"LightmapIndex": 0,
 							"LightmapArea": {
 								"Location": {
-									"X": 0.001952,
-									"Y": 0.001952
+									"X": 0.001951,
+									"Y": 0.001951
 								},
 								"Size": {
 									"X": 0.371093,
@@ -119,8 +119,7 @@
 				"A": 1.0
 			},
 			"Brightness": 6.0,
-			"ShadowsDistance": 3000.0,
-			"ShadowsDepthBias": 0.009998
+			"ShadowsDistance": 3000.0
 		},
 		{
 			"TypeID": 25,
@@ -442,7 +441,6 @@
 			"Tag": "Player",
 			"UsePerspective": true,
 			"FOV": 60.0,
-			"CustomAspectRatio": 0.0,
 			"Near": 2.0,
 			"Far": 10000.0
 		},

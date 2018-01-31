@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6146,
+	"EngineBuild": 6147,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -97,8 +97,7 @@
 			},
 			"Brightness": 5.0,
 			"ShadowsDistance": 2000.0,
-			"ShadowsFadeDistance": 200.0,
-			"ShadowsDepthBias": 0.009998
+			"ShadowsFadeDistance": 200.0
 		},
 		{
 			"TypeID": 1,
@@ -202,7 +201,6 @@
 			],
 			"UsePerspective": true,
 			"FOV": 60.0,
-			"CustomAspectRatio": 0.0,
 			"Near": 2.0,
 			"Far": 10000.0
 		},
