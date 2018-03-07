@@ -125,7 +125,8 @@
 			"Brightness": 6.0,
 			"VolumetricScatteringIntensity": 10.0,
 			"ShadowsDistance": 3000.0,
-			"ShadowsFadeDistance": 200.0
+			"ShadowsFadeDistance": 200.0,
+			"ShadowsNormalOffsetScale": 50.0
 		},
 		{
 			"TypeID": 26,
