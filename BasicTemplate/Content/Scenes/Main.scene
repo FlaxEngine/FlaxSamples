@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6148,
+	"EngineBuild": 6156,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -43,7 +43,7 @@
 					"Z": 0.0
 				}
 			},
-			"Brightness": 1.600000023841858,
+			"Brightness": 2.0,
 			"AdditiveColor": {
 				"R": 0.0,
 				"G": 0.0,
@@ -69,7 +69,8 @@
 				}
 			},
 			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"FogSunPower": 6.0
+			"SunDiscScale": 1.0,
+			"FogSunPower": 8.0
 		},
 		{
 			"TypeID": 7,
