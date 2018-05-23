@@ -9562,6 +9562,558 @@
 		},
 		{
 			"TypeID": 3,
+			"ID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
+			"Name": "Stand 18",
+			"Transform": {
+				"Translation": {
+					"X": 4486.0,
+					"Y": 0.0,
+					"Z": -5250.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": -0.7071068286895752
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 1,
+			"ID": "59c691ee455ceae27d2500a815d7b6fc",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Area",
+			"Transform": {
+				"Translation": {
+					"X": 0.000009000000318337698,
+					"Y": 0.0,
+					"Z": -136.42164611816407
+				},
+				"Orientation": {
+					"X": -0.5,
+					"Y": 0.5,
+					"Z": 0.5,
+					"W": 0.5
+				},
+				"Scale": {
+					"X": 2.5,
+					"Y": 2.0,
+					"Z": 1.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "73f8001d40cd952ff1e30bb377d07078",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"TypeID": 27,
+			"ID": "2b3fe214495a7667cf4f88aacf29a38e",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Title",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -27.38220977783203,
+					"Z": -287.9643249511719
+				}
+			},
+			"StaticFlags": 0,
+			"Text": "18. Decals",
+			"Color": {
+				"R": 1.0010000467300416,
+				"G": 1.0010000467300416,
+				"B": 1.0010000467300416,
+				"A": 1.0
+			},
+			"Size": 28,
+			"Material": "5bae28aa4c20d881304d29aac911cd7e",
+			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+			"ShadowsMode": 0,
+			"Bounds": {
+				"Location": {
+					"X": -170.0,
+					"Y": -263.0
+				},
+				"Size": {
+					"X": 340.0,
+					"Y": 50.0
+				}
+			},
+			"HAlignment": 0,
+			"VAlignment": 1,
+			"Wrapping": 0,
+			"GapScale": 1.0
+		},
+		{
+			"TypeID": 1,
+			"ID": "21380f6345d52b94457a92822f4a2937",
+			"ParentID": "2b3fe214495a7667cf4f88aacf29a38e",
+			"Name": "Plate",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 236.49444580078126,
+					"Z": -19.479949951171876
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.3337410092353821,
+					"Y": 1.0,
+					"Z": 0.1449510008096695
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "bfa9ff314a32ac055d0341acea17cc48",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "4e23e8634605c4db69d55f99bad49363"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "441987c242d6b15871fc7cb49ba2a572",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": -11.95897388458252,
+					"Y": -37.292694091796878,
+					"Z": -152.04685974121095
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071067690849304,
+					"Z": 0.0,
+					"W": -0.7071067690849304
+				},
+				"Scale": {
+					"X": 0.800000011920929,
+					"Y": 0.800000011920929,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "4e23e8634605c4db69d55f99bad49363"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 14,
+			"ID": "24ba09bd4fc08a9c57a956a1fe40c2fd",
+			"ParentID": "441987c242d6b15871fc7cb49ba2a572",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "be9e73764718427f9bcd76a88ba4ce9e",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -72.6098403930664,
+					"Y": 17.22073745727539,
+					"Z": -200.92967224121095
+				},
+				"Orientation": {
+					"X": 0.1331634223461151,
+					"Y": -0.3456959128379822,
+					"Z": -0.3730906546115875,
+					"W": -0.8506264090538025
+				},
+				"Scale": {
+					"X": 0.800000011920929,
+					"Y": 0.800000011920929,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "e37ba45240ca8ad03d79efa3497f6d48"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 14,
+			"ID": "fab5af8d4e1c15d2a42c48b75901fb60",
+			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "3104ad9c40a32c8febbfab87f9db65eb",
+			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
+			"Name": "Decal 0",
+			"Transform": {
+				"Translation": {
+					"X": -16.915494918823243,
+					"Y": 45.35079574584961,
+					"Z": 54.1880989074707
+				},
+				"Orientation": {
+					"X": 0.7071068286895752,
+					"Y": -1.4901161193847657e-8,
+					"Z": 1.4901161193847657e-8,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 100.0,
+				"Y": 10.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "490719464eb9fb26f8450594f78e1050",
+			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
+			"Name": "Decal",
+			"Transform": {
+				"Translation": {
+					"X": -20.152935028076173,
+					"Y": 53.31714630126953,
+					"Z": 39.96794891357422
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 100.0,
+				"Y": 10.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 72.18505859375,
+					"Y": 17.22073745727539,
+					"Z": -163.92820739746095
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.8184601068496704,
+					"Z": 0.0,
+					"W": -0.5745632648468018
+				},
+				"Scale": {
+					"X": 0.800000011920929,
+					"Y": 0.800000011920929,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "35aa85904c98e6f76a1d9d9e7a02a0dc"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 14,
+			"ID": "250342aa4c58bd85556bfa8bcefbd3d1",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "460703c345af5b4304d0498ec451c80a",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal 0",
+			"Transform": {
+				"Translation": {
+					"X": 36.4101448059082,
+					"Y": 18.699140548706056,
+					"Z": -53.28776931762695
+				},
+				"Orientation": {
+					"X": 0.6579424738883972,
+					"Y": 0.25905707478523257,
+					"Z": 0.2590579688549042,
+					"W": 0.6579437255859375
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "e9a6d4c24916852f9e33738ea1a77d1e",
+			"Size": {
+				"X": 40.0,
+				"Y": 10.0,
+				"Z": 40.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "01722f3449c7971475142f92dc811066",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal 4",
+			"Transform": {
+				"Translation": {
+					"X": -17.378890991210939,
+					"Y": 54.77096176147461,
+					"Z": 1.5302282571792603
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.37594008445739748,
+					"Z": 0.0,
+					"W": 0.9266439080238342
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 80.0,
+				"Y": 10.0,
+				"Z": 80.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "596dcb234403660e35cd6fb085dd3c38",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal 3",
+			"Transform": {
+				"Translation": {
+					"X": 24.986461639404298,
+					"Y": 54.77096176147461,
+					"Z": 1.227685809135437
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 80.0,
+				"Y": 10.0,
+				"Z": 80.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "3235071a46c2df00584d889acc7f42ea",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal 2",
+			"Transform": {
+				"Translation": {
+					"X": -26.643539428710939,
+					"Y": 54.77096176147461,
+					"Z": 23.2318115234375
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "eed511d94f3f8eec59e5e59aae9eecf7",
+			"Size": {
+				"X": 40.0,
+				"Y": 10.0,
+				"Z": 40.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "0e8b44f84bd12abd7e50949b9fd5a312",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal 1",
+			"Transform": {
+				"Translation": {
+					"X": -50.75147247314453,
+					"Y": 17.475614547729493,
+					"Z": -4.3583574295043949
+				},
+				"Orientation": {
+					"X": -2.980232238769531e-7,
+					"Y": -2.980232238769531e-7,
+					"Z": 0.7071067690849304,
+					"W": 0.7071067690849304
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "eed511d94f3f8eec59e5e59aae9eecf7",
+			"Size": {
+				"X": 60.0,
+				"Y": 10.0,
+				"Z": 60.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "5fb431b6482feeca66739fb5dac1c18e",
+			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
+			"Name": "Decal",
+			"Transform": {
+				"Translation": {
+					"X": -26.0452938079834,
+					"Y": 27.687915802001954,
+					"Z": -53.28777313232422
+				},
+				"Orientation": {
+					"X": 0.7071067690849304,
+					"Y": -2.905726432800293e-7,
+					"Z": 2.905726432800293e-7,
+					"W": 0.7071067690849304
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "e9a6d4c24916852f9e33738ea1a77d1e",
+			"Size": {
+				"X": 40.0,
+				"Y": 10.0,
+				"Z": 40.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "4915fbff435ee9894a30409d20228f8f",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Decal",
+			"Transform": {
+				"Translation": {
+					"X": -49.8461799621582,
+					"Y": 2.7073822021484377,
+					"Z": -111.89354705810547
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071067690849304,
+					"Z": 0.0,
+					"W": -0.7071067690849304
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "8149930347d2734322ffdaae4a66f2d8",
+			"Size": {
+				"X": 60.0,
+				"Y": 20.0,
+				"Z": 60.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "837a00e046b102e6e831b089bf321bcd",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Decal 0",
+			"Transform": {
+				"Translation": {
+					"X": -18.48777961730957,
+					"Y": 2.7073822021484377,
+					"Z": -185.31590270996095
+				},
+				"Orientation": {
+					"X": -0.0,
+					"Y": -0.4654127359390259,
+					"Z": 0.0,
+					"W": -0.8850938081741333
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "66f28d584e233f41cc858b8ab8232466",
+			"Size": {
+				"X": 20.0,
+				"Y": 20.0,
+				"Z": 80.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "d68237d249fcc3e4a6859d9e817603cc",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Decal",
+			"Transform": {
+				"Translation": {
+					"X": -109.7363052368164,
+					"Y": 47.494319915771487,
+					"Z": -293.9067077636719
+				},
+				"Orientation": {
+					"X": -0.5,
+					"Y": -0.5,
+					"Z": -0.5,
+					"W": -0.5
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 100.0,
+				"Y": 10.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 32,
+			"ID": "8202cea544fae0187e6712a24c10e420",
+			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
+			"Name": "Decal 1",
+			"Transform": {
+				"Translation": {
+					"X": -8.276837348937989,
+					"Y": 172.31434631347657,
+					"Z": -293.9067077636719
+				},
+				"Orientation": {
+					"X": -0.30296969413757326,
+					"Y": -0.638912558555603,
+					"Z": -0.6389126181602478,
+					"W": -0.30296972393989565
+				}
+			},
+			"StaticFlags": 0,
+			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
+			"Size": {
+				"X": 100.0,
+				"Y": 10.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 3,
 			"ID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 17",
