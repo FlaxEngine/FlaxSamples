@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6156,
+	"EngineBuild": 6163,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -33,12 +33,6 @@
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
-				"Buffer": {
-					"Entries": [
-						{},
-						{}
-					]
-				},
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
 		},
@@ -152,7 +146,6 @@
 				}
 			},
 			"Radius": 8000.0,
-			"AutoUpdate": false,
 			"CaptureNearPlane": 5000.0,
 			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
@@ -12499,6 +12492,20 @@
 				"X": 100.0,
 				"Y": 100.0,
 				"Z": 100.0
+			}
+		},
+		{
+			"TypeID": 1,
+			"ID": "d2b6613047b4e7d145d06bbef674a727",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "CSG.Model",
+			"HideFlags": 4,
+			"Model": "8a042da5405a174845552cb384262281",
+			"Buffer": {
+				"Entries": [
+					{},
+					{}
+				]
 			}
 		}
 	]
