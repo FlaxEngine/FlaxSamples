@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6156,
+	"EngineBuild": 6163,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -33,49 +33,6 @@
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
-				"Buffer": {
-					"Entries": [
-						{
-							"LightmapIndex": 0,
-							"LightmapArea": {
-								"Location": {
-									"X": 0.001953125,
-									"Y": 0.658203125
-								},
-								"Size": {
-									"X": 0.2802734375,
-									"Y": 0.2802734375
-								}
-							}
-						},
-						{
-							"LightmapIndex": 0,
-							"LightmapArea": {
-								"Location": {
-									"X": 0.001953125,
-									"Y": 0.375
-								},
-								"Size": {
-									"X": 0.28125,
-									"Y": 0.28125
-								}
-							}
-						},
-						{
-							"LightmapIndex": 0,
-							"LightmapArea": {
-								"Location": {
-									"X": 0.001953125,
-									"Y": 0.001953125
-								},
-								"Size": {
-									"X": 0.37109375,
-									"Y": 0.37109375
-								}
-							}
-						}
-					]
-				},
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
 		},
@@ -159,7 +116,6 @@
 				}
 			},
 			"Radius": 3000.0,
-			"AutoUpdate": false,
 			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
@@ -914,6 +870,57 @@
 			"Name": "Collider",
 			"StaticFlags": 0,
 			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
+		},
+		{
+			"TypeID": 1,
+			"ID": "8105728740475a581ab627b7ed7c13e6",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"Name": "CSG.Model",
+			"HideFlags": 4,
+			"Model": "8a042da5405a174845552cb384262281",
+			"Buffer": {
+				"Entries": [
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.001953125,
+								"Y": 0.658203125
+							},
+							"Size": {
+								"X": 0.2802734375,
+								"Y": 0.2802734375
+							}
+						}
+					},
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.001953125,
+								"Y": 0.375
+							},
+							"Size": {
+								"X": 0.28125,
+								"Y": 0.28125
+							}
+						}
+					},
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.001953125,
+								"Y": 0.001953125
+							},
+							"Size": {
+								"X": 0.37109375,
+								"Y": 0.37109375
+							}
+						}
+					}
+				]
+			}
 		}
 	]
 }
