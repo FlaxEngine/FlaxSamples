@@ -1,20 +1,13 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6156,
+	"EngineBuild": 6165,
 	"Data": [
 		{
 			"TypeID": 9,
 			"ID": "a470726f441936acfe25318b162c336c",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
-			"Scripts": [
-				{
-					"Name": "BasicTemplate.ExitOnEsc",
-					"ID": "d91aaece49c11f4bfd8335915ee97b32",
-					"V": {}
-				}
-			],
 			"Lightmaps": [
 				{
 					"Lightmap0": "00000000000000000000000000000000",
@@ -26,10 +19,15 @@
 				"GlobalObjectsScale": 1.0,
 				"ChartsPadding": 2,
 				"AtlasSize": 512,
-				"BounceCount": 1,
 				"UseGeometryWithNoMaterials": true,
 				"Quality": 100
 			}
+		},
+		{
+			"TypeID": "BasicTemplate.ExitOnEsc",
+			"ID": "3d81d377468b44e298a558ad98af0d12",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"V": {}
 		},
 		{
 			"TypeID": 25,
@@ -43,17 +41,6 @@
 					"Z": 0.0
 				}
 			},
-			"Brightness": 2.0,
-			"AdditiveColor": {
-				"R": 0.0,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 1.0
-			},
-			"Radius": 100000.0,
-			"SkyDistanceThreshold": 150000.0,
-			"BakedProbe": "00000000000000000000000000000000",
-			"Mode": 1,
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
@@ -68,9 +55,7 @@
 					"Z": 20.0
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"SunDiscScale": 1.0,
-			"FogSunPower": 8.0
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
 			"TypeID": 7,
@@ -84,9 +69,6 @@
 					"Z": 0.0
 				}
 			},
-			"Radius": 3000.0,
-			"AutoUpdate": false,
-			"IsCustomProbe": false,
 			"ProbeID": "a3bfc6cc409cd437c3dffca424736896"
 		},
 		{
@@ -113,7 +95,6 @@
 				"B": 0.8050000071525574,
 				"A": 1.0
 			},
-			"Brightness": 5.0,
 			"ShadowsDistance": 2000.0,
 			"ShadowsFadeDistance": 200.0,
 			"ShadowsNormalOffsetScale": 50.0
@@ -208,20 +189,15 @@
 			},
 			"StaticFlags": 0,
 			"Layer": 1,
-			"Tag": "Player",
-			"Scripts": [
-				{
-					"Name": "BasicTemplate.FreeCamera",
-					"ID": "5dd6fd6641ce223a7ec079803296d798",
-					"V": {
+			"Tag": "Player"
+		},
+		{
+			"TypeID": "BasicTemplate.FreeCamera",
+			"ID": "5dd6fd6641ce223a7ec079803296d798",
+			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
+			"V": {
 	"MoveSpeed": 4.0
 }
-				}
-			],
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
-			"Far": 10000.0
 		}
 	]
 }

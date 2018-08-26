@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6163,
+	"EngineBuild": 6165,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -15,26 +15,23 @@
 					"Z": 0.0
 				}
 			},
-			"Scripts": [
-				{
-					"Name": "FpsTemplate.ExitOnEsc",
-					"ID": "d91aaece49c11f4bfd8335915ee97b32",
-					"V": {}
-				}
-			],
 			"LightmapSettings": {
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"AtlasSize": 1024,
 				"BounceCount": 2,
-				"UseGeometryWithNoMaterials": true,
-				"Quality": 10
+				"UseGeometryWithNoMaterials": true
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
+		},
+		{
+			"TypeID": "FpsTemplate.ExitOnEsc",
+			"ID": "d8bef8614768f127caa0c7abcd6d6fcc",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"V": {}
 		},
 		{
 			"TypeID": 3,
@@ -54,16 +51,6 @@
 					"Z": -2270.049560546875
 				}
 			},
-			"AdditiveColor": {
-				"R": 0.0,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 1.0
-			},
-			"Radius": 100000.0,
-			"SkyDistanceThreshold": 150000.0,
-			"BakedProbe": "00000000000000000000000000000000",
-			"Mode": 1,
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
@@ -78,9 +65,7 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"SunDiscScale": 1.0,
-			"FogSunPower": 8.0
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
 			"TypeID": 4,
@@ -147,7 +132,6 @@
 			},
 			"Radius": 8000.0,
 			"CaptureNearPlane": 5000.0,
-			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
@@ -182,15 +166,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -715,10 +699,8 @@
 				"B": 0.42322200536727908,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -764,10 +746,8 @@
 				"B": -431602080.0,
 				"A": -431602080.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -813,10 +793,8 @@
 				"B": 0.0,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -200.0,
@@ -826,11 +804,7 @@
 					"X": 400.0,
 					"Y": 70.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 3,
@@ -858,15 +832,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1173,15 +1147,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1200.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 400.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1200.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1520,15 +1494,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2003,15 +1977,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2324,15 +2298,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2643,15 +2617,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2964,15 +2938,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -3279,15 +3253,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -3588,11 +3562,7 @@
 			},
 			"StaticFlags": 0,
 			"Layer": 1,
-			"Tag": "Player",
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
-			"Far": 10000.0
+			"Tag": "Player"
 		},
 		{
 			"TypeID": 17,
@@ -3615,11 +3585,16 @@
 			"StaticFlags": 0,
 			"Layer": 1,
 			"Tag": "Player",
-			"Scripts": [
-				{
-					"Name": "FpsTemplate.PlayerScript",
-					"ID": "f7fec37c45038b89876e93a1d74c66ad",
-					"V": {
+			"ContactOffset": 0.10000000149011612,
+			"StepOffset": 20.0,
+			"SlopeLimit": 20.0,
+			"Height": 100.0
+		},
+		{
+			"TypeID": "FpsTemplate.PlayerScript",
+			"ID": "f7fec37c45038b89876e93a1d74c66ad",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
 	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
 	"Camera": "5543ed36412ccd0f04717a90d39e877e",
@@ -3632,13 +3607,6 @@
 	"MaxVelocityGround": 400.0,
 	"MaxVelocityAir": 200.0
 }
-				}
-			],
-			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 20.0,
-			"SlopeLimit": 20.0,
-			"Radius": 50.0,
-			"Height": 100.0
 		},
 		{
 			"TypeID": 1,
@@ -3815,10 +3783,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -3989,12 +3954,6 @@
 				}
 			},
 			"Text": "Blue Ball\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4008,11 +3967,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -4100,12 +4055,6 @@
 				}
 			},
 			"Text": "Red Ball",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4119,11 +4068,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -4220,10 +4165,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4410,12 +4352,6 @@
 				}
 			},
 			"Text": "Wooden Chair",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4429,11 +4365,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -4521,12 +4453,6 @@
 				}
 			},
 			"Text": "Metallic Material",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4540,11 +4466,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -4641,10 +4563,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4815,12 +4734,6 @@
 				}
 			},
 			"Text": "Textured\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4834,11 +4747,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -4926,12 +4835,6 @@
 				}
 			},
 			"Text": "Solid Color",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -4945,11 +4848,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5046,10 +4945,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5220,12 +5116,6 @@
 				}
 			},
 			"Text": "Metal",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5239,11 +5129,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5331,12 +5217,6 @@
 				}
 			},
 			"Text": "Plastic",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5350,11 +5230,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5451,10 +5327,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5653,12 +5526,6 @@
 				}
 			},
 			"Text": "0.6",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5672,11 +5539,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5771,12 +5634,6 @@
 				}
 			},
 			"Text": "0.4",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5790,11 +5647,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5889,12 +5742,6 @@
 				}
 			},
 			"Text": "0.1",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5908,11 +5755,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6016,10 +5859,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6190,12 +6030,6 @@
 				}
 			},
 			"Text": "1",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6209,11 +6043,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6301,12 +6131,6 @@
 				}
 			},
 			"Text": "0",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6320,11 +6144,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6421,10 +6241,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6604,12 +6421,6 @@
 				}
 			},
 			"Text": "Emissive Textures",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6623,11 +6434,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6715,12 +6522,6 @@
 				}
 			},
 			"Text": "Emissive Color",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6734,11 +6535,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6770,14 +6567,14 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
-			"BlendRadius": 10.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
+					"Enabled": true,
 					"Intensity": 1.100000023841858,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
 					"OverrideFlags": 2
 				},
 				"ToneMapping": {},
@@ -6880,10 +6677,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7054,12 +6848,6 @@
 				}
 			},
 			"Text": "Texcoords",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -7073,11 +6861,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -7165,12 +6949,6 @@
 				}
 			},
 			"Text": "Color",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -7184,11 +6962,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -7285,10 +7059,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7459,12 +7230,6 @@
 				}
 			},
 			"Text": "Reflective Glass",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -7478,11 +7243,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -7570,12 +7331,6 @@
 				}
 			},
 			"Text": "Colored Glass",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -7589,11 +7344,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -7690,10 +7441,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7892,12 +7640,6 @@
 				}
 			},
 			"Text": "0.6",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -7911,11 +7653,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8010,12 +7748,6 @@
 				}
 			},
 			"Text": "0.4",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8029,11 +7761,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8128,12 +7856,6 @@
 				}
 			},
 			"Text": "0.1",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8147,11 +7869,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8255,10 +7973,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -8461,12 +8176,6 @@
 				}
 			},
 			"Text": "Cutoff Mask",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8480,11 +8189,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8572,12 +8277,6 @@
 				}
 			},
 			"Text": "Opacity Mask",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8591,11 +8290,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8692,10 +8387,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -8860,12 +8552,6 @@
 				}
 			},
 			"Text": "Offset",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8879,11 +8565,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8971,12 +8653,6 @@
 				}
 			},
 			"Text": "Normal Offset",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8990,11 +8666,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9091,10 +8763,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -9313,12 +8982,6 @@
 				}
 			},
 			"Text": "Mix",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -9332,11 +8995,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9431,12 +9090,6 @@
 				}
 			},
 			"Text": "Layer B",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -9450,11 +9103,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9549,12 +9198,6 @@
 				}
 			},
 			"Text": "Layer A",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -9568,11 +9211,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9676,10 +9315,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -9807,7 +9443,6 @@
 			},
 			"Brightness": 7.099997043609619,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"SourceRadius": 9.710000038146973
 		},
 		{
@@ -9851,8 +9486,7 @@
 				"A": 1.0
 			},
 			"Brightness": 7.199995040893555,
-			"ShadowsMode": 0,
-			"Radius": 400.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 1,
@@ -9958,10 +9592,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -10089,7 +9720,6 @@
 			},
 			"Brightness": 7.099997043609619,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"SourceRadius": 9.710000038146973
 		},
 		{
@@ -10133,8 +9763,7 @@
 				"A": 1.0
 			},
 			"Brightness": 7.199995040893555,
-			"ShadowsMode": 0,
-			"Radius": 400.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 1,
@@ -10240,10 +9869,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -10442,12 +10068,6 @@
 				}
 			},
 			"Text": "Two Sided",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -10461,11 +10081,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -10560,12 +10176,6 @@
 				}
 			},
 			"Text": "Normal\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -10579,11 +10189,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -10678,12 +10284,6 @@
 				}
 			},
 			"Text": "Wireframe",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -10697,11 +10297,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -10805,10 +10401,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -10923,12 +10516,6 @@
 				}
 			},
 			"Text": "Enter This Area",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -10942,11 +10529,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -10978,13 +10561,16 @@
 				"Y": 549.0,
 				"Z": 373.0
 			},
-			"Priority": 0,
-			"BlendRadius": 10.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
-				"Bloom": {},
+				"Bloom": {
+					"Enabled": true,
+					"Intensity": 1.0,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
+				},
 				"ToneMapping": {},
 				"ColorGrading": {},
 				"EyeAdaptation": {},
@@ -11084,10 +10670,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -11634,10 +11217,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -11808,12 +11388,6 @@
 				}
 			},
 			"Text": "Material Instance",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -11827,11 +11401,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -11919,12 +11489,6 @@
 				}
 			},
 			"Text": "Base Material\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -11938,11 +11502,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -12039,10 +11599,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -12209,12 +11766,6 @@
 				}
 			},
 			"Text": "Sample AO\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -12228,11 +11779,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -12327,12 +11874,6 @@
 				}
 			},
 			"Text": "Sample Roughness",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -12346,11 +11887,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,

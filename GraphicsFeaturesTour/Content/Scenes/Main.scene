@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6163,
+	"EngineBuild": 6165,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -16,13 +16,6 @@
 				}
 			},
 			"StaticFlags": 5,
-			"Scripts": [
-				{
-					"Name": "FpsTemplate.ExitOnEsc",
-					"ID": "d91aaece49c11f4bfd8335915ee97b32",
-					"V": {}
-				}
-			],
 			"Lightmaps": [
 				{
 					"Lightmap0": "8658b90b4cbf102f713be58a1ff83e67",
@@ -34,7 +27,6 @@
 				"GlobalObjectsScale": 1.0,
 				"ChartsPadding": 2,
 				"AtlasSize": 512,
-				"BounceCount": 1,
 				"UseGeometryWithNoMaterials": true,
 				"Quality": 100
 			},
@@ -43,6 +35,12 @@
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
+		},
+		{
+			"TypeID": "FpsTemplate.ExitOnEsc",
+			"ID": "47e643a542eda2980837d5aa53237398",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"V": {}
 		},
 		{
 			"TypeID": 3,
@@ -62,16 +60,6 @@
 					"Z": -2270.049560546875
 				}
 			},
-			"AdditiveColor": {
-				"R": 0.0,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 1.0
-			},
-			"Radius": 100000.0,
-			"SkyDistanceThreshold": 150000.0,
-			"BakedProbe": "00000000000000000000000000000000",
-			"Mode": 1,
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
@@ -86,9 +74,7 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"SunDiscScale": 1.0,
-			"FogSunPower": 8.0
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
 			"TypeID": 4,
@@ -170,7 +156,6 @@
 			},
 			"Radius": 8000.0,
 			"CaptureNearPlane": 5000.0,
-			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
@@ -207,15 +192,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -688,10 +673,8 @@
 				"B": 0.42322200536727908,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -738,10 +721,8 @@
 				"B": -431602080.0,
 				"A": -431602080.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -788,10 +769,8 @@
 				"B": 0.0,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -200.0,
@@ -801,11 +780,7 @@
 					"X": 400.0,
 					"Y": 70.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 3,
@@ -834,15 +809,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1112,15 +1087,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1200.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 400.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1200.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1423,15 +1398,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1851,15 +1826,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2133,15 +2108,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2417,15 +2392,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2695,15 +2670,15 @@
 				}
 			},
 			"StaticFlags": 1,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2966,11 +2941,7 @@
 			},
 			"StaticFlags": 0,
 			"Layer": 1,
-			"Tag": "Player",
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
-			"Far": 10000.0
+			"Tag": "Player"
 		},
 		{
 			"TypeID": 17,
@@ -2993,11 +2964,16 @@
 			"StaticFlags": 0,
 			"Layer": 1,
 			"Tag": "Player",
-			"Scripts": [
-				{
-					"Name": "FpsTemplate.PlayerScript",
-					"ID": "f7fec37c45038b89876e93a1d74c66ad",
-					"V": {
+			"ContactOffset": 0.10000000149011612,
+			"StepOffset": 20.0,
+			"SlopeLimit": 20.0,
+			"Height": 100.0
+		},
+		{
+			"TypeID": "FpsTemplate.PlayerScript",
+			"ID": "f7fec37c45038b89876e93a1d74c66ad",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
 	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
 	"Camera": "5543ed36412ccd0f04717a90d39e877e",
@@ -3010,13 +2986,6 @@
 	"MaxVelocityGround": 400.0,
 	"MaxVelocityAir": 200.0
 }
-				}
-			],
-			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 20.0,
-			"SlopeLimit": 20.0,
-			"Radius": 50.0,
-			"Height": 100.0
 		},
 		{
 			"TypeID": 1,
@@ -3196,10 +3165,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -3378,12 +3344,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Blue Ball\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -3397,11 +3357,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -3492,12 +3448,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Red Ball",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -3511,11 +3461,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -3644,10 +3590,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4062,10 +4005,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4344,10 +4284,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4554,14 +4491,16 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
-					"Intensity": 1.100000023841858
+					"Enabled": true,
+					"Intensity": 1.100000023841858,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
 				"ColorGrading": {},
@@ -4672,10 +4611,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4739,7 +4675,6 @@
 			"Name": "EnvironmentProbe",
 			"StaticFlags": 1,
 			"Radius": 300.0,
-			"IsCustomProbe": false,
 			"ProbeID": "c711d88e49a2f0cf153588accaf05cc7"
 		},
 		{
@@ -4805,14 +4740,16 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
-					"Intensity": 1.100000023841858
+					"Enabled": true,
+					"Intensity": 1.100000023841858,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
 				"ColorGrading": {},
@@ -4949,10 +4886,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5059,12 +4993,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Enter This Area",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5078,11 +5006,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5114,13 +5038,16 @@
 				"Y": 549.0,
 				"Z": 373.0
 			},
-			"Priority": 0,
-			"BlendRadius": 10.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
-				"Bloom": {},
+				"Bloom": {
+					"Enabled": true,
+					"Intensity": 1.0,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
+				},
 				"ToneMapping": {},
 				"ColorGrading": {},
 				"EyeAdaptation": {},
@@ -5223,10 +5150,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5346,16 +5270,15 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
+					"Enabled": true,
 					"Intensity": 1.5,
 					"Threshold": 1.7100000381469727,
 					"BlurSigma": 4.0,
+					"Scale": 1.7999999523162842,
 					"OverrideFlags": 31
 				},
 				"ToneMapping": {},
@@ -5460,10 +5383,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5523,16 +5443,15 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
+					"Enabled": true,
 					"Intensity": 1.2999980449676514,
 					"Threshold": 1.7100000381469727,
 					"BlurSigma": 4.0,
+					"Scale": 1.7999999523162842,
 					"OverrideFlags": 31
 				},
 				"ToneMapping": {},
@@ -5699,10 +5618,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5762,16 +5678,16 @@
 				"Y": 388.0,
 				"Z": 584.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
 				"Bloom": {
+					"Enabled": true,
 					"Intensity": 1.5,
 					"Threshold": 1.7100000381469727,
-					"BlurSigma": 4.0
+					"BlurSigma": 4.0,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
 				"ColorGrading": {
@@ -6023,10 +5939,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6133,12 +6046,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Volume B",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6152,11 +6059,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6242,12 +6145,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Volume A",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6261,11 +6158,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6304,13 +6197,17 @@
 				"Y": 451.0,
 				"Z": 517.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
-				"Bloom": {},
+				"Bloom": {
+					"Enabled": true,
+					"Intensity": 1.0,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
+				},
 				"ToneMapping": {},
 				"ColorGrading": {
 					"ColorContrast": {
@@ -6354,13 +6251,17 @@
 				"Y": 451.0,
 				"Z": 517.0
 			},
-			"Priority": 0,
 			"BlendRadius": 50.0,
-			"BlendWeight": 1.0,
-			"IsBounded": true,
 			"Settings": {
 				"AO": {},
-				"Bloom": {},
+				"Bloom": {
+					"Enabled": true,
+					"Intensity": 1.0,
+					"Threshold": 3.0,
+					"BlurSigma": 3.5999999046325685,
+					"Scale": 1.7999999523162842,
+					"OverrideFlags": 0
+				},
 				"ToneMapping": {},
 				"ColorGrading": {
 					"ColorContrast": {
@@ -6471,10 +6372,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6529,22 +6427,21 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "GraphicsFeaturesTour.SkyRotate",
-					"ID": "dd8f8a2c49be93582a205d9bee6d7daf",
-					"V": {
-	"Light": "9b72fc4a47c39fca64f3058b692784c3",
-	"RotateSpeed": 4.0
-}
-				}
-			],
 			"IsTrigger": true,
 			"Size": {
 				"X": 400.0,
 				"Y": 300.0,
 				"Z": 300.0
 			}
+		},
+		{
+			"TypeID": "GraphicsFeaturesTour.SkyRotate",
+			"ID": "dd8f8a2c49be93582a205d9bee6d7daf",
+			"ParentID": "bf08a138495ab91ec10274bc097a3ad8",
+			"V": {
+	"Light": "9b72fc4a47c39fca64f3058b692784c3",
+	"RotateSpeed": 4.0
+}
 		},
 		{
 			"TypeID": 3,
@@ -6611,12 +6508,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Enter This Area",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6630,11 +6521,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6733,10 +6620,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6843,12 +6727,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Enter This Area",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6862,11 +6740,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6893,25 +6767,24 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "GraphicsFeaturesTour.FogControl",
-					"ID": "477773b24d43b935c7f14bb3d2f37387",
-					"V": {
-	"Fog": "758af305431ccbcf439d048e8434f276",
-	"ActorsToToggle": [
-		"d90e7b5c491bc75d97df6b980a4db6a4",
-		"7d2d06e8410fde8a9a10568a22a3e925"
-	]
-}
-				}
-			],
 			"IsTrigger": true,
 			"Size": {
 				"X": 500.0,
 				"Y": 300.0,
 				"Z": 400.0
 			}
+		},
+		{
+			"TypeID": "GraphicsFeaturesTour.FogControl",
+			"ID": "477773b24d43b935c7f14bb3d2f37387",
+			"ParentID": "923f8ee1442825c708ce49b16e02946b",
+			"V": {
+	"Fog": "758af305431ccbcf439d048e8434f276",
+	"ActorsToToggle": [
+		"d90e7b5c491bc75d97df6b980a4db6a4",
+		"7d2d06e8410fde8a9a10568a22a3e925"
+	]
+}
 		},
 		{
 			"TypeID": 1,
@@ -7301,10 +7174,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7359,15 +7229,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 80.0,
-				"Y": 80.0,
-				"Z": 80.0
-			},
 			"Center": {
 				"X": -8.0,
 				"Y": -89.0,
 				"Z": 16.0
+			},
+			"Size": {
+				"X": 80.0,
+				"Y": 80.0,
+				"Z": 80.0
 			},
 			"Surfaces": [
 				{
@@ -7493,30 +7363,10 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Sub",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 0,
-			"Bounds": {
-				"Location": {
-					"X": -100.0,
-					"Y": -100.0
-				},
-				"Size": {
-					"X": 200.0,
-					"Y": 200.0
-				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 8,
@@ -7577,30 +7427,10 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Sub",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 0,
-			"Bounds": {
-				"Location": {
-					"X": -100.0,
-					"Y": -100.0
-				},
-				"Size": {
-					"X": 200.0,
-					"Y": 200.0
-				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 27,
@@ -7621,30 +7451,10 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Add",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 0,
-			"Bounds": {
-				"Location": {
-					"X": -100.0,
-					"Y": -100.0
-				},
-				"Size": {
-					"X": 200.0,
-					"Y": 200.0
-				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 27,
@@ -7665,30 +7475,10 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Add",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 0,
-			"Bounds": {
-				"Location": {
-					"X": -100.0,
-					"Y": -100.0
-				},
-				"Size": {
-					"X": 200.0,
-					"Y": 200.0
-				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 3,
@@ -7775,10 +7565,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7969,8 +7756,7 @@
 			},
 			"StaticFlags": 0,
 			"Brightness": 30.0,
-			"ShadowsMode": 0,
-			"Radius": 400.0
+			"ShadowsMode": 0
 		},
 		{
 			"TypeID": 1,
@@ -8059,12 +7845,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Spot Light",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8078,11 +7858,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8161,12 +7937,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Point Light",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8180,11 +7950,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8283,10 +8049,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -8393,12 +8156,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Bulb Radius",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8412,11 +8169,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8495,12 +8248,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Bulb Length",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8514,11 +8261,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -8806,10 +8549,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -8916,12 +8656,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Exponent",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -8935,11 +8669,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9018,12 +8748,6 @@
 			},
 			"StaticFlags": 0,
 			"Text": "Inverse Squared",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -9037,11 +8761,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -9076,7 +8796,6 @@
 			"StaticFlags": 0,
 			"Brightness": 44.29999923706055,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"FallOffExponent": 2.0
 		},
 		{
@@ -9122,7 +8841,6 @@
 			"StaticFlags": 0,
 			"Brightness": 200000.0,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"UseInverseSquaredFalloff": true
 		},
 		{
@@ -9316,10 +9034,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -9472,7 +9187,6 @@
 			},
 			"Brightness": 9.799999237060547,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"IESTexture": "203e8f264edeb0b73eed01b7b103e078"
 		},
 		{
@@ -9524,7 +9238,6 @@
 			},
 			"Brightness": 12.699995040893555,
 			"ShadowsMode": 0,
-			"Radius": 400.0,
 			"IESTexture": "728758d84c34af63eac5a5b3f0daf4c8",
 			"FallOffExponent": 2.0
 		},
@@ -9635,10 +9348,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -10187,10 +9897,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -10296,15 +10003,6 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "GraphicsFeaturesTour.ObjectRotate",
-					"ID": "018b455844615732d8cd09a4e60c7a8c",
-					"V": {
-	"RotateSpeed": 5.0
-}
-				}
-			],
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
@@ -10313,6 +10011,14 @@
 					}
 				]
 			}
+		},
+		{
+			"TypeID": "GraphicsFeaturesTour.ObjectRotate",
+			"ID": "018b455844615732d8cd09a4e60c7a8c",
+			"ParentID": "15d345d546007471fa417588878ccd06",
+			"V": {
+	"RotateSpeed": 5.0
+}
 		},
 		{
 			"TypeID": 14,
@@ -10352,9 +10058,6 @@
 				}
 			},
 			"StaticFlags": 0,
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
 			"Far": 30000.0
 		},
 		{
@@ -10434,20 +10137,6 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "GraphicsFeaturesTour.CameraTV",
-					"ID": "47d1d34045e813dc577b899a26d80202",
-					"V": {
-	"Cam": "5d375b6849ad777dfb482c943e5933e5",
-	"Material": "f36adc574a3392b792b3c3bf7c5f707d",
-	"Resolution": {
-		"X": 640.0,
-		"Y": 374.0
-	}
-}
-				}
-			],
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -10456,6 +10145,19 @@
 					}
 				]
 			}
+		},
+		{
+			"TypeID": "GraphicsFeaturesTour.CameraTV",
+			"ID": "47d1d34045e813dc577b899a26d80202",
+			"ParentID": "6ecfedd84cf9ddbd5ad4cd8ace0a0b83",
+			"V": {
+	"Cam": "5d375b6849ad777dfb482c943e5933e5",
+	"Material": "f36adc574a3392b792b3c3bf7c5f707d",
+	"Resolution": {
+		"X": 640.0,
+		"Y": 374.0
+	}
+}
 		},
 		{
 			"TypeID": 1,

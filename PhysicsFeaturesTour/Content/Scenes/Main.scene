@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6163,
+	"EngineBuild": 6165,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -15,26 +15,23 @@
 					"Z": 0.0
 				}
 			},
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.ExitOnEsc",
-					"ID": "d91aaece49c11f4bfd8335915ee97b32",
-					"V": {}
-				}
-			],
 			"LightmapSettings": {
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"AtlasSize": 1024,
 				"BounceCount": 2,
-				"UseGeometryWithNoMaterials": true,
-				"Quality": 10
+				"UseGeometryWithNoMaterials": true
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.ExitOnEsc",
+			"ID": "3e2b833b4d57cfd344587390621ec998",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"V": {}
 		},
 		{
 			"TypeID": 3,
@@ -54,16 +51,6 @@
 					"Z": -2270.049560546875
 				}
 			},
-			"AdditiveColor": {
-				"R": 0.0,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 1.0
-			},
-			"Radius": 100000.0,
-			"SkyDistanceThreshold": 150000.0,
-			"BakedProbe": "00000000000000000000000000000000",
-			"Mode": 1,
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
@@ -78,9 +65,7 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"SunDiscScale": 1.0,
-			"FogSunPower": 8.0
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
 			"TypeID": 4,
@@ -147,7 +132,6 @@
 			},
 			"Radius": 8000.0,
 			"CaptureNearPlane": 5000.0,
-			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
@@ -182,15 +166,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -718,7 +702,6 @@
 			"Size": 20,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -186.0,
@@ -816,10 +799,8 @@
 				"B": 0.42322200536727908,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -865,10 +846,8 @@
 				"B": -431602080.0,
 				"A": -431602080.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -360.0,
@@ -914,10 +893,8 @@
 				"B": 0.0,
 				"A": 1.0
 			},
-			"Size": 32,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
-			"ShadowsMode": 3,
 			"Bounds": {
 				"Location": {
 					"X": -200.0,
@@ -927,11 +904,7 @@
 					"X": 400.0,
 					"Y": 70.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 3,
@@ -959,15 +932,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1274,15 +1247,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1200.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 400.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1200.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -1621,15 +1594,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2104,15 +2077,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2419,15 +2392,15 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Size": {
-				"X": 1400.0,
-				"Y": 40.0,
-				"Z": 1000.0
-			},
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
 				"Z": 0.0
+			},
+			"Size": {
+				"X": 1400.0,
+				"Y": 40.0,
+				"Z": 1000.0
 			},
 			"Surfaces": [
 				{
@@ -2728,11 +2701,7 @@
 			},
 			"StaticFlags": 0,
 			"Layer": 1,
-			"Tag": "Player",
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
-			"Far": 10000.0
+			"Tag": "Player"
 		},
 		{
 			"TypeID": 17,
@@ -2755,11 +2724,16 @@
 			"StaticFlags": 0,
 			"Layer": 1,
 			"Tag": "Player",
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.PlayerScript",
-					"ID": "f7fec37c45038b89876e93a1d74c66ad",
-					"V": {
+			"ContactOffset": 0.10000000149011612,
+			"StepOffset": 1.0,
+			"SlopeLimit": 1.0,
+			"Height": 100.0
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.PlayerScript",
+			"ID": "f7fec37c45038b89876e93a1d74c66ad",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
 	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
 	"Camera": "5543ed36412ccd0f04717a90d39e877e",
@@ -2774,13 +2748,6 @@
 	"CanShoot": true,
 	"SphereModel": "dd86c4724bf734c4959d23b3c74faa05"
 }
-				}
-			],
-			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 1.0,
-			"SlopeLimit": 1.0,
-			"Radius": 50.0,
-			"Height": 100.0
 		},
 		{
 			"TypeID": 1,
@@ -2957,10 +2924,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -3131,12 +3095,6 @@
 				}
 			},
 			"Text": "Blue Ball\n",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -3150,11 +3108,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -3242,12 +3196,6 @@
 				}
 			},
 			"Text": "Red Ball",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -3261,11 +3209,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -3362,10 +3306,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -3441,8 +3382,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3492,8 +3432,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3549,8 +3488,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3600,8 +3538,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3657,8 +3594,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3708,8 +3644,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3759,8 +3694,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3810,8 +3744,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3867,8 +3800,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3918,8 +3850,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -3969,8 +3900,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4020,8 +3950,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4071,8 +4000,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4122,8 +4050,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4173,8 +4100,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4224,8 +4150,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4281,8 +4206,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4338,8 +4262,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4395,8 +4318,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4446,8 +4368,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4497,8 +4418,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4548,8 +4468,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4605,8 +4524,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4662,8 +4580,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4719,8 +4636,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4770,8 +4686,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4821,8 +4736,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -4934,10 +4848,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -4991,22 +4902,21 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.TriggerSample",
-					"ID": "ef9af0514488fa8be2c0e4b33d77e0ad",
-					"V": {
-	"_lightOn": false,
-	"LightToControl": "b46d59db42145b0522da22b6b1390307"
-}
-				}
-			],
 			"IsTrigger": true,
 			"Size": {
 				"X": 400.0,
 				"Y": 500.0,
 				"Z": 400.0
 			}
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.TriggerSample",
+			"ID": "ef9af0514488fa8be2c0e4b33d77e0ad",
+			"ParentID": "0ff3cb5545cb0164dd9f41b8c8c46091",
+			"V": {
+	"_lightOn": false,
+	"LightToControl": "b46d59db42145b0522da22b6b1390307"
+}
 		},
 		{
 			"TypeID": 1,
@@ -5159,12 +5069,6 @@
 				}
 			},
 			"Text": "Enter This Area",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5178,11 +5082,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5279,10 +5179,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5397,12 +5294,6 @@
 				}
 			},
 			"Text": "Shoot Balls",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -5416,11 +5307,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -5466,22 +5353,21 @@
 			"ParentID": "ba10cbc84dd7e7776144caafcbe232ef",
 			"Name": "BoxCollider",
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.CollisionSample",
-					"ID": "03752ced4af112b5a75dd48639286743",
-					"V": {
-	"ModelToControl": "ba10cbc84dd7e7776144caafcbe232ef",
-	"MaterialOn": "5527dfcb4c79827b60df39b9dba74788",
-	"MaterialOff": "4e23e8634605c4db69d55f99bad49363"
-}
-				}
-			],
 			"Size": {
 				"X": 100.0,
 				"Y": 100.0,
 				"Z": 100.0
 			}
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.CollisionSample",
+			"ID": "03752ced4af112b5a75dd48639286743",
+			"ParentID": "0c991f744b312c51f433f5b4cb2d57b6",
+			"V": {
+	"ModelToControl": "ba10cbc84dd7e7776144caafcbe232ef",
+	"MaterialOn": "5527dfcb4c79827b60df39b9dba74788",
+	"MaterialOff": "4e23e8634605c4db69d55f99bad49363"
+}
 		},
 		{
 			"TypeID": 3,
@@ -5566,10 +5452,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5680,23 +5563,22 @@
 			"ParentID": "934db67b4cd58548e920b4ab18a0c796",
 			"Name": "BoxCollider",
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.CollisionSample",
-					"ID": "9d7e69f746b7e51c5dbb53a1afda9f92",
-					"V": {
-	"ModelToControl": "934db67b4cd58548e920b4ab18a0c796",
-	"MaterialOn": "5527dfcb4c79827b60df39b9dba74788",
-	"MaterialOff": "4e23e8634605c4db69d55f99bad49363"
-}
-				}
-			],
 			"Material": "ad0db92b4d2361e8350ca39fd6d985db",
 			"Size": {
 				"X": 100.0,
 				"Y": 100.0,
 				"Z": 100.0
 			}
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.CollisionSample",
+			"ID": "9d7e69f746b7e51c5dbb53a1afda9f92",
+			"ParentID": "b1bacb184d9996eeae2854880ae77c51",
+			"V": {
+	"ModelToControl": "934db67b4cd58548e920b4ab18a0c796",
+	"MaterialOn": "5527dfcb4c79827b60df39b9dba74788",
+	"MaterialOff": "4e23e8634605c4db69d55f99bad49363"
+}
 		},
 		{
 			"TypeID": 3,
@@ -5781,10 +5663,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -5981,10 +5860,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6171,10 +6047,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6450,10 +6323,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6622,12 +6492,6 @@
 				}
 			},
 			"Text": "Triangle Mesh",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6641,11 +6505,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6733,12 +6593,6 @@
 				}
 			},
 			"Text": "Convex Mesh",
-			"Color": {
-				"R": 1.0,
-				"G": 1.0,
-				"B": 1.0,
-				"A": 1.0
-			},
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -6752,11 +6606,7 @@
 					"X": 250.0,
 					"Y": 45.0
 				}
-			},
-			"HAlignment": 1,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			}
 		},
 		{
 			"TypeID": 14,
@@ -6853,10 +6703,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -6913,8 +6760,7 @@
 			"Mass": 600.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -6955,11 +6801,16 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.MovingObj",
-					"ID": "647ccc5146263085efdd0ba554c1c3e7",
-					"V": {
+			"EnableSimulation": true,
+			"IsKinematic": true,
+			"EnableGravity": true,
+			"StartAwake": true
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.MovingObj",
+			"ID": "647ccc5146263085efdd0ba554c1c3e7",
+			"ParentID": "8367ec2e45936e63fa4277b10623988c",
+			"V": {
 	"MoveAxis": {
 		"X": 1.0,
 		"Y": 0.0,
@@ -6968,12 +6819,6 @@
 	"Speed": 1.0,
 	"Amplitude": 50.0
 }
-				}
-			],
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -7029,11 +6874,7 @@
 			},
 			"EnableCollision": false,
 			"Flags": 7,
-			"MinDistance": 2.0,
-			"MaxDistance": 10.0,
-			"Tolerance": 25.0,
-			"Stiffness": 0.0,
-			"Damping": 0.0
+			"MinDistance": 2.0
 		},
 		{
 			"TypeID": 3,
@@ -7118,10 +6959,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7189,8 +7027,7 @@
 			"Mass": 100.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -7328,16 +7165,8 @@
 			},
 			"EnableCollision": false,
 			"Flags": 1,
-			"ContactDist": -1.0,
-			"Restitution": 0.0,
-			"Stiffness": 0.0,
-			"Damping": 0.0,
 			"LowerLimit": 5.0,
-			"UpperLimit": 175.0,
-			"Velocity": 0.0,
-			"ForceLimit": 3.4028234663852887e38,
-			"GearRatio": 1.0,
-			"FreeSpin": false
+			"UpperLimit": 175.0
 		},
 		{
 			"TypeID": 3,
@@ -7422,10 +7251,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7524,11 +7350,16 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Scripts": [
-				{
-					"Name": "PhysicsFeaturesTour.MovingObj",
-					"ID": "717f2cc441b6d0a79032769637da0cc2",
-					"V": {
+			"EnableSimulation": true,
+			"IsKinematic": true,
+			"EnableGravity": true,
+			"StartAwake": true
+		},
+		{
+			"TypeID": "PhysicsFeaturesTour.MovingObj",
+			"ID": "717f2cc441b6d0a79032769637da0cc2",
+			"ParentID": "1089bc124bbd89ebb4dd8bbc63148e6d",
+			"V": {
 	"MoveAxis": {
 		"X": 1.0,
 		"Y": 0.0,
@@ -7537,12 +7368,6 @@
 	"Speed": 1.0,
 	"Amplitude": 50.0
 }
-				}
-			],
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
 		},
 		{
 			"TypeID": 14,
@@ -7591,11 +7416,6 @@
 				"Z": 0.0
 			},
 			"EnableCollision": false,
-			"Flags": 1,
-			"ContactDist": -1.0,
-			"Restitution": 0.0,
-			"Stiffness": 0.0,
-			"Damping": 0.0,
 			"LowerLimit": -30.0,
 			"UpperLimit": 30.0
 		},
@@ -7682,10 +7502,7 @@
 					"Y": 50.0
 				}
 			},
-			"HAlignment": 0,
-			"VAlignment": 1,
-			"Wrapping": 0,
-			"GapScale": 1.0
+			"HAlignment": 0
 		},
 		{
 			"TypeID": 1,
@@ -7809,16 +7626,7 @@
 			},
 			"EnableCollision": false,
 			"Flags": 2,
-			"ContactDist": -1.0,
-			"Restitution": 0.0,
-			"Stiffness": 0.0,
-			"Damping": 0.0,
-			"LowerLimit": -90.0,
-			"UpperLimit": 90.0,
-			"Velocity": 2.0,
-			"ForceLimit": 3.4028234663852887e38,
-			"GearRatio": 1.0,
-			"FreeSpin": false
+			"Velocity": 2.0
 		},
 		{
 			"TypeID": 11,

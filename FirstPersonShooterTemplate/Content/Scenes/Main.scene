@@ -1,20 +1,13 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6163,
+	"EngineBuild": 6165,
 	"Data": [
 		{
 			"TypeID": 9,
 			"ID": "a470726f441936acfe25318b162c336c",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
-			"Scripts": [
-				{
-					"Name": "FirstPersonShooterTemplate.ExitOnEsc",
-					"ID": "d91aaece49c11f4bfd8335915ee97b32",
-					"V": {}
-				}
-			],
 			"Lightmaps": [
 				{
 					"Lightmap0": "df86835e462c6392ddb459b6abee549d",
@@ -25,16 +18,20 @@
 			"LightmapSettings": {
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"AtlasSize": 1024,
 				"BounceCount": 2,
-				"UseGeometryWithNoMaterials": true,
-				"Quality": 10
+				"UseGeometryWithNoMaterials": true
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
 				"Data": "fd580f2a45b2ec7b8806a78c212e43a7",
 				"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 			}
+		},
+		{
+			"TypeID": "FirstPersonShooterTemplate.ExitOnEsc",
+			"ID": "de8f6be84d0b4c8313ff5481c01c9757",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"V": {}
 		},
 		{
 			"TypeID": 10,
@@ -48,9 +45,7 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
-			"SunDiscScale": 1.0,
-			"FogSunPower": 8.0
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
 			"TypeID": 4,
@@ -91,16 +86,6 @@
 					"Z": 0.0
 				}
 			},
-			"AdditiveColor": {
-				"R": 0.0,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 1.0
-			},
-			"Radius": 100000.0,
-			"SkyDistanceThreshold": 150000.0,
-			"BakedProbe": "00000000000000000000000000000000",
-			"Mode": 1,
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
@@ -115,8 +100,6 @@
 					"Z": 0.0
 				}
 			},
-			"Radius": 3000.0,
-			"IsCustomProbe": false,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
@@ -394,11 +377,7 @@
 			},
 			"StaticFlags": 0,
 			"Layer": 1,
-			"Tag": "Player",
-			"UsePerspective": true,
-			"FOV": 60.0,
-			"Near": 2.0,
-			"Far": 10000.0
+			"Tag": "Player"
 		},
 		{
 			"TypeID": 17,
@@ -415,11 +394,14 @@
 			"StaticFlags": 0,
 			"Layer": 1,
 			"Tag": "Player",
-			"Scripts": [
-				{
-					"Name": "FirstPersonShooterTemplate.PlayerScript",
-					"ID": "f7fec37c45038b89876e93a1d74c66ad",
-					"V": {
+			"ContactOffset": 0.10000000149011612,
+			"Height": 100.0
+		},
+		{
+			"TypeID": "FirstPersonShooterTemplate.PlayerScript",
+			"ID": "f7fec37c45038b89876e93a1d74c66ad",
+			"ParentID": "8dd8b65446747a93c055c2aee97de390",
+			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
 	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
 	"Camera": "5543ed36412ccd0f04717a90d39e877e",
@@ -433,13 +415,6 @@
 	"MaxVelocityGround": 400.0,
 	"MaxVelocityAir": 200.0
 }
-				}
-			],
-			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 30.0,
-			"SlopeLimit": 45.0,
-			"Radius": 50.0,
-			"Height": 100.0
 		},
 		{
 			"TypeID": 1,
@@ -549,8 +524,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -589,8 +563,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -629,8 +602,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -669,8 +641,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -715,8 +686,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -761,8 +731,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -807,8 +776,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
@@ -847,8 +815,7 @@
 			"Mass": 500.0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
-			"StartAwake": true,
-			"OverrideMass": true
+			"StartAwake": true
 		},
 		{
 			"TypeID": 1,
