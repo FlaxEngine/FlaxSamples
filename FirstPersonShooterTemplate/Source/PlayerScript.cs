@@ -48,10 +48,13 @@ namespace FirstPersonShooterTemplate
                 var ballCollider = SphereCollider.New();
                 var ballModel = ModelActor.New();
                 ball.Name = "Bullet";
+                ball.StaticFlags = StaticFlags.None;
                 ballModel.Model = SphereModel;
                 ballModel.Parent = ball;
-                ballCollider.Parent = ball;
-                ball.UseCCD = true;
+                ballModel.StaticFlags = StaticFlags.None;
+				ballCollider.Parent = ball;
+                ballCollider.StaticFlags = StaticFlags.None;
+				ball.UseCCD = true;
                 ball.Transform = new Transform(
                     CameraTarget.Position + Horizontal(CameraTarget.Direction) * 70.0f,
                     Quaternion.Identity,
