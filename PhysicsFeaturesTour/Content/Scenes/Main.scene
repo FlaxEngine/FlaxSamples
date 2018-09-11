@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6165,
+	"EngineBuild": 6168,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -18,8 +18,7 @@
 			"LightmapSettings": {
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"BounceCount": 2,
-				"UseGeometryWithNoMaterials": true
+				"BounceCount": 2
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
@@ -5505,6 +5504,7 @@
 					"Z": -150.0
 				}
 			},
+			"StaticFlags": 0,
 			"EnableSimulation": true,
 			"EnableGravity": true,
 			"StartAwake": true
@@ -5514,6 +5514,7 @@
 			"ID": "70345b594fa54f3c10f51abf9db0394c",
 			"ParentID": "183a196e48dd85cbd60b8ab0a76ae88d",
 			"Name": "SphereCollider",
+			"StaticFlags": 0,
 			"Material": "ad0db92b4d2361e8350ca39fd6d985db",
 			"Radius": 50.0
 		},
@@ -5522,6 +5523,7 @@
 			"ID": "8386f5f64b2a9798840539b24e42587a",
 			"ParentID": "183a196e48dd85cbd60b8ab0a76ae88d",
 			"Name": "Sphere",
+			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -6767,6 +6769,7 @@
 			"ID": "82e11fa04bcc0272bc7eafa761516036",
 			"ParentID": "fb9f5ed24caf57a956a325ae276e703a",
 			"Name": "Sphere 0",
+			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -6781,6 +6784,7 @@
 			"ID": "5df012524acb7c930aa929be60d58eb6",
 			"ParentID": "fb9f5ed24caf57a956a325ae276e703a",
 			"Name": "SphereCollider",
+			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -6832,6 +6836,7 @@
 					"Z": -0.0
 				}
 			},
+			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -7034,6 +7039,7 @@
 			"ID": "81fbfc5e4de0d4c9acd6cd8d33829431",
 			"ParentID": "d7b92c9845e5eecf1d4fa8b671c483d8",
 			"Name": "Cube",
+			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -7116,6 +7122,7 @@
 			"ID": "2321d18c4b7719d9f220d9a881afc0ba",
 			"ParentID": "64e4f69742a7368b31cb3085c964f596",
 			"Name": "Cube",
+			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -7577,6 +7584,7 @@
 			"ID": "4b98dcd74bd7e10906cd95ab779d7095",
 			"ParentID": "99a39328436d1a3e75de5fbe30f71581",
 			"Name": "Cube",
+			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -7661,6 +7669,7 @@
 			"ID": "09e7116b41812fc9125d8f9bde50e8c3",
 			"ParentID": "0725db8d427bd72c3f861aa047aa15d2",
 			"Name": "Cube",
+			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
