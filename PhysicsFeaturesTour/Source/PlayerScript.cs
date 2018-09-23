@@ -50,8 +50,11 @@ namespace PhysicsFeaturesTour
                 var ballModel = ModelActor.New();
                 ballModel.Model = SphereModel;
                 ballModel.Parent = ball;
+				ballModel.StaticFlags = StaticFlags.None;
                 ballCollider.Parent = ball;
+				ballCollider.StaticFlags = StaticFlags.None;
                 ball.UseCCD = true;
+				ball.StaticFlags = StaticFlags.None;
                 ball.Transform = new Transform(
                     CameraTarget.Position + Horizontal(CameraTarget.Direction) * 70.0f,
                     Quaternion.Identity,

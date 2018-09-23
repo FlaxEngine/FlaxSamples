@@ -22,7 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DefineConstants>DEBUG;FLAX_ASSERTIONS;TRACE;FLAX_0;FLAX_0_2;FLAX_0_2_6165;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
+    <DefineConstants>DEBUG;FLAX_ASSERTIONS;TRACE;FLAX_0;FLAX_0_2;FLAX_0_2_6168;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
 	<UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -33,7 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DefineConstants>TRACE;FLAX_0;FLAX_0_2;FLAX_0_2_6165;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
+    <DefineConstants>TRACE;FLAX_0;FLAX_0_2;FLAX_0_2_6168;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
 	<UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
@@ -42,15 +42,19 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
 	<Reference Include="FlaxEngine">
-	  <HintPath>Cache\Assemblies\Release\FlaxEngine.dll</HintPath>
+		<HintPath>Cache\Assemblies\Release\FlaxEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="Newtonsoft.Json">
-	  <HintPath>Cache\Assemblies\Release\Newtonsoft.Json.dll</HintPath>
+		<HintPath>Cache\Assemblies\Release\Newtonsoft.Json.dll</HintPath>
+	</Reference>
+	<Reference Include="FlaxEditor">
+		<HintPath>Cache\Assemblies\Release\FlaxEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Source\ExitOnEsc.cs" />
     <Compile Include="Source\PlayerScript.cs" />
+    <Compile Include="Source\SunTrigger.cs" />
     <Compile Include="Cache\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
