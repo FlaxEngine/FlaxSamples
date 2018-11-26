@@ -1,87 +1,80 @@
+using System;
 using FlaxEngine;
 using FlaxEngine.Rendering;
 
 namespace GraphicsFeaturesTour
 {
-	public class CameraTV : Script
-	{
-		public Camera Cam;
-		public MaterialBase Material;
+    public class CameraTV : Script
+    {
+        public Camera Cam;
+        public MaterialBase Material;
 
-		[Limit(1, 2000)]
-		public Vector2 Resolution
-		{
-			get { return resolution; }
-			set
-			{
-				value = Vector2.Clamp(value, new Vector2(1), new Vector2(2000));
-				if (resolution != value)
-				{
-					resolution = value;
-					if (output)
-					{
-						output.Init(PixelFormat.R8G8B8A8_UNorm, (int) resolution.X, (int) resolution.Y);
-					}
-				}
-			}
-		}
+        [Limit(1, 2000)]
+        public Vector2 Resolution
+        {
+            get { return _resolution; }
+            set
+            {
+                value = Vector2.Clamp(value, new Vector2(1), new Vector2(2000));
+                if (_resolution != value)
+                {
+                    _resolution = value;
+                    if (_output)
+                    {
+                        // Resize backbuffer
+                        _output.Init(PixelFormat.R8G8B8A8_UNorm, (int) _resolution.X, (int) _resolution.Y);
+                    }
+                }
+            }
+        }
 
-		private Vector2 resolution = new Vector2(640, 374);
-		private RenderTarget output;
-		private SceneRenderTask task;
-		private MaterialInstance material;
-		private bool setMaterial;
+        private Vector2 _resolution = new Vector2(640, 374);
+        private RenderTarget _output;
+        private SceneRenderTask _task;
+        private MaterialInstance _material;
 
-		private void OnEnable()
-		{
-			// Create backbuffer
-			if (output == null)
-				output = RenderTarget.New();
-			output.Init(PixelFormat.R8G8B8A8_UNorm, (int) resolution.X, (int) resolution.Y);
+        private void OnEnable()
+        {
+            // Create backbuffer
+            if (_output == null)
+                _output = RenderTarget.New();
+            _output.Init(PixelFormat.R8G8B8A8_UNorm, (int) _resolution.X, (int) _resolution.Y);
 
-			// Create rendering task
-			if (task == null)
-				task = RenderTask.Create<SceneRenderTask>();
-			task.Order = -100;
-			task.Camera = Cam;
-			task.Output = output;
-			task.Enabled = false;
+            // Create rendering task
+            if (_task == null)
+                _task = RenderTask.Create<SceneRenderTask>();
+            _task.Order = -100;
+            _task.Camera = Cam;
+            _task.Output = _output;
+            _task.Enabled = false;
+            
+            if (Material && _material == null)
+            {
+                // Use dynamic material instance
+                if (Material.WaitForLoaded())
+                    throw new Exception("Failed to load material.");
+                _material = Material.CreateVirtualInstance();
 
-			// Use dynamic material instance
-			if (Material && material == null)
-				material = Material.CreateVirtualInstance();
-			setMaterial = true;
-		}
+                // Set render task output to draw on model
+                _material.GetParam("Image").Value = _output;
 
-		private void OnDisable()
-		{
-			Destroy(ref task);
-			Destroy(ref output);
-			Destroy(ref material);
-		}
+                // Bind material to parent model
+                if (Actor is StaticModel staticModel && staticModel.Model)
+                {
+                    staticModel.Model.WaitForLoaded();
+                    staticModel.Entries[0].Material = _material;
+                }
+            }
 
-		private void Update()
-		{
-			task.Enabled = true;
+            _task.Enabled = true;
+        }
 
-			if (setMaterial)
-			{
-				setMaterial = false;
-
-				if (material)
-				{
-					material.GetParam("Image").Value = output;
-				}
-
-				if (Actor is ModelActor)
-				{
-					var modelActor = (ModelActor) Actor;
-					if (modelActor.HasContentLoaded)
-					{
-						modelActor.Entries[0].Material = material;
-					}
-				}
-			}
-		}
-	}
+        private void OnDisable()
+        {
+            // Ensure to cleanup resources
+            Destroy(ref _task);
+            Destroy(ref _output);
+            Destroy(ref _material);
+        }
+    }
 }

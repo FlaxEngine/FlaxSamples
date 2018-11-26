@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6165,
+	"EngineBuild": 6171,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -18,8 +18,7 @@
 			"LightmapSettings": {
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"BounceCount": 2,
-				"UseGeometryWithNoMaterials": true
+				"BounceCount": 2
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
@@ -285,8 +284,7 @@
 					"Z": -153.4296875
 				}
 			},
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -313,8 +311,7 @@
 					"Z": -323.9271545410156
 				}
 			},
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -341,8 +338,7 @@
 					"Z": -328.6985778808594
 				}
 			},
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,

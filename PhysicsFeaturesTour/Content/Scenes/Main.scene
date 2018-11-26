@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6168,
+	"EngineBuild": 6171,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -3388,12 +3388,7 @@
 			"ID": "8978666040e08d5baa7c878af74bb946",
 			"ParentID": "15206c3f4bb4defc95b66cae5b30f1c8",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3438,12 +3433,7 @@
 			"ID": "e5fa71404a60a94c58c439b92cd49610",
 			"ParentID": "ab32dc5d49c9fa645788bab083034bfb",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3494,12 +3484,7 @@
 			"ID": "c42ebcf14360377bd613b6a5ca8f48bd",
 			"ParentID": "e0d5ff29468721feeb2bc0aa596aba27",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3544,12 +3529,7 @@
 			"ID": "e0c3f68e4f2ac434882c5693dee6a5de",
 			"ParentID": "95f79cd74c436e586fbd45b1aecb189e",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3600,12 +3580,7 @@
 			"ID": "567327eb4d4834ccec1b168afa788df5",
 			"ParentID": "adb8a40044c492b2b12f739baa9f91a9",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3650,12 +3625,7 @@
 			"ID": "8a318dd6429b9dba69988696d4d529bd",
 			"ParentID": "d3c07b2840efdfcb89c254bba694522a",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3700,12 +3670,7 @@
 			"ID": "2117c4d04156e67b8d2efcb38e254317",
 			"ParentID": "2a436d7842e96edbfaae35b604443117",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3750,12 +3715,7 @@
 			"ID": "0a361f99490bd8afc0143ea5c33a0bad",
 			"ParentID": "34bedb804517b8822bf2b1868a938b4c",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3806,12 +3766,7 @@
 			"ID": "cdbf92754b2eed20bc3990847aa4008c",
 			"ParentID": "1cd12b8840c6c34e218262959efec93a",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3856,12 +3811,7 @@
 			"ID": "f3de1f964a742a9899faddb078451534",
 			"ParentID": "7b2fff5f4e76e887dc9ba69ffb5208d8",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3906,12 +3856,7 @@
 			"ID": "f43283824b5da3617a88afa50e04ff86",
 			"ParentID": "14c2e0f948ed4609d823b38b2630ff90",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3956,12 +3901,7 @@
 			"ID": "d017cb7f482fd34a206c73b8cefa7db6",
 			"ParentID": "e6e407f742d0d89f4255d1a914314ea2",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4006,12 +3946,7 @@
 			"ID": "d0fef8d14a1f4a2d08160c889a6a7ad6",
 			"ParentID": "8b5a164344323bc8f36300bcfce01576",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4056,12 +3991,7 @@
 			"ID": "27437c9e4dfa2b804b2ce4b297bc8781",
 			"ParentID": "0cf1296b45014917ba92479401eec53f",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4106,12 +4036,7 @@
 			"ID": "f2a3c0e34a072b4bfe1555bf979a21f3",
 			"ParentID": "9dc1a32a45d8cabef56471a6789a237d",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4156,12 +4081,7 @@
 			"ID": "586091a94e86e8fcae1d1a97845119cb",
 			"ParentID": "e5dbe0b34349565a90afcc9def4a64d1",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4212,12 +4132,7 @@
 			"ID": "798962c041b28425ae028987ba05f2e9",
 			"ParentID": "c820d91640b42cb1cccedd8735f43750",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4268,12 +4183,7 @@
 			"ID": "b673a9c74220fc9f114aca8d8df8f548",
 			"ParentID": "f431d30348b2e2923a0561a1bc92e869",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4324,12 +4234,7 @@
 			"ID": "edbddb7c486adf68288876851bc7eace",
 			"ParentID": "3b85de0c498745c423bb8e9b3d02b221",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4374,12 +4279,7 @@
 			"ID": "3916390f4d1a8721f4cdd0b656914839",
 			"ParentID": "f8c1728a4a2b00eec80d46923463665b",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4424,12 +4324,7 @@
 			"ID": "773d178047fb2f4db3e63b8001f3942b",
 			"ParentID": "3b4adeb14460ca896d53a1958d4478d5",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4474,12 +4369,7 @@
 			"ID": "9bc9bd2f477d10cc4ab269867627d8dd",
 			"ParentID": "3606b6c843a0ee3adcdb5e9ee2fd9401",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4530,12 +4420,7 @@
 			"ID": "5e24533e47e50a86db07d69ca84288a9",
 			"ParentID": "5f1460d44352947e440056a2c784ec61",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4586,12 +4471,7 @@
 			"ID": "ac7acdeb49946ab868464f919b66bfed",
 			"ParentID": "bbe797ae4add95d96949ce9d3f677089",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4642,12 +4522,7 @@
 			"ID": "8af0185f45f0ae93a5c519880c518a47",
 			"ParentID": "7caa51624154553f2001f48e0eb11156",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4692,12 +4567,7 @@
 			"ID": "bd38b694467d611d421af98117a814c6",
 			"ParentID": "cff1b05b49b13e0c93814a825250e456",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4742,12 +4612,7 @@
 			"ID": "8d4d5950417f6e981a62829f3aea380e",
 			"ParentID": "28aaf97d40a9a97d519b3ea4fe8e4f96",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -5351,12 +5216,7 @@
 			"ID": "0c991f744b312c51f433f5b4cb2d57b6",
 			"ParentID": "ba10cbc84dd7e7776144caafcbe232ef",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": "PhysicsFeaturesTour.CollisionSample",
@@ -5515,8 +5375,7 @@
 			"ParentID": "183a196e48dd85cbd60b8ab0a76ae88d",
 			"Name": "SphereCollider",
 			"StaticFlags": 0,
-			"Material": "ad0db92b4d2361e8350ca39fd6d985db",
-			"Radius": 50.0
+			"Material": "ad0db92b4d2361e8350ca39fd6d985db"
 		},
 		{
 			"TypeID": 1,
@@ -5565,12 +5424,7 @@
 			"ParentID": "934db67b4cd58548e920b4ab18a0c796",
 			"Name": "BoxCollider",
 			"StaticFlags": 0,
-			"Material": "ad0db92b4d2361e8350ca39fd6d985db",
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"Material": "ad0db92b4d2361e8350ca39fd6d985db"
 		},
 		{
 			"TypeID": "PhysicsFeaturesTour.CollisionSample",
@@ -5741,12 +5595,7 @@
 			"ID": "804c57434236c94323c6aaad30181a20",
 			"ParentID": "3b716e1c4f47f1dfb4f8f49040530871",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -5772,12 +5621,7 @@
 			"ID": "82cd36934c6508cc28e8eaaf330d8db5",
 			"ParentID": "487e15ec4ed3d1b26f2157a32481d60e",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 3,
@@ -6122,8 +5966,7 @@
 					"W": 0.7071059942245483
 				}
 			},
-			"Radius": 50.0,
-			"Height": 100.0
+			"Radius": 50.0
 		},
 		{
 			"TypeID": 1,
@@ -6201,8 +6044,7 @@
 					"W": 0.7071059942245483
 				}
 			},
-			"Radius": 50.0,
-			"Height": 100.0
+			"Radius": 50.0
 		},
 		{
 			"TypeID": 1,
@@ -6858,12 +6700,7 @@
 					"Z": -0.0
 				}
 			},
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 19,
@@ -7054,12 +6891,7 @@
 			"ID": "fe4b49e44de18247075a408cd69fcf7d",
 			"ParentID": "d7b92c9845e5eecf1d4fa8b671c483d8",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -7137,12 +6969,7 @@
 			"ID": "643342b74dd7999496b8539bb4f59192",
 			"ParentID": "64e4f69742a7368b31cb3085c964f596",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 20,
@@ -7321,8 +7148,7 @@
 			"ID": "d50811d34ed37299c061ba952019a18b",
 			"ParentID": "629a2aad40092f2e450c5e9965efd5fb",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -7381,12 +7207,7 @@
 			"ID": "d60527e84f4bf018a0c822b1d1b5a4e0",
 			"ParentID": "1089bc124bbd89ebb4dd8bbc63148e6d",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -7599,12 +7420,7 @@
 			"ID": "bf82a4504206f0ac607a6aa26d9e6135",
 			"ParentID": "99a39328436d1a3e75de5fbe30f71581",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 20,
@@ -7684,12 +7500,7 @@
 			"ID": "7f976aef411d762b3231738a54fa04e0",
 			"ParentID": "0725db8d427bd72c3f861aa047aa15d2",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,

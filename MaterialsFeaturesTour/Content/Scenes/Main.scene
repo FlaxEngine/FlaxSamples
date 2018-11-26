@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6168,
+	"EngineBuild": 6171,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -5021,7 +5021,7 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"Text": "Textured\n",
+			"Text": "Textured",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -11192,7 +11192,7 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"Text": "Normal\n",
+			"Text": "Normal",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -11689,7 +11689,7 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"Text": "Base Material\n",
+			"Text": "Base Material",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -12518,7 +12518,7 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"Text": "Sample AO\n",
+			"Text": "Sample AO",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
@@ -12697,12 +12697,7 @@
 			"TypeID": 14,
 			"ID": "04471dae4462a52087d5b9aed245a783",
 			"ParentID": "a0246681431a36ff85586cba4a9bdc59",
-			"Name": "BoxCollider",
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeID": 1,
@@ -12740,12 +12735,7 @@
 			"TypeID": 14,
 			"ID": "41c6cefc4a47911b80f0aba4c7f8756f",
 			"ParentID": "578c2dae469703f79ba4c7aaa58d632d",
-			"Name": "BoxCollider",
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeID": 1,
@@ -12777,12 +12767,7 @@
 			"TypeID": 14,
 			"ID": "3fa72d364c5df73026fa4a97a1b84952",
 			"ParentID": "b86612fd4ace26b827ef37976b5447cc",
-			"Name": "BoxCollider",
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeID": 3,
@@ -14442,12 +14427,7 @@
 			"ID": "610aae214c8971962a8a538d30c8b2e6",
 			"ParentID": "3178b6b74170d4df22962084754bfdb4",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -14487,12 +14467,7 @@
 			"ID": "e6247855483c011a48071a81e16e4fdf",
 			"ParentID": "31939e1b411aab56ccb73aac9ab4a202",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 32,
@@ -14578,12 +14553,7 @@
 			"ID": "c382452340e06c2660ea89a72ea66206",
 			"ParentID": "aaec7da643e279c3f77018bc96438e07",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 32,

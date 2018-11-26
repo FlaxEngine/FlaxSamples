@@ -46,7 +46,7 @@ namespace FirstPersonShooterTemplate
             {
                 var ball = RigidBody.New();
                 var ballCollider = SphereCollider.New();
-                var ballModel = ModelActor.New();
+                var ballModel = StaticModel.New();
                 ball.Name = "Bullet";
                 ball.StaticFlags = StaticFlags.None;
                 ballModel.Model = SphereModel;

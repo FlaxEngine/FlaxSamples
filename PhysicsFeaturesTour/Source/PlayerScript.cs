@@ -47,7 +47,7 @@ namespace PhysicsFeaturesTour
             {
                 var ball = RigidBody.New();
                 var ballCollider = SphereCollider.New();
-                var ballModel = ModelActor.New();
+                var ballModel = StaticModel.New();
                 ballModel.Model = SphereModel;
                 ballModel.Parent = ball;
 				ballModel.StaticFlags = StaticFlags.None;

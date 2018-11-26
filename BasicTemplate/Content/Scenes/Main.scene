@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6165,
+	"EngineBuild": 6171,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -16,10 +16,8 @@
 				}
 			],
 			"LightmapSettings": {
-				"GlobalObjectsScale": 1.0,
 				"ChartsPadding": 2,
 				"AtlasSize": 512,
-				"UseGeometryWithNoMaterials": true,
 				"Quality": 100
 			}
 		},
@@ -125,12 +123,7 @@
 			"ID": "03d22c35456f44334942829dfe2c5e8f",
 			"ParentID": "c186d8c64da6153e725e638df4679e98",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -162,12 +155,7 @@
 			"ID": "20f7c15e46b71c16d46ddb85ebea39af",
 			"ParentID": "a6c68c34424f3172473746b6852612bb",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 2,

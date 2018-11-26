@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6165,
+	"EngineBuild": 6171,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -24,10 +24,8 @@
 				}
 			],
 			"LightmapSettings": {
-				"GlobalObjectsScale": 1.0,
 				"ChartsPadding": 2,
 				"AtlasSize": 512,
-				"UseGeometryWithNoMaterials": true,
 				"Quality": 100
 			},
 			"CSG": {
@@ -3674,12 +3672,7 @@
 			"ID": "da4846bb4834b5a878a078a9e66454c9",
 			"ParentID": "e7e71992473575d824918cb2250d4841",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3756,12 +3749,7 @@
 			"ID": "a91841e0470c4bbda1069a85fc24ba1c",
 			"ParentID": "a316609b417184890e5252b970083950",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3806,12 +3794,7 @@
 			"ID": "9eb02d7d455aac930ab81a974c16272a",
 			"ParentID": "98093440489cfd6de6f7c5ab8fe6bbca",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -3856,12 +3839,7 @@
 			"ID": "e54ab4b54777d6d6373bdd966135f97a",
 			"ParentID": "deb9f49742fd6855c5445fb4b1773285",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4108,12 +4086,7 @@
 			"ID": "a930841b42fada8a101df689981f5c09",
 			"ParentID": "0345d3134e692b73a1494787c7c001d2",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4386,12 +4359,7 @@
 			"ID": "7a3685114a1a3043a0e0709cfebe01c4",
 			"ParentID": "2a4dfae245ffc77c90255cacb460c485",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4426,12 +4394,7 @@
 			"ID": "06a22b5d4551083564c990ac5caeac5d",
 			"ParentID": "8c83e2844113db5be27d7e8ca9db2740",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -4466,12 +4429,7 @@
 			"ID": "b2f6ae994660d57ea25ef282027de693",
 			"ParentID": "bfed8b784d04bb2c5ed70bb79b1ed7c2",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 13,
@@ -4515,6 +4473,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {
 					"Intensity": 0.0,
 					"DepthResolution": 1,
@@ -4682,8 +4641,7 @@
 			"ID": "551da7084da3a095f9da24abdaad5f26",
 			"ParentID": "275bbaa44a672a84556c1eba8b233d92",
 			"Name": "SphereCollider",
-			"StaticFlags": 1,
-			"Radius": 50.0
+			"StaticFlags": 1
 		},
 		{
 			"TypeID": 3,
@@ -4764,6 +4722,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {
 					"Intensity": 0.0,
 					"RoughnessThreshold": 0.20000000298023225,
@@ -5060,8 +5019,9 @@
 					"FarTransitionRange": 300.0,
 					"BokehShape": 1,
 					"BokehBrightnessThreshold": 3.149996042251587,
-					"OverrideFlags": 1311
+					"OverrideFlags": 2621
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -5295,6 +5255,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -5470,6 +5431,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -5758,6 +5720,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -6230,6 +6193,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -6284,6 +6248,7 @@
 				"DepthOfField": {
 					"Enabled": true
 				},
+				"MotionBlur": {},
 				"SSR": {}
 			}
 		},
@@ -6816,8 +6781,7 @@
 			"ID": "73a553c645c786a79cb8108380c611f6",
 			"ParentID": "c029bbdb4c06977caaf087aa98c1ed48",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -6849,8 +6813,7 @@
 			"ID": "307281454235a46f7bb962ac8a766957",
 			"ParentID": "1d16a9304d7f93c1fab97fadc2e368a5",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -6882,8 +6845,7 @@
 			"ID": "df7e94e2400efe584093eea1e91a699b",
 			"ParentID": "49c5c94d41aaaead81aec7beac7a2870",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -6915,8 +6877,7 @@
 			"ID": "01660e854dd742169f4532a2533ea62f",
 			"ParentID": "965177ca418d1429a36a09bf654d688e",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -6948,8 +6909,7 @@
 			"ID": "2e9645c24455796d811d80ac72958523",
 			"ParentID": "02f71cd949074f26fa12909eb99dd889",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -6981,8 +6941,7 @@
 			"ID": "655a9f8a4e3a47b6636959a13fead6f0",
 			"ParentID": "3b21545a4f731bfc4ab8358ab62ee5cb",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -7009,8 +6968,7 @@
 			"ID": "49a714b74722e02a3eed0fb0d9d8a0c7",
 			"ParentID": "c01ec4e74c9060bcf8e30a98651355e2",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
-			"Radius": 50.0
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 12,
@@ -9421,12 +9379,7 @@
 			"ID": "24ba09bd4fc08a9c57a956a1fe40c2fd",
 			"ParentID": "441987c242d6b15871fc7cb49ba2a572",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,
@@ -9466,12 +9419,7 @@
 			"ID": "fab5af8d4e1c15d2a42c48b75901fb60",
 			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 32,
@@ -9557,12 +9505,7 @@
 			"ID": "250342aa4c58bd85556bfa8bcefbd3d1",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 100.0,
-				"Y": 100.0,
-				"Z": 100.0
-			}
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 32,

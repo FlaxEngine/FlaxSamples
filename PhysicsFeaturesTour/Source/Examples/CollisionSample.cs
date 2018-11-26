@@ -6,7 +6,7 @@ namespace PhysicsFeaturesTour
 	{
 		private float timeout;
 		
-		public ModelActor ModelToControl;
+		public StaticModel ModelToControl;
 
 		public MaterialBase MaterialOn;
 		public MaterialBase MaterialOff;
