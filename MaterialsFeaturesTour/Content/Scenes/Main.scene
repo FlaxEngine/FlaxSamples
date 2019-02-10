@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6171,
+	"EngineBuild": 6177,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -86,8 +86,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606990218162537,
-				"B": 0.8050000071525574,
+				"G": 0.95686274766922,
+				"B": 0.9019607901573181,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -6880,7 +6880,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -13032,6 +13033,7 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
+				"AA": {},
 				"PostFxMaterials": [
 					"37266ed04fc11e967c371a93e3327289"
 				]

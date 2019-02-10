@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6171,
+	"EngineBuild": 6177,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -89,10 +89,11 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606900215148926,
-				"B": 0.8050000071525574,
+				"G": 1.0,
+				"B": 0.8901960849761963,
 				"A": 1.0
 			},
+			"Brightness": 6.0,
 			"ShadowsDistance": 2000.0,
 			"ShadowsFadeDistance": 200.0,
 			"ShadowsNormalOffsetScale": 50.0
@@ -184,7 +185,8 @@
 			"ID": "5dd6fd6641ce223a7ec079803296d798",
 			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
 			"V": {
-	"MoveSpeed": 4.0
+	"MoveSpeed": 4.0,
+	"CameraSmoothing": 20.0
 }
 		}
 	]

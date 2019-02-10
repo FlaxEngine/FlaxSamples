@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6171,
+	"EngineBuild": 6177,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -86,8 +86,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606990218162537,
-				"B": 0.8050000071525574,
+				"G": 0.95686274766922,
+				"B": 0.9058823585510254,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -3378,10 +3378,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3423,10 +3420,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3474,10 +3468,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3519,10 +3510,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3570,10 +3558,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3615,10 +3600,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3660,10 +3642,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3705,10 +3684,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3756,10 +3732,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3801,10 +3774,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3846,10 +3816,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3891,10 +3858,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3936,10 +3900,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -3981,10 +3942,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4026,10 +3984,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4071,10 +4026,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4122,10 +4074,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4173,10 +4122,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4224,10 +4170,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4269,10 +4212,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4314,10 +4254,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4359,10 +4296,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4410,10 +4344,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4461,10 +4392,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4512,10 +4440,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4557,10 +4482,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -4602,10 +4524,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 14,
@@ -5364,10 +5283,7 @@
 					"Z": -150.0
 				}
 			},
-			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 15,
@@ -6601,10 +6517,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 600.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 600.0
 		},
 		{
 			"TypeID": 1,
@@ -6647,10 +6560,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"IsKinematic": true
 		},
 		{
 			"TypeID": "PhysicsFeaturesTour.MovingObj",
@@ -6866,10 +6776,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 100.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 100.0
 		},
 		{
 			"TypeID": 1,
@@ -6944,10 +6851,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"IsKinematic": true
 		},
 		{
 			"TypeID": 1,
@@ -7138,10 +7042,7 @@
 					"Z": -140.0
 				}
 			},
-			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 15,
@@ -7183,10 +7084,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"IsKinematic": true
 		},
 		{
 			"TypeID": "PhysicsFeaturesTour.MovingObj",
@@ -7395,10 +7293,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"IsKinematic": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"IsKinematic": true
 		},
 		{
 			"TypeID": 1,
@@ -7475,10 +7370,7 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"StaticFlags": 0
 		},
 		{
 			"TypeID": 1,

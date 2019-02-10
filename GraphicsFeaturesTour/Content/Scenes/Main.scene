@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6171,
+	"EngineBuild": 6177,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -94,8 +94,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606990218162537,
-				"B": 0.8050000071525574,
+				"G": 0.95686274766922,
+				"B": 0.9098039269447327,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -4482,7 +4482,8 @@
 					"RoughnessThreshold": 0.20000000298023225,
 					"ResolveSamples": 6,
 					"OverrideFlags": 6286
-				}
+				},
+				"AA": {}
 			}
 		},
 		{
@@ -4727,7 +4728,8 @@
 					"Intensity": 0.0,
 					"RoughnessThreshold": 0.20000000298023225,
 					"OverrideFlags": 16
-				}
+				},
+				"AA": {}
 			}
 		},
 		{
@@ -5022,7 +5024,8 @@
 					"OverrideFlags": 2621
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -5256,7 +5259,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -5432,7 +5436,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -5721,7 +5726,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -6194,7 +6200,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{
@@ -6249,7 +6256,8 @@
 					"Enabled": true
 				},
 				"MotionBlur": {},
-				"SSR": {}
+				"SSR": {},
+				"AA": {}
 			}
 		},
 		{

@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6171,
+	"EngineBuild": 6177,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -66,8 +66,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606990218162537,
-				"B": 0.8050000071525574,
+				"G": 0.95686274766922,
+				"B": 0.95686274766922,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -517,10 +517,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -556,10 +553,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -595,10 +589,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -634,10 +625,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -679,10 +667,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -724,10 +709,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -769,10 +751,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
@@ -808,10 +787,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 500.0,
-			"EnableSimulation": true,
-			"EnableGravity": true,
-			"StartAwake": true
+			"Mass": 500.0
 		},
 		{
 			"TypeID": 1,
