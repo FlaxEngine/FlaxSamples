@@ -19,12 +19,12 @@ namespace FpsTemplate
         public float AirAccelerate = 10000;
         public float MaxVelocityGround = 400;
         public float MaxVelocityAir = 200;
-        
+
         private Vector3 _velocity;
         private bool _jump;
         private float pitch;
         private float yaw;
-        
+
         void Update()
         {
             Screen.CursorVisible = false;
@@ -34,7 +34,7 @@ namespace FpsTemplate
             Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             pitch = Mathf.Clamp(pitch + mouseDelta.Y, -88, 88);
             yaw += mouseDelta.X;
-            
+
             // Jump
             if (CanJump && Input.GetAction("Jump"))
                 _jump = true;
@@ -77,7 +77,7 @@ namespace FpsTemplate
             // Fix direction
             if (velocity.Length < 0.05f)
                 velocity = Vector3.Zero;
-            
+
             if (_jump && PlayerController.IsGrounded)
                 velocity.Y = JumpForce;
 
@@ -142,7 +142,7 @@ namespace FpsTemplate
         {
             var trans = Transform;
             var controller = (CharacterController)Actor;
-            DebugDraw.DrawTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
+            DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
         }
     }
 }

@@ -21,12 +21,12 @@ namespace FirstPersonShooterTemplate
         public float AirAccelerate = 10000;
         public float MaxVelocityGround = 400;
         public float MaxVelocityAir = 200;
-        
+
         private Vector3 _velocity;
         private bool _jump;
         private float pitch;
         private float yaw;
-        
+
         void Update()
         {
             Screen.CursorVisible = false;
@@ -36,7 +36,7 @@ namespace FirstPersonShooterTemplate
             Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             pitch = Mathf.Clamp(pitch + mouseDelta.Y, -88, 88);
             yaw += mouseDelta.X;
-            
+
             // Jump
             if (CanJump && Input.GetAction("Jump"))
                 _jump = true;
@@ -52,9 +52,9 @@ namespace FirstPersonShooterTemplate
                 ballModel.Model = SphereModel;
                 ballModel.Parent = ball;
                 ballModel.StaticFlags = StaticFlags.None;
-				ballCollider.Parent = ball;
+                ballCollider.Parent = ball;
                 ballCollider.StaticFlags = StaticFlags.None;
-				ball.UseCCD = true;
+                ball.UseCCD = true;
                 ball.Transform = new Transform(
                     CameraTarget.Position + Horizontal(CameraTarget.Direction) * 70.0f,
                     Quaternion.Identity,
@@ -102,7 +102,7 @@ namespace FirstPersonShooterTemplate
             // Fix direction
             if (velocity.Length < 0.05f)
                 velocity = Vector3.Zero;
-            
+
             if (_jump && PlayerController.IsGrounded)
                 velocity.Y = JumpForce;
 
@@ -167,7 +167,7 @@ namespace FirstPersonShooterTemplate
         {
             var trans = Transform;
             var controller = (CharacterController)Actor;
-            DebugDraw.DrawTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
+            DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
         }
     }
 }

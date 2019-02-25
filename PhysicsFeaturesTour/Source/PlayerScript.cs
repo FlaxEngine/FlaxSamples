@@ -19,7 +19,7 @@ namespace PhysicsFeaturesTour
         public float AirAccelerate = 10000;
         public float MaxVelocityGround = 400;
         public float MaxVelocityAir = 200;
-        
+
         private Vector3 _velocity;
         private bool _jump;
         private float pitch;
@@ -50,11 +50,11 @@ namespace PhysicsFeaturesTour
                 var ballModel = StaticModel.New();
                 ballModel.Model = SphereModel;
                 ballModel.Parent = ball;
-				ballModel.StaticFlags = StaticFlags.None;
+                ballModel.StaticFlags = StaticFlags.None;
                 ballCollider.Parent = ball;
-				ballCollider.StaticFlags = StaticFlags.None;
+                ballCollider.StaticFlags = StaticFlags.None;
                 ball.UseCCD = true;
-				ball.StaticFlags = StaticFlags.None;
+                ball.StaticFlags = StaticFlags.None;
                 ball.Transform = new Transform(
                     CameraTarget.Position + Horizontal(CameraTarget.Direction) * 70.0f,
                     Quaternion.Identity,
@@ -102,7 +102,7 @@ namespace PhysicsFeaturesTour
             // Fix direction
             if (velocity.Length < 0.05f)
                 velocity = Vector3.Zero;
-            
+
             if (_jump && PlayerController.IsGrounded)
                 velocity.Y = JumpForce;
 
@@ -167,7 +167,7 @@ namespace PhysicsFeaturesTour
         {
             var trans = Transform;
             var controller = (CharacterController)Actor;
-            DebugDraw.DrawTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
+            DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
         }
     }
 }

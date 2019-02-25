@@ -22,7 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DefineConstants>DEBUG;FLAX_ASSERTIONS;TRACE;FLAX_0;FLAX_0_3;FLAX_0_3_6171;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
+    <DefineConstants>DEBUG;FLAX_ASSERTIONS;TRACE;FLAX_0;FLAX_0_4;FLAX_0_4_6179;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
 	<UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -33,7 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DefineConstants>TRACE;FLAX_0;FLAX_0_3;FLAX_0_3_6171;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
+    <DefineConstants>TRACE;FLAX_0;FLAX_0_4;FLAX_0_4_6179;FLAX_EDITOR;FLAX_WINDOWS;FLAX_EDITOR_WIN</DefineConstants>
 	<UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
