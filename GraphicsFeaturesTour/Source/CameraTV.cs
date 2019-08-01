@@ -33,7 +33,7 @@ namespace GraphicsFeaturesTour
         private SceneRenderTask _task;
         private MaterialInstance _material;
 
-        private void OnEnable()
+        public override void OnEnable()
         {
             // Create backbuffer
             if (_output == null)
@@ -69,7 +69,7 @@ namespace GraphicsFeaturesTour
             _task.Enabled = true;
         }
 
-        private void OnDisable()
+        public override void OnDisable()
         {
             // Ensure to cleanup resources
             Destroy(ref _task);

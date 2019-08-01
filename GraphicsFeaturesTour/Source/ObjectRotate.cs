@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using FlaxEngine;
 
 namespace GraphicsFeaturesTour
@@ -11,17 +9,17 @@ namespace GraphicsFeaturesTour
 	    [Limit(-20, 20, 0.01f), Tooltip("Object rotation speed")]
 	    public float RotateSpeed = 1.0f;
         
-	    private void OnEnable()
+        public override void OnEnable()
 	    {
 	        _originalRotation = Actor.Orientation;
 	    }
 
-	    private void OnDisable()
+        public override void OnDisable()
 	    {
 	        Actor.Orientation = _originalRotation;
 	    }
         
-        private void FixedUpdate()
+        public override void OnFixedUpdate()
 		{
 		    var euler = Actor.LocalEulerAngles;
 		    euler.Y += RotateSpeed * Time.DeltaTime * 20;

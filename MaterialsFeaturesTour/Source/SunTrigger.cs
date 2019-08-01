@@ -6,17 +6,29 @@ namespace MaterialsFeaturesTour
     {
         public DirectionalLight Light;
 
-        void OnTriggerEnter(Collider c)
+        public override void OnEnable()
         {
-            if (c is CharacterController && Light)
+            Actor.As<Collider>().TriggerEnter += OnTriggerEnter;
+            Actor.As<Collider>().TriggerExit += OnTriggerExit;
+        }
+
+        public override void OnDisable()
+        {
+            Actor.As<Collider>().TriggerEnter -= OnTriggerEnter;
+            Actor.As<Collider>().TriggerExit -= OnTriggerExit;
+        }
+
+        void OnTriggerEnter(Collider collider)
+        {
+            if (collider is CharacterController && Light)
             {
                 Light.IsActive = false;
             }
         }
 
-        void OnTriggerExit(Collider c)
+        void OnTriggerExit(Collider collider)
         {
-            if (c is CharacterController && Light)
+            if (collider is CharacterController && Light)
             {
                 Light.IsActive = true;
             }

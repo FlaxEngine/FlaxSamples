@@ -1,10 +1,10 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6177,
+	"EngineBuild": 6184,
 	"Data": [
 		{
-			"TypeID": 9,
+			"TypeName": "FlaxEngine.Scene",
 			"ID": "a470726f441936acfe25318b162c336c",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
@@ -35,19 +35,19 @@
 			}
 		},
 		{
-			"TypeID": "FpsTemplate.ExitOnEsc",
-			"ID": "47e643a542eda2980837d5aa53237398",
+			"TypeName": "GraphicsFeaturesTour.ExitOnEsc",
+			"ID": "b210e151465782c0e5d1d8ad43eaa416",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0d08167149fab2dece3968a383287a81",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Visuals"
 		},
 		{
-			"TypeID": 25,
+			"TypeName": "FlaxEngine.SkyLight",
 			"ID": "280f19df46462adca0ad71983641cb0b",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "SkyLight",
@@ -61,7 +61,7 @@
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
-			"TypeID": 10,
+			"TypeName": "FlaxEngine.Sky",
 			"ID": "0442142849ec2b814cc380897a623811",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "Sky",
@@ -75,7 +75,7 @@
 			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
-			"TypeID": 4,
+			"TypeName": "FlaxEngine.DirectionalLight",
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "Sun",
@@ -94,8 +94,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.95686274766922,
-				"B": 0.9098039269447327,
+				"G": 0.9843137264251709,
+				"B": 0.9725490212440491,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -105,7 +105,7 @@
 			"ShadowsNormalOffsetScale": 50.0
 		},
 		{
-			"TypeID": 26,
+			"TypeName": "FlaxEngine.ExponentialHeightFog",
 			"ID": "758af305431ccbcf439d048e8434f276",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "ExponentialHeightFog",
@@ -135,13 +135,13 @@
 			"VolumetricFogDistance": 2000.0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "b62b160e4ce7ebe5156fbfa40db2e480",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Env Probes"
 		},
 		{
-			"TypeID": 7,
+			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ID": "739e26924c19e0641050bba8b8ebfe6c",
 			"ParentID": "b62b160e4ce7ebe5156fbfa40db2e480",
 			"Name": "EnvironmentProbe",
@@ -157,7 +157,7 @@
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "532f46e6414fe755ee404d846a39c22a",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "StaticGeometry",
@@ -171,14 +171,14 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e51009de4f1b63c2316665a8711bd74f",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 0",
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "4cc3ea1f43bfe2dec9bef29763ca5e4f",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Floor",
@@ -220,7 +220,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "fb45c97e4e4659e3a619599ed2ab1b3d",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 0",
@@ -251,7 +251,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9eb9f67d4fc377b3e18e90bcb3c87e5f",
 			"ParentID": "fb45c97e4e4659e3a619599ed2ab1b3d",
 			"Name": "Wall_Collision",
@@ -259,7 +259,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "24c96e904bb32ca5a4a8248c52aa5a2b",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 1",
@@ -290,7 +290,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "6c8bc9c74b80b7a951f2bd97464cc1d6",
 			"ParentID": "24c96e904bb32ca5a4a8248c52aa5a2b",
 			"Name": "Wall_Collision",
@@ -298,7 +298,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d4b641f64512801a051d3792946d54e2",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 2",
@@ -329,7 +329,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "d94fa65d44baea9f600fde98d516e6d1",
 			"ParentID": "d4b641f64512801a051d3792946d54e2",
 			"Name": "Wall_Collision",
@@ -337,7 +337,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f3fc2c624561e20b212f38bd3b99168e",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 3",
@@ -368,7 +368,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "53c005e249670a1f90cf0086b7682ec4",
 			"ParentID": "f3fc2c624561e20b212f38bd3b99168e",
 			"Name": "Wall_Collision",
@@ -376,7 +376,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "5526c1f348277aa1415e00b595fd24d3",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 4",
@@ -407,7 +407,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "3e6c1b0b45ef35939e5a8e9089e5006f",
 			"ParentID": "5526c1f348277aa1415e00b595fd24d3",
 			"Name": "Wall_Collision",
@@ -415,7 +415,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a0013f9644e301a6d0d3e2b8b0726930",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 5",
@@ -446,7 +446,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "4374763445d619061930bf9735f7ff1a",
 			"ParentID": "a0013f9644e301a6d0d3e2b8b0726930",
 			"Name": "Wall_Collision",
@@ -454,7 +454,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "61612f9341274c7ff9c0988f8bd76a2f",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 0",
@@ -487,7 +487,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "02822cb34bfc78efed990ab00fa44473",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 1",
@@ -520,7 +520,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f01e39a240a1b03fb0d5eaa574604987",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 3",
@@ -553,7 +553,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d0317d8e45103c3568626b8f947652e9",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 2",
@@ -586,7 +586,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "6e1a305342e8c1066585ae98c8da44cb",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Welcome Table",
@@ -606,7 +606,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "253ac87a411ac3f396ff9a998494af9b",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Model",
@@ -633,7 +633,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "8d2002c447df50f939a596881a1d38af",
 			"ParentID": "253ac87a411ac3f396ff9a998494af9b",
 			"Name": "Collider",
@@ -641,7 +641,7 @@
 			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "d65366f3468dc50b2ecae7ba10e12cfa",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Back",
@@ -689,7 +689,7 @@
 			"GapScale": 0.8299990296363831
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "aa8c443c450945f6504040b2ce3c71df",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Description",
@@ -737,7 +737,7 @@
 			"GapScale": 0.8299990296363831
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "d04908304e5a5172141e51bca09183ac",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Title",
@@ -781,7 +781,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "23e27efc478ab3606cbc9a81539667f5",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 1",
@@ -795,7 +795,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "f44af2d245e221decad28492104f4809",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Floor",
@@ -837,7 +837,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "11bddedc490e1691d00c968b059218d4",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 0",
@@ -868,7 +868,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "39228ddd479a5914bd5fb98dd29bd9e1",
 			"ParentID": "11bddedc490e1691d00c968b059218d4",
 			"Name": "Wall_Collision",
@@ -876,7 +876,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b13b622349288871bf7ceab36417263c",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 1",
@@ -907,7 +907,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9dc78141404b2339f0a5e18179bafc86",
 			"ParentID": "b13b622349288871bf7ceab36417263c",
 			"Name": "Wall_Collision",
@@ -915,7 +915,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "91b3d094437d29e133039aa20991517f",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 2",
@@ -946,7 +946,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "b6257a734e5f3710e01098b3281ff84a",
 			"ParentID": "91b3d094437d29e133039aa20991517f",
 			"Name": "Wall_Collision",
@@ -954,7 +954,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "42be407e4badbc1e805c1e9160fbe7f5",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 3",
@@ -985,7 +985,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "624236b94d3f232e111a5eb552e025f2",
 			"ParentID": "42be407e4badbc1e805c1e9160fbe7f5",
 			"Name": "Wall_Collision",
@@ -993,7 +993,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8571aecb448dcaaac4bd63972a660727",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Back Plane 0",
@@ -1026,7 +1026,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c89b9b19456cada5c2a338b38f6d42c3",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Back Plane 1",
@@ -1059,7 +1059,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8b254d674462ad285d5ec7b572078f62",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 3",
@@ -1073,7 +1073,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "08f029684ff30fcc30c3499c4389cb3d",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Floor",
@@ -1115,7 +1115,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "eb49ca2a494041136349ce9532447528",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 0",
@@ -1146,7 +1146,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "fd81626e454ff3014b080d9885c3f38a",
 			"ParentID": "eb49ca2a494041136349ce9532447528",
 			"Name": "Wall_Collision",
@@ -1154,7 +1154,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "72a9e0bf4f663acc5bffd6a557e8f7ba",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 1",
@@ -1185,7 +1185,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9d622145456e80274b2996a0f21835ad",
 			"ParentID": "72a9e0bf4f663acc5bffd6a557e8f7ba",
 			"Name": "Wall_Collision",
@@ -1193,7 +1193,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d8c10fda41078ace9bbd73be237126b0",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 2",
@@ -1224,7 +1224,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "1e386b3944d7330f59ec72920b1012aa",
 			"ParentID": "d8c10fda41078ace9bbd73be237126b0",
 			"Name": "Wall_Collision",
@@ -1232,7 +1232,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "4a0b48fc4071ef19f2611faf0fec9fef",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 3",
@@ -1263,7 +1263,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "dd682c54466f0143bf2b57a6d225cc13",
 			"ParentID": "4a0b48fc4071ef19f2611faf0fec9fef",
 			"Name": "Wall_Collision",
@@ -1271,7 +1271,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d158d66249c63114018c2d90924316e9",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Back Plane 0",
@@ -1304,7 +1304,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a9d45c0c4858ff4e732d3dacf9d0eb80",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Back Plane 1",
@@ -1337,7 +1337,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "06b26b62482908de99fb74b303468466",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Cube",
@@ -1364,7 +1364,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "1def5faa49da62742e78578b00023260",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 7",
@@ -1384,7 +1384,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "2bc05ad64ca7d718516d59867a3c7321",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Floor",
@@ -1426,7 +1426,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9e081bbe4064a7d855d945b8bf863a11",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 0",
@@ -1457,7 +1457,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "f4ec54ea467da81a17228b9996482b6b",
 			"ParentID": "9e081bbe4064a7d855d945b8bf863a11",
 			"Name": "Wall_Collision",
@@ -1465,7 +1465,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2deca212498d8bf1fd2e6eb3ed5d187a",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 1",
@@ -1496,7 +1496,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "dbb90688477fdfa3997e64995f435697",
 			"ParentID": "2deca212498d8bf1fd2e6eb3ed5d187a",
 			"Name": "Wall_Collision",
@@ -1504,7 +1504,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "197dfb96480c56053f55dba9d99e03b7",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 2",
@@ -1535,7 +1535,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "3fc04c344895ace965bfa39fd4dac43b",
 			"ParentID": "197dfb96480c56053f55dba9d99e03b7",
 			"Name": "Wall_Collision",
@@ -1543,7 +1543,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9046823348511f100fc38f99190b5cb6",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 3",
@@ -1574,7 +1574,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "89bbf9de4880b6467ef88fb12ee3a880",
 			"ParentID": "9046823348511f100fc38f99190b5cb6",
 			"Name": "Wall_Collision",
@@ -1582,7 +1582,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "214a5989450929a41e15dfa1276e5ff0",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Back Plane 0",
@@ -1615,7 +1615,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "37ae4a1e4b4f0657bcc6b6860516e011",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Back Plane 1",
@@ -1648,7 +1648,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "16ab5fc244468eeb496eb598d16e3047",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Back Plane 2",
@@ -1681,7 +1681,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9d0d71614435690996b6f7937d16a36f",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Cube 0",
@@ -1714,7 +1714,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7c1999064b280f9c3b37f88302b96324",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 5",
@@ -1745,7 +1745,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "4367c56c4eef3aa055a1a78b904da59c",
 			"ParentID": "7c1999064b280f9c3b37f88302b96324",
 			"Name": "Wall_Collision",
@@ -1753,7 +1753,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "31d2af39491e00e95ac2ce9d19359498",
 			"ParentID": "1def5faa49da62742e78578b00023260",
 			"Name": "Wall 4",
@@ -1784,7 +1784,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "7eb65fc94c2b195c771d99a47c52da22",
 			"ParentID": "31d2af39491e00e95ac2ce9d19359498",
 			"Name": "Wall_Collision",
@@ -1792,7 +1792,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 6",
@@ -1812,7 +1812,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "0c960b284c876d6677808ebe02cd889a",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Floor",
@@ -1854,7 +1854,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d1a11bfd448c377be3b0d68ffd3e0a21",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Wall 0",
@@ -1885,7 +1885,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "7521eebc49ddd017b7e5a9b7f2db2130",
 			"ParentID": "d1a11bfd448c377be3b0d68ffd3e0a21",
 			"Name": "Wall_Collision",
@@ -1893,7 +1893,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7c9a66be450a32b074a5b684fab809fd",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Wall 1",
@@ -1924,7 +1924,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "fb9f62514c7086752ce612aba1cefccf",
 			"ParentID": "7c9a66be450a32b074a5b684fab809fd",
 			"Name": "Wall_Collision",
@@ -1932,7 +1932,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c5c08ae149bad93ca8d9298ffe44531c",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Wall 2",
@@ -1963,7 +1963,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "0bd008c346195a5ee6997581b0e21d12",
 			"ParentID": "c5c08ae149bad93ca8d9298ffe44531c",
 			"Name": "Wall_Collision",
@@ -1971,7 +1971,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "06a7fe9a4acbe0111cf99288a9bfd58a",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Wall 3",
@@ -2002,7 +2002,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "d5f061834fa14e3e0ff043a8935ce84e",
 			"ParentID": "06a7fe9a4acbe0111cf99288a9bfd58a",
 			"Name": "Wall_Collision",
@@ -2010,7 +2010,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8efe02be4ce118d289ed909049543940",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Back Plane 0",
@@ -2041,7 +2041,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b6d525fe4bdbade034d7d6ae2bd142a0",
 			"ParentID": "86c96e684d78eb07b5e54ab8d5cb1132",
 			"Name": "Back Plane 1",
@@ -2074,7 +2074,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "88770f3446123d21ffc05a8cd297935b",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 5",
@@ -2094,7 +2094,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "3a63d7614454a98a90e936baddf9867c",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Floor",
@@ -2136,7 +2136,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1900a4724bb66c5564aed6980a73eb0f",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Wall 0",
@@ -2167,7 +2167,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "f48629324d2604da4f247e84233afa86",
 			"ParentID": "1900a4724bb66c5564aed6980a73eb0f",
 			"Name": "Wall_Collision",
@@ -2175,7 +2175,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "997605f94c95330df4db0184d3f635a0",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Wall 1",
@@ -2206,7 +2206,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "be19a6bf485b5f5e1a697db92052c05a",
 			"ParentID": "997605f94c95330df4db0184d3f635a0",
 			"Name": "Wall_Collision",
@@ -2214,7 +2214,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9cf7ffee406551673ce551ab1ffba8cb",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Wall 2",
@@ -2245,7 +2245,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "5d7a9fe94367d964d2f16598bd5b66b3",
 			"ParentID": "9cf7ffee406551673ce551ab1ffba8cb",
 			"Name": "Wall_Collision",
@@ -2253,7 +2253,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f290ed1646fb6c6e8d46c6a7c7d3bda6",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Wall 3",
@@ -2284,7 +2284,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "bfc7e88644ba12de25e4839e2a6e1bb0",
 			"ParentID": "f290ed1646fb6c6e8d46c6a7c7d3bda6",
 			"Name": "Wall_Collision",
@@ -2292,7 +2292,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1be542da415eba62491617a6cccbed1b",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Back Plane 0",
@@ -2325,7 +2325,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "177b9d1e469927c3314ee2abfee2efc8",
 			"ParentID": "88770f3446123d21ffc05a8cd297935b",
 			"Name": "Back Plane 1",
@@ -2358,7 +2358,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 4",
@@ -2378,7 +2378,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "963ce61c4cedfe449e6c2eb5fcb0f8ae",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Floor",
@@ -2420,7 +2420,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "32193db8466ae87342f5fbb5ebdbe3a3",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 0",
@@ -2451,7 +2451,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "27103e22486bff2fae631f930ce55a2b",
 			"ParentID": "32193db8466ae87342f5fbb5ebdbe3a3",
 			"Name": "Wall_Collision",
@@ -2459,7 +2459,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f262f0324f3ab36c17c3e7a796f55208",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 1",
@@ -2490,7 +2490,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "4a33aa5d400ed5bfe8bb37b68423afbf",
 			"ParentID": "f262f0324f3ab36c17c3e7a796f55208",
 			"Name": "Wall_Collision",
@@ -2498,7 +2498,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1719d5ac496f08bce0e0fcb92fb87516",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 2",
@@ -2529,7 +2529,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "174bcd644fd91669956b3dbfe5e6fe07",
 			"ParentID": "1719d5ac496f08bce0e0fcb92fb87516",
 			"Name": "Wall_Collision",
@@ -2537,7 +2537,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6bc4be2748696f3a6a53e98675bf19a6",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 3",
@@ -2568,7 +2568,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "81fff3e847050da06f11788e56812ea6",
 			"ParentID": "6bc4be2748696f3a6a53e98675bf19a6",
 			"Name": "Wall_Collision",
@@ -2576,7 +2576,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2de718da4e195b4d127c249b524e514d",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Back Plane 0",
@@ -2609,7 +2609,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "140a159745f613a7a00eb9ae6ad76c6b",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Back Plane 1",
@@ -2642,7 +2642,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "7e20028b4269cb786d4804a249f5cadd",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 2",
@@ -2656,7 +2656,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "47c21dff47841ed379d3e182af1749cf",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Floor",
@@ -2698,7 +2698,7 @@
 			]
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9cc6e39b4777c01d1e1d9294a8beebfc",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 0",
@@ -2729,7 +2729,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "c21bab804f170bc11dd750bf3c93c885",
 			"ParentID": "9cc6e39b4777c01d1e1d9294a8beebfc",
 			"Name": "Wall_Collision",
@@ -2737,7 +2737,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f88301ab4db5c8d92f2416a2ecaabc1b",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 1",
@@ -2768,7 +2768,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "0d0860aa4c921d72d21dfeab9d6c9345",
 			"ParentID": "f88301ab4db5c8d92f2416a2ecaabc1b",
 			"Name": "Wall_Collision",
@@ -2776,7 +2776,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e7b8df66469a52c556a8b699835a6efe",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 2",
@@ -2807,7 +2807,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "e722f2c447c9f60c5eca7d8c076f5028",
 			"ParentID": "e7b8df66469a52c556a8b699835a6efe",
 			"Name": "Wall_Collision",
@@ -2815,7 +2815,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b0669e6645d8420cfd5c92bcdfa7b349",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 3",
@@ -2846,7 +2846,7 @@
 			}
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "8732bdcd48bc3787a69ccf94030f4d46",
 			"ParentID": "b0669e6645d8420cfd5c92bcdfa7b349",
 			"Name": "Wall_Collision",
@@ -2854,7 +2854,7 @@
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7e3c73b74ae5355d79dde58016dfbac8",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Back Plane 0",
@@ -2887,7 +2887,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "24c2ba4f48d993ca07d06db279730c08",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Back Plane 1",
@@ -2920,7 +2920,7 @@
 			}
 		},
 		{
-			"TypeID": 2,
+			"TypeName": "FlaxEngine.Camera",
 			"ID": "5543ed36412ccd0f04717a90d39e877e",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Camera",
@@ -2942,7 +2942,7 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeID": 17,
+			"TypeName": "FlaxEngine.CharacterController",
 			"ID": "8dd8b65446747a93c055c2aee97de390",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Player",
@@ -2968,8 +2968,8 @@
 			"Height": 100.0
 		},
 		{
-			"TypeID": "FpsTemplate.PlayerScript",
-			"ID": "f7fec37c45038b89876e93a1d74c66ad",
+			"TypeName": "GraphicsFeaturesTour.PlayerScript",
+			"ID": "2d84baf441f07dbfb8b5568fe4addfbf",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
@@ -2986,7 +2986,7 @@
 }
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "dfaec6df4971de07eda4e1803e33de95",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
@@ -3002,7 +3002,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "bd5a86b94be40f242ae1ad901eda3d3f",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
@@ -3025,7 +3025,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7238398c45232acccbe403905da6d266",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
@@ -3048,7 +3048,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9b1b849f4ef1d7aa11977e91a446dde5",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"Name": "Cam Target",
@@ -3064,21 +3064,21 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeID": 24,
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "c61c72eb40e0fc78a21fddb233fd5cab",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "CSG.Collider",
 			"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Stands",
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3a6da529429275a8c5740e828bb6c31e",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"IsActive": false,
@@ -3099,7 +3099,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "746afaa441fbfaa38fef41854c0a92c2",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Area",
@@ -3130,7 +3130,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "416c8c2d4aa762d81bb8b3a9bf8feeed",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Title",
@@ -3166,7 +3166,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c58041834c00ace62d7606ab6bfc9ba0",
 			"ParentID": "416c8c2d4aa762d81bb8b3a9bf8feeed",
 			"Name": "Plate",
@@ -3199,14 +3199,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "cb21ab4b456985b89189f7a079b786d2",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a6a506ae445649ecf12cfcae91b02c1c",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Sphere 1",
@@ -3228,7 +3228,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "164f5a7b450fb7ad5ea473ba5660bd27",
 			"ParentID": "a6a506ae445649ecf12cfcae91b02c1c",
 			"Name": "SphereCollider",
@@ -3236,7 +3236,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "da30cae942efa8a764cafea34a9930e5",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Sphere 0",
@@ -3258,7 +3258,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "06468398426749b12c252e887442a5c9",
 			"ParentID": "da30cae942efa8a764cafea34a9930e5",
 			"Name": "SphereCollider",
@@ -3266,7 +3266,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "935753204af9b29f0540778726a9e4dd",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "NameTag 1",
@@ -3280,7 +3280,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8451a4da4d2de4d2a2f1598f1da7b251",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "Model",
@@ -3318,7 +3318,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "5714d41b4869e4da58968c8cb82d21b8",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "Text",
@@ -3358,7 +3358,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "455a1d6e4b3c495245e98691ea008462",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "BoxCollider",
@@ -3370,7 +3370,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "NameTag 0",
@@ -3384,7 +3384,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "5db54ed4472f3892e5cddba89f144242",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "Model",
@@ -3422,7 +3422,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "6edfe6ce4d8de99981d005a67d51305d",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "Text",
@@ -3462,7 +3462,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "bc57c5924207a8f4a5b56e9c4beaae0f",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "BoxCollider",
@@ -3474,7 +3474,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 1",
@@ -3494,7 +3494,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "ce8981c14228a85e7c35bb8e306857b6",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Area",
@@ -3525,37 +3525,7 @@
 			}
 		},
 		{
-			"TypeID": 5,
-			"ID": "6372495740fefac682a641897320b7a6",
-			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
-			"Name": "PointLight",
-			"Transform": {
-				"Translation": {
-					"X": -24.6448974609375,
-					"Y": 61.059120178222659,
-					"Z": -244.42953491210938
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": -1.0,
-					"Z": 0.0,
-					"W": 0.0
-				}
-			},
-			"Color": {
-				"R": 0.0,
-				"G": 0.6549010276794434,
-				"B": 1.0,
-				"A": 1.0
-			},
-			"Brightness": 10.0,
-			"MinRoughness": 1.0,
-			"ShadowsDistance": 1500.0,
-			"ShadowsFadeDistance": 200.0,
-			"Radius": 300.0
-		},
-		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9c359514490cf4bd4177d7b1cda0b8e4",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Title",
@@ -3591,7 +3561,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8247e34a489f4ddd4927c3941607947b",
 			"ParentID": "9c359514490cf4bd4177d7b1cda0b8e4",
 			"Name": "Plate",
@@ -3624,7 +3594,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e7e71992473575d824918cb2250d4841",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Cube 1",
@@ -3668,14 +3638,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "da4846bb4834b5a878a078a9e66454c9",
 			"ParentID": "e7e71992473575d824918cb2250d4841",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "85ffa29141593e6a7b298f836f3f2526",
 			"ParentID": "e7e71992473575d824918cb2250d4841",
 			"Name": "Cube",
@@ -3707,7 +3677,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a316609b417184890e5252b970083950",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Cube 0",
@@ -3728,7 +3698,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "ff724e004ed5214236fa1484c8782b0a",
+						"Material": "2e47995d40c2b86b90aa3ebf4ea0cbd1",
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
@@ -3745,14 +3715,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a91841e0470c4bbda1069a85fc24ba1c",
 			"ParentID": "a316609b417184890e5252b970083950",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "98093440489cfd6de6f7c5ab8fe6bbca",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Cube",
@@ -3790,14 +3760,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "9eb02d7d455aac930ab81a974c16272a",
 			"ParentID": "98093440489cfd6de6f7c5ab8fe6bbca",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "deb9f49742fd6855c5445fb4b1773285",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Cube 2",
@@ -3835,14 +3805,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "e54ab4b54777d6d6373bdd966135f97a",
 			"ParentID": "deb9f49742fd6855c5445fb4b1773285",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "3099440845c9ccfd37a305b08553c5be",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Cube",
@@ -3880,7 +3850,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "17321ae648f8d7e3b57509a8f2b940f5",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Target",
@@ -3899,7 +3869,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 2",
@@ -3919,7 +3889,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "561f230b439689b23f8c659144d58845",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Area",
@@ -3950,7 +3920,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "425d143e47a19af8228dd9bea7a79579",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Title",
@@ -3986,7 +3956,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c06cef864936e0ca1d61079c67504659",
 			"ParentID": "425d143e47a19af8228dd9bea7a79579",
 			"Name": "Plate",
@@ -4019,14 +3989,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9d588dec42a73a9f07d96e8a44b4c8c7",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9019a6374fa6da656dc3e18d671055c2",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Sphere 1",
@@ -4048,7 +4018,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "5811d2d84270bfd9bd8b5790eaf74555",
 			"ParentID": "9019a6374fa6da656dc3e18d671055c2",
 			"Name": "SphereCollider",
@@ -4056,7 +4026,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0345d3134e692b73a1494787c7c001d2",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Cube",
@@ -4082,14 +4052,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a930841b42fada8a101df689981f5c09",
 			"ParentID": "0345d3134e692b73a1494787c7c001d2",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "cd891ae847ba9a582e3df0a7e09077c7",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Sphere 0",
@@ -4111,7 +4081,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "bb5476e1482ce3fcfb85409ce5670170",
 			"ParentID": "cd891ae847ba9a582e3df0a7e09077c7",
 			"Name": "SphereCollider",
@@ -4119,7 +4089,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f05a28c447ac3444c3f47eb5bf5a6fc0",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Cube",
@@ -4146,7 +4116,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "564f03c94d726ddc8a20578d0bfd9734",
 			"ParentID": "f05a28c447ac3444c3f47eb5bf5a6fc0",
 			"Name": "Cube 0",
@@ -4173,7 +4143,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "1076283548f25becdf1ee7b0f0605822",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 3",
@@ -4193,7 +4163,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "84ee908c432ebf3fa4b4d4823bfbc2b0",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Area",
@@ -4224,7 +4194,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "5b25c5654b0d105a7d4f46a4f5913d91",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Title",
@@ -4260,7 +4230,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "78a2c6de4b04752087232a97faf3e0ba",
 			"ParentID": "5b25c5654b0d105a7d4f46a4f5913d91",
 			"Name": "Plate",
@@ -4293,7 +4263,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "286717c8423f9f6e2784e28ea918cbee",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Plate",
@@ -4320,14 +4290,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0a3af6fe4dccbedf4b3647a0c596ede5",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2a4dfae245ffc77c90255cacb460c485",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Cube 1",
@@ -4355,14 +4325,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "7a3685114a1a3043a0e0709cfebe01c4",
 			"ParentID": "2a4dfae245ffc77c90255cacb460c485",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8c83e2844113db5be27d7e8ca9db2740",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Cube 0",
@@ -4390,14 +4360,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "06a22b5d4551083564c990ac5caeac5d",
 			"ParentID": "8c83e2844113db5be27d7e8ca9db2740",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "bfed8b784d04bb2c5ed70bb79b1ed7c2",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Cube",
@@ -4425,14 +4395,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "b2f6ae994660d57ea25ef282027de693",
 			"ParentID": "bfed8b784d04bb2c5ed70bb79b1ed7c2",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "c4ba75044b7b71cd754a398ea048d519",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "PostFxVolume 1",
@@ -4487,7 +4457,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a63f11fe491c461dd931f18b8aca3976",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 4",
@@ -4507,7 +4477,7 @@
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9e1efe324ecb6d53697dc7a514ad4e7d",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Area",
@@ -4538,7 +4508,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9c6a908f4453eca0410d6c908cc2bb64",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Title",
@@ -4574,7 +4544,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "be7c32414ccfc3aaa7f7bb8c805b6589",
 			"ParentID": "9c6a908f4453eca0410d6c908cc2bb64",
 			"Name": "Plate",
@@ -4607,7 +4577,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "275bbaa44a672a84556c1eba8b233d92",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Sphere",
@@ -4629,7 +4599,7 @@
 			}
 		},
 		{
-			"TypeID": 7,
+			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ID": "06f388d64f0869b795ed839c502d1aaf",
 			"ParentID": "275bbaa44a672a84556c1eba8b233d92",
 			"Name": "EnvironmentProbe",
@@ -4638,21 +4608,21 @@
 			"ProbeID": "c711d88e49a2f0cf153588accaf05cc7"
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "551da7084da3a095f9da24abdaad5f26",
 			"ParentID": "275bbaa44a672a84556c1eba8b233d92",
 			"Name": "SphereCollider",
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8324889b41d1575436043885109c9a89",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Target",
 			"StaticFlags": 1
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8ba7698142d7d47d2fcb4a85f9fd521e",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Sphere 1",
@@ -4674,7 +4644,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "a47ddeb847bed819c66a96ad1e4df32b",
 			"ParentID": "8ba7698142d7d47d2fcb4a85f9fd521e",
 			"Name": "SphereCollider",
@@ -4682,7 +4652,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "8c8854c0450424a3cdd22aa7a42aaf1f",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "PostFxVolume 0",
@@ -4733,7 +4703,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "bb8e34854ebb36b2b2ab8c9bdf4d8166",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Sphere 0",
@@ -4755,7 +4725,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "2fbb9003427bbfcc2c58ec9c5e9aa88c",
 			"ParentID": "bb8e34854ebb36b2b2ab8c9bdf4d8166",
 			"Name": "SphereCollider",
@@ -4763,7 +4733,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "2e7b0493415aa19a424af2be3ec2026d",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 5",
@@ -4783,7 +4753,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2ac4d8cb47610d537694d19049e20edb",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Area",
@@ -4814,7 +4784,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "312032ef4bd37683e0052584fd603ace",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Title",
@@ -4850,7 +4820,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6ea1a0054d0a3c3f70bcfc896efbd653",
 			"ParentID": "312032ef4bd37683e0052584fd603ace",
 			"Name": "Plate",
@@ -4883,14 +4853,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f5d7f59c4d65abe5643536b1202dc696",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "2e2cc8f141a7c04eecbeeda5726985a0",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "NameTag 1",
@@ -4904,7 +4874,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "cd9610f04ab366eb8f0bc0b766c3bfd6",
 			"ParentID": "2e2cc8f141a7c04eecbeeda5726985a0",
 			"Name": "Model",
@@ -4930,7 +4900,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "6380612848aeb612bf415d81d7428988",
 			"ParentID": "2e2cc8f141a7c04eecbeeda5726985a0",
 			"Name": "Text",
@@ -4970,7 +4940,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "5755817d4de1eb3824913ea6906656ef",
 			"ParentID": "2e2cc8f141a7c04eecbeeda5726985a0",
 			"Name": "BoxCollider",
@@ -4982,7 +4952,7 @@
 			}
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "865673ef42085471c94b8aa1a1396c14",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "PostFxVolume 0",
@@ -5029,7 +4999,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 6",
@@ -5049,7 +5019,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "015bd42a48fc127b6ab64085d954ef39",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Area",
@@ -5080,7 +5050,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "088b18924b01e8ac20146697c57d0b71",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Title",
@@ -5116,7 +5086,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f3249a6c41394630b13e3baeb4b9de73",
 			"ParentID": "088b18924b01e8ac20146697c57d0b71",
 			"Name": "Plate",
@@ -5149,14 +5119,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "76e1167842558df05fd7a098a2b02b55",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "71c8e80e4edbe98835616aae68a3ec8f",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Sphere 1",
@@ -5178,7 +5148,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "df362de44fcd439e136041be30cd48bf",
 			"ParentID": "71c8e80e4edbe98835616aae68a3ec8f",
 			"Name": "SphereCollider",
@@ -5186,7 +5156,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c9f43f6f4663afe5ff495eb93e3351c5",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Sphere 0",
@@ -5208,7 +5178,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "7940f084469beff682c85a8daf0cba59",
 			"ParentID": "c9f43f6f4663afe5ff495eb93e3351c5",
 			"Name": "SphereCollider",
@@ -5216,7 +5186,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "32e3a042451944cf09fad0b49e46bd82",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "PostFxVolume",
@@ -5264,7 +5234,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0ec6149640507fc9e9cbe8b710014158",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 7",
@@ -5284,7 +5254,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f6ad6c0249400d999369f48b5e32a32d",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Area",
@@ -5315,7 +5285,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "ffb11d6145e4937e60e0a885a4689c00",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Title",
@@ -5351,7 +5321,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "05facd284bf70f8b21f8499217790474",
 			"ParentID": "ffb11d6145e4937e60e0a885a4689c00",
 			"Name": "Plate",
@@ -5384,14 +5354,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d8e9b8d24e43a8705ae78395599914e8",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "b89dc5a841e06d272dd235a55b99b7da",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "PostFxVolume 0",
@@ -5441,7 +5411,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e7b55a6746d660c8e899918c097f1b4c",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Sphere 2",
@@ -5463,7 +5433,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "9f9852ac4342f97efb8b429d3a377ed3",
 			"ParentID": "e7b55a6746d660c8e899918c097f1b4c",
 			"Name": "SphereCollider",
@@ -5471,7 +5441,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "37dba3224ed6414dbc4d07b0a8f5acac",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Sphere 3",
@@ -5493,7 +5463,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "37e53d4343be244b21d0288d4b586dea",
 			"ParentID": "37dba3224ed6414dbc4d07b0a8f5acac",
 			"Name": "SphereCollider",
@@ -5501,7 +5471,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "00b5a04a4da380979339e1a3539a54e2",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 8",
@@ -5521,7 +5491,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b9b961674efc058f68b5538d3649c0d7",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Area",
@@ -5552,7 +5522,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "768b1f474bc1f2f75f42478a8797cecc",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Title",
@@ -5588,7 +5558,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "90b3f5ad4c20ae11189a07aa6c2cd0d9",
 			"ParentID": "768b1f474bc1f2f75f42478a8797cecc",
 			"Name": "Plate",
@@ -5621,14 +5591,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80208ad543a7d3b0c408d2b8dd8caa0d",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "515e06d9414e31763d5f85aa7ca0a6f8",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "PostFxVolume 0",
@@ -5731,7 +5701,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f29f84b34e4d8d277d72fe9c08da453e",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Sphere 2",
@@ -5753,7 +5723,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "87fee7004be6c36eda56ec90b81d60ad",
 			"ParentID": "f29f84b34e4d8d277d72fe9c08da453e",
 			"Name": "SphereCollider",
@@ -5761,7 +5731,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "4c9da8ed40a8f41a78917ca1aaf93f4b",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Sphere 3",
@@ -5783,7 +5753,7 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "8508cfb848e32f4511214e9e4c754c82",
 			"ParentID": "4c9da8ed40a8f41a78917ca1aaf93f4b",
 			"Name": "SphereCollider",
@@ -5791,7 +5761,7 @@
 			"Radius": 48.0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 9",
@@ -5811,7 +5781,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f41b803943c2d14dbb499c95f76bcbd8",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Area 1",
@@ -5842,7 +5812,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f2fdc1b546ade46d4257698e8d766e81",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Area 0",
@@ -5875,7 +5845,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "b31bf9aa4fc0cbb8d0a0848e50336576",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Title",
@@ -5911,7 +5881,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "66cb6a354d43c3613e16118e516901b3",
 			"ParentID": "b31bf9aa4fc0cbb8d0a0848e50336576",
 			"Name": "Plate",
@@ -5944,14 +5914,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d9d6d5024a4c5f0616f85597d52e143a",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "b09499604941dee5cf221dbdc22db3e3",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "NameTag 2",
@@ -5965,7 +5935,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a011b82f4261b2a7321c778142a65892",
 			"ParentID": "b09499604941dee5cf221dbdc22db3e3",
 			"Name": "Model",
@@ -5991,7 +5961,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "11bc12e44ed59bcfe414429332915660",
 			"ParentID": "b09499604941dee5cf221dbdc22db3e3",
 			"Name": "Text",
@@ -6031,7 +6001,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "ce98cff24dcab01f51af7ca579ecf56c",
 			"ParentID": "b09499604941dee5cf221dbdc22db3e3",
 			"Name": "BoxCollider",
@@ -6050,7 +6020,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "97899e3646c2003ec89575b0f1514038",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "NameTag 0",
@@ -6064,7 +6034,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "659b971349c9ff0fd077b586ac940822",
 			"ParentID": "97899e3646c2003ec89575b0f1514038",
 			"Name": "Model",
@@ -6090,7 +6060,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "8c66adce45dd4ebbc5b6af8a5dc4f56a",
 			"ParentID": "97899e3646c2003ec89575b0f1514038",
 			"Name": "Text",
@@ -6130,7 +6100,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "b4ac263846b881e40e75f1b06f1e0fca",
 			"ParentID": "97899e3646c2003ec89575b0f1514038",
 			"Name": "BoxCollider",
@@ -6149,7 +6119,7 @@
 			}
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "d151b321477f9641fe307ea6efc72b78",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "PostFxVolume 0",
@@ -6205,7 +6175,7 @@
 			}
 		},
 		{
-			"TypeID": 13,
+			"TypeName": "FlaxEngine.PostFxVolume",
 			"ID": "5ff532a04b8d23c385747782b0d294d1",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "PostFxVolume",
@@ -6261,7 +6231,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "c8274a74469080103f2e64a430e6b904",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 10",
@@ -6281,7 +6251,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0de059214b38c81eec918cb225173d7d",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Area",
@@ -6312,7 +6282,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "ed25b93e4acdd10c22f738a8d7c8e810",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Title",
@@ -6348,7 +6318,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "596064444983dace76d578a0d3baee76",
 			"ParentID": "ed25b93e4acdd10c22f738a8d7c8e810",
 			"Name": "Plate",
@@ -6381,14 +6351,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8ae0dec64dbeea896e301db1f98771c9",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "bf08a138495ab91ec10274bc097a3ad8",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "BoxCollider",
@@ -6408,7 +6378,7 @@
 			}
 		},
 		{
-			"TypeID": "GraphicsFeaturesTour.SkyRotate",
+			"TypeName": "GraphicsFeaturesTour.SkyRotate",
 			"ID": "dd8f8a2c49be93582a205d9bee6d7daf",
 			"ParentID": "bf08a138495ab91ec10274bc097a3ad8",
 			"V": {
@@ -6417,7 +6387,7 @@
 }
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0441930948d0fc77bbc583b03d4ccb1d",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "NameTag 2",
@@ -6431,7 +6401,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7946b702446f638ec9269c93054e054f",
 			"ParentID": "0441930948d0fc77bbc583b03d4ccb1d",
 			"Name": "Model",
@@ -6457,7 +6427,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9d64fa0d430a82c018883f9a704f418a",
 			"ParentID": "0441930948d0fc77bbc583b03d4ccb1d",
 			"Name": "Text",
@@ -6497,7 +6467,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "473810ed4b6a6791cdccde8354440c4e",
 			"ParentID": "0441930948d0fc77bbc583b03d4ccb1d",
 			"Name": "BoxCollider",
@@ -6509,7 +6479,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 11",
@@ -6529,7 +6499,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "3c2c1d2e42ff637e8793eeac18970df7",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Area",
@@ -6560,7 +6530,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "f39836e74b77a3b6ad181c971562aab0",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Title",
@@ -6596,7 +6566,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "323bc1d34f6ef36ffe4fe99fe34b1d3d",
 			"ParentID": "f39836e74b77a3b6ad181c971562aab0",
 			"Name": "Plate",
@@ -6629,14 +6599,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3bbdea6b441aa4aa38cba3b40b514072",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "dd3771824a93fce11166a69f13ec95bb",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "NameTag 3",
@@ -6650,7 +6620,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "cf1584b14e1f958f37fdd186b2c7743b",
 			"ParentID": "dd3771824a93fce11166a69f13ec95bb",
 			"Name": "Model",
@@ -6676,7 +6646,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "a54992c0429d7b10e0d35f8a1fcb708c",
 			"ParentID": "dd3771824a93fce11166a69f13ec95bb",
 			"Name": "Text",
@@ -6716,7 +6686,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "d2a36e65472402c6e7208a8eef816306",
 			"ParentID": "dd3771824a93fce11166a69f13ec95bb",
 			"Name": "BoxCollider",
@@ -6728,7 +6698,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "923f8ee1442825c708ce49b16e02946b",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "BoxCollider 0",
@@ -6748,7 +6718,7 @@
 			}
 		},
 		{
-			"TypeID": "GraphicsFeaturesTour.FogControl",
+			"TypeName": "GraphicsFeaturesTour.FogControl",
 			"ID": "477773b24d43b935c7f14bb3d2f37387",
 			"ParentID": "923f8ee1442825c708ce49b16e02946b",
 			"V": {
@@ -6760,7 +6730,7 @@
 }
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c029bbdb4c06977caaf087aa98c1ed48",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 1",
@@ -6785,14 +6755,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "73a553c645c786a79cb8108380c611f6",
 			"ParentID": "c029bbdb4c06977caaf087aa98c1ed48",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1d16a9304d7f93c1fab97fadc2e368a5",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 4",
@@ -6817,14 +6787,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "307281454235a46f7bb962ac8a766957",
 			"ParentID": "1d16a9304d7f93c1fab97fadc2e368a5",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "49c5c94d41aaaead81aec7beac7a2870",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 3",
@@ -6849,14 +6819,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "df7e94e2400efe584093eea1e91a699b",
 			"ParentID": "49c5c94d41aaaead81aec7beac7a2870",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "965177ca418d1429a36a09bf654d688e",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 5",
@@ -6881,14 +6851,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "01660e854dd742169f4532a2533ea62f",
 			"ParentID": "965177ca418d1429a36a09bf654d688e",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "02f71cd949074f26fa12909eb99dd889",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 2",
@@ -6913,14 +6883,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "2e9645c24455796d811d80ac72958523",
 			"ParentID": "02f71cd949074f26fa12909eb99dd889",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "3b21545a4f731bfc4ab8358ab62ee5cb",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere 0",
@@ -6945,14 +6915,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "655a9f8a4e3a47b6636959a13fead6f0",
 			"ParentID": "3b21545a4f731bfc4ab8358ab62ee5cb",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c01ec4e74c9060bcf8e30a98651355e2",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Sphere",
@@ -6972,14 +6942,14 @@
 			}
 		},
 		{
-			"TypeID": 15,
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "49a714b74722e02a3eed0fb0d9d8a0c7",
 			"ParentID": "c01ec4e74c9060bcf8e30a98651355e2",
 			"Name": "SphereCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "d90e7b5c491bc75d97df6b980a4db6a4",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"IsActive": false,
@@ -7010,7 +6980,7 @@
 			"Radius": 700.0
 		},
 		{
-			"TypeID": 5,
+			"TypeName": "FlaxEngine.PointLight",
 			"ID": "7d2d06e8410fde8a9a10568a22a3e925",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"IsActive": false,
@@ -7036,7 +7006,7 @@
 			"SourceRadius": 7.679996013641357
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7367ae514714b9d2228ee2ad9a7d9f24",
 			"ParentID": "7d2d06e8410fde8a9a10568a22a3e925",
 			"Name": "ModelActor",
@@ -7056,7 +7026,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "4347373f4099fea87868f3a695ff5717",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 16",
@@ -7076,7 +7046,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6be35db946de8e8b30d0d1a756c95255",
 			"ParentID": "4347373f4099fea87868f3a695ff5717",
 			"Name": "Area",
@@ -7107,7 +7077,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "b640dbdd4804ff292a7f90af229ce3e0",
 			"ParentID": "4347373f4099fea87868f3a695ff5717",
 			"Name": "Title",
@@ -7143,7 +7113,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "23359108445c745102df5ea0e2f72d84",
 			"ParentID": "b640dbdd4804ff292a7f90af229ce3e0",
 			"Name": "Plate",
@@ -7176,14 +7146,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f42100cf44df3d35a183f99a89ac9f28",
 			"ParentID": "4347373f4099fea87868f3a695ff5717",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "b86a136d40b68404a8428085768a59c7",
 			"ParentID": "4347373f4099fea87868f3a695ff5717",
 			"Name": "Add 0",
@@ -7227,7 +7197,7 @@
 			]
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "25191efd4c28560fc5360fa0412bd892",
 			"ParentID": "b86a136d40b68404a8428085768a59c7",
 			"Name": "Add 1",
@@ -7266,7 +7236,7 @@
 			]
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "b0ce50154a77d0c25d83e6966d9148fc",
 			"ParentID": "b86a136d40b68404a8428085768a59c7",
 			"Name": "Sub 1",
@@ -7311,7 +7281,7 @@
 			]
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "187dd10f4a491850aa5ae9ae4eaad7c0",
 			"ParentID": "b0ce50154a77d0c25d83e6966d9148fc",
 			"Name": "Text 3",
@@ -7335,7 +7305,7 @@
 			"ShadowsMode": 0
 		},
 		{
-			"TypeID": 8,
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "bea9ccc94e8163646f1846890aa10594",
 			"ParentID": "b86a136d40b68404a8428085768a59c7",
 			"Name": "Sub 0",
@@ -7375,7 +7345,7 @@
 			]
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "4f93de974b7fb188b3ded08c2413772a",
 			"ParentID": "bea9ccc94e8163646f1846890aa10594",
 			"Name": "Text 2",
@@ -7399,7 +7369,7 @@
 			"ShadowsMode": 0
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "af697e664a8c6586182b65bfe14167e1",
 			"ParentID": "b86a136d40b68404a8428085768a59c7",
 			"Name": "Text 1",
@@ -7423,7 +7393,7 @@
 			"ShadowsMode": 0
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "eadad8dc447a1f11e0a712816bab5e15",
 			"ParentID": "b86a136d40b68404a8428085768a59c7",
 			"Name": "Text 0",
@@ -7447,7 +7417,7 @@
 			"ShadowsMode": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "095f01cd4c445215f6a257a9bcb458bf",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 12",
@@ -7467,7 +7437,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c8c4dbea43d33782e71aa289596bc9a6",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Area",
@@ -7498,7 +7468,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "96cd6f7745f7002b168da9b60bedec37",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Title",
@@ -7534,7 +7504,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "31b7a4324d363db60004ceb25e0bcd9f",
 			"ParentID": "96cd6f7745f7002b168da9b60bedec37",
 			"Name": "Plate",
@@ -7567,14 +7537,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d201c61f41660b5cd0255d8fe1186b77",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d7d21fc64f51c5852a933fa88051d37a",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Box 2",
@@ -7607,7 +7577,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "08fcf0be4fc2bf7b7d917e84de8a4eff",
 			"ParentID": "d7d21fc64f51c5852a933fa88051d37a",
 			"Name": "BoxCollider",
@@ -7619,7 +7589,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "cd174f854f8c605fda4272bd557e31e4",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Box 1",
@@ -7646,7 +7616,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "3aa7a39c4c4d4e2faeef3b8b13918b03",
 			"ParentID": "cd174f854f8c605fda4272bd557e31e4",
 			"Name": "BoxCollider",
@@ -7658,7 +7628,7 @@
 			}
 		},
 		{
-			"TypeID": 5,
+			"TypeName": "FlaxEngine.PointLight",
 			"ID": "7d150c1843dd401055946e95178e0502",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "PointLight 1",
@@ -7681,7 +7651,7 @@
 			"Radius": 201.5
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "27b992234b53a1e48ae88999ed097e95",
 			"ParentID": "7d150c1843dd401055946e95178e0502",
 			"Name": "ModelActor",
@@ -7703,7 +7673,7 @@
 			}
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "8659ed0e4ef0cc00226f348a01cbba26",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "SpotLight",
@@ -7725,7 +7695,7 @@
 			"ShadowsMode": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1b4e24a44476dbe29aa16893c300382f",
 			"ParentID": "8659ed0e4ef0cc00226f348a01cbba26",
 			"Name": "ModelActor",
@@ -7747,7 +7717,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "ae79abd04d2c84c838fb1ca50aecf96c",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "NameTag 2",
@@ -7761,7 +7731,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2dd67d6f49c93277f2ff7287f967c4b3",
 			"ParentID": "ae79abd04d2c84c838fb1ca50aecf96c",
 			"Name": "Model",
@@ -7787,7 +7757,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "648dfd6f412a2e75c74cd6a8baf682b3",
 			"ParentID": "ae79abd04d2c84c838fb1ca50aecf96c",
 			"Name": "Text",
@@ -7827,7 +7797,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "6839c0e04ceee81335ac449da8d30ccd",
 			"ParentID": "ae79abd04d2c84c838fb1ca50aecf96c",
 			"Name": "BoxCollider",
@@ -7839,7 +7809,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "485c5dbc41e0ee28a72cd99fbd64c42d",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "NameTag 3",
@@ -7853,7 +7823,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e4962ff54cc920cc7bb2f89300fdcdbb",
 			"ParentID": "485c5dbc41e0ee28a72cd99fbd64c42d",
 			"Name": "Model",
@@ -7879,7 +7849,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9b992d5244fe9299ff5c0fbaa40a88c6",
 			"ParentID": "485c5dbc41e0ee28a72cd99fbd64c42d",
 			"Name": "Text",
@@ -7919,7 +7889,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "d565bd084124c9b05a81c3a8c3833c7e",
 			"ParentID": "485c5dbc41e0ee28a72cd99fbd64c42d",
 			"Name": "BoxCollider",
@@ -7931,7 +7901,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "16d1976749d18e718396f5bc6900678f",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 13",
@@ -7951,7 +7921,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "38a516c84c7e913022440da270f81764",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Area",
@@ -7982,7 +7952,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "2fbe24b847a367da200222aa28550cce",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Title",
@@ -8018,7 +7988,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8ff62d294111b6517381248a3e4aebb1",
 			"ParentID": "2fbe24b847a367da200222aa28550cce",
 			"Name": "Plate",
@@ -8051,14 +8021,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80c7ca8844dc2897929f619e9f0c2282",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d5f0abbb487070edd027c2817dd30928",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "NameTag 4",
@@ -8072,7 +8042,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f30a5bed409a3025f63b0e9c254ed1ca",
 			"ParentID": "d5f0abbb487070edd027c2817dd30928",
 			"Name": "Model",
@@ -8098,7 +8068,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "0ec27b344b124fad0712bbbdd6feeed8",
 			"ParentID": "d5f0abbb487070edd027c2817dd30928",
 			"Name": "Text",
@@ -8138,7 +8108,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "667cf1824f1fe35665228988c95eaa87",
 			"ParentID": "d5f0abbb487070edd027c2817dd30928",
 			"Name": "BoxCollider",
@@ -8150,7 +8120,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "10b8ff274172a4c792b86f8262bb4446",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "NameTag 5",
@@ -8164,7 +8134,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c386c6ba46b50fa13196b5b18099232b",
 			"ParentID": "10b8ff274172a4c792b86f8262bb4446",
 			"Name": "Model",
@@ -8190,7 +8160,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "eae2f3df4cb80fabae89cdaeac0505c7",
 			"ParentID": "10b8ff274172a4c792b86f8262bb4446",
 			"Name": "Text",
@@ -8230,7 +8200,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "8877625d48128a2a1eef17b5be8b7ecb",
 			"ParentID": "10b8ff274172a4c792b86f8262bb4446",
 			"Name": "BoxCollider",
@@ -8242,7 +8212,7 @@
 			}
 		},
 		{
-			"TypeID": 5,
+			"TypeName": "FlaxEngine.PointLight",
 			"ID": "27a597884f3c71a266b344968c749d2b",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "PointLight 3",
@@ -8273,7 +8243,7 @@
 			"SourceLength": 62.970001220703128
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f6d2f2484166a2c84d68419c6f071ceb",
 			"ParentID": "27a597884f3c71a266b344968c749d2b",
 			"Name": "ModelActor",
@@ -8301,7 +8271,7 @@
 			}
 		},
 		{
-			"TypeID": 5,
+			"TypeName": "FlaxEngine.PointLight",
 			"ID": "4205d1ea43d06ac331520d80daf464dc",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "PointLight 2",
@@ -8325,7 +8295,7 @@
 			"SourceRadius": 20.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "81c3c8ae41766d3ac30de6900f4f170d",
 			"ParentID": "4205d1ea43d06ac331520d80daf464dc",
 			"Name": "ModelActor",
@@ -8347,7 +8317,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "66d6bf6c4529a42cb86105a8adec446c",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Box 3",
@@ -8374,7 +8344,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a44e95bd4617c4bd45c84ea7ab5d472b",
 			"ParentID": "66d6bf6c4529a42cb86105a8adec446c",
 			"Name": "BoxCollider",
@@ -8386,7 +8356,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0f187c3644c048e068882fa04ce3acb8",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Box 3",
@@ -8419,7 +8389,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "63ddeb1e49b3da6269ab8cb76acf9285",
 			"ParentID": "0f187c3644c048e068882fa04ce3acb8",
 			"Name": "BoxCollider",
@@ -8431,7 +8401,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3e9867ce4a242cb3c4488092de50d850",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 14",
@@ -8451,7 +8421,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "556437014a4a4c2ecaee43847f6c89ec",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "Area",
@@ -8482,7 +8452,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "a5322c5d4bc291621d29ecb114d925fd",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "Title",
@@ -8518,7 +8488,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "be11b0f84b1250735997e5899d3d39c1",
 			"ParentID": "a5322c5d4bc291621d29ecb114d925fd",
 			"Name": "Plate",
@@ -8551,14 +8521,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9afe9dc946346d0bf0bc3e9f8e16b1b9",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "b51d507843c6b4b0c92c6dbba1fca42c",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "NameTag 4",
@@ -8572,7 +8542,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "72e9b90f4ff79c9bbf86468f1a52c2d8",
 			"ParentID": "b51d507843c6b4b0c92c6dbba1fca42c",
 			"Name": "Model",
@@ -8598,7 +8568,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "3f2146694babaff334db61a1db6de372",
 			"ParentID": "b51d507843c6b4b0c92c6dbba1fca42c",
 			"Name": "Text",
@@ -8638,7 +8608,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "81223dc344474b7673305f83c91a46b5",
 			"ParentID": "b51d507843c6b4b0c92c6dbba1fca42c",
 			"Name": "BoxCollider",
@@ -8650,7 +8620,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8eee96a64d2a1f61ec2b8c8570b4c957",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "NameTag 5",
@@ -8664,7 +8634,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7aba3cd74f279a1e610e92b5c22d158a",
 			"ParentID": "8eee96a64d2a1f61ec2b8c8570b4c957",
 			"Name": "Model",
@@ -8690,7 +8660,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "ae3e1360444a7e2ea4bd1589e3e78532",
 			"ParentID": "8eee96a64d2a1f61ec2b8c8570b4c957",
 			"Name": "Text",
@@ -8730,7 +8700,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a46bbfde4acf013a38b87daede8e54c9",
 			"ParentID": "8eee96a64d2a1f61ec2b8c8570b4c957",
 			"Name": "BoxCollider",
@@ -8742,7 +8712,7 @@
 			}
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "952f500545406792516f48a9c3670e7b",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "SpotLight 1",
@@ -8765,7 +8735,7 @@
 			"FallOffExponent": 2.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "85e882c047071807a014e58cce0dbbcb",
 			"ParentID": "952f500545406792516f48a9c3670e7b",
 			"Name": "ModelActor",
@@ -8787,7 +8757,7 @@
 			}
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "c50bf1004c3d7f9e90fb1d8231ce99ee",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "SpotLight 0",
@@ -8810,7 +8780,7 @@
 			"UseInverseSquaredFalloff": true
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1fdc1f77450f050d10815ca913076002",
 			"ParentID": "c50bf1004c3d7f9e90fb1d8231ce99ee",
 			"Name": "ModelActor",
@@ -8832,7 +8802,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9b83b9484b732ea7d95b8aad91be8594",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "Box 3",
@@ -8859,7 +8829,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "197bc6c048a0c40cf3d6368ac6ce5587",
 			"ParentID": "9b83b9484b732ea7d95b8aad91be8594",
 			"Name": "BoxCollider",
@@ -8871,7 +8841,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e985db324d0e1a743dc8338227a09cb4",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
 			"Name": "Box 4",
@@ -8904,7 +8874,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "3308e89849bb667e958f73b4119eda45",
 			"ParentID": "e985db324d0e1a743dc8338227a09cb4",
 			"Name": "BoxCollider",
@@ -8916,7 +8886,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 15",
@@ -8936,7 +8906,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "cb13824e4f58eec721a9f2a751ba51bf",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "Area",
@@ -8967,7 +8937,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "f8f920c142f9c968a1897c916e1148bc",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "Title",
@@ -9003,7 +8973,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2142d1ac4b7a528f166c8d8418af130e",
 			"ParentID": "f8f920c142f9c968a1897c916e1148bc",
 			"Name": "Plate",
@@ -9036,14 +9006,14 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e760cb424bcc9e9a075edbabe20ab759",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "Target",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0236175c4c35c4def3e725a67c43b726",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "Box 5",
@@ -9076,7 +9046,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "4f6b8d444f1c1246819ba8bee3a88567",
 			"ParentID": "0236175c4c35c4def3e725a67c43b726",
 			"Name": "BoxCollider",
@@ -9088,7 +9058,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "434485c34245c648ef7aefb616c6ff57",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "Box 6",
@@ -9115,7 +9085,7 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "daf96aab44c6ef66b99333ad9f9c9606",
 			"ParentID": "434485c34245c648ef7aefb616c6ff57",
 			"Name": "BoxCollider",
@@ -9127,7 +9097,7 @@
 			}
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "cc10096d4cebc3f48970678ff9f19bfc",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "SpotLight 2",
@@ -9156,7 +9126,7 @@
 			"IESTexture": "203e8f264edeb0b73eed01b7b103e078"
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "91d8a0644f8b465fc4e9beaf20b22fda",
 			"ParentID": "cc10096d4cebc3f48970678ff9f19bfc",
 			"Name": "ModelActor",
@@ -9178,7 +9148,7 @@
 			}
 		},
 		{
-			"TypeID": 12,
+			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "161f578e4251017895b780a19eaefd97",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
 			"Name": "SpotLight 3",
@@ -9208,7 +9178,7 @@
 			"FallOffExponent": 2.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f483931e40ee1a589f21edbd699cf954",
 			"ParentID": "161f578e4251017895b780a19eaefd97",
 			"Name": "ModelActor",
@@ -9230,7 +9200,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 18",
@@ -9250,7 +9220,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "59c691ee455ceae27d2500a815d7b6fc",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Area",
@@ -9281,7 +9251,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "2b3fe214495a7667cf4f88aacf29a38e",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Title",
@@ -9317,7 +9287,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "21380f6345d52b94457a92822f4a2937",
 			"ParentID": "2b3fe214495a7667cf4f88aacf29a38e",
 			"Name": "Plate",
@@ -9350,7 +9320,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "441987c242d6b15871fc7cb49ba2a572",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Cube 1",
@@ -9383,14 +9353,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "24ba09bd4fc08a9c57a956a1fe40c2fd",
 			"ParentID": "441987c242d6b15871fc7cb49ba2a572",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "be9e73764718427f9bcd76a88ba4ce9e",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Cube 0",
@@ -9423,14 +9393,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "fab5af8d4e1c15d2a42c48b75901fb60",
 			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "3104ad9c40a32c8febbfab87f9db65eb",
 			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
 			"Name": "Decal 0",
@@ -9456,7 +9426,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "490719464eb9fb26f8450594f78e1050",
 			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
 			"Name": "Decal",
@@ -9476,7 +9446,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Cube",
@@ -9509,14 +9479,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "250342aa4c58bd85556bfa8bcefbd3d1",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "460703c345af5b4304d0498ec451c80a",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal 0",
@@ -9542,7 +9512,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "01722f3449c7971475142f92dc811066",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal 4",
@@ -9568,7 +9538,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "596dcb234403660e35cd6fb085dd3c38",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal 3",
@@ -9588,7 +9558,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "3235071a46c2df00584d889acc7f42ea",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal 2",
@@ -9608,7 +9578,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "0e8b44f84bd12abd7e50949b9fd5a312",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal 1",
@@ -9634,7 +9604,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "5fb431b6482feeca66739fb5dac1c18e",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
 			"Name": "Decal",
@@ -9660,7 +9630,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "4915fbff435ee9894a30409d20228f8f",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Decal",
@@ -9686,7 +9656,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "837a00e046b102e6e831b089bf321bcd",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Decal 0",
@@ -9712,7 +9682,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "d68237d249fcc3e4a6859d9e817603cc",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Decal",
@@ -9738,7 +9708,7 @@
 			}
 		},
 		{
-			"TypeID": 32,
+			"TypeName": "FlaxEngine.Decal",
 			"ID": "8202cea544fae0187e6712a24c10e420",
 			"ParentID": "02abbe3f4517971f18650f8a2d3f56a9",
 			"Name": "Decal 1",
@@ -9764,7 +9734,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 17",
@@ -9784,7 +9754,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f559a7ab4686c8f59183d8996c5b41de",
 			"ParentID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"Name": "Area",
@@ -9815,7 +9785,7 @@
 			}
 		},
 		{
-			"TypeID": 27,
+			"TypeName": "FlaxEngine.TextRender",
 			"ID": "f704068545a56adbdd5b158cfc6d2db4",
 			"ParentID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"Name": "Title",
@@ -9851,7 +9821,7 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "70c9353048299ae606269c8b14e2c97e",
 			"ParentID": "f704068545a56adbdd5b158cfc6d2db4",
 			"Name": "Plate",
@@ -9884,7 +9854,7 @@
 			}
 		},
 		{
-			"TypeID": 3,
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e2e6029b46e5d9e3bf608f9aa3991ab1",
 			"ParentID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"Name": "Rotator",
@@ -9898,7 +9868,7 @@
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d50bc20645629a7541aeebb62e91c969",
 			"ParentID": "e2e6029b46e5d9e3bf608f9aa3991ab1",
 			"Name": "Cylinder",
@@ -9931,7 +9901,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "15d345d546007471fa417588878ccd06",
 			"ParentID": "e2e6029b46e5d9e3bf608f9aa3991ab1",
 			"Name": "Cube",
@@ -9964,7 +9934,7 @@
 			}
 		},
 		{
-			"TypeID": "GraphicsFeaturesTour.ObjectRotate",
+			"TypeName": "GraphicsFeaturesTour.ObjectRotate",
 			"ID": "018b455844615732d8cd09a4e60c7a8c",
 			"ParentID": "15d345d546007471fa417588878ccd06",
 			"V": {
@@ -9972,7 +9942,7 @@
 }
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "29fd2f50488712eb60cd9487d3b3c9b2",
 			"ParentID": "e2e6029b46e5d9e3bf608f9aa3991ab1",
 			"Name": "BoxCollider",
@@ -9991,7 +9961,7 @@
 			}
 		},
 		{
-			"TypeID": 2,
+			"TypeName": "FlaxEngine.Camera",
 			"ID": "5d375b6849ad777dfb482c943e5933e5",
 			"ParentID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"Name": "Camera",
@@ -10012,7 +9982,7 @@
 			"Far": 30000.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "5a5050cd4f34f0a51ba024b12025a411",
 			"ParentID": "5d375b6849ad777dfb482c943e5933e5",
 			"Name": "ModelActor",
@@ -10038,7 +10008,7 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "142c6a084d2b19cea8787dbe679515b1",
 			"ParentID": "e09b2c294b33cb0fde73aa82d0cff199",
 			"Name": "TV",
@@ -10071,20 +10041,20 @@
 			}
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6ecfedd84cf9ddbd5ad4cd8ace0a0b83",
 			"ParentID": "142c6a084d2b19cea8787dbe679515b1",
 			"Name": "TV",
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 14.423828125,
+					"Y": 1.4423828125,
 					"Z": 0.0
 				},
 				"Scale": {
-					"X": 0.9499980211257935,
-					"Y": 0.8999990224838257,
-					"Z": -0.8999990224838257
+					"X": 0.9800000190734863,
+					"Y": 0.9800000190734863,
+					"Z": -0.9800000190734863
 				}
 			},
 			"StaticFlags": 0,
@@ -10098,7 +10068,7 @@
 			}
 		},
 		{
-			"TypeID": "GraphicsFeaturesTour.CameraTV",
+			"TypeName": "GraphicsFeaturesTour.CameraTV",
 			"ID": "47d1d34045e813dc577b899a26d80202",
 			"ParentID": "6ecfedd84cf9ddbd5ad4cd8ace0a0b83",
 			"V": {
@@ -10111,7 +10081,7 @@
 }
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c945559c4dd403e31e169485ab4e359b",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "CSG.Model",

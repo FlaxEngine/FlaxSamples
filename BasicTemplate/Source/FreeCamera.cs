@@ -5,7 +5,7 @@ namespace BasicTemplate
     public class FreeCamera : Script
     {
         [Limit(0, 100), Tooltip("Camera movement speed factor")]
-        public float MoveSpeed { get; set; }
+        public float MoveSpeed { get; set; } = 1;
 
         [Tooltip("Camera rotation smoothing factor")]
         public float CameraSmoothing { get; set; } = 20.0f;
@@ -13,12 +13,7 @@ namespace BasicTemplate
         private float pitch;
         private float yaw;
 
-        FreeCamera()
-        {
-            MoveSpeed = 1;
-        }
-
-        void Update()
+        public override void OnUpdate()
         {
             Screen.CursorVisible = false;
             Screen.CursorLock = CursorLockMode.Locked;
@@ -28,10 +23,10 @@ namespace BasicTemplate
             yaw += mouseDelta.X;
         }
 
-        void FixedUpdate()
+        public override void OnFixedUpdate()
         {
             var camTrans = Actor.Transform;
-            var camFactor = Mathf.Clamp01(CameraSmoothing * Time.DeltaTime);
+            var camFactor = Mathf.Saturate(CameraSmoothing * Time.DeltaTime);
 
             camTrans.Orientation = Quaternion.Lerp(camTrans.Orientation, Quaternion.Euler(pitch, yaw, 0), camFactor);
 

@@ -28,7 +28,7 @@ namespace PhysicsFeaturesTour
         public bool CanShoot = false;
         public Model SphereModel;
 
-        void Update()
+        public override void OnUpdate()
         {
             Screen.CursorVisible = false;
             Screen.CursorLock = CursorLockMode.Locked;
@@ -70,11 +70,11 @@ namespace PhysicsFeaturesTour
             return new Vector3(v.X, 0, v.Z);
         }
 
-        void FixedUpdate()
+        public override void OnFixedUpdate()
         {
             // Camera update
             var camTrans = Camera.Transform;
-            var camFactor = Mathf.Clamp01(CameraSmoothing * Time.DeltaTime);
+            var camFactor = Mathf.Saturate(CameraSmoothing * Time.DeltaTime);
             CameraTarget.LocalOrientation = Quaternion.Lerp(CameraTarget.LocalOrientation, Quaternion.Euler(pitch, yaw, 0), camFactor);
             //CameraTarget.LocalOrientation = Quaternion.Euler(pitch, yaw, 0);
             camTrans.Translation = Vector3.Lerp(camTrans.Translation, CameraTarget.Position, camFactor);
@@ -163,7 +163,7 @@ namespace PhysicsFeaturesTour
             return Accelerate(accelDir, prevVelocity, AirAccelerate, MaxVelocityAir);
         }
 
-        private void OnDebugDraw()
+        public override void OnDebugDraw()
         {
             var trans = Transform;
             var controller = (CharacterController)Actor;

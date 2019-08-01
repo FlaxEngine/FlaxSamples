@@ -27,7 +27,7 @@ namespace FirstPersonShooterTemplate
         private float pitch;
         private float yaw;
 
-        void Update()
+        public override void OnUpdate()
         {
             Screen.CursorVisible = false;
             Screen.CursorLock = CursorLockMode.Locked;
@@ -70,12 +70,13 @@ namespace FirstPersonShooterTemplate
             return new Vector3(v.X, 0, v.Z);
         }
 
-        void FixedUpdate()
+        public override void OnFixedUpdate()
         {
             // Camera update
             var camTrans = Camera.Transform;
-            var camFactor = Mathf.Clamp01(CameraSmoothing * Time.DeltaTime);
-            CameraTarget.LocalOrientation = Quaternion.Lerp(CameraTarget.LocalOrientation, Quaternion.Euler(pitch, yaw, 0), camFactor);
+            var camFactor = Mathf.Saturate(CameraSmoothing * Time.DeltaTime);
+            CameraTarget.LocalOrientation =
+                Quaternion.Lerp(CameraTarget.LocalOrientation, Quaternion.Euler(pitch, yaw, 0), camFactor);
             //CameraTarget.LocalOrientation = Quaternion.Euler(pitch, yaw, 0);
             camTrans.Translation = Vector3.Lerp(camTrans.Translation, CameraTarget.Position, camFactor);
             camTrans.Orientation = CameraTarget.Orientation;
@@ -163,11 +164,12 @@ namespace FirstPersonShooterTemplate
             return Accelerate(accelDir, prevVelocity, AirAccelerate, MaxVelocityAir);
         }
 
-        private void OnDebugDraw()
+        public override void OnDebugDraw()
         {
             var trans = Transform;
-            var controller = (CharacterController)Actor;
-            DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius, controller.Height, Color.Blue);
+            var controller = (CharacterController) Actor;
+            DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), controller.Radius,
+                controller.Height, Color.Blue);
         }
     }
 }

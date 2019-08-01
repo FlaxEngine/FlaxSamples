@@ -1,7 +1,7 @@
 using System;
 using FlaxEngine;
 
-namespace FpsTemplate
+namespace GraphicsFeaturesTour
 {
     public class PlayerScript : Script
     {
@@ -25,7 +25,7 @@ namespace FpsTemplate
         private float pitch;
         private float yaw;
 
-        void Update()
+        public override void OnUpdate()
         {
             Screen.CursorVisible = false;
             Screen.CursorLock = CursorLockMode.Locked;
@@ -45,11 +45,11 @@ namespace FpsTemplate
             return new Vector3(v.X, 0, v.Z);
         }
 
-        void FixedUpdate()
+        public override void OnFixedUpdate()
         {
             // Camera update
             var camTrans = Camera.Transform;
-            var camFactor = Mathf.Clamp01(CameraSmoothing * Time.DeltaTime);
+            var camFactor = Mathf.Saturate(CameraSmoothing * Time.DeltaTime);
             CameraTarget.LocalOrientation = Quaternion.Lerp(CameraTarget.LocalOrientation, Quaternion.Euler(pitch, yaw, 0), camFactor);
             //CameraTarget.LocalOrientation = Quaternion.Euler(pitch, yaw, 0);
             camTrans.Translation = Vector3.Lerp(camTrans.Translation, CameraTarget.Position, camFactor);
@@ -138,7 +138,7 @@ namespace FpsTemplate
             return Accelerate(accelDir, prevVelocity, AirAccelerate, MaxVelocityAir);
         }
 
-        private void OnDebugDraw()
+        public override void OnDebugDraw()
         {
             var trans = Transform;
             var controller = (CharacterController)Actor;

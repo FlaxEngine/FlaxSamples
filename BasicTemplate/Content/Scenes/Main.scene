@@ -1,10 +1,10 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6177,
+	"EngineBuild": 6184,
 	"Data": [
 		{
-			"TypeID": 9,
+			"TypeName": "FlaxEngine.Scene",
 			"ID": "a470726f441936acfe25318b162c336c",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
@@ -22,13 +22,13 @@
 			}
 		},
 		{
-			"TypeID": "BasicTemplate.ExitOnEsc",
+			"TypeName": "BasicTemplate.ExitOnEsc",
 			"ID": "3d81d377468b44e298a558ad98af0d12",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
 		{
-			"TypeID": 25,
+			"TypeName": "FlaxEngine.SkyLight",
 			"ID": "280f19df46462adca0ad71983641cb0b",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "SkyLight",
@@ -42,7 +42,7 @@
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
-			"TypeID": 10,
+			"TypeName": "FlaxEngine.Sky",
 			"ID": "0442142849ec2b814cc380897a623811",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Sky",
@@ -56,7 +56,7 @@
 			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
-			"TypeID": 7,
+			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ID": "d53a41bc451cdac2bf32199f7f0afa72",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "EnvironmentProbe",
@@ -70,7 +70,7 @@
 			"ProbeID": "a3bfc6cc409cd437c3dffca424736896"
 		},
 		{
-			"TypeID": 4,
+			"TypeName": "FlaxEngine.DirectionalLight",
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Sun",
@@ -89,8 +89,8 @@
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 1.0,
-				"B": 0.8901960849761963,
+				"G": 0.9843137264251709,
+				"B": 0.9725490212440491,
 				"A": 1.0
 			},
 			"Brightness": 6.0,
@@ -99,7 +99,7 @@
 			"ShadowsNormalOffsetScale": 50.0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c186d8c64da6153e725e638df4679e98",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Floor",
@@ -120,14 +120,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "03d22c35456f44334942829dfe2c5e8f",
 			"ParentID": "c186d8c64da6153e725e638df4679e98",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 1,
+			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a6c68c34424f3172473746b6852612bb",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Cube",
@@ -152,14 +152,14 @@
 			}
 		},
 		{
-			"TypeID": 14,
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "20f7c15e46b71c16d46ddb85ebea39af",
 			"ParentID": "a6c68c34424f3172473746b6852612bb",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeID": 2,
+			"TypeName": "FlaxEngine.Camera",
 			"ID": "5543ed36412ccd0f04717a90d39e877e",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Camera",
@@ -181,7 +181,7 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeID": "BasicTemplate.FreeCamera",
+			"TypeName": "BasicTemplate.FreeCamera",
 			"ID": "5dd6fd6641ce223a7ec079803296d798",
 			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
 			"V": {
