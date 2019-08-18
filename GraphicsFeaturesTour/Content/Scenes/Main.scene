@@ -18,15 +18,16 @@
 			"StaticFlags": 5,
 			"Lightmaps": [
 				{
-					"Lightmap0": "8658b90b4cbf102f713be58a1ff83e67",
-					"Lightmap1": "ab0e940c40dd03490de8bb8d95c3de28",
-					"Lightmap2": "5c63adf7416698e8abfc84b46752c726"
+					"Lightmap0": "8baa18ef4400c406427d4fa3cbff6a5b",
+					"Lightmap1": "7e3b6e8846dfc3fcc0026194e9384d3a",
+					"Lightmap2": "c03c9e62403a8ec43351cd861489fb38"
 				}
 			],
 			"LightmapSettings": {
+				"IndirectLightingIntensity": 0.699999988079071,
+				"GlobalObjectsScale": 0.4000000059604645,
 				"ChartsPadding": 2,
-				"AtlasSize": 512,
-				"Quality": 100
+				"Quality": 6
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
@@ -116,7 +117,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 0,
 			"FogDensity": 0.009998000226914883,
 			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3",
 			"VolumetricFogScatteringDistribution": 0.10000000149011612,
@@ -167,15 +167,13 @@
 					"Y": 0.0,
 					"Z": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e51009de4f1b63c2316665a8711bd74f",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
-			"Name": "Part 0",
-			"StaticFlags": 1
+			"Name": "Part 0"
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -189,7 +187,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -242,11 +239,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5419921875,
+								"Y": 0.580078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -255,7 +263,6 @@
 			"ID": "9eb9f67d4fc377b3e18e90bcb3c87e5f",
 			"ParentID": "fb45c97e4e4659e3a619599ed2ab1b3d",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -281,11 +288,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5341796875,
+								"Y": 0.7939453125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -294,7 +312,6 @@
 			"ID": "6c8bc9c74b80b7a951f2bd97464cc1d6",
 			"ParentID": "24c96e904bb32ca5a4a8248c52aa5a2b",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -320,11 +337,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.8662109375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -333,7 +361,6 @@
 			"ID": "d94fa65d44baea9f600fde98d516e6d1",
 			"ParentID": "d4b641f64512801a051d3792946d54e2",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -359,11 +386,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5341796875,
+								"Y": 0.8662109375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -372,7 +410,6 @@
 			"ID": "53c005e249670a1f90cf0086b7682ec4",
 			"ParentID": "f3fc2c624561e20b212f38bd3b99168e",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -398,11 +435,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.90234375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -411,7 +459,6 @@
 			"ID": "3e6c1b0b45ef35939e5a8e9089e5006f",
 			"ParentID": "5526c1f348277aa1415e00b595fd24d3",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -437,11 +484,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.9384765625
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -450,7 +508,6 @@
 			"ID": "4374763445d619061930bf9735f7ff1a",
 			"ParentID": "a0013f9644e301a6d0d3e2b8b0726930",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -476,7 +533,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -509,7 +565,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -542,7 +597,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -575,7 +629,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -602,8 +655,7 @@
 					"Z": 0.0,
 					"W": 0.9238796830177307
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -622,7 +674,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
@@ -637,7 +688,6 @@
 			"ID": "8d2002c447df50f939a596881a1d38af",
 			"ParentID": "253ac87a411ac3f396ff9a998494af9b",
 			"Name": "Collider",
-			"StaticFlags": 1,
 			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
 		},
 		{
@@ -663,7 +713,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 1,
 			"Text": "Hello from the other side ",
 			"Color": {
 				"R": 0.42322200536727908,
@@ -711,7 +760,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 1,
 			"Text": "This project shows various aspects and features of rendering in Flax Engine.\r\n\nFeel free to deconstruct or use these examples within your own Flax project.\r\n",
 			"Color": {
 				"R": -431602080.0,
@@ -759,7 +807,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 1,
 			"Text": "Graphics Features Tour",
 			"Color": {
 				"R": 0.0010000000474974514,
@@ -791,8 +838,7 @@
 					"Y": 0.0,
 					"Z": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -806,7 +852,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -859,11 +904,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.90234375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -872,7 +928,6 @@
 			"ID": "39228ddd479a5914bd5fb98dd29bd9e1",
 			"ParentID": "11bddedc490e1691d00c968b059218d4",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -898,11 +953,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4853515625,
+								"Y": 0.63671875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -911,7 +977,6 @@
 			"ID": "9dc78141404b2339f0a5e18179bafc86",
 			"ParentID": "b13b622349288871bf7ceab36417263c",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -937,11 +1002,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.521484375,
+								"Y": 0.63671875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -950,7 +1026,6 @@
 			"ID": "b6257a734e5f3710e01098b3281ff84a",
 			"ParentID": "91b3d094437d29e133039aa20991517f",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -976,11 +1051,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.517578125,
+								"Y": 0.67578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -989,7 +1075,6 @@
 			"ID": "624236b94d3f232e111a5eb552e025f2",
 			"ParentID": "42be407e4badbc1e805c1e9160fbe7f5",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1015,7 +1100,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1048,7 +1132,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1069,8 +1152,7 @@
 					"Y": 0.0,
 					"Z": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -1084,7 +1166,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 400.0,
 				"Y": 0.0,
@@ -1137,11 +1218,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.7216796875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1150,7 +1242,6 @@
 			"ID": "fd81626e454ff3014b080d9885c3f38a",
 			"ParentID": "eb49ca2a494041136349ce9532447528",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1176,11 +1267,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.7216796875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1189,7 +1291,6 @@
 			"ID": "9d622145456e80274b2996a0f21835ad",
 			"ParentID": "72a9e0bf4f663acc5bffd6a557e8f7ba",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1215,11 +1316,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.7216796875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1228,7 +1340,6 @@
 			"ID": "1e386b3944d7330f59ec72920b1012aa",
 			"ParentID": "d8c10fda41078ace9bbd73be237126b0",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1254,11 +1365,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.7216796875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1267,7 +1389,6 @@
 			"ID": "dd682c54466f0143bf2b57a6d225cc13",
 			"ParentID": "4a0b48fc4071ef19f2611faf0fec9fef",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1293,7 +1414,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1326,7 +1446,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1353,7 +1472,6 @@
 					"Z": 0.30000001192092898
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
@@ -1380,8 +1498,7 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -1395,7 +1512,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -1448,11 +1564,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5341796875,
+								"Y": 0.7216796875
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1461,7 +1588,6 @@
 			"ID": "f4ec54ea467da81a17228b9996482b6b",
 			"ParentID": "9e081bbe4064a7d855d945b8bf863a11",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1487,11 +1613,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.7578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1500,7 +1637,6 @@
 			"ID": "dbb90688477fdfa3997e64995f435697",
 			"ParentID": "2deca212498d8bf1fd2e6eb3ed5d187a",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1526,11 +1662,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.7578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1539,7 +1686,6 @@
 			"ID": "3fc04c344895ace965bfa39fd4dac43b",
 			"ParentID": "197dfb96480c56053f55dba9d99e03b7",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1565,11 +1711,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.7578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1578,7 +1735,6 @@
 			"ID": "89bbf9de4880b6467ef88fb12ee3a880",
 			"ParentID": "9046823348511f100fc38f99190b5cb6",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1604,7 +1760,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1637,7 +1792,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1670,7 +1824,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -1703,7 +1856,6 @@
 					"Z": 0.22961300611495973
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
@@ -1736,11 +1888,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.7578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1749,7 +1912,6 @@
 			"ID": "4367c56c4eef3aa055a1a78b904da59c",
 			"ParentID": "7c1999064b280f9c3b37f88302b96324",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1775,11 +1937,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5341796875,
+								"Y": 0.7578125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1788,7 +1961,6 @@
 			"ID": "7eb65fc94c2b195c771d99a47c52da22",
 			"ParentID": "31d2af39491e00e95ac2ce9d19359498",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1808,8 +1980,7 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -1823,7 +1994,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -1876,11 +2046,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.7939453125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1889,7 +2070,6 @@
 			"ID": "7521eebc49ddd017b7e5a9b7f2db2130",
 			"ParentID": "d1a11bfd448c377be3b0d68ffd3e0a21",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1915,11 +2095,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.7939453125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1928,7 +2119,6 @@
 			"ID": "fb9f62514c7086752ce612aba1cefccf",
 			"ParentID": "7c9a66be450a32b074a5b684fab809fd",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1954,11 +2144,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.7939453125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -1967,7 +2168,6 @@
 			"ID": "0bd008c346195a5ee6997581b0e21d12",
 			"ParentID": "c5c08ae149bad93ca8d9298ffe44531c",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -1993,11 +2193,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.7939453125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2006,7 +2217,6 @@
 			"ID": "d5f061834fa14e3e0ff043a8935ce84e",
 			"ParentID": "06a7fe9a4acbe0111cf99288a9bfd58a",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2032,11 +2242,22 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.580078125
+							},
+							"Size": {
+								"X": 0.09375,
+								"Y": 0.09375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2063,7 +2284,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2090,8 +2310,7 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -2105,7 +2324,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -2158,11 +2376,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.830078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2171,7 +2400,6 @@
 			"ID": "f48629324d2604da4f247e84233afa86",
 			"ParentID": "1900a4724bb66c5564aed6980a73eb0f",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2197,11 +2425,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.8662109375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2210,7 +2449,6 @@
 			"ID": "be19a6bf485b5f5e1a697db92052c05a",
 			"ParentID": "997605f94c95330df4db0184d3f635a0",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2236,11 +2474,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.90234375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2249,7 +2498,6 @@
 			"ID": "5d7a9fe94367d964d2f16598bd5b66b3",
 			"ParentID": "9cf7ffee406551673ce551ab1ffba8cb",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2275,11 +2523,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.3896484375,
+								"Y": 0.9384765625
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2288,7 +2547,6 @@
 			"ID": "bfc7e88644ba12de25e4839e2a6e1bb0",
 			"ParentID": "f290ed1646fb6c6e8d46c6a7c7d3bda6",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2314,7 +2572,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2347,7 +2604,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2374,8 +2630,7 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -2389,7 +2644,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -2442,11 +2696,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.830078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2455,7 +2720,6 @@
 			"ID": "27103e22486bff2fae631f930ce55a2b",
 			"ParentID": "32193db8466ae87342f5fbb5ebdbe3a3",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2481,11 +2745,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.830078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2494,7 +2769,6 @@
 			"ID": "4a33aa5d400ed5bfe8bb37b68423afbf",
 			"ParentID": "f262f0324f3ab36c17c3e7a796f55208",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2520,11 +2794,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.498046875,
+								"Y": 0.830078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2533,7 +2818,6 @@
 			"ID": "174bcd644fd91669956b3dbfe5e6fe07",
 			"ParentID": "1719d5ac496f08bce0e0fcb92fb87516",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2559,11 +2843,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.5341796875,
+								"Y": 0.830078125
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2572,7 +2867,6 @@
 			"ID": "81fff3e847050da06f11788e56812ea6",
 			"ParentID": "6bc4be2748696f3a6a53e98675bf19a6",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2598,7 +2892,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2631,7 +2924,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2652,8 +2944,7 @@
 					"Y": 0.0,
 					"Z": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -2667,7 +2958,6 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 1,
 			"Center": {
 				"X": 700.0,
 				"Y": 0.0,
@@ -2720,11 +3010,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.8662109375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2733,7 +3034,6 @@
 			"ID": "c21bab804f170bc11dd750bf3c93c885",
 			"ParentID": "9cc6e39b4777c01d1e1d9294a8beebfc",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2759,11 +3059,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.90234375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2772,7 +3083,6 @@
 			"ID": "0d0860aa4c921d72d21dfeab9d6c9345",
 			"ParentID": "f88301ab4db5c8d92f2416a2ecaabc1b",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2798,11 +3108,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.42578125,
+								"Y": 0.9384765625
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2811,7 +3132,6 @@
 			"ID": "e722f2c447c9f60c5eca7d8c076f5028",
 			"ParentID": "e7b8df66469a52c556a8b699835a6efe",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2837,11 +3157,22 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.4619140625,
+								"Y": 0.8662109375
+							},
+							"Size": {
+								"X": 0.0341796875,
+								"Y": 0.0341796875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -2850,7 +3181,6 @@
 			"ID": "8732bdcd48bc3787a69ccf94030f4d46",
 			"ParentID": "b0669e6645d8420cfd5c92bcdfa7b349",
 			"Name": "Wall_Collision",
-			"StaticFlags": 1,
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
@@ -2876,7 +3206,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -2909,7 +3238,6 @@
 					"Z": 5.5
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
@@ -3074,8 +3402,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"ParentID": "a470726f441936acfe25318b162c336c",
-			"Name": "Stands",
-			"StaticFlags": 1
+			"Name": "Stands"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -3095,8 +3422,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3121,7 +3447,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -3141,7 +3466,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "1. Title",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -3188,7 +3512,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -3202,8 +3525,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "cb21ab4b456985b89189f7a079b786d2",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3217,7 +3539,6 @@
 					"Z": -119.99989318847656
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -3232,7 +3553,6 @@
 			"ID": "164f5a7b450fb7ad5ea473ba5660bd27",
 			"ParentID": "a6a506ae445649ecf12cfcae91b02c1c",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -3247,7 +3567,6 @@
 					"Z": -119.9998779296875
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -3262,7 +3581,6 @@
 			"ID": "06468398426749b12c252e887442a5c9",
 			"ParentID": "da30cae942efa8a764cafea34a9930e5",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -3276,8 +3594,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3297,7 +3614,6 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
@@ -3340,7 +3656,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Blue Ball\n",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -3362,7 +3677,6 @@
 			"ID": "455a1d6e4b3c495245e98691ea008462",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -3380,8 +3694,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3401,7 +3714,6 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
@@ -3444,7 +3756,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Red Ball",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -3466,7 +3777,6 @@
 			"ID": "bc57c5924207a8f4a5b56e9c4beaae0f",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -3490,8 +3800,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3516,7 +3825,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -3536,7 +3844,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "1. Global Illumination",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -3583,7 +3890,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -3616,7 +3922,7 @@
 					"Z": 1.8166630268096924
 				}
 			},
-			"ScaleInLightmap": 2.0,
+			"ScaleInLightmap": 4.0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -3625,12 +3931,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.2929680049419403
+								"X": 0.3896484375,
+								"Y": 0.67578125
 							},
 							"Size": {
-								"X": 0.11132600158452988,
-								"Y": 0.11132600158452988
+								"X": 0.0439453125,
+								"Y": 0.0439453125
 							}
 						}
 					}
@@ -3641,8 +3947,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "da4846bb4834b5a878a078a9e66454c9",
 			"ParentID": "e7e71992473575d824918cb2250d4841",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3664,12 +3969,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.6113280057907105
+								"X": 0.2021484375,
+								"Y": 0.9677734375
 							},
 							"Size": {
-								"X": 0.05663900077342987,
-								"Y": 0.05663900077342987
+								"X": 0.01171875,
+								"Y": 0.01171875
 							}
 						}
 					}
@@ -3693,7 +3998,7 @@
 					"Z": 1.328734040260315
 				}
 			},
-			"ScaleInLightmap": 2.0,
+			"ScaleInLightmap": 4.0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -3702,12 +4007,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.40820300579071047
+								"X": 0.4765625,
+								"Y": 0.67578125
 							},
 							"Size": {
-								"X": 0.09765300154685974,
-								"Y": 0.09765300154685974
+								"X": 0.0390625,
+								"Y": 0.0390625
 							}
 						}
 					}
@@ -3718,8 +4023,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a91841e0470c4bbda1069a85fc24ba1c",
 			"ParentID": "a316609b417184890e5252b970083950",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3738,7 +4042,7 @@
 					"Z": 1.328734040260315
 				}
 			},
-			"ScaleInLightmap": 2.0,
+			"ScaleInLightmap": 4.0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -3747,12 +4051,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.5097650289535523
+								"X": 0.435546875,
+								"Y": 0.67578125
 							},
 							"Size": {
-								"X": 0.09765300154685974,
-								"Y": 0.09765300154685974
+								"X": 0.0390625,
+								"Y": 0.0390625
 							}
 						}
 					}
@@ -3763,8 +4067,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "9eb02d7d455aac930ab81a974c16272a",
 			"ParentID": "98093440489cfd6de6f7c5ab8fe6bbca",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3783,7 +4086,7 @@
 					"Z": 1.4099990129470826
 				}
 			},
-			"ScaleInLightmap": 2.0,
+			"ScaleInLightmap": 4.0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
@@ -3792,12 +4095,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.1542930006980896
+								"X": 0.4853515625,
+								"Y": 0.580078125
 							},
 							"Size": {
-								"X": 0.13476400077342988,
-								"Y": 0.13476400077342988
+								"X": 0.0546875,
+								"Y": 0.0546875
 							}
 						}
 					}
@@ -3808,8 +4111,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "e54ab4b54777d6d6373bdd966135f97a",
 			"ParentID": "deb9f49742fd6855c5445fb4b1773285",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3837,12 +4139,12 @@
 						"LightmapIndex": 0,
 						"LightmapArea": {
 							"Location": {
-								"X": 0.0038980001118034126,
-								"Y": 0.0038980001118034126
+								"X": 0.001953125,
+								"Y": 0.9677734375
 							},
 							"Size": {
-								"X": 0.14648400247097016,
-								"Y": 0.14648400247097016
+								"X": 0.029296875,
+								"Y": 0.029296875
 							}
 						}
 					}
@@ -3865,8 +4167,7 @@
 					"Y": 0.5,
 					"Z": 1.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -3885,8 +4186,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -3911,7 +4211,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -3931,7 +4230,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "2. Screen Space Ambient Occlusion",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -3978,7 +4276,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -3992,8 +4289,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9d588dec42a73a9f07d96e8a44b4c8c7",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4007,12 +4303,22 @@
 					"Z": -286.7845153808594
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3"
+						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2021484375,
+								"Y": 0.9814453125
+							},
+							"Size": {
+								"X": 0.0107421875,
+								"Y": 0.0107421875
+							}
+						}
 					}
 				]
 			}
@@ -4022,7 +4328,6 @@
 			"ID": "5811d2d84270bfd9bd8b5790eaf74555",
 			"ParentID": "9019a6374fa6da656dc3e18d671055c2",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -4043,11 +4348,22 @@
 					"W": 0.986103355884552
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.185546875,
+								"Y": 0.984375
+							},
+							"Size": {
+								"X": 0.01171875,
+								"Y": 0.01171875
+							}
+						}
+					}
 				]
 			}
 		},
@@ -4055,8 +4371,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "a930841b42fada8a101df689981f5c09",
 			"ParentID": "0345d3134e692b73a1494787c7c001d2",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4070,12 +4385,22 @@
 					"Z": -245.08160400390626
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3"
+						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.07421875,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -4085,7 +4410,6 @@
 			"ID": "bb5476e1482ce3fcfb85409ce5670170",
 			"ParentID": "cd891ae847ba9a582e3df0a7e09077c7",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -4159,8 +4483,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4185,7 +4508,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -4205,7 +4527,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "3. Screen Space Reflections",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -4252,7 +4573,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -4279,7 +4599,6 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -4293,8 +4612,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0a3af6fe4dccbedf4b3647a0c596ede5",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4314,12 +4632,22 @@
 					"W": 0.5725114941596985
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3"
+						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.16796875,
+								"Y": 0.9853515625
+							},
+							"Size": {
+								"X": 0.01171875,
+								"Y": 0.01171875
+							}
+						}
 					}
 				]
 			}
@@ -4328,8 +4656,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "7a3685114a1a3043a0e0709cfebe01c4",
 			"ParentID": "2a4dfae245ffc77c90255cacb460c485",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4349,12 +4676,22 @@
 					"W": 0.6823731064796448
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "c35b2f2a4cb80e252592a7a987ae5109"
+						"Material": "c35b2f2a4cb80e252592a7a987ae5109",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2158203125,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0107421875,
+								"Y": 0.0107421875
+							}
+						}
 					}
 				]
 			}
@@ -4363,8 +4700,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "06a22b5d4551083564c990ac5caeac5d",
 			"ParentID": "8c83e2844113db5be27d7e8ca9db2740",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4384,12 +4720,22 @@
 					"W": 0.17188404500484467
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "41f712e241c707c113d88d994ff033f2"
+						"Material": "41f712e241c707c113d88d994ff033f2",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.150390625,
+								"Y": 0.9853515625
+							},
+							"Size": {
+								"X": 0.01171875,
+								"Y": 0.01171875
+							}
+						}
 					}
 				]
 			}
@@ -4398,8 +4744,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "b2f6ae994660d57ea25ef282027de693",
 			"ParentID": "bfed8b784d04bb2c5ed70bb79b1ed7c2",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.PostFxVolume",
@@ -4413,7 +4758,6 @@
 					"Z": -19.372467041015626
 				}
 			},
-			"StaticFlags": 1,
 			"Size": {
 				"X": 500.0,
 				"Y": 388.0,
@@ -4473,8 +4817,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 1
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4499,7 +4842,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -4519,7 +4861,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 1,
 			"Text": "4. Environment Probes",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -4566,7 +4907,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -4588,12 +4928,22 @@
 					"Z": -134.79965209960938
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "2ef4f96d41de690a50e11f8daf5f0278"
+						"Material": "2ef4f96d41de690a50e11f8daf5f0278",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.228515625,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -4603,7 +4953,6 @@
 			"ID": "06f388d64f0869b795ed839c502d1aaf",
 			"ParentID": "275bbaa44a672a84556c1eba8b233d92",
 			"Name": "EnvironmentProbe",
-			"StaticFlags": 1,
 			"Radius": 300.0,
 			"ProbeID": "c711d88e49a2f0cf153588accaf05cc7"
 		},
@@ -4611,15 +4960,13 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "551da7084da3a095f9da24abdaad5f26",
 			"ParentID": "275bbaa44a672a84556c1eba8b233d92",
-			"Name": "SphereCollider",
-			"StaticFlags": 1
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8324889b41d1575436043885109c9a89",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
-			"Name": "Target",
-			"StaticFlags": 1
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4633,12 +4980,22 @@
 					"Z": -156.03884887695313
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "41f712e241c707c113d88d994ff033f2"
+						"Material": "41f712e241c707c113d88d994ff033f2",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.228515625,
+								"Y": 0.9794921875
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -4648,7 +5005,6 @@
 			"ID": "a47ddeb847bed819c66a96ad1e4df32b",
 			"ParentID": "8ba7698142d7d47d2fcb4a85f9fd521e",
 			"Name": "SphereCollider",
-			"StaticFlags": 1,
 			"Radius": 48.0
 		},
 		{
@@ -4663,7 +5019,6 @@
 					"Z": -19.372467041015626
 				}
 			},
-			"StaticFlags": 1,
 			"Size": {
 				"X": 520.0,
 				"Y": 388.0,
@@ -4714,12 +5069,22 @@
 					"Z": -202.63348388671876
 				}
 			},
-			"StaticFlags": 1,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3"
+						"Material": "7cb3a27d4b5de66d6dfb1f91ae28f0c3",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.240234375,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -4729,7 +5094,6 @@
 			"ID": "2fbb9003427bbfcc2c58ec9c5e9aa88c",
 			"ParentID": "bb8e34854ebb36b2b2ab8c9bdf4d8166",
 			"Name": "SphereCollider",
-			"StaticFlags": 1,
 			"Radius": 48.0
 		},
 		{
@@ -4749,8 +5113,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4775,7 +5138,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -4795,7 +5157,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "5. Depth Of Field",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -4842,7 +5203,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -4856,8 +5216,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f5d7f59c4d65abe5643536b1202dc696",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -4870,8 +5229,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -49.14246368408203
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -4891,11 +5249,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.251953125,
+								"Y": 0.9912109375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -4922,7 +5291,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Enter This Area",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -4944,7 +5312,6 @@
 			"ID": "5755817d4de1eb3824913ea6906656ef",
 			"ParentID": "2e2cc8f141a7c04eecbeeda5726985a0",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -4963,7 +5330,6 @@
 					"Z": -164.1526336669922
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 458.0,
 				"Y": 549.0,
@@ -5015,8 +5381,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5041,7 +5406,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -5061,7 +5425,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "6. Bloom",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -5108,7 +5471,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -5122,8 +5484,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "76e1167842558df05fd7a098a2b02b55",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5137,12 +5498,22 @@
 					"Z": -213.98922729492188
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60"
+						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.240234375,
+								"Y": 0.9794921875
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5152,7 +5523,6 @@
 			"ID": "df362de44fcd439e136041be30cd48bf",
 			"ParentID": "71c8e80e4edbe98835616aae68a3ec8f",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5167,12 +5537,22 @@
 					"Z": -175.66241455078126
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96"
+						"Material": "708227bc4b10ab9f791146926da38b96",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.251953125,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5182,7 +5562,6 @@
 			"ID": "7940f084469beff682c85a8daf0cba59",
 			"ParentID": "c9f43f6f4663afe5ff495eb93e3351c5",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5197,7 +5576,6 @@
 					"Z": -19.372467041015626
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 500.0,
 				"Y": 388.0,
@@ -5250,8 +5628,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5276,7 +5653,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -5296,7 +5672,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "7. Lens Flares",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -5343,7 +5718,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -5357,8 +5731,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d8e9b8d24e43a8705ae78395599914e8",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.PostFxVolume",
@@ -5372,7 +5745,6 @@
 					"Z": -19.372467041015626
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 500.0,
 				"Y": 388.0,
@@ -5422,12 +5794,22 @@
 					"Z": -175.66241455078126
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96"
+						"Material": "708227bc4b10ab9f791146926da38b96",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.251953125,
+								"Y": 0.9794921875
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5437,7 +5819,6 @@
 			"ID": "9f9852ac4342f97efb8b429d3a377ed3",
 			"ParentID": "e7b55a6746d660c8e899918c097f1b4c",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5452,12 +5833,22 @@
 					"Z": -213.98922729492188
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60"
+						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.263671875,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5467,7 +5858,6 @@
 			"ID": "37e53d4343be244b21d0288d4b586dea",
 			"ParentID": "37dba3224ed6414dbc4d07b0a8f5acac",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5487,8 +5877,7 @@
 					"Z": 0.0,
 					"W": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5513,7 +5902,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -5533,7 +5921,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "8. Color Grading",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -5580,7 +5967,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -5594,8 +5980,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80208ad543a7d3b0c408d2b8dd8caa0d",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.PostFxVolume",
@@ -5609,7 +5994,6 @@
 					"Z": -19.372467041015626
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 500.0,
 				"Y": 388.0,
@@ -5712,12 +6096,22 @@
 					"Z": -175.66241455078126
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96"
+						"Material": "708227bc4b10ab9f791146926da38b96",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.263671875,
+								"Y": 0.9794921875
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5727,7 +6121,6 @@
 			"ID": "87fee7004be6c36eda56ec90b81d60ad",
 			"ParentID": "f29f84b34e4d8d277d72fe9c08da453e",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5742,12 +6135,22 @@
 					"Z": -213.98922729492188
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60"
+						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0537109375,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -5757,7 +6160,6 @@
 			"ID": "8508cfb848e32f4511214e9e4c754c82",
 			"ParentID": "4c9da8ed40a8f41a78917ca1aaf93f4b",
 			"Name": "SphereCollider",
-			"StaticFlags": 0,
 			"Radius": 48.0
 		},
 		{
@@ -5777,8 +6179,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5803,7 +6204,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -5834,7 +6234,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -5856,7 +6255,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "9. PostFX Volumes",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -5903,7 +6301,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -5917,8 +6314,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d9d6d5024a4c5f0616f85597d52e143a",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -5931,8 +6327,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -35.882301330566409
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -5952,11 +6347,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2021484375,
+								"Y": 0.994140625
+							},
+							"Size": {
+								"X": 0.00390625,
+								"Y": 0.00390625
+							}
+						}
+					}
 				]
 			}
 		},
@@ -5983,7 +6389,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Volume B",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -6012,7 +6417,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -6030,8 +6434,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -37.52442932128906
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6051,11 +6454,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2080078125,
+								"Y": 0.994140625
+							},
+							"Size": {
+								"X": 0.00390625,
+								"Y": 0.00390625
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6082,7 +6496,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Volume A",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -6111,7 +6524,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -6130,7 +6542,6 @@
 					"Z": -245.92332458496095
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 243.0,
 				"Y": 451.0,
@@ -6186,7 +6597,6 @@
 					"Z": -245.92332458496095
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 243.0,
 				"Y": 451.0,
@@ -6247,8 +6657,7 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6273,7 +6682,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -6293,7 +6701,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "10. Realistic Sky",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -6340,7 +6747,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -6354,8 +6760,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8ae0dec64dbeea896e301db1f98771c9",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.BoxCollider",
@@ -6369,7 +6774,6 @@
 					"Z": -144.64744567871095
 				}
 			},
-			"StaticFlags": 0,
 			"IsTrigger": true,
 			"Size": {
 				"X": 400.0,
@@ -6397,8 +6801,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -49.14246368408203
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6418,11 +6821,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.1064453125,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6449,7 +6863,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Enter This Area",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -6471,7 +6884,6 @@
 			"ID": "473810ed4b6a6791cdccde8354440c4e",
 			"ParentID": "0441930948d0fc77bbc583b03d4ccb1d",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -6495,8 +6907,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6521,7 +6932,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -6541,7 +6951,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "11. Volumetric Fog",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -6588,7 +6997,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -6602,8 +7010,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3bbdea6b441aa4aa38cba3b40b514072",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -6616,8 +7023,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -49.14246368408203
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6637,11 +7043,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.240234375,
+								"Y": 0.9912109375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6668,7 +7085,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Enter This Area",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -6690,7 +7106,6 @@
 			"ID": "d2a36e65472402c6e7208a8eef816306",
 			"ParentID": "dd3771824a93fce11166a69f13ec95bb",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -6709,7 +7124,6 @@
 					"Z": -144.64744567871095
 				}
 			},
-			"StaticFlags": 0,
 			"IsTrigger": true,
 			"Size": {
 				"X": 500.0,
@@ -6746,11 +7160,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.185546875,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0146484375,
+								"Y": 0.0146484375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6758,8 +7183,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "73a553c645c786a79cb8108380c611f6",
 			"ParentID": "c029bbdb4c06977caaf087aa98c1ed48",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6778,11 +7202,22 @@
 					"Z": 0.6999980211257935
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.044921875,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.0068359375,
+								"Y": 0.0068359375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6790,8 +7225,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "307281454235a46f7bb962ac8a766957",
 			"ParentID": "1d16a9304d7f93c1fab97fadc2e368a5",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6810,11 +7244,22 @@
 					"Z": 0.6999980211257935
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0859375,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.0068359375,
+								"Y": 0.0068359375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6822,8 +7267,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "df7e94e2400efe584093eea1e91a699b",
 			"ParentID": "49c5c94d41aaaead81aec7beac7a2870",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6842,11 +7286,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2861328125,
+								"Y": 0.9775390625
+							},
+							"Size": {
+								"X": 0.0078125,
+								"Y": 0.0078125
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6854,8 +7309,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "01660e854dd742169f4532a2533ea62f",
 			"ParentID": "965177ca418d1429a36a09bf654d688e",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6874,11 +7328,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.275390625,
+								"Y": 0.978515625
+							},
+							"Size": {
+								"X": 0.0078125,
+								"Y": 0.0078125
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6886,8 +7351,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "2e9645c24455796d811d80ac72958523",
 			"ParentID": "02f71cd949074f26fa12909eb99dd889",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6906,11 +7370,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2861328125,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0078125,
+								"Y": 0.0078125
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6918,8 +7393,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "655a9f8a4e3a47b6636959a13fead6f0",
 			"ParentID": "3b21545a4f731bfc4ab8358ab62ee5cb",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -6933,11 +7407,22 @@
 					"Z": -44.68748474121094
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2158203125,
+								"Y": 0.98046875
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
+					}
 				]
 			}
 		},
@@ -6945,8 +7430,7 @@
 			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "49a714b74722e02a3eed0fb0d9d8a0c7",
 			"ParentID": "c01ec4e74c9060bcf8e30a98651355e2",
-			"Name": "SphereCollider",
-			"StaticFlags": 0
+			"Name": "SphereCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.SpotLight",
@@ -6967,7 +7451,6 @@
 					"W": 0.016783008351922036
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 0.41263601183891299,
 				"G": 1.0,
@@ -6992,7 +7475,6 @@
 					"Z": -204.6747589111328
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 0.5725470185279846,
 				"G": 0.8012530207633972,
@@ -7017,7 +7499,6 @@
 					"Z": 0.10000000149011612
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -7042,8 +7523,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7068,7 +7548,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -7088,7 +7567,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "16. Constructive Solid Geometry",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -7135,7 +7613,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -7149,8 +7626,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f42100cf44df3d35a183f99a89ac9f28",
 			"ParentID": "4347373f4099fea87868f3a695ff5717",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.BoxBrush",
@@ -7164,7 +7640,6 @@
 					"Z": -179.99998474121095
 				}
 			},
-			"StaticFlags": 0,
 			"Center": {
 				"X": -8.0,
 				"Y": -89.0,
@@ -7208,7 +7683,6 @@
 					"Z": -12.808094024658204
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 80.0,
 				"Y": 80.0,
@@ -7252,7 +7726,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Mode": 1,
 			"Size": {
 				"X": 60.0,
@@ -7297,7 +7770,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Sub",
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7316,7 +7788,6 @@
 					"Z": 13.18165111541748
 				}
 			},
-			"StaticFlags": 0,
 			"Mode": 1,
 			"Size": {
 				"X": 60.0,
@@ -7361,7 +7832,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Sub",
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7385,7 +7855,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Add",
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7409,7 +7878,6 @@
 					"Z": 0.5
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Add",
 			"Size": 20,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7433,8 +7901,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7459,7 +7926,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -7479,7 +7945,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "12. Lights",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -7526,7 +7991,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -7540,8 +8004,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d201c61f41660b5cd0255d8fe1186b77",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7566,12 +8029,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.033203125,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0185546875,
+								"Y": 0.0185546875
+							}
+						}
 					}
 				]
 			}
@@ -7581,7 +8054,6 @@
 			"ID": "08fcf0be4fc2bf7b7d917e84de8a4eff",
 			"ParentID": "d7d21fc64f51c5852a933fa88051d37a",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -7605,12 +8077,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.115234375,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.015625,
+								"Y": 0.015625
+							}
+						}
 					}
 				]
 			}
@@ -7620,7 +8102,6 @@
 			"ID": "3aa7a39c4c4d4e2faeef3b8b13918b03",
 			"ParentID": "cd174f854f8c605fda4272bd557e31e4",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -7639,7 +8120,6 @@
 					"Z": -221.46385192871095
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 1.0010000467300416,
 				"G": 0.8887860178947449,
@@ -7662,7 +8142,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -7690,7 +8169,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Brightness": 30.0,
 			"ShadowsMode": 0
 		},
@@ -7706,7 +8184,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -7727,8 +8204,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7748,11 +8224,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2958984375,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -7779,7 +8266,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Spot Light",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7801,7 +8287,6 @@
 			"ID": "6839c0e04ceee81335ac449da8d30ccd",
 			"ParentID": "ae79abd04d2c84c838fb1ca50aecf96c",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -7819,8 +8304,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7840,11 +8324,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2958984375,
+								"Y": 0.9755859375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -7871,7 +8366,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Point Light",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -7893,7 +8387,6 @@
 			"ID": "d565bd084124c9b05a81c3a8c3833c7e",
 			"ParentID": "485c5dbc41e0ee28a72cd99fbd64c42d",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -7917,8 +8410,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -7943,7 +8435,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -7963,7 +8454,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "13. Area Lights",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -8010,7 +8500,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -8024,8 +8513,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80c7ca8844dc2897929f619e9f0c2282",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -8038,8 +8526,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8059,11 +8546,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2158203125,
+								"Y": 0.9921875
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -8090,7 +8588,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Bulb Radius",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -8112,7 +8609,6 @@
 			"ID": "667cf1824f1fe35665228988c95eaa87",
 			"ParentID": "d5f0abbb487070edd027c2817dd30928",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -8130,8 +8626,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8151,11 +8646,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.228515625,
+								"Y": 0.9912109375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -8182,7 +8688,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Bulb Length",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -8204,7 +8709,6 @@
 			"ID": "8877625d48128a2a1eef17b5be8b7ecb",
 			"ParentID": "10b8ff274172a4c792b86f8262bb4446",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -8229,7 +8733,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 1.0010000467300416,
 				"G": 0.8887860178947449,
@@ -8260,7 +8763,6 @@
 					"Z": 0.10000000149011612
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "223aa9894e90973780ab508621517526",
 			"Buffer": {
 				"Entries": [
@@ -8282,7 +8784,6 @@
 					"Z": -221.46385192871095
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 1.0010000467300416,
 				"G": 0.8887860178947449,
@@ -8306,7 +8807,6 @@
 					"Z": 0.34999901056289675
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -8333,12 +8833,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "87e88de045f6c4fe5c6cdfa45ab5e394"
+						"Material": "87e88de045f6c4fe5c6cdfa45ab5e394",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.1328125,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.015625,
+								"Y": 0.015625
+							}
+						}
 					}
 				]
 			}
@@ -8348,7 +8858,6 @@
 			"ID": "a44e95bd4617c4bd45c84ea7ab5d472b",
 			"ParentID": "66d6bf6c4529a42cb86105a8adec446c",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -8378,12 +8887,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "87e88de045f6c4fe5c6cdfa45ab5e394"
+						"Material": "87e88de045f6c4fe5c6cdfa45ab5e394",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.07421875,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0185546875,
+								"Y": 0.0185546875
+							}
+						}
 					}
 				]
 			}
@@ -8393,7 +8912,6 @@
 			"ID": "63ddeb1e49b3da6269ab8cb76acf9285",
 			"ParentID": "0f187c3644c048e068882fa04ce3acb8",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -8417,8 +8935,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8443,7 +8960,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -8463,7 +8979,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "14. Light Fall Off",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -8510,7 +9025,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -8524,8 +9038,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9afe9dc946346d0bf0bc3e9f8e16b1b9",
 			"ParentID": "3e9867ce4a242cb3c4488092de50d850",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -8538,8 +9051,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8559,11 +9071,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.263671875,
+								"Y": 0.9912109375
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -8590,7 +9113,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Exponent",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -8612,7 +9134,6 @@
 			"ID": "81223dc344474b7673305f83c91a46b5",
 			"ParentID": "b51d507843c6b4b0c92c6dbba1fca42c",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -8630,8 +9151,7 @@
 					"Y": 0.5587120056152344,
 					"Z": -64.40636444091797
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8651,11 +9171,22 @@
 					"Z": 0.6000000238418579
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.2861328125,
+								"Y": 0.9873046875
+							},
+							"Size": {
+								"X": 0.005859375,
+								"Y": 0.005859375
+							}
+						}
+					}
 				]
 			}
 		},
@@ -8682,7 +9213,6 @@
 					"Z": 0.4000000059604645
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "Inverse Squared",
 			"Size": 25,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
@@ -8704,7 +9234,6 @@
 			"ID": "a46bbfde4acf013a38b87daede8e54c9",
 			"ParentID": "8eee96a64d2a1f61ec2b8c8570b4c957",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 99.0,
 				"Y": 32.0,
@@ -8729,7 +9258,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Brightness": 44.29999923706055,
 			"ShadowsMode": 0,
 			"FallOffExponent": 2.0
@@ -8746,7 +9274,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -8774,7 +9301,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Brightness": 200000.0,
 			"ShadowsMode": 0,
 			"UseInverseSquaredFalloff": true
@@ -8791,7 +9317,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -8818,12 +9343,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.150390625,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.015625,
+								"Y": 0.015625
+							}
+						}
 					}
 				]
 			}
@@ -8833,7 +9368,6 @@
 			"ID": "197bc6c048a0c40cf3d6368ac6ce5587",
 			"ParentID": "9b83b9484b732ea7d95b8aad91be8594",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -8863,12 +9397,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0947265625,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0185546875,
+								"Y": 0.0185546875
+							}
+						}
 					}
 				]
 			}
@@ -8878,7 +9422,6 @@
 			"ID": "3308e89849bb667e958f73b4119eda45",
 			"ParentID": "e985db324d0e1a743dc8338227a09cb4",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -8902,8 +9445,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -8928,7 +9470,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -8948,7 +9489,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "15. IES Profiles",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -8995,7 +9535,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -9009,8 +9548,7 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e760cb424bcc9e9a075edbabe20ab759",
 			"ParentID": "25d3857a4f655ac65bddea9314e1fd3d",
-			"Name": "Target",
-			"StaticFlags": 0
+			"Name": "Target"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -9035,12 +9573,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0537109375,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0185546875,
+								"Y": 0.0185546875
+							}
+						}
 					}
 				]
 			}
@@ -9050,7 +9598,6 @@
 			"ID": "4f6b8d444f1c1246819ba8bee3a88567",
 			"ParentID": "0236175c4c35c4def3e725a67c43b726",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -9074,12 +9621,22 @@
 					"Z": 1.5
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "30a04b464cdf0a77bb4323a56cc5defb"
+						"Material": "30a04b464cdf0a77bb4323a56cc5defb",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.16796875,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.015625,
+								"Y": 0.015625
+							}
+						}
 					}
 				]
 			}
@@ -9089,7 +9646,6 @@
 			"ID": "daf96aab44c6ef66b99333ad9f9c9606",
 			"ParentID": "434485c34245c648ef7aefb616c6ff57",
 			"Name": "BoxCollider",
-			"StaticFlags": 0,
 			"Size": {
 				"X": 96.0,
 				"Y": 96.0,
@@ -9114,7 +9670,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 1.0,
 				"G": 0.7810320258140564,
@@ -9137,7 +9692,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -9165,7 +9719,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Color": {
 				"R": 0.7314860224723816,
 				"G": 0.890608012676239,
@@ -9189,7 +9742,6 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
@@ -9216,8 +9768,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -9242,7 +9793,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -9262,7 +9812,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "18. Decals",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -9309,7 +9858,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -9342,12 +9890,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.275390625,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.0078125,
+								"Y": 0.0078125
+							}
+						}
 					}
 				]
 			}
@@ -9356,8 +9914,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "24ba09bd4fc08a9c57a956a1fe40c2fd",
 			"ParentID": "441987c242d6b15871fc7cb49ba2a572",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -9382,12 +9939,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "e37ba45240ca8ad03d79efa3497f6d48"
+						"Material": "e37ba45240ca8ad03d79efa3497f6d48",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.1328125,
+								"Y": 0.9853515625
+							},
+							"Size": {
+								"X": 0.0126953125,
+								"Y": 0.0126953125
+							}
+						}
 					}
 				]
 			}
@@ -9396,8 +9963,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "fab5af8d4e1c15d2a42c48b75901fb60",
 			"ParentID": "be9e73764718427f9bcd76a88ba4ce9e",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.Decal",
@@ -9417,7 +9983,6 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 100.0,
@@ -9437,7 +10002,6 @@
 					"Z": 39.96794891357422
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 100.0,
@@ -9468,12 +10032,22 @@
 					"Z": 0.800000011920929
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "35aa85904c98e6f76a1d9d9e7a02a0dc"
+						"Material": "35aa85904c98e6f76a1d9d9e7a02a0dc",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0947265625,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
 					}
 				]
 			}
@@ -9482,8 +10056,7 @@
 			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "250342aa4c58bd85556bfa8bcefbd3d1",
 			"ParentID": "1eb160ec4bdd6a4eb4b803a532f79840",
-			"Name": "BoxCollider",
-			"StaticFlags": 0
+			"Name": "BoxCollider"
 		},
 		{
 			"TypeName": "FlaxEngine.Decal",
@@ -9503,7 +10076,6 @@
 					"W": 0.6579437255859375
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "e9a6d4c24916852f9e33738ea1a77d1e",
 			"Size": {
 				"X": 40.0,
@@ -9529,7 +10101,6 @@
 					"W": 0.9266439080238342
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 80.0,
@@ -9549,7 +10120,6 @@
 					"Z": 1.227685809135437
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 80.0,
@@ -9569,7 +10139,6 @@
 					"Z": 23.2318115234375
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "eed511d94f3f8eec59e5e59aae9eecf7",
 			"Size": {
 				"X": 40.0,
@@ -9595,7 +10164,6 @@
 					"W": 0.7071067690849304
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "eed511d94f3f8eec59e5e59aae9eecf7",
 			"Size": {
 				"X": 60.0,
@@ -9621,7 +10189,6 @@
 					"W": 0.7071067690849304
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "e9a6d4c24916852f9e33738ea1a77d1e",
 			"Size": {
 				"X": 40.0,
@@ -9647,7 +10214,6 @@
 					"W": -0.7071067690849304
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "8149930347d2734322ffdaae4a66f2d8",
 			"Size": {
 				"X": 60.0,
@@ -9673,7 +10239,6 @@
 					"W": -0.8850938081741333
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "66f28d584e233f41cc858b8ab8232466",
 			"Size": {
 				"X": 20.0,
@@ -9699,7 +10264,6 @@
 					"W": -0.5
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 100.0,
@@ -9725,7 +10289,6 @@
 					"W": -0.30296972393989565
 				}
 			},
-			"StaticFlags": 0,
 			"Material": "3e4909f8480ac9e930f297bd7e1d5c54",
 			"Size": {
 				"X": 100.0,
@@ -9750,8 +10313,7 @@
 					"Z": 0.0,
 					"W": -0.7071068286895752
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -9776,7 +10338,6 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
@@ -9796,7 +10357,6 @@
 					"Z": -287.9643249511719
 				}
 			},
-			"StaticFlags": 0,
 			"Text": "17. Picture in Picture",
 			"Color": {
 				"R": 1.0010000467300416,
@@ -9843,7 +10403,6 @@
 					"Z": 0.1449510008096695
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -9864,8 +10423,7 @@
 					"Y": 0.0,
 					"Z": -144.57568359375
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
@@ -9890,12 +10448,22 @@
 					"Z": 1.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "223aa9894e90973780ab508621517526",
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "59db59af43a5c0bbc3d878a50f66ca6f"
+						"Material": "59db59af43a5c0bbc3d878a50f66ca6f",
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.0654296875,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.0068359375,
+								"Y": 0.0068359375
+							}
+						}
 					}
 				]
 			}
@@ -9953,7 +10521,6 @@
 					"Z": -0.0
 				}
 			},
-			"StaticFlags": 0,
 			"Size": {
 				"X": 100.0,
 				"Y": 216.0,
@@ -9978,7 +10545,6 @@
 					"W": 0.9085416793823242
 				}
 			},
-			"StaticFlags": 0,
 			"Far": 30000.0
 		},
 		{
@@ -9999,11 +10565,22 @@
 					"Z": 2.0
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "6b2835214005c674b0156b90c65a3985",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.275390625,
+								"Y": 0.9677734375
+							},
+							"Size": {
+								"X": 0.0087890625,
+								"Y": 0.0087890625
+							}
+						}
+					}
 				]
 			}
 		},
@@ -10030,7 +10607,6 @@
 					"Z": 0.20000000298023225
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -10057,7 +10633,6 @@
 					"Z": -0.9800000190734863
 				}
 			},
-			"StaticFlags": 0,
 			"Model": "bfa9ff314a32ac055d0341acea17cc48",
 			"Buffer": {
 				"Entries": [
@@ -10089,10 +10664,58 @@
 			"Model": "8a042da5405a174845552cb384262281",
 			"Buffer": {
 				"Entries": [
-					{},
-					{},
-					{},
-					{}
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.001953125,
+								"Y": 0.580078125
+							},
+							"Size": {
+								"X": 0.3857421875,
+								"Y": 0.3857421875
+							}
+						}
+					},
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.001953125,
+								"Y": 0.001953125
+							},
+							"Size": {
+								"X": 0.576171875,
+								"Y": 0.576171875
+							}
+						}
+					},
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.115234375,
+								"Y": 0.9853515625
+							},
+							"Size": {
+								"X": 0.0126953125,
+								"Y": 0.0126953125
+							}
+						}
+					},
+					{
+						"LightmapIndex": 0,
+						"LightmapArea": {
+							"Location": {
+								"X": 0.033203125,
+								"Y": 0.98828125
+							},
+							"Size": {
+								"X": 0.009765625,
+								"Y": 0.009765625
+							}
+						}
+					}
 				]
 			}
 		}
