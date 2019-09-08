@@ -7,7 +7,7 @@ namespace BasicTemplate
         public override void OnUpdate()
         {
             if (Input.GetKeyUp(Keys.Escape))
-                Application.Exit();
+                Platform.Exit();
         }
     }
 }

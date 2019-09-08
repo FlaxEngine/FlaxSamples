@@ -7,7 +7,7 @@ namespace ParticlesFeaturesTour
         public override void OnUpdate()
         {
             if (Input.GetKeyUp(Keys.Escape))
-                Application.Exit();
+                Platform.Exit();
         }
     }
 }
