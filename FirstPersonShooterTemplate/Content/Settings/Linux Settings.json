@@ -1,0 +1,14 @@
+{
+	"ID": "b7b4a03e48d2108e5b26118af8cb3afe",
+	"TypeName": "FlaxEditor.Content.Settings.LinuxPlatformSettings",
+	"EngineBuild": 6187,
+	"Data": {
+	"FullscreenMode": false,
+	"ScreenWidth": 1280,
+	"ScreenHeight": 720,
+	"ResizableWindow": false,
+	"RunInBackground": false,
+	"ForceSingleInstance": false,
+	"SupportVulkan": true
+}
+}

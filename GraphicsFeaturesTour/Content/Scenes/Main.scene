@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6184,
+	"EngineBuild": 6187,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -864,21 +864,27 @@
 			},
 			"Surfaces": [
 				{
+					"Material": "59db59af43a5c0bbc3d878a50f66ca6f",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "59db59af43a5c0bbc3d878a50f66ca6f",
 					"ScaleInLightmap": 0.0
 				},
 				{
 					"Material": "a7401c2340aaa02c6ba37b9e67c2d900"
 				},
 				{
+					"Material": "59db59af43a5c0bbc3d878a50f66ca6f",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "59db59af43a5c0bbc3d878a50f66ca6f",
 					"ScaleInLightmap": 0.0
 				},
-				{}
+				{
+					"Material": "59db59af43a5c0bbc3d878a50f66ca6f"
+				}
 			]
 		},
 		{
@@ -1178,21 +1184,27 @@
 			},
 			"Surfaces": [
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
 					"Material": "a7401c2340aaa02c6ba37b9e67c2d900"
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
-				{}
+				{
+					"Material": "295277cb4597c043225f09842970d5e9"
+				}
 			]
 		},
 		{
@@ -2006,21 +2018,27 @@
 			},
 			"Surfaces": [
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
 					"Material": "a7401c2340aaa02c6ba37b9e67c2d900"
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
 				{
+					"Material": "295277cb4597c043225f09842970d5e9",
 					"ScaleInLightmap": 0.0
 				},
-				{}
+				{
+					"Material": "295277cb4597c043225f09842970d5e9"
+				}
 			]
 		},
 		{
@@ -4771,7 +4789,7 @@
 					"Intensity": 1.100000023841858,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -4797,7 +4815,8 @@
 					"ResolveSamples": 6,
 					"OverrideFlags": 6286
 				},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -5032,7 +5051,7 @@
 					"Intensity": 1.100000023841858,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -5054,7 +5073,8 @@
 					"RoughnessThreshold": 0.20000000298023225,
 					"OverrideFlags": 16
 				},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -5342,7 +5362,7 @@
 					"Intensity": 1.0,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -5354,14 +5374,13 @@
 					"Enabled": true,
 					"FocalRegion": 300.0,
 					"NearTransitionRange": 300.0,
-					"FarTransitionRange": 300.0,
-					"BokehShape": 1,
 					"BokehBrightnessThreshold": 3.149996042251587,
 					"OverrideFlags": 2621
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -5589,7 +5608,7 @@
 					"Intensity": 1.5,
 					"Threshold": 1.7100000381469727,
 					"BlurSigma": 4.0,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 31
 				},
 				"ToneMapping": {},
@@ -5608,7 +5627,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -5758,7 +5778,7 @@
 					"Intensity": 1.2999980449676514,
 					"Threshold": 1.7100000381469727,
 					"BlurSigma": 4.0,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 31
 				},
 				"ToneMapping": {},
@@ -5779,7 +5799,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -6007,7 +6028,7 @@
 					"Intensity": 1.5,
 					"Threshold": 1.7100000381469727,
 					"BlurSigma": 4.0,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -6081,7 +6102,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -6555,7 +6577,7 @@
 					"Intensity": 1.0,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -6582,7 +6604,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -6610,7 +6633,7 @@
 					"Intensity": 1.0,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -6637,7 +6660,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -10664,58 +10688,10 @@
 			"Model": "8a042da5405a174845552cb384262281",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.001953125,
-								"Y": 0.580078125
-							},
-							"Size": {
-								"X": 0.3857421875,
-								"Y": 0.3857421875
-							}
-						}
-					},
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.001953125,
-								"Y": 0.001953125
-							},
-							"Size": {
-								"X": 0.576171875,
-								"Y": 0.576171875
-							}
-						}
-					},
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.115234375,
-								"Y": 0.9853515625
-							},
-							"Size": {
-								"X": 0.0126953125,
-								"Y": 0.0126953125
-							}
-						}
-					},
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.033203125,
-								"Y": 0.98828125
-							},
-							"Size": {
-								"X": 0.009765625,
-								"Y": 0.009765625
-							}
-						}
-					}
+					{},
+					{},
+					{},
+					{}
 				]
 			}
 		}

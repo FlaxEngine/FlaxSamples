@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6184,
+	"EngineBuild": 6187,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -6862,7 +6862,7 @@
 					"Intensity": 1.100000023841858,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 2
 				},
 				"ToneMapping": {},
@@ -6881,7 +6881,8 @@
 				},
 				"MotionBlur": {},
 				"SSR": {},
-				"AA": {}
+				"AA": {},
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -13020,7 +13021,7 @@
 					"Intensity": 1.0,
 					"Threshold": 3.0,
 					"BlurSigma": 3.5999999046325685,
-					"Scale": 1.7999999523162842,
+					"Limit": 10.0,
 					"OverrideFlags": 0
 				},
 				"ToneMapping": {},
@@ -13034,9 +13035,11 @@
 				"MotionBlur": {},
 				"SSR": {},
 				"AA": {},
-				"PostFxMaterials": [
-					"37266ed04fc11e967c371a93e3327289"
-				]
+				"PostFxMaterials": {
+					"Materials": [
+						"37266ed04fc11e967c371a93e3327289"
+					]
+				}
 			}
 		},
 		{

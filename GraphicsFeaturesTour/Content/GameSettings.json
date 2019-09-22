@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6179,
+	"EngineBuild": 6187,
 	"Data": {
 	"ProductName": "GraphicsFeaturesTour",
 	"CompanyName": "Flax",
@@ -16,6 +16,7 @@
 	"Navigation": "e8ae275e4bccdf519c22e692b97061bb",
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
-	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973"
+	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
+	"LinuxPlatform": "27fd937b4e99f7029d2a1e8a9de1e27b"
 }
 }

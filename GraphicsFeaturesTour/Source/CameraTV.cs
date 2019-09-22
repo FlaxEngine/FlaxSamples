@@ -42,7 +42,7 @@ namespace GraphicsFeaturesTour
 
             // Create rendering task
             if (_task == null)
-                _task = RenderTask.Create<SceneRenderTask>();
+                _task = FlaxEngine.Object.New<SceneRenderTask>();
             _task.Order = -100;
             _task.Camera = Cam;
             _task.Output = _output;
