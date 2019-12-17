@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6187,
+	"EngineBuild": 6189,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -108,7 +108,6 @@
 				}
 			},
 			"StaticFlags": 0,
-			"FogDensity": 0.009998000226914883,
 			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{

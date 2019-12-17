@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6187,
+	"EngineBuild": 6190,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -16,8 +16,8 @@
 				}
 			],
 			"LightmapSettings": {
-				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
+				"AtlasSize": 512,
 				"BounceCount": 2
 			},
 			"CSG": {
@@ -269,8 +269,7 @@
 					"Y": -125.35466003417969,
 					"Z": 0.0
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.SphereCollider",
@@ -283,16 +282,25 @@
 					"Y": 0.0,
 					"Z": -153.4296875
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "065761fc431056c1d6dddba2ee71b0f8",
 			"ParentID": "dc7be3e14867e004a830a38e24cdc390",
 			"Name": "Sphere",
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"LightmapIndex": 0,
+			"LightmapArea": {
+				"Location": {
+					"X": 0.00390625,
+					"Y": 0.708984375
+				},
+				"Size": {
+					"X": 0.048828125,
+					"Y": 0.048828125
+				}
+			},
 			"Buffer": {
 				"Entries": [
 					{}
@@ -310,16 +318,25 @@
 					"Y": -19.23090362548828,
 					"Z": -323.9271545410156
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "24c8626949ebc7a75784d4aa4146b117",
 			"ParentID": "5edca72e401b430d32e81f921cc24b81",
 			"Name": "Sphere",
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"LightmapIndex": 0,
+			"LightmapArea": {
+				"Location": {
+					"X": 0.00390625,
+					"Y": 0.76171875
+				},
+				"Size": {
+					"X": 0.048828125,
+					"Y": 0.048828125
+				}
+			},
 			"Buffer": {
 				"Entries": [
 					{}
@@ -337,16 +354,25 @@
 					"Y": -15.809967041015625,
 					"Z": -328.6985778808594
 				}
-			},
-			"StaticFlags": 0
+			}
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "afb18f5e4295c7aa7a06b19553b7d43a",
 			"ParentID": "d3162ebf45da9f2396216aadff28a14d",
 			"Name": "Sphere",
-			"StaticFlags": 0,
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"LightmapIndex": 0,
+			"LightmapArea": {
+				"Location": {
+					"X": 0.00390625,
+					"Y": 0.814453125
+				},
+				"Size": {
+					"X": 0.048828125,
+					"Y": 0.048828125
+				}
+			},
 			"Buffer": {
 				"Entries": [
 					{}
@@ -817,47 +843,22 @@
 			"Name": "CSG.Model",
 			"HideFlags": 4,
 			"Model": "8a042da5405a174845552cb384262281",
+			"LightmapIndex": 0,
+			"LightmapArea": {
+				"Location": {
+					"X": 0.00390625,
+					"Y": 0.00390625
+				},
+				"Size": {
+					"X": 0.701171875,
+					"Y": 0.701171875
+				}
+			},
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.001953125,
-								"Y": 0.658203125
-							},
-							"Size": {
-								"X": 0.2802734375,
-								"Y": 0.2802734375
-							}
-						}
-					},
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.001953125,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.28125,
-								"Y": 0.28125
-							}
-						}
-					},
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.001953125,
-								"Y": 0.001953125
-							},
-							"Size": {
-								"X": 0.37109375,
-								"Y": 0.37109375
-							}
-						}
-					}
+					{},
+					{},
+					{}
 				]
 			}
 		}

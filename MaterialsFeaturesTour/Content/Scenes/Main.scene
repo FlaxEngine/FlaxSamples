@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6187,
+	"EngineBuild": 6190,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -34,14 +34,14 @@
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
-			"ID": "0d08167149fab2dece3968a383287a81",
+			"ID": "0f0c1866478dccdc51f7e2803b2c8e58",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Visuals"
 		},
 		{
 			"TypeName": "FlaxEngine.SkyLight",
-			"ID": "280f19df46462adca0ad71983641cb0b",
-			"ParentID": "0d08167149fab2dece3968a383287a81",
+			"ID": "215f315c45445c6327393b92e41dc6a9",
+			"ParentID": "0f0c1866478dccdc51f7e2803b2c8e58",
 			"Name": "SkyLight",
 			"Transform": {
 				"Translation": {
@@ -54,8 +54,8 @@
 		},
 		{
 			"TypeName": "FlaxEngine.Sky",
-			"ID": "0442142849ec2b814cc380897a623811",
-			"ParentID": "0d08167149fab2dece3968a383287a81",
+			"ID": "a024ea1b466e9363c8737f91f9299123",
+			"ParentID": "0f0c1866478dccdc51f7e2803b2c8e58",
 			"Name": "Sky",
 			"Transform": {
 				"Translation": {
@@ -64,12 +64,12 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
+			"Sun": "73dfbae2400ebddfcaec7798c925a165"
 		},
 		{
 			"TypeName": "FlaxEngine.DirectionalLight",
-			"ID": "9b72fc4a47c39fca64f3058b692784c3",
-			"ParentID": "0d08167149fab2dece3968a383287a81",
+			"ID": "73dfbae2400ebddfcaec7798c925a165",
+			"ParentID": "0f0c1866478dccdc51f7e2803b2c8e58",
 			"Name": "Sun",
 			"Transform": {
 				"Translation": {
@@ -78,10 +78,10 @@
 					"Z": 32.53825378417969
 				},
 				"Orientation": {
-					"X": 0.3814939856529236,
-					"Y": 0.3237000107765198,
-					"Z": 0.030091000720858575,
-					"W": 0.8653169870376587
+					"X": 0.38149431347846987,
+					"Y": 0.32370027899742129,
+					"Z": 0.030091024935245515,
+					"W": 0.865317702293396
 				}
 			},
 			"Color": {
@@ -91,14 +91,15 @@
 				"A": 1.0
 			},
 			"Brightness": 6.0,
+			"VolumetricScatteringIntensity": 10.0,
 			"ShadowsDistance": 3000.0,
 			"ShadowsFadeDistance": 200.0,
-			"ShadowsNormalOffsetScale": 100.0
+			"ShadowsNormalOffsetScale": 50.0
 		},
 		{
 			"TypeName": "FlaxEngine.ExponentialHeightFog",
-			"ID": "758af305431ccbcf439d048e8434f276",
-			"ParentID": "0d08167149fab2dece3968a383287a81",
+			"ID": "3efe172148dba624c6e156808dbc9e2c",
+			"ParentID": "0f0c1866478dccdc51f7e2803b2c8e58",
 			"Name": "ExponentialHeightFog",
 			"Transform": {
 				"Translation": {
@@ -107,9 +108,7 @@
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 0,
-			"FogDensity": 0.009998000226914883,
-			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3"
+			"DirectionalInscatteringLight": "73dfbae2400ebddfcaec7798c925a165"
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",
@@ -130,7 +129,6 @@
 				}
 			},
 			"Radius": 8000.0,
-			"CaptureNearPlane": 5000.0,
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
@@ -220,19 +218,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.513670027256012
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -269,19 +255,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.07128900289535523,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -318,19 +292,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6962890028953552
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -367,19 +329,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.834958016872406
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -416,19 +366,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -465,19 +403,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.904295027256012
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -514,9 +440,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -546,9 +470,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -578,9 +500,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -610,9 +530,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -886,19 +804,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -935,19 +841,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -984,19 +878,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1033,19 +915,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1082,9 +952,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1114,9 +982,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1201,19 +1067,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1250,19 +1104,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1299,19 +1141,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1348,19 +1178,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1397,9 +1215,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1429,9 +1245,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1548,19 +1362,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1597,19 +1399,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1646,19 +1436,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1695,19 +1473,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1744,9 +1510,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1776,9 +1540,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1808,9 +1570,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1840,9 +1600,7 @@
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -1872,19 +1630,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -1921,19 +1667,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2031,19 +1765,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2080,19 +1802,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2129,19 +1839,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2178,19 +1876,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2227,9 +1913,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -2320,19 +2004,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2369,19 +2041,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2418,19 +2078,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2467,19 +2115,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2516,9 +2152,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -2548,9 +2182,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -2641,19 +2273,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2690,19 +2310,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2739,19 +2347,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2788,19 +2384,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -2867,9 +2451,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -2960,19 +2542,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3009,19 +2579,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3058,19 +2616,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3107,19 +2653,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3156,9 +2690,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -3188,9 +2720,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -3281,19 +2811,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3330,19 +2848,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3379,19 +2885,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3428,19 +2922,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3477,9 +2959,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -3509,9 +2989,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -3596,19 +3074,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.2539060115814209,
-								"Y": 0.444335013628006
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3645,19 +3111,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3694,19 +3148,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.0019490000559017063,
-								"Y": 0.765625
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3743,19 +3185,7 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.140625,
-								"Y": 0.6269530057907105
-							},
-							"Size": {
-								"X": 0.06738200038671494,
-								"Y": 0.06738200038671494
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -3792,9 +3222,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -3824,9 +3252,7 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{
-						"ScaleInLightmap": 0.0
-					}
+					{}
 				]
 			}
 		},
@@ -4202,19 +3628,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -4303,19 +3717,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -4600,19 +4002,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -4701,19 +4091,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -4982,19 +4360,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5083,19 +4449,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5364,19 +4718,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5465,19 +4807,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5774,19 +5104,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5882,19 +5200,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -5990,19 +5296,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -6278,19 +5572,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -6379,19 +5661,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -6669,19 +5939,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -6770,19 +6028,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7099,19 +6345,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7200,19 +6434,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7481,19 +6703,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7582,19 +6792,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7891,19 +7089,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -7999,19 +7185,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -8107,19 +7281,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -8427,19 +7589,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -8528,19 +7678,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -8809,19 +7947,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -8904,19 +8030,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -10099,19 +9213,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -10312,19 +9414,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -10525,19 +9615,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -10738,19 +9816,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11047,19 +10113,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11155,19 +10209,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11263,19 +10305,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11551,19 +10581,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11652,19 +10670,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -11981,19 +10987,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -12089,19 +11083,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -12197,19 +11179,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -12413,6 +11383,7 @@
 				}
 			},
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"DrawModes": 30,
 			"Buffer": {
 				"Entries": [
 					{
@@ -12439,6 +11410,7 @@
 				}
 			},
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"DrawModes": 30,
 			"Buffer": {
 				"Entries": [
 					{
@@ -12481,19 +11453,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3359360098838806,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -12589,19 +11549,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -12929,19 +11877,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -13286,19 +12222,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -13477,19 +12401,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -13668,19 +12580,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -13859,19 +12759,7 @@
 			"Model": "a74781d845749c8ce85cfeab1e992b21",
 			"Buffer": {
 				"Entries": [
-					{
-						"LightmapIndex": 0,
-						"LightmapArea": {
-							"Location": {
-								"X": 0.3232420086860657,
-								"Y": 0.375
-							},
-							"Size": {
-								"X": 0.010742000304162503,
-								"Y": 0.010742000304162503
-							}
-						}
-					}
+					{}
 				]
 			}
 		},
@@ -14185,26 +13073,60 @@
 			}
 		},
 		{
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ID": "e7ebea8144f87081e6ec5ca462ebaf44",
+			"ParentID": "5a3a05d2499022956c5bd8a1c8fbabb9",
+			"Name": "bunn collision",
+			"CollisionData": "732327264e048748e42781a7d1e82a65"
+		},
+		{
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ID": "a27daee64f34d92f2220e18a15dc7a7e",
+			"ParentID": "0e88e05740817ed88d400dbfce61f915",
+			"Name": "Trigger",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 93.31948852539063,
+					"Z": 0.0
+				}
+			},
+			"IsTrigger": true,
+			"Size": {
+				"X": 450.0,
+				"Y": 400.0,
+				"Z": 600.0
+			}
+		},
+		{
+			"TypeName": "MaterialsFeaturesTour.SunTrigger",
+			"ID": "02e7e79a4e0065c7dc04dbaf1facf965",
+			"ParentID": "a27daee64f34d92f2220e18a15dc7a7e",
+			"V": {
+	"Light": "73dfbae2400ebddfcaec7798c925a165"
+}
+		},
+		{
 			"TypeName": "FlaxEngine.SpotLight",
 			"ID": "3a56f233466e201ed0374eac97606a82",
-			"ParentID": "5a3a05d2499022956c5bd8a1c8fbabb9",
+			"ParentID": "0e88e05740817ed88d400dbfce61f915",
 			"Name": "SpotLight",
 			"Transform": {
 				"Translation": {
-					"X": 0.021858887746930124,
-					"Y": 0.06560549885034561,
-					"Z": 0.11797498166561127
+					"X": 156.42626953125,
+					"Y": 94.1434326171875,
+					"Z": -253.57321166992188
 				},
 				"Orientation": {
-					"X": -0.015979446470737459,
-					"Y": -0.974642813205719,
-					"Z": -0.2105855643749237,
-					"W": 0.07395684719085694
+					"X": 0.14605066180229188,
+					"Y": 0.1688970923423767,
+					"Z": 0.025314994156360627,
+					"W": -0.9744239449501038
 				},
 				"Scale": {
-					"X": 800.0,
-					"Y": 800.0,
-					"Z": 800.0
+					"X": 0.5169630646705627,
+					"Y": 1.0,
+					"Z": 0.5697757005691528
 				}
 			},
 			"Brightness": 5.0,
@@ -14239,40 +13161,6 @@
 					}
 				]
 			}
-		},
-		{
-			"TypeName": "FlaxEngine.MeshCollider",
-			"ID": "e7ebea8144f87081e6ec5ca462ebaf44",
-			"ParentID": "5a3a05d2499022956c5bd8a1c8fbabb9",
-			"Name": "bunn collision",
-			"CollisionData": "732327264e048748e42781a7d1e82a65"
-		},
-		{
-			"TypeName": "FlaxEngine.BoxCollider",
-			"ID": "a27daee64f34d92f2220e18a15dc7a7e",
-			"ParentID": "0e88e05740817ed88d400dbfce61f915",
-			"Name": "Trigger",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 93.31948852539063,
-					"Z": 0.0
-				}
-			},
-			"IsTrigger": true,
-			"Size": {
-				"X": 450.0,
-				"Y": 400.0,
-				"Z": 600.0
-			}
-		},
-		{
-			"TypeName": "MaterialsFeaturesTour.SunTrigger",
-			"ID": "02e7e79a4e0065c7dc04dbaf1facf965",
-			"ParentID": "a27daee64f34d92f2220e18a15dc7a7e",
-			"V": {
-	"Light": "9b72fc4a47c39fca64f3058b692784c3"
-}
 		},
 		{
 			"TypeName": "FlaxEngine.EmptyActor",

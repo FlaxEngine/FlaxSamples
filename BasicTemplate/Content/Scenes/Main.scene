@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6187,
+	"EngineBuild": 6190,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",

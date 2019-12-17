@@ -21,6 +21,7 @@ namespace GraphicsFeaturesTour
 
         private void SetActive(bool value)
         {
+            Fog.FogDensity = value ? 0.6f : 0.02f;
             Fog.VolumetricFogEnable = value;
 
             if (ActorsToToggle != null)

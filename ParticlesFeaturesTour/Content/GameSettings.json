@@ -1,9 +1,9 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6187,
+	"EngineBuild": 6189,
 	"Data": {
-	"ProductName": "MaterialsFeaturesTour",
+	"ProductName": "ParticlesFeaturesTour",
 	"CompanyName": "Flax",
 	"Version": "1.0",
 	"FirstScene": "a470726f441936acfe25318b162c336c",
