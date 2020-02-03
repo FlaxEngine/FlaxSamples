@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6190,
+	"EngineBuild": 6192,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -416,7 +416,6 @@
 			"StaticFlags": 0,
 			"Layer": 1,
 			"Tag": "Player",
-			"ContactOffset": 0.10000000149011612,
 			"Height": 100.0
 		},
 		{
@@ -543,6 +542,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -579,6 +579,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -615,6 +616,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -651,6 +653,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -693,6 +696,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -735,6 +739,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -777,6 +782,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{
@@ -813,6 +819,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 500.0
 		},
 		{

@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6190,
+	"EngineBuild": 6192,
 	"Data": [
 		{
 			"TypeName": "FlaxEngine.Scene",
@@ -2985,6 +2985,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3027,6 +3028,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3075,6 +3077,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3117,6 +3120,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3165,6 +3169,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3207,6 +3212,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3249,6 +3255,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3291,6 +3298,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3339,6 +3347,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3381,6 +3390,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3423,6 +3433,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3465,6 +3476,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3507,6 +3519,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3549,6 +3562,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3591,6 +3605,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3633,6 +3648,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3681,6 +3697,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3729,6 +3746,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3777,6 +3795,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3819,6 +3838,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3861,6 +3881,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3903,6 +3924,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3951,6 +3973,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -3999,6 +4022,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -4047,6 +4071,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -4089,6 +4114,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -4131,6 +4157,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -4866,7 +4893,8 @@
 					"Z": -150.0
 				}
 			},
-			"StaticFlags": 0
+			"StaticFlags": 0,
+			"Mass": 19464.755859375
 		},
 		{
 			"TypeName": "FlaxEngine.SphereCollider",
@@ -6076,6 +6104,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 600.0
 		},
 		{
@@ -6119,6 +6148,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Mass": 9457.416015625,
 			"IsKinematic": true
 		},
 		{
@@ -6335,6 +6365,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"OverrideMass": true,
 			"Mass": 100.0
 		},
 		{
@@ -6410,6 +6441,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Mass": 4756.82861328125,
 			"IsKinematic": true
 		},
 		{
@@ -6601,7 +6633,8 @@
 					"Z": -140.0
 				}
 			},
-			"StaticFlags": 0
+			"StaticFlags": 0,
+			"Mass": 19464.755859375
 		},
 		{
 			"TypeName": "FlaxEngine.SphereCollider",
@@ -6643,6 +6676,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Mass": 18803.015625,
 			"IsKinematic": true
 		},
 		{
@@ -6852,6 +6886,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Mass": 3038.01220703125,
 			"IsKinematic": true
 		},
 		{
@@ -6929,7 +6964,8 @@
 					"Z": 0.15000000596046449
 				}
 			},
-			"StaticFlags": 0
+			"StaticFlags": 0,
+			"Mass": 8738.853515625
 		},
 		{
 			"TypeName": "FlaxEngine.StaticModel",
