@@ -1,7 +1,7 @@
 {
 	"ID": "f4c1c67842f6b745a6976aa8e7eff360",
 	"TypeName": "FlaxEditor.Content.Settings.InputSettings",
-	"EngineBuild": 6145,
+	"EngineBuild": 6194,
 	"Data": {
 	"ActionMappings": [
 		{
@@ -9,7 +9,15 @@
 			"Mode": 1,
 			"Key": 0,
 			"MouseButton": 1,
-			"GampadButton": 13,
+			"GamepadButton": 14,
+			"Gamepad": -1
+		},
+		{
+			"Name": "Jump",
+			"Mode": 1,
+			"Key": 32,
+			"MouseButton": 0,
+			"GamepadButton": 13,
 			"Gamepad": 0
 		}
 	],
@@ -108,6 +116,30 @@
 			"Sensitivity": 1.0,
 			"Gravity": 1.0,
 			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse X",
+			"Axis": 5,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 4.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse Y",
+			"Axis": 6,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": -4.0,
 			"Snap": false
 		}
 	]

@@ -1,0 +1,27 @@
+{
+	"Name": "Materials Features Tour",
+	"Version": "1.0",
+	"Company": "",
+	"Copyright": "",
+	"GameTarget": "MaterialsFeaturesTourTarget",
+	"EditorTarget": "MaterialsFeaturesTourEditorTarget",
+	"References": [
+		{
+			"Name": "$(EnginePath)/Flax.flaxproj"
+		}
+	],
+	"DefaultScene": "a470726f441936acfe25318b162c336c",
+	"DefaultSceneSpawn": {
+		"Position": {
+			"X": -85.0,
+			"Y": 205.0,
+			"Z": -233.0
+		},
+		"Direction": {
+			"X": 0.8397950530052185,
+			"Y": -0.13917310535907746,
+			"Z": 0.5247620344161987
+		}
+	},
+	"MinEngineVersion": "0.0.6165"
+}

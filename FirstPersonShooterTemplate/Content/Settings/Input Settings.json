@@ -1,7 +1,7 @@
 {
 	"ID": "f4c1c67842f6b745a6976aa8e7eff360",
 	"TypeName": "FlaxEditor.Content.Settings.InputSettings",
-	"EngineBuild": 6177,
+	"EngineBuild": 6194,
 	"Data": {
 	"ActionMappings": [
 		{
@@ -9,15 +9,15 @@
 			"Mode": 0,
 			"Key": 0,
 			"MouseButton": 1,
-			"GampadButton": 13,
-			"Gamepad": 0
+			"GamepadButton": 14,
+			"Gamepad": -1
 		},
 		{
 			"Name": "Jump",
 			"Mode": 1,
 			"Key": 32,
 			"MouseButton": 0,
-			"GampadButton": 16,
+			"GamepadButton": 13,
 			"Gamepad": 0
 		}
 	],

@@ -1,11 +1,11 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6192,
+	"EngineBuild": 6194,
 	"Data": [
 		{
-			"TypeName": "FlaxEngine.Scene",
 			"ID": "a470726f441936acfe25318b162c336c",
+			"TypeName": "FlaxEngine.Scene",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
 			"Lightmaps": [
@@ -16,20 +16,24 @@
 				}
 			],
 			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
 				"ChartsPadding": 2,
 				"AtlasSize": 512,
+				"BounceCount": 1,
+				"UseGeometryWithNoMaterials": true,
 				"Quality": 100
 			}
 		},
 		{
-			"TypeName": "BasicTemplate.ExitOnEsc",
 			"ID": "3d81d377468b44e298a558ad98af0d12",
+			"TypeName": "BasicTemplate.ExitOnEsc",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
 		{
-			"TypeName": "FlaxEngine.SkyLight",
 			"ID": "280f19df46462adca0ad71983641cb0b",
+			"TypeName": "FlaxEngine.SkyLight",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "SkyLight",
 			"Transform": {
@@ -42,8 +46,8 @@
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
-			"TypeName": "FlaxEngine.Sky",
 			"ID": "0442142849ec2b814cc380897a623811",
+			"TypeName": "FlaxEngine.Sky",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Sky",
 			"Transform": {
@@ -56,8 +60,8 @@
 			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
-			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ID": "d53a41bc451cdac2bf32199f7f0afa72",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "EnvironmentProbe",
 			"Transform": {
@@ -70,8 +74,8 @@
 			"ProbeID": "a3bfc6cc409cd437c3dffca424736896"
 		},
 		{
-			"TypeName": "FlaxEngine.DirectionalLight",
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
+			"TypeName": "FlaxEngine.DirectionalLight",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Sun",
 			"Transform": {
@@ -99,8 +103,8 @@
 			"ShadowsNormalOffsetScale": 50.0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c186d8c64da6153e725e638df4679e98",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Floor",
 			"Transform": {
@@ -114,21 +118,24 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "c5bf75264ac08f205d16eea554e3d16e"
+						"Material": "c5bf75264ac08f205d16eea554e3d16e",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "03d22c35456f44334942829dfe2c5e8f",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "c186d8c64da6153e725e638df4679e98",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a6c68c34424f3172473746b6852612bb",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Cube",
 			"Transform": {
@@ -147,20 +154,25 @@
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "20f7c15e46b71c16d46ddb85ebea39af",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "a6c68c34424f3172473746b6852612bb",
 			"Name": "BoxCollider",
 			"StaticFlags": 0
 		},
 		{
-			"TypeName": "FlaxEngine.Camera",
 			"ID": "5543ed36412ccd0f04717a90d39e877e",
+			"TypeName": "FlaxEngine.Camera",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Camera",
 			"Transform": {
@@ -181,11 +193,11 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeName": "BasicTemplate.FreeCamera",
 			"ID": "5dd6fd6641ce223a7ec079803296d798",
+			"TypeName": "BasicTemplate.FreeCamera",
 			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
 			"V": {
-	"MoveSpeed": 4.0,
+	"MoveSpeed": 10.0,
 	"CameraSmoothing": 20.0
 }
 		}

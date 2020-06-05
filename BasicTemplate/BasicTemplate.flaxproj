@@ -1,0 +1,27 @@
+{
+	"Name": "Basic Template",
+	"Version": "1.0",
+	"Company": "",
+	"Copyright": "",
+	"GameTarget": "BasicTemplateTarget",
+	"EditorTarget": "BasicTemplateEditorTarget",
+	"References": [
+		{
+			"Name": "$(EnginePath)/Flax.flaxproj"
+		}
+	],
+	"DefaultScene": "a470726f441936acfe25318b162c336c",
+	"DefaultSceneSpawn": {
+		"Position": {
+			"X": -390.0,
+			"Y": 268.0,
+			"Z": -260.0
+		},
+		"Direction": {
+			"X": 0.8372721076011658,
+			"Y": -0.3420201241970062,
+			"Z": 0.42661166191101076
+		}
+	},
+	"MinEngineVersion": "0.0.6165"
+}

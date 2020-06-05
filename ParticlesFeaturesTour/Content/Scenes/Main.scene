@@ -1,11 +1,11 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6192,
+	"EngineBuild": 6194,
 	"Data": [
 		{
-			"TypeName": "FlaxEngine.Scene",
 			"ID": "a470726f441936acfe25318b162c336c",
+			"TypeName": "FlaxEngine.Scene",
 			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
 			"Transform": {
@@ -16,9 +16,13 @@
 				}
 			},
 			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
 				"GlobalObjectsScale": 0.800000011920929,
 				"ChartsPadding": 2,
-				"BounceCount": 2
+				"AtlasSize": 1024,
+				"BounceCount": 2,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
 			},
 			"CSG": {
 				"Model": "8a042da5405a174845552cb384262281",
@@ -27,20 +31,20 @@
 			}
 		},
 		{
-			"TypeName": "ParticlesFeaturesTour.ExitOnEsc",
 			"ID": "e1f46fd4466ac48896c21e8106868793",
+			"TypeName": "ParticlesFeaturesTour.ExitOnEsc",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0d08167149fab2dece3968a383287a81",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Visuals"
 		},
 		{
-			"TypeName": "FlaxEngine.SkyLight",
 			"ID": "280f19df46462adca0ad71983641cb0b",
+			"TypeName": "FlaxEngine.SkyLight",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "SkyLight",
 			"Transform": {
@@ -53,8 +57,8 @@
 			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
-			"TypeName": "FlaxEngine.Sky",
 			"ID": "0442142849ec2b814cc380897a623811",
+			"TypeName": "FlaxEngine.Sky",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "Sky",
 			"Transform": {
@@ -67,8 +71,8 @@
 			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
-			"TypeName": "FlaxEngine.DirectionalLight",
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
+			"TypeName": "FlaxEngine.DirectionalLight",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "Sun",
 			"Transform": {
@@ -96,8 +100,8 @@
 			"ShadowsNormalOffsetScale": 100.0
 		},
 		{
-			"TypeName": "FlaxEngine.ExponentialHeightFog",
 			"ID": "758af305431ccbcf439d048e8434f276",
+			"TypeName": "FlaxEngine.ExponentialHeightFog",
 			"ParentID": "0d08167149fab2dece3968a383287a81",
 			"Name": "ExponentialHeightFog",
 			"Transform": {
@@ -111,14 +115,14 @@
 			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "b62b160e4ce7ebe5156fbfa40db2e480",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Env Probes"
 		},
 		{
-			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ID": "739e26924c19e0641050bba8b8ebfe6c",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
 			"ParentID": "b62b160e4ce7ebe5156fbfa40db2e480",
 			"Name": "EnvironmentProbe",
 			"Transform": {
@@ -133,8 +137,8 @@
 			"ProbeID": "7e78982e4223fc298bc96bb6c67a43b1"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "532f46e6414fe755ee404d846a39c22a",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "StaticGeometry",
 			"Transform": {
@@ -146,14 +150,14 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e51009de4f1b63c2316665a8711bd74f",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 0"
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "4cc3ea1f43bfe2dec9bef29763ca5e4f",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Floor",
 			"Transform": {
@@ -194,8 +198,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "fb45c97e4e4659e3a619599ed2ab1b3d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 0",
 			"Transform": {
@@ -219,20 +223,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9eb9f67d4fc377b3e18e90bcb3c87e5f",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "fb45c97e4e4659e3a619599ed2ab1b3d",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "24c96e904bb32ca5a4a8248c52aa5a2b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 1",
 			"Transform": {
@@ -256,20 +265,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "6c8bc9c74b80b7a951f2bd97464cc1d6",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "24c96e904bb32ca5a4a8248c52aa5a2b",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d4b641f64512801a051d3792946d54e2",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 2",
 			"Transform": {
@@ -293,20 +307,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "d94fa65d44baea9f600fde98d516e6d1",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "d4b641f64512801a051d3792946d54e2",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f3fc2c624561e20b212f38bd3b99168e",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 3",
 			"Transform": {
@@ -330,20 +349,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "53c005e249670a1f90cf0086b7682ec4",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "f3fc2c624561e20b212f38bd3b99168e",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "5526c1f348277aa1415e00b595fd24d3",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 4",
 			"Transform": {
@@ -367,20 +391,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "3e6c1b0b45ef35939e5a8e9089e5006f",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "5526c1f348277aa1415e00b595fd24d3",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a0013f9644e301a6d0d3e2b8b0726930",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Wall 5",
 			"Transform": {
@@ -404,20 +433,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "4374763445d619061930bf9735f7ff1a",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "a0013f9644e301a6d0d3e2b8b0726930",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "61612f9341274c7ff9c0988f8bd76a2f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -441,13 +475,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "02822cb34bfc78efed990ab00fa44473",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -471,13 +510,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f01e39a240a1b03fb0d5eaa574604987",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 3",
 			"Transform": {
@@ -485,12 +529,6 @@
 					"X": 7.633234024047852,
 					"Y": 45.71287536621094,
 					"Z": 3.3333740234375
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": 0.000012000000424450264,
-					"Z": 0.0,
-					"W": 1.0
 				},
 				"Scale": {
 					"X": 1.0,
@@ -501,13 +539,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d0317d8e45103c3568626b8f947652e9",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Back Plane 2",
 			"Transform": {
@@ -515,12 +558,6 @@
 					"X": -25.393341064453126,
 					"Y": 50.0,
 					"Z": 3.3333740234375
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": 0.000012000000424450264,
-					"Z": 0.0,
-					"W": 1.0
 				},
 				"Scale": {
 					"X": 1.0,
@@ -531,13 +568,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "6e1a305342e8c1066585ae98c8da44cb",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "e51009de4f1b63c2316665a8711bd74f",
 			"Name": "Welcome Table",
 			"Transform": {
@@ -555,8 +597,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "253ac87a411ac3f396ff9a998494af9b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Model",
 			"Transform": {
@@ -575,21 +617,24 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "e37ba45240ca8ad03d79efa3497f6d48"
+						"Material": "e37ba45240ca8ad03d79efa3497f6d48",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "8d2002c447df50f939a596881a1d38af",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "253ac87a411ac3f396ff9a998494af9b",
 			"Name": "Collider",
 			"CollisionData": "b691e2204250c37b985cf1ac3479d4db"
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "d65366f3468dc50b2ecae7ba10e12cfa",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Back",
 			"Transform": {
@@ -635,8 +680,8 @@
 			"GapScale": 0.8299990296363831
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "aa8c443c450945f6504040b2ce3c71df",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Description",
 			"Transform": {
@@ -682,8 +727,8 @@
 			"GapScale": 0.8299990296363831
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "d04908304e5a5172141e51bca09183ac",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "6e1a305342e8c1066585ae98c8da44cb",
 			"Name": "Title",
 			"Transform": {
@@ -725,8 +770,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "23e27efc478ab3606cbc9a81539667f5",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 1",
 			"Transform": {
@@ -738,8 +783,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "f44af2d245e221decad28492104f4809",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Floor",
 			"Transform": {
@@ -780,8 +825,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "11bddedc490e1691d00c968b059218d4",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 0",
 			"Transform": {
@@ -805,20 +850,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "39228ddd479a5914bd5fb98dd29bd9e1",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "11bddedc490e1691d00c968b059218d4",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b13b622349288871bf7ceab36417263c",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 1",
 			"Transform": {
@@ -842,20 +892,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9dc78141404b2339f0a5e18179bafc86",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "b13b622349288871bf7ceab36417263c",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "91b3d094437d29e133039aa20991517f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 2",
 			"Transform": {
@@ -879,20 +934,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "b6257a734e5f3710e01098b3281ff84a",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "91b3d094437d29e133039aa20991517f",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "42be407e4badbc1e805c1e9160fbe7f5",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Wall 3",
 			"Transform": {
@@ -916,20 +976,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "624236b94d3f232e111a5eb552e025f2",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "42be407e4badbc1e805c1e9160fbe7f5",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8571aecb448dcaaac4bd63972a660727",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -953,13 +1018,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c89b9b19456cada5c2a338b38f6d42c3",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "23e27efc478ab3606cbc9a81539667f5",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -983,13 +1053,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8b254d674462ad285d5ec7b572078f62",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 3",
 			"Transform": {
@@ -1001,8 +1076,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "08f029684ff30fcc30c3499c4389cb3d",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Floor",
 			"Transform": {
@@ -1043,8 +1118,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "eb49ca2a494041136349ce9532447528",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 0",
 			"Transform": {
@@ -1068,20 +1143,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "fd81626e454ff3014b080d9885c3f38a",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "eb49ca2a494041136349ce9532447528",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "72a9e0bf4f663acc5bffd6a557e8f7ba",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 1",
 			"Transform": {
@@ -1105,20 +1185,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "9d622145456e80274b2996a0f21835ad",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "72a9e0bf4f663acc5bffd6a557e8f7ba",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d8c10fda41078ace9bbd73be237126b0",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 2",
 			"Transform": {
@@ -1142,20 +1227,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "1e386b3944d7330f59ec72920b1012aa",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "d8c10fda41078ace9bbd73be237126b0",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "4a0b48fc4071ef19f2611faf0fec9fef",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Wall 3",
 			"Transform": {
@@ -1179,20 +1269,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "dd682c54466f0143bf2b57a6d225cc13",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "4a0b48fc4071ef19f2611faf0fec9fef",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d158d66249c63114018c2d90924316e9",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -1216,13 +1311,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a9d45c0c4858ff4e732d3dacf9d0eb80",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -1246,13 +1346,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "06b26b62482908de99fb74b303468466",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8b254d674462ad285d5ec7b572078f62",
 			"Name": "Cube",
 			"Transform": {
@@ -1271,14 +1376,17 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "266ec0fd4ec47a420a619c8be4d56ad1"
+						"Material": "266ec0fd4ec47a420a619c8be4d56ad1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "63785cdf4df341f56258cc8336d466c2",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 9",
 			"Transform": {
@@ -1296,8 +1404,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "4f85c3e2417840073e1fc2b0251126e6",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Floor",
 			"Transform": {
@@ -1338,8 +1446,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "754f552c4a9235a33886f497d7483835",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 0",
 			"Transform": {
@@ -1363,20 +1471,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "f50f59d3438ac47e0c3b3b8efd1d3e23",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "754f552c4a9235a33886f497d7483835",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "ed12dae04aebff5fe52911a8536ff87b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 1",
 			"Transform": {
@@ -1400,20 +1513,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "50b99ac5442973902f601e822a82c452",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "ed12dae04aebff5fe52911a8536ff87b",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a696e7a34241f06f0817ae95564f2a87",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 2",
 			"Transform": {
@@ -1437,20 +1555,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "77050e98454740d53f3830b6652a4411",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "a696e7a34241f06f0817ae95564f2a87",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "959dccb9411f77dbbf454ba1cc1dc98f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 3",
 			"Transform": {
@@ -1474,20 +1597,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "1959b8b3497017d30e031cb974152014",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "959dccb9411f77dbbf454ba1cc1dc98f",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0529f40f479e684dd273bb8dda7ecb9c",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -1511,13 +1639,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "3143f21f4911cedca9fb178a7100fbea",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -1541,13 +1674,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8cbd86fd4c6b1a44e4684eb4b53a8649",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Back Plane 2",
 			"Transform": {
@@ -1571,13 +1709,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "35b19a024d5d08febefc9f8e0a0a4a60",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Cube 0",
 			"Transform": {
@@ -1601,13 +1744,18 @@
 			"Model": "62a9aa73424580375cd97a88a2302cef",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b35cf8fb4f7634859feb9da316e2cf77",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 5",
 			"Transform": {
@@ -1631,20 +1779,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "14de0f4a4e3850031fd8beb3a74913e4",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "b35cf8fb4f7634859feb9da316e2cf77",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "ef84089049f14b08840cf89aec92fb20",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "63785cdf4df341f56258cc8336d466c2",
 			"Name": "Wall 4",
 			"Transform": {
@@ -1668,20 +1821,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "92b9282e46460fc2a47ecb855903cd5d",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "ef84089049f14b08840cf89aec92fb20",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "13a9d4e547d2cefb3365c2a01fc1453d",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 4",
 			"Transform": {
@@ -1699,8 +1857,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "963ce61c4cedfe449e6c2eb5fcb0f8ae",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Floor",
 			"Transform": {
@@ -1741,8 +1899,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "32193db8466ae87342f5fbb5ebdbe3a3",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 0",
 			"Transform": {
@@ -1766,20 +1924,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "27103e22486bff2fae631f930ce55a2b",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "32193db8466ae87342f5fbb5ebdbe3a3",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f262f0324f3ab36c17c3e7a796f55208",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 1",
 			"Transform": {
@@ -1803,20 +1966,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "4a33aa5d400ed5bfe8bb37b68423afbf",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "f262f0324f3ab36c17c3e7a796f55208",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "1719d5ac496f08bce0e0fcb92fb87516",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 2",
 			"Transform": {
@@ -1840,20 +2008,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "174bcd644fd91669956b3dbfe5e6fe07",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "1719d5ac496f08bce0e0fcb92fb87516",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6bc4be2748696f3a6a53e98675bf19a6",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Wall 3",
 			"Transform": {
@@ -1877,20 +2050,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "81fff3e847050da06f11788e56812ea6",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "6bc4be2748696f3a6a53e98675bf19a6",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2de718da4e195b4d127c249b524e514d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -1914,13 +2092,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "140a159745f613a7a00eb9ae6ad76c6b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "13a9d4e547d2cefb3365c2a01fc1453d",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -1944,13 +2127,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "7e20028b4269cb786d4804a249f5cadd",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "532f46e6414fe755ee404d846a39c22a",
 			"Name": "Part 2",
 			"Transform": {
@@ -1962,8 +2150,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxBrush",
 			"ID": "47c21dff47841ed379d3e182af1749cf",
+			"TypeName": "FlaxEngine.BoxBrush",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Floor",
 			"Transform": {
@@ -2004,8 +2192,8 @@
 			]
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9cc6e39b4777c01d1e1d9294a8beebfc",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 0",
 			"Transform": {
@@ -2029,20 +2217,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "c21bab804f170bc11dd750bf3c93c885",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "9cc6e39b4777c01d1e1d9294a8beebfc",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f88301ab4db5c8d92f2416a2ecaabc1b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 1",
 			"Transform": {
@@ -2066,20 +2259,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "0d0860aa4c921d72d21dfeab9d6c9345",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "f88301ab4db5c8d92f2416a2ecaabc1b",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e7b8df66469a52c556a8b699835a6efe",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 2",
 			"Transform": {
@@ -2103,20 +2301,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "e722f2c447c9f60c5eca7d8c076f5028",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "e7b8df66469a52c556a8b699835a6efe",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b0669e6645d8420cfd5c92bcdfa7b349",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Wall 3",
 			"Transform": {
@@ -2140,20 +2343,25 @@
 			"Model": "5f887c814e834fb0c0dbd2ba267b755f",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "8732bdcd48bc3787a69ccf94030f4d46",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "b0669e6645d8420cfd5c92bcdfa7b349",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7e3c73b74ae5355d79dde58016dfbac8",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Back Plane 0",
 			"Transform": {
@@ -2177,13 +2385,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "24c2ba4f48d993ca07d06db279730c08",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "7e20028b4269cb786d4804a249f5cadd",
 			"Name": "Back Plane 1",
 			"Transform": {
@@ -2207,13 +2420,18 @@
 			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.Camera",
 			"ID": "5543ed36412ccd0f04717a90d39e877e",
+			"TypeName": "FlaxEngine.Camera",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Camera",
 			"Transform": {
@@ -2234,8 +2452,8 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeName": "FlaxEngine.CharacterController",
 			"ID": "8dd8b65446747a93c055c2aee97de390",
+			"TypeName": "FlaxEngine.CharacterController",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Player",
 			"Transform": {
@@ -2260,8 +2478,8 @@
 			"Height": 100.0
 		},
 		{
-			"TypeName": "ParticlesFeaturesTour.PlayerScript",
 			"ID": "ae1677d64661a5e90fb7e5b52239f292",
+			"TypeName": "ParticlesFeaturesTour.PlayerScript",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"V": {
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
@@ -2278,8 +2496,8 @@
 }
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "dfaec6df4971de07eda4e1803e33de95",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
 			"Name": "Cylinder",
@@ -2289,13 +2507,18 @@
 			"Model": "223aa9894e90973780ab508621517526",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "bd5a86b94be40f242ae1ad901eda3d3f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
 			"Name": "Bottom Sphere",
@@ -2312,13 +2535,18 @@
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "7238398c45232acccbe403905da6d266",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"IsActive": false,
 			"Name": "Upper Sphere",
@@ -2335,13 +2563,18 @@
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9b1b849f4ef1d7aa11977e91a446dde5",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "8dd8b65446747a93c055c2aee97de390",
 			"Name": "Cam Target",
 			"Transform": {
@@ -2356,35 +2589,45 @@
 			"Tag": "Player"
 		},
 		{
-			"TypeName": "FlaxEngine.MeshCollider",
 			"ID": "c61c72eb40e0fc78a21fddb233fd5cab",
+			"TypeName": "FlaxEngine.MeshCollider",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "CSG.Collider",
 			"CollisionData": "a5f97a164bddfd712f248088f10548ac"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "d2b6613047b4e7d145d06bbef674a727",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "CSG.Model",
 			"HideFlags": 4,
 			"Model": "8a042da5405a174845552cb384262281",
 			"Buffer": {
 				"Entries": [
-					{},
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "38afc49e474b5f895227f4b7e3b10ad1",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"Name": "Stands"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3a6da529429275a8c5740e828bb6c31e",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"IsActive": false,
 			"Name": "Stand 0",
@@ -2403,8 +2646,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "746afaa441fbfaa38fef41854c0a92c2",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Area",
 			"Transform": {
@@ -2428,13 +2671,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "416c8c2d4aa762d81bb8b3a9bf8feeed",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Title",
 			"Transform": {
@@ -2469,8 +2717,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c58041834c00ace62d7606ab6bfc9ba0",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "416c8c2d4aa762d81bb8b3a9bf8feeed",
 			"Name": "Plate",
 			"Transform": {
@@ -2496,20 +2744,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "cb21ab4b456985b89189f7a079b786d2",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "a6a506ae445649ecf12cfcae91b02c1c",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Sphere 1",
 			"Transform": {
@@ -2523,21 +2774,24 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "fa4e4af247d45c841538cc874870a0e3"
+						"Material": "fa4e4af247d45c841538cc874870a0e3",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "164f5a7b450fb7ad5ea473ba5660bd27",
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ParentID": "a6a506ae445649ecf12cfcae91b02c1c",
 			"Name": "SphereCollider",
 			"Radius": 48.0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "da30cae942efa8a764cafea34a9930e5",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "Sphere 0",
 			"Transform": {
@@ -2551,21 +2805,24 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "310735bd4103a78699b72797010081e1"
+						"Material": "310735bd4103a78699b72797010081e1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "06468398426749b12c252e887442a5c9",
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ParentID": "da30cae942efa8a764cafea34a9930e5",
 			"Name": "SphereCollider",
 			"Radius": 48.0
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "935753204af9b29f0540778726a9e4dd",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "NameTag 1",
 			"Transform": {
@@ -2577,8 +2834,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8451a4da4d2de4d2a2f1598f1da7b251",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "Model",
 			"Transform": {
@@ -2599,8 +2856,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "5714d41b4869e4da58968c8cb82d21b8",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "Text",
 			"Transform": {
@@ -2638,8 +2895,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "455a1d6e4b3c495245e98691ea008462",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "935753204af9b29f0540778726a9e4dd",
 			"Name": "BoxCollider",
 			"StaticFlags": 0,
@@ -2650,8 +2907,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "e1914e7a4e775affb1fe82ace2d3e4e2",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "3a6da529429275a8c5740e828bb6c31e",
 			"Name": "NameTag 0",
 			"Transform": {
@@ -2663,8 +2920,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "5db54ed4472f3892e5cddba89f144242",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "Model",
 			"Transform": {
@@ -2685,8 +2942,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "6edfe6ce4d8de99981d005a67d51305d",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "Text",
 			"Transform": {
@@ -2724,8 +2981,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "bc57c5924207a8f4a5b56e9c4beaae0f",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "e1914e7a4e775affb1fe82ace2d3e4e2",
 			"Name": "BoxCollider",
 			"StaticFlags": 0,
@@ -2736,8 +2993,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 1",
 			"Transform": {
@@ -2755,8 +3012,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "ce8981c14228a85e7c35bb8e306857b6",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Area",
 			"Transform": {
@@ -2780,13 +3037,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9c359514490cf4bd4177d7b1cda0b8e4",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Title",
 			"Transform": {
@@ -2821,8 +3083,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8247e34a489f4ddd4927c3941607947b",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "9c359514490cf4bd4177d7b1cda0b8e4",
 			"Name": "Plate",
 			"Transform": {
@@ -2848,20 +3110,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "17321ae648f8d7e3b57509a8f2b940f5",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "5437e683454366e698d1a1818321ed9b",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "f556e14f4f0a2b2bf24756a2a1f8ade8",
 			"Name": "Particles",
 			"Transform": {
@@ -2872,12 +3137,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "14bd621d4a074ae7f31fc9af0cce6bf8",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "fdb214c546ac002310e5a0a1f62b45dd",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 2",
 			"Transform": {
@@ -2895,8 +3161,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "561f230b439689b23f8c659144d58845",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Area",
 			"Transform": {
@@ -2920,13 +3186,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "425d143e47a19af8228dd9bea7a79579",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Title",
 			"Transform": {
@@ -2961,8 +3232,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c06cef864936e0ca1d61079c67504659",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "425d143e47a19af8228dd9bea7a79579",
 			"Name": "Plate",
 			"Transform": {
@@ -2988,20 +3259,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "9d588dec42a73a9f07d96e8a44b4c8c7",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "afd75ae04162848aea171a881040a903",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Particles",
 			"Transform": {
@@ -3012,12 +3286,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "d581c86b4e07424b8480678dcf3e9365",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "59884a854b860c6341570dac5ca40317",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "afd75ae04162848aea171a881040a903",
 			"Name": "Cube",
 			"Transform": {
@@ -3036,13 +3311,18 @@
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "38adcb4347ec21c48568f9a5d390e660",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Cube",
 			"Transform": {
@@ -3061,19 +3341,24 @@
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "11970cb04a57c2ab7e2dfcba03a029b5",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "38adcb4347ec21c48568f9a5d390e660",
 			"Name": "BoxCollider"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "fc18f78c41d3e0f7336f818faf27d6b6",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "fdb214c546ac002310e5a0a1f62b45dd",
 			"Name": "Sphere",
 			"Transform": {
@@ -3086,19 +3371,24 @@
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "8f092a1f4b6af7448918909c1771d317",
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ParentID": "fc18f78c41d3e0f7336f818faf27d6b6",
 			"Name": "SphereCollider"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "1076283548f25becdf1ee7b0f0605822",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 3",
 			"Transform": {
@@ -3116,8 +3406,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "84ee908c432ebf3fa4b4d4823bfbc2b0",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Area",
 			"Transform": {
@@ -3141,13 +3431,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "5b25c5654b0d105a7d4f46a4f5913d91",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Title",
 			"Transform": {
@@ -3182,8 +3477,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "78a2c6de4b04752087232a97faf3e0ba",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "5b25c5654b0d105a7d4f46a4f5913d91",
 			"Name": "Plate",
 			"Transform": {
@@ -3209,20 +3504,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0a3af6fe4dccbedf4b3647a0c596ede5",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "bab9b2b14ea7e26f4a3cd8bd5d199a26",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "1076283548f25becdf1ee7b0f0605822",
 			"Name": "Particles",
 			"Transform": {
@@ -3233,12 +3531,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "c357b29844e45bd6b498d9af56a42446",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a63f11fe491c461dd931f18b8aca3976",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 4",
 			"Transform": {
@@ -3256,8 +3555,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "9e1efe324ecb6d53697dc7a514ad4e7d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Area",
 			"Transform": {
@@ -3281,13 +3580,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "9c6a908f4453eca0410d6c908cc2bb64",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Title",
 			"Transform": {
@@ -3322,8 +3626,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "be7c32414ccfc3aaa7f7bb8c805b6589",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "9c6a908f4453eca0410d6c908cc2bb64",
 			"Name": "Plate",
 			"Transform": {
@@ -3349,20 +3653,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8324889b41d1575436043885109c9a89",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "fc2c154140b2826fabfbac894089d300",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "a63f11fe491c461dd931f18b8aca3976",
 			"Name": "Particles",
 			"Transform": {
@@ -3373,12 +3680,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "d78bbb874c4e25b7dab1d78ef691beb3",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "2e7b0493415aa19a424af2be3ec2026d",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 5",
 			"Transform": {
@@ -3396,8 +3704,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "2ac4d8cb47610d537694d19049e20edb",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Area",
 			"Transform": {
@@ -3421,13 +3729,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "312032ef4bd37683e0052584fd603ace",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Title",
 			"Transform": {
@@ -3462,8 +3775,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6ea1a0054d0a3c3f70bcfc896efbd653",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "312032ef4bd37683e0052584fd603ace",
 			"Name": "Plate",
 			"Transform": {
@@ -3489,20 +3802,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "f5d7f59c4d65abe5643536b1202dc696",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "b02cb29e45905eaee8e45db40ae51c8f",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "2e7b0493415aa19a424af2be3ec2026d",
 			"Name": "Particles",
 			"Transform": {
@@ -3513,12 +3829,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "76034fe04d16cdbefe5737ac7a1bae7a",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a1a85c9148e80f850ddddba5f242d4d9",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 6",
 			"Transform": {
@@ -3536,8 +3853,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "015bd42a48fc127b6ab64085d954ef39",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Area",
 			"Transform": {
@@ -3561,13 +3878,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "088b18924b01e8ac20146697c57d0b71",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Title",
 			"Transform": {
@@ -3602,8 +3924,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f3249a6c41394630b13e3baeb4b9de73",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "088b18924b01e8ac20146697c57d0b71",
 			"Name": "Plate",
 			"Transform": {
@@ -3629,20 +3951,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "76e1167842558df05fd7a098a2b02b55",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.AnimatedModel",
 			"ID": "715a2a4d45aa7b3716cb5c9bc51221c5",
+			"TypeName": "FlaxEngine.AnimatedModel",
 			"ParentID": "a1a85c9148e80f850ddddba5f242d4d9",
 			"Name": "Knight",
 			"Transform": {
@@ -3662,13 +3987,18 @@
 			"AnimationGraph": "bf1f18d64d96cf7604e0619e6b8c5e36",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoneSocket",
 			"ID": "b23c47c1409f77a253e57b9a7576454d",
+			"TypeName": "FlaxEngine.BoneSocket",
 			"ParentID": "715a2a4d45aa7b3716cb5c9bc51221c5",
 			"Name": "BoneSocket_RightHand",
 			"Transform": {
@@ -3681,16 +4011,17 @@
 			"Node": "RightHand"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "f136fb44477a5fdb23943b9b550e443d",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "b23c47c1409f77a253e57b9a7576454d",
 			"Name": "Particles",
+			"Overrides": [],
 			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.BoneSocket",
 			"ID": "8129822d467130c14c482cbbc18e3148",
+			"TypeName": "FlaxEngine.BoneSocket",
 			"ParentID": "715a2a4d45aa7b3716cb5c9bc51221c5",
 			"Name": "BoneSocket_LeftHand",
 			"Transform": {
@@ -3703,16 +4034,17 @@
 			"Node": "LeftHand"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "db215e024b2c5071f265c2b58b60934f",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "8129822d467130c14c482cbbc18e3148",
 			"Name": "Particles",
+			"Overrides": [],
 			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "0ec6149640507fc9e9cbe8b710014158",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 7",
 			"Transform": {
@@ -3730,8 +4062,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "f6ad6c0249400d999369f48b5e32a32d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Area",
 			"Transform": {
@@ -3755,13 +4087,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "ffb11d6145e4937e60e0a885a4689c00",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Title",
 			"Transform": {
@@ -3796,8 +4133,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "05facd284bf70f8b21f8499217790474",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "ffb11d6145e4937e60e0a885a4689c00",
 			"Name": "Plate",
 			"Transform": {
@@ -3823,20 +4160,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d8e9b8d24e43a8705ae78395599914e8",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "1a69661a47045cf60a68b38a12afb5ae",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "0ec6149640507fc9e9cbe8b710014158",
 			"Name": "Particles",
 			"Transform": {
@@ -3847,12 +4187,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "e83dcf57471073423c92ee99ba9b4915",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "00b5a04a4da380979339e1a3539a54e2",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 8",
 			"Transform": {
@@ -3870,8 +4211,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "b9b961674efc058f68b5538d3649c0d7",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Area",
 			"Transform": {
@@ -3895,13 +4236,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "768b1f474bc1f2f75f42478a8797cecc",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Title",
 			"Transform": {
@@ -3936,8 +4282,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "90b3f5ad4c20ae11189a07aa6c2cd0d9",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "768b1f474bc1f2f75f42478a8797cecc",
 			"Name": "Plate",
 			"Transform": {
@@ -3963,20 +4309,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80208ad543a7d3b0c408d2b8dd8caa0d",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "1c0f409f4213f16363f4a5a8d47a0b38",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "00b5a04a4da380979339e1a3539a54e2",
 			"Name": "Particles",
 			"Transform": {
@@ -3987,12 +4336,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "c6f661064639e97aa0bcd0b16f651214",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 9",
 			"Transform": {
@@ -4010,8 +4360,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "e3e7460f467ab194dd0ef99fb43851aa",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Area",
 			"Transform": {
@@ -4035,13 +4385,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "b31bf9aa4fc0cbb8d0a0848e50336576",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Title",
 			"Transform": {
@@ -4076,8 +4431,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "66cb6a354d43c3613e16118e516901b3",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "b31bf9aa4fc0cbb8d0a0848e50336576",
 			"Name": "Plate",
 			"Transform": {
@@ -4103,20 +4458,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d9d6d5024a4c5f0616f85597d52e143a",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "e49d7874480302d7a8ff69a0cd0cc8c2",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
 			"Name": "Particles",
 			"Transform": {
@@ -4127,13 +4485,14 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "b639beb14221abbaecc6caa78ab9231e",
 			"IsLooping": true,
 			"UpdateWhenOffscreen": false
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "c8274a74469080103f2e64a430e6b904",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 10",
 			"Transform": {
@@ -4151,8 +4510,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "0de059214b38c81eec918cb225173d7d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Area",
 			"Transform": {
@@ -4176,13 +4535,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "ed25b93e4acdd10c22f738a8d7c8e810",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Title",
 			"Transform": {
@@ -4217,8 +4581,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "596064444983dace76d578a0d3baee76",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "ed25b93e4acdd10c22f738a8d7c8e810",
 			"Name": "Plate",
 			"Transform": {
@@ -4244,20 +4608,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "8ae0dec64dbeea896e301db1f98771c9",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "933a82354df905a2f2974b920d7801a5",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "c8274a74469080103f2e64a430e6b904",
 			"Name": "Particles",
 			"Transform": {
@@ -4268,12 +4635,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "8cc385be4f02f013a10f1b91c8a4947e",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "6cafd99b4f2459e6dffaf3a2b7024a1f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "933a82354df905a2f2974b920d7801a5",
 			"Name": "Box",
 			"Transform": {
@@ -4292,19 +4660,24 @@
 			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.BoxCollider",
 			"ID": "04c4b27d4ea5564177461a876e639522",
+			"TypeName": "FlaxEngine.BoxCollider",
 			"ParentID": "6cafd99b4f2459e6dffaf3a2b7024a1f",
 			"Name": "BoxCollider"
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "ebfceadb44b0ac3cd106ea819cf735dc",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "933a82354df905a2f2974b920d7801a5",
 			"Name": "Sphere",
 			"Transform": {
@@ -4318,19 +4691,24 @@
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.SphereCollider",
 			"ID": "ce5de44040a7f12d1680b39d1be1f03a",
+			"TypeName": "FlaxEngine.SphereCollider",
 			"ParentID": "ebfceadb44b0ac3cd106ea819cf735dc",
 			"Name": "SphereCollider"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "a12c29c7400870cbb88b19aea3aa26ff",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"Name": "Stand 11",
 			"Transform": {
@@ -4348,8 +4726,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "3c2c1d2e42ff637e8793eeac18970df7",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Area",
 			"Transform": {
@@ -4373,13 +4751,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "f39836e74b77a3b6ad181c971562aab0",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Title",
 			"Transform": {
@@ -4414,8 +4797,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "323bc1d34f6ef36ffe4fe99fe34b1d3d",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "f39836e74b77a3b6ad181c971562aab0",
 			"Name": "Plate",
 			"Transform": {
@@ -4441,20 +4824,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "3bbdea6b441aa4aa38cba3b40b514072",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.ParticleEffect",
 			"ID": "624597b042f10172640b188f1c097408",
+			"TypeName": "FlaxEngine.ParticleEffect",
 			"ParentID": "a12c29c7400870cbb88b19aea3aa26ff",
 			"Name": "Particles",
 			"Transform": {
@@ -4476,12 +4862,13 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Overrides": [],
 			"ParticleSystem": "cae06f40486099e2b6d56b8f87787e79",
 			"IsLooping": true
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "095f01cd4c445215f6a257a9bcb458bf",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"IsActive": false,
 			"Name": "Stand 12",
@@ -4500,8 +4887,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "c8c4dbea43d33782e71aa289596bc9a6",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Area",
 			"Transform": {
@@ -4525,13 +4912,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "96cd6f7745f7002b168da9b60bedec37",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Title",
 			"Transform": {
@@ -4566,8 +4958,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "31b7a4324d363db60004ceb25e0bcd9f",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "96cd6f7745f7002b168da9b60bedec37",
 			"Name": "Plate",
 			"Transform": {
@@ -4593,20 +4985,23 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "d201c61f41660b5cd0255d8fe1186b77",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Target"
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "16d1976749d18e718396f5bc6900678f",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
 			"IsActive": false,
 			"Name": "Stand 13",
@@ -4625,8 +5020,8 @@
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "38a516c84c7e913022440da270f81764",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Area",
 			"Transform": {
@@ -4650,13 +5045,18 @@
 			"Model": "73f8001d40cd952ff1e30bb377d07078",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.TextRender",
 			"ID": "2fbe24b847a367da200222aa28550cce",
+			"TypeName": "FlaxEngine.TextRender",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Title",
 			"Transform": {
@@ -4691,8 +5091,8 @@
 			"HAlignment": 0
 		},
 		{
-			"TypeName": "FlaxEngine.StaticModel",
 			"ID": "8ff62d294111b6517381248a3e4aebb1",
+			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "2fbe24b847a367da200222aa28550cce",
 			"Name": "Plate",
 			"Transform": {
@@ -4718,14 +5118,17 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "4e23e8634605c4db69d55f99bad49363"
+						"Material": "4e23e8634605c4db69d55f99bad49363",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
 					}
 				]
 			}
 		},
 		{
-			"TypeName": "FlaxEngine.EmptyActor",
 			"ID": "80c7ca8844dc2897929f619e9f0c2282",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Target"
 		}
