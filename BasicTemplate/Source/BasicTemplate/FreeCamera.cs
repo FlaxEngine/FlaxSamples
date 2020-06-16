@@ -5,13 +5,21 @@ namespace BasicTemplate
     public class FreeCamera : Script
     {
         [Limit(0, 100), Tooltip("Camera movement speed factor")]
-        public float MoveSpeed { get; set; } = 1;
+        public float MoveSpeed { get; set; } = 4;
 
         [Tooltip("Camera rotation smoothing factor")]
         public float CameraSmoothing { get; set; } = 20.0f;
 
         private float pitch;
         private float yaw;
+
+
+        public override void OnStart()
+        {
+            var initialEulerAngles = Actor.Orientation.EulerAngles;
+            pitch = initialEulerAngles.X;
+            yaw = initialEulerAngles.Y;
+        }
 
         public override void OnUpdate()
         {
