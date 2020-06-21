@@ -58,12 +58,6 @@ namespace GraphicsFeaturesTour
         /// <inheritdoc />
         public override void OnEnable()
         {
-#if FLAX_EDITOR
-            // Skip if not during play
-            if (!FlaxEditor.Editor.IsPlayMode)
-                return;
-#endif
-
             // Create backbuffer
             if (_output == null)
                 _output = new GPUTexture();
