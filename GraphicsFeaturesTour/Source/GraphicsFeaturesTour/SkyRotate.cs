@@ -46,7 +46,7 @@ namespace GraphicsFeaturesTour
             }
         }
 
-        private void OnTriggerEnter(Collider collider)
+        private void OnTriggerEnter(PhysicsColliderActor collider)
         {
             if (Light && collider is CharacterController)
             {
@@ -54,7 +54,7 @@ namespace GraphicsFeaturesTour
             }
         }
 
-        private void OnTriggerExit(Collider collider)
+        private void OnTriggerExit(PhysicsColliderActor collider)
         {
             if (Light && collider is CharacterController)
             {

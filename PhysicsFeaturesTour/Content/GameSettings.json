@@ -1,12 +1,12 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6187,
+	"EngineBuild": 6213,
 	"Data": {
 	"ProductName": "PhysicsFeaturesTour",
 	"CompanyName": "Flax",
-	"Version": "1.0",
 	"FirstScene": "a470726f441936acfe25318b162c336c",
+	"NoSplashScreen": false,
 	"Time": "9acd18b0496064d35799f390d3a2b374",
 	"Audio": "51d8f59b4f78cc54fbda8d88882c50a2",
 	"LayersAndTags": "bb6fbecf458db0ecffa5e2a5155b2b4f",
@@ -17,6 +17,7 @@
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
 	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
-	"LinuxPlatform": "be17ed9c4193990de4e1358ed56717a4"
+	"LinuxPlatform": "be17ed9c4193990de4e1358ed56717a4",
+	"AndroidPlatform": "babd7e284b164de5cb7c8ca933064e43"
 }
 }

@@ -43,7 +43,7 @@ namespace PhysicsFeaturesTour
             Actor.As<Collider>().TriggerExit -= OnTriggerExit;
         }
 
-        private void OnTriggerEnter(Collider collider)
+        private void OnTriggerEnter(PhysicsColliderActor collider)
         {
             // Check player
             if (collider is CharacterController)
@@ -52,7 +52,7 @@ namespace PhysicsFeaturesTour
             }
         }
 
-        private void OnTriggerExit(Collider collider)
+        private void OnTriggerExit(PhysicsColliderActor collider)
         {
             // Check player
             if (collider is CharacterController)

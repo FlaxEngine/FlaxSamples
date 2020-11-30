@@ -1,12 +1,11 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6194,
+	"EngineBuild": 6213,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
 			"TypeName": "FlaxEngine.Scene",
-			"ParentID": "00000000000000000000000000000000",
 			"Name": "Main",
 			"Transform": {
 				"Translation": {
@@ -21,6 +20,7 @@
 				"ChartsPadding": 2,
 				"AtlasSize": 1024,
 				"BounceCount": 2,
+				"CompressLightmaps": true,
 				"UseGeometryWithNoMaterials": true,
 				"Quality": 10
 			},
@@ -31,8 +31,8 @@
 			}
 		},
 		{
-			"ID": "e1f46fd4466ac48896c21e8106868793",
-			"TypeName": "ParticlesFeaturesTour.ExitOnEsc",
+			"ID": "faf31ae8443f7ae023ab01a3c82676d4",
+			"TypeName": "ExitOnEsc",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
@@ -2393,6 +2393,16 @@
 			"Tag": "Player"
 		},
 		{
+			"ID": "8d4d325f42807ebbaddcbfbd602226ef",
+			"TypeName": "PlayerScript",
+			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
+			"V": {
+	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
+	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
+	"Camera": "5543ed36412ccd0f04717a90d39e877e"
+}
+		},
+		{
 			"ID": "8dd8b65446747a93c055c2aee97de390",
 			"TypeName": "FlaxEngine.CharacterController",
 			"ParentID": "a470726f441936acfe25318b162c336c",
@@ -2417,24 +2427,6 @@
 			"StepOffset": 20.0,
 			"SlopeLimit": 20.0,
 			"Height": 100.0
-		},
-		{
-			"ID": "ae1677d64661a5e90fb7e5b52239f292",
-			"TypeName": "ParticlesFeaturesTour.PlayerScript",
-			"ParentID": "8dd8b65446747a93c055c2aee97de390",
-			"V": {
-	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
-	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
-	"Camera": "5543ed36412ccd0f04717a90d39e877e",
-	"CameraSmoothing": 20.0,
-	"CanJump": false,
-	"JumpForce": 800.0,
-	"Friction": 8.0,
-	"GroundAccelerate": 5000.0,
-	"AirAccelerate": 10000.0,
-	"MaxVelocityGround": 400.0,
-	"MaxVelocityAir": 200.0
-}
 		},
 		{
 			"ID": "dfaec6df4971de07eda4e1803e33de95",
@@ -3079,8 +3071,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "14bd621d4a074ae7f31fc9af0cce6bf8",
-			"IsLooping": true
+			"ParticleSystem": "14bd621d4a074ae7f31fc9af0cce6bf8"
 		},
 		{
 			"ID": "fdb214c546ac002310e5a0a1f62b45dd",
@@ -3228,8 +3219,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "d581c86b4e07424b8480678dcf3e9365",
-			"IsLooping": true
+			"ParticleSystem": "d581c86b4e07424b8480678dcf3e9365"
 		},
 		{
 			"ID": "59884a854b860c6341570dac5ca40317",
@@ -3480,8 +3470,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "c357b29844e45bd6b498d9af56a42446",
-			"IsLooping": true
+			"ParticleSystem": "c357b29844e45bd6b498d9af56a42446"
 		},
 		{
 			"ID": "a63f11fe491c461dd931f18b8aca3976",
@@ -3629,8 +3618,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "d78bbb874c4e25b7dab1d78ef691beb3",
-			"IsLooping": true
+			"ParticleSystem": "d78bbb874c4e25b7dab1d78ef691beb3"
 		},
 		{
 			"ID": "2e7b0493415aa19a424af2be3ec2026d",
@@ -3778,8 +3766,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "76034fe04d16cdbefe5737ac7a1bae7a",
-			"IsLooping": true
+			"ParticleSystem": "76034fe04d16cdbefe5737ac7a1bae7a"
 		},
 		{
 			"ID": "a1a85c9148e80f850ddddba5f242d4d9",
@@ -3964,8 +3951,7 @@
 			"ParentID": "b23c47c1409f77a253e57b9a7576454d",
 			"Name": "Particles",
 			"Overrides": [],
-			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2",
-			"IsLooping": true
+			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2"
 		},
 		{
 			"ID": "8129822d467130c14c482cbbc18e3148",
@@ -3987,8 +3973,7 @@
 			"ParentID": "8129822d467130c14c482cbbc18e3148",
 			"Name": "Particles",
 			"Overrides": [],
-			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2",
-			"IsLooping": true
+			"ParticleSystem": "af8ec14441e959d740b5629765a01fd2"
 		},
 		{
 			"ID": "0ec6149640507fc9e9cbe8b710014158",
@@ -4136,8 +4121,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "e83dcf57471073423c92ee99ba9b4915",
-			"IsLooping": true
+			"ParticleSystem": "e83dcf57471073423c92ee99ba9b4915"
 		},
 		{
 			"ID": "00b5a04a4da380979339e1a3539a54e2",
@@ -4285,8 +4269,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "c6f661064639e97aa0bcd0b16f651214",
-			"IsLooping": true
+			"ParticleSystem": "c6f661064639e97aa0bcd0b16f651214"
 		},
 		{
 			"ID": "8925e20e40ab3a7a2a6d6ea0bca9d94d",
@@ -4435,7 +4418,6 @@
 			"StaticFlags": 0,
 			"Overrides": [],
 			"ParticleSystem": "b639beb14221abbaecc6caa78ab9231e",
-			"IsLooping": true,
 			"UpdateWhenOffscreen": false
 		},
 		{
@@ -4584,8 +4566,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "8cc385be4f02f013a10f1b91c8a4947e",
-			"IsLooping": true
+			"ParticleSystem": "8cc385be4f02f013a10f1b91c8a4947e"
 		},
 		{
 			"ID": "6cafd99b4f2459e6dffaf3a2b7024a1f",
@@ -4811,8 +4792,7 @@
 			},
 			"StaticFlags": 0,
 			"Overrides": [],
-			"ParticleSystem": "cae06f40486099e2b6d56b8f87787e79",
-			"IsLooping": true
+			"ParticleSystem": "cae06f40486099e2b6d56b8f87787e79"
 		},
 		{
 			"ID": "095f01cd4c445215f6a257a9bcb458bf",
@@ -5079,6 +5059,344 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "16d1976749d18e718396f5bc6900678f",
 			"Name": "Target"
+		},
+		{
+			"ID": "53db5fe34077265573b0a4bedf3e7a74",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"IsActive": false,
+			"Name": "Mobile"
+		},
+		{
+			"ID": "fe568ead454951b91fdafa8536088912",
+			"TypeName": "PlatformSelector",
+			"ParentID": "53db5fe34077265573b0a4bedf3e7a74",
+			"V": {
+	"Platforms": [
+		7
+	]
+}
+		},
+		{
+			"ID": "ee848ac345d07dbd14c22d927424556e",
+			"TypeName": "FlaxEngine.PostFxVolume",
+			"ParentID": "53db5fe34077265573b0a4bedf3e7a74",
+			"Name": "Mobile Graphics Quality",
+			"Size": {
+				"X": 1.0,
+				"Y": 1.0,
+				"Z": 1.0
+			},
+			"Priority": -1000000,
+			"IsBounded": false,
+			"Settings": {
+				"AO": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"Bloom": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"ToneMapping": {},
+				"ColorGrading": {},
+				"EyeAdaptation": {},
+				"CameraArtifacts": {},
+				"LensFlares": {
+					"OverrideFlags": 1,
+					"Intensity": 0.0
+				},
+				"DepthOfField": {
+					"OverrideFlags": 129,
+					"BokehEnabled": false
+				},
+				"MotionBlur": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"SSR": {
+					"OverrideFlags": 1025,
+					"Intensity": 0.0,
+					"TemporalEffect": false
+				},
+				"AA": {},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "e70180d245a4939d4dad1e8951549a17",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "53db5fe34077265573b0a4bedf3e7a74",
+			"Name": "Mobile UI",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {
+	"Size": {
+		"X": 0.0,
+		"Y": 0.0
+	}
+}
+		},
+		{
+			"ID": "2684caea4268761978a1cdb7bab97278",
+			"TypeName": "VirtualCamera",
+			"ParentID": "e70180d245a4939d4dad1e8951549a17",
+			"V": {
+	"Camera": "8d4d325f42807ebbaddcbfbd602226ef",
+	"VirtualThumbStick_Left": "1728f7ad49858e4dd04870b72640c90d",
+	"VirtualThumbStick_Right": "7a3e79f64b0835a5afcf379f319fed1c",
+	"Strength_Right": 1.5
+}
+		},
+		{
+			"ID": "7a3e79f64b0835a5afcf379f319fed1c",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "e70180d245a4939d4dad1e8951549a17",
+			"Name": "VirtualThumbstick_Right",
+			"Transform": {
+				"Translation": {
+					"X": -150.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "VirtualThumbStick",
+			"Data": {
+	"CircleBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 0.30555
+	},
+	"ColorPressed": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"AnchorMin": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": -150.0,
+		"Right": 150.0,
+		"Top": -150.0,
+		"Bottom": 150.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "1728f7ad49858e4dd04870b72640c90d",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "e70180d245a4939d4dad1e8951549a17",
+			"Name": "VirtualThumbstick_Left",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -150.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "VirtualThumbStick",
+			"Data": {
+	"CircleBrush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 0.30555
+	},
+	"ColorPressed": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 1.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 150.0,
+		"Top": -150.0,
+		"Bottom": 150.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "fce998434b477f824d7513a3311e7d2b",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "a470726f441936acfe25318b162c336c",
+			"IsActive": false,
+			"Name": "Debug UI",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {
+	"Size": {
+		"X": 1920.0,
+		"Y": 936.0
+	}
+}
+		},
+		{
+			"ID": "4d4c12be491160827cdfa2b9b407a322",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "fce998434b477f824d7513a3311e7d2b",
+			"Name": "Perf Counter",
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "FPS: {0}\nDraw GPU: {1:##0.00} ms\nDraw CPU: {2:##0.00} ms\nUpdate CPU: {3:##0.00} ms",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 0,
+	"VerticalAlignment": 0,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+		"Size": 8
+	},
+	"Margin": {
+		"Left": 10.0,
+		"Right": 10.0,
+		"Top": 10.0,
+		"Bottom": 10.0
+	},
+	"ClipText": false,
+	"AutoWidth": false,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 180.0,
+		"Top": 0.0,
+		"Bottom": 100.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "090aa1c34dc6f9720fe6cc9e393942d5",
+			"TypeName": "PerfCounter",
+			"ParentID": "4d4c12be491160827cdfa2b9b407a322",
+			"V": {}
 		}
 	]
 }

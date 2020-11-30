@@ -20,7 +20,7 @@ namespace MaterialsFeaturesTour
             Actor.As<Collider>().TriggerExit -= OnTriggerExit;
         }
 
-        void OnTriggerEnter(Collider collider)
+        void OnTriggerEnter(PhysicsColliderActor collider)
         {
             if (collider is CharacterController && Light)
             {
@@ -28,7 +28,7 @@ namespace MaterialsFeaturesTour
             }
         }
 
-        void OnTriggerExit(Collider collider)
+        void OnTriggerExit(PhysicsColliderActor collider)
         {
             if (collider is CharacterController && Light)
             {
