@@ -41,6 +41,11 @@ namespace GraphicsFeaturesTour
             }
         }
 
+        /// <summary>
+        /// The max distance from player to the TV when rendering is enabled. Used to cull additional work if TV is far away from the player.
+        /// </summary>
+        public float ViewDistance = 2000;
+
         private Vector2 _resolution = new Vector2(640, 374);
         private GPUTexture _output;
         private SceneRenderTask _task;
@@ -69,6 +74,7 @@ namespace GraphicsFeaturesTour
             _task.Order = -100;
             _task.Camera = Cam;
             _task.Output = _output;
+            _task.ViewFlags = ViewFlags.Reflections | ViewFlags.Decals | ViewFlags.AO | ViewFlags.GI | ViewFlags.DirectionalLights | ViewFlags.PointLights | ViewFlags.SpotLights | ViewFlags.SkyLights | ViewFlags.Shadows | ViewFlags.SpecularLight | ViewFlags.CustomPostProcess | ViewFlags.ToneMapping;
             _task.Enabled = false;
 
             if (Material && _material == null)
@@ -90,6 +96,12 @@ namespace GraphicsFeaturesTour
             }
 
             _task.Enabled = true;
+        }
+
+        /// <inheritdoc />
+        public override void OnUpdate()
+        {
+            _task.Enabled = Vector3.Distance(Actor.Position, MainRenderTask.Instance.View.Position) <= ViewDistance;
         }
 
         /// <inheritdoc />
