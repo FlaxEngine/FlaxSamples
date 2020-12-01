@@ -23,7 +23,11 @@ public class PerfCounter : Script
     /// <inheritdoc />
     public override void OnUpdate()
     {
+#if !BUILD_RELEASE
         var stats = ProfilingTools.Stats;
         _label.Text = string.Format(_format, stats.FPS, stats.DrawGPUTimeMs, stats.DrawCPUTimeMs, stats.UpdateTimeMs);
+#else
+        _label.Text = string.Format(_format, Engine.FramesPerSecond, 0, 0, 0);
+#endif
     }
 }
