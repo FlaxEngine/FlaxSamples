@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6200,
+	"EngineBuild": 6213,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -3044,8 +3044,7 @@
 	"PlayerController": "8dd8b65446747a93c055c2aee97de390",
 	"CameraTarget": "9b1b849f4ef1d7aa11977e91a446dde5",
 	"Camera": "5543ed36412ccd0f04717a90d39e877e",
-	"CanJump": false,
-	"UseMouse": false
+	"CanJump": false
 }
 		},
 		{
