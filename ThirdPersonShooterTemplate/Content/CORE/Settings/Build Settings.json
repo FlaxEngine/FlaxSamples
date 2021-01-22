@@ -1,0 +1,62 @@
+{
+	"ID": "2364031e4e327637c1ad88b415fa756e",
+	"TypeName": "FlaxEditor.Content.Settings.BuildSettings",
+	"EngineBuild": 6213,
+	"Data": {
+	"MaxAssetsPerPackage": 4096,
+	"MaxPackageSizeMB": 1024,
+	"ContentKey": 0,
+	"ForDistribution": false,
+	"SkipPackaging": false,
+	"ShadersNoOptimize": false,
+	"ShadersGenerateDebugData": false,
+	"Presets": [
+		{
+			"Name": "Development",
+			"Targets": [
+				{
+					"Name": "Windows 64bit",
+					"Output": "Output\\Win64",
+					"Platform": 2,
+					"Mode": 1
+				},
+				{
+					"Name": "Windows 32bit",
+					"Output": "Output\\Win32",
+					"Platform": 1,
+					"Mode": 1
+				}
+			]
+		},
+		{
+			"Name": "Release",
+			"Targets": [
+				{
+					"Name": "Windows 64bit",
+					"Output": "Output\\Win64",
+					"Platform": 2,
+					"Mode": 0
+				},
+				{
+					"Name": "Windows 32bit",
+					"Output": "Output\\Win32",
+					"Platform": 1,
+					"Mode": 0
+				},
+				{
+					"Name": "Xbox One",
+					"Output": "Output\\XboxOne",
+					"Platform": 5,
+					"Mode": 0
+				},
+				{
+					"Name": "UWP 64bit",
+					"Output": "Output\\WinStore64",
+					"Platform": 4,
+					"Mode": 0
+				}
+			]
+		}
+	]
+}
+}
