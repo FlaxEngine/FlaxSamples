@@ -8,9 +8,9 @@
 			"TypeName": "FlaxEngine.Scene",
 			"Lightmaps": [
 				{
-					"Lightmap0": "e19032c44d7c6002c181028cdcc77b21",
-					"Lightmap1": "0f4ed0d9478ca9d1bdf7c5b540665629",
-					"Lightmap2": "0a2767b54576d2d0a145d49667336dc2"
+					"Lightmap0": "00000000000000000000000000000000",
+					"Lightmap1": "00000000000000000000000000000000",
+					"Lightmap2": "00000000000000000000000000000000"
 				}
 			],
 			"LightmapSettings": {
@@ -63,8 +63,8 @@
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 108.5870361328125,
-					"Z": 0.0
+					"Y": 429.8046875,
+					"Z": -83.56109619140625
 				}
 			},
 			"ProbeID": "e1681ef14507bd14c6e4d09e234b4bb7"
@@ -81,22 +81,20 @@
 					"Z": 0.0
 				},
 				"Orientation": {
-					"X": 0.5176515579223633,
-					"Y": 0.0833025798201561,
-					"Z": 0.06534233689308167,
-					"W": 0.8490158915519714
+					"X": 0.38149431347846987,
+					"Y": 0.32370027899742129,
+					"Z": 0.030091024935245515,
+					"W": 0.865317702293396
 				}
 			},
 			"Color": {
 				"R": 1.0,
-				"G": 0.9606999754905701,
-				"B": 0.8050000071525574,
+				"G": 0.9843137264251709,
+				"B": 0.9725490212440491,
 				"A": 1.0
 			},
-			"MinRoughness": 0.0,
-			"ShadowsDistance": 2000.0,
-			"ShadowsFadeDistance": 50.0,
-			"ShadowsDepthBias": 0.0010000000474974514
+			"Brightness": 6.0,
+			"ShadowsDistance": 2000.0
 		},
 		{
 			"ID": "eb18e84d41670d6314174b89a1d5ffea",
@@ -110,382 +108,800 @@
 					"Z": 0.0
 				}
 			},
-			"BakedProbe": "4f23cb5c47317c6e9686498d53fae6fc",
-			"Mode": 0
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
 		},
 		{
-			"ID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
-			"TypeName": "FlaxEngine.CharacterController",
+			"ID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CharacterController",
-			"Transform": {
-				"Translation": {
-					"X": 29.740219116210939,
-					"Y": 78.6279067993164,
-					"Z": -882.642822265625
-				}
-			},
-			"StaticFlags": 8,
-			"Layer": 1,
-			"Tag": "Player",
-			"Material": "38b53c054812183ddbf74d918b64b23b",
-			"NonWalkableMode": 1,
-			"Radius": 42.0,
-			"Height": 26.0
-		},
-		{
-			"ID": "5519e2b74e59d5a2728ca2850ecf6f8d",
-			"TypeName": "Game.Character",
-			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
-			"V": {
-	"CharacterObj": "41dccecb443dddf8ca8951bec7c0d644",
-	"Speed": 200.0,
-	"JumpStrength": 1.0,
-	"CameraView": "097615424e695a5f2f892fb3ff07243c",
-	"MouseSensitivity": 3.08086538,
-	"CameraLag": 12.3620024
-}
-		},
-		{
-			"ID": "41dccecb443dddf8ca8951bec7c0d644",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
-			"Name": "Character",
+			"Name": "StaticGeometry",
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": -50.0,
+					"Y": 125.35466003417969,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "d630fee5404ffbb1e265259579ea799b",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"Name": "BoxBrush",
+			"Size": {
+				"X": 2000.0,
+				"Y": 300.0,
+				"Z": 2000.0
+			},
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"ID": "0b15b4194f89170d5278ee84d26dbf11",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "d630fee5404ffbb1e265259579ea799b",
+			"Name": "BoxBrush 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 27.71718406677246,
 					"Z": 0.0
 				}
 			},
-			"StaticFlags": 8,
-			"Model": "3f82e57744f57c28285150b646ad2198",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "4bb7dccc428df0a472678d8195107170",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "41dccecb443dddf8ca8951bec7c0d644",
-			"Name": "DealWithIt",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 73.71049499511719,
-					"Z": 22.099990844726564
-				},
-				"Scale": {
-					"X": 0.75,
-					"Y": 1.0,
-					"Z": 0.699999988079071
-				}
+			"Mode": 1,
+			"Size": {
+				"X": 1900.0,
+				"Y": 300.0,
+				"Z": 1900.0
 			},
-			"StaticFlags": 0,
-			"Model": "e1277d394333bb5c4df8efadef0c647b",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "e1694e1b46f5f1c4c1c378b911692591",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
-			"Name": "CameraSocket",
-			"StaticFlags": 0
-		},
-		{
-			"ID": "097615424e695a5f2f892fb3ff07243c",
-			"TypeName": "FlaxEngine.Camera",
-			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
-			"Name": "TPSCamera",
-			"Transform": {
-				"Translation": {
-					"X": 45.0,
-					"Y": 49.99999237060547,
-					"Z": -150.0
-				}
-			},
-			"StaticFlags": 0,
-			"FOV": 80.0
-		},
-		{
-			"ID": "4a2ce6374424a237208cf8ad245b3f9f",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
-			"Name": "Weapon (AK-74)",
-			"Transform": {
-				"Translation": {
-					"X": 30.096637725830079,
-					"Y": 0.0,
-					"Z": 30.126441955566408
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": 0.7071068286895752,
-					"Z": 0.0,
-					"W": 0.7071068286895752
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "e460725d4504789a1ba76cb5b827b5e1",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					},
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "e381211046438ce1de1cb3b2ab211a89",
-			"TypeName": "Game.Weapon",
-			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
-			"V": {
-	"WeaponSettings": "922c917c4f978946baa3d4909c80020e",
-	"BulletSpawnPoint": "558dfa63445bf74e55a9ebac08dd4a5b"
-}
-		},
-		{
-			"ID": "558dfa63445bf74e55a9ebac08dd4a5b",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
-			"Name": "ProjectileSpawn",
-			"Transform": {
-				"Translation": {
-					"X": -82.7171401977539,
-					"Y": 10.497055053710938,
-					"Z": -0.00000986065060715191
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": -0.7071068286895752,
-					"Z": 0.0,
-					"W": 0.7071068286895752
-				}
-			},
-			"StaticFlags": 0
-		},
-		{
-			"ID": "d2d6b216479d526c10057ba236f38489",
-			"TypeName": "FlaxEngine.Terrain",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Terrain",
-			"Transform": {
-				"Translation": {
-					"X": -2000.0,
-					"Y": 0.0,
-					"Z": -2000.0
-				},
-				"Scale": {
-					"X": 0.30000001192092898,
-					"Y": 1.0,
-					"Z": 0.30000001192092898
-				}
-			},
-			"LODCount": 6,
-			"ChunkSize": 31,
-			"Patches": [
-				{
-					"X": 0,
-					"Z": 0,
-					"Offset": -0.000015259021893143655,
-					"Height": 1.0,
-					"Heightmap": "98504a1d4e2731dc5b321c960141bec1",
-					"Splatmap0": "00000000000000000000000000000000",
-					"Splatmap1": "00000000000000000000000000000000",
-					"Heightfield": "0927e42b45f5e4d53da53e9385920384",
-					"Chunks": [
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						},
-						{
-							"Offset": 0.0,
-							"Height": 1.0,
-							"Material": "00000000000000000000000000000000"
-						}
-					]
-				}
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
 			]
+		},
+		{
+			"ID": "81147903423f4ca0e7c305b1af8f40ef",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"Name": "BoxBrush",
+			"Transform": {
+				"Translation": {
+					"X": -103.33860778808594,
+					"Y": -111.16258239746094,
+					"Z": 89.53966522216797
+				},
+				"Scale": {
+					"X": 14.190709114074707,
+					"Y": 0.4417211413383484,
+					"Z": 0.5609734654426575
+				}
+			},
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"ID": "532002234cd1d6d5dca3a49ab8a3a329",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CSG.Collider",
+			"HideFlags": 4,
+			"CollisionData": "25e86a7144a1590f21726fbb60a13550"
+		},
+		{
+			"ID": "733cf5754acbb7af74c0f399e1abf263",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CSG.Model",
+			"HideFlags": 4,
+			"Model": "c91570f843acc5d741133b803211d574",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "63abba49426bd1e6b257429d35f029a2",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Pyramids",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid",
+			"Transform": {
+				"Translation": {
+					"X": -287.02764892578127,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "9c2e269747703dee454ad28dc559e7e0",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "25a0e6e144c5bff71dba18b24e8efb0e",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "9c2e269747703dee454ad28dc559e7e0",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a501a1e54f30805c8b01fca75c338b58",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "9c2e269747703dee454ad28dc559e7e0",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "23cfb57c44f1afcb653edc81075671ee",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "489f7716499ac98ae124589f34213d6c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "23cfb57c44f1afcb653edc81075671ee",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "305c62134d35a32e66d3919d86f07b58",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "23cfb57c44f1afcb653edc81075671ee",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "eaed246649ecdc43e0f6229b38c776fe",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "6392974d4647999ce2589a851e81eaff",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "eaed246649ecdc43e0f6229b38c776fe",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "666c053243fb0ea057b96db3d897ecc9",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "eaed246649ecdc43e0f6229b38c776fe",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "554858c54f74094047103b95d3481ae6",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "70dfd2094d46feca96a05781a1ac9ec8",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1.81097412109375
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0dbaf86247a88a378eac9dadc25dfb26",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "ef6ba6ae4ad4612ecb4897bb919bca35",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6a217e8243c3414d034dcfb3b5223485",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "28e04d094669d6b6fc5d1caddd70630c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "6a217e8243c3414d034dcfb3b5223485",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "3f53873c46f4ff99138e77a7ddf6977b",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "6a217e8243c3414d034dcfb3b5223485",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e7a87c9f451f90c39288968310361d34",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "c4f1eec14e137dc6b941a0b099cf7449",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "e7a87c9f451f90c39288968310361d34",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "4ec8ee2a4cf5d74fefd0a196e18c2ae7",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "e7a87c9f451f90c39288968310361d34",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid 0",
+			"Transform": {
+				"Translation": {
+					"X": 220.87017822265626,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "50e47d62435a9b21b80fa598accdae7f",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "b62af99c4a922ddf8db1bcb9e64f3497",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "b40be325416bd37f61af06b95b45dce4",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d20c49e8494ffcb3b2583e9fa3557ab5",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f059fd964c2b711a025da2bfeef636f4",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "7280ceb846754ee6804e8bbcab30f89e",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "f059fd964c2b711a025da2bfeef636f4",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a0988a6f483f09624c06df96b9168e86",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "f059fd964c2b711a025da2bfeef636f4",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5e6943e34214ae60be579588bacf58bb",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "642ed4014ad86b4b3f8c8f9ae2496457",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "5e6943e34214ae60be579588bacf58bb",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "29ebd67a49fb1c93d90478b72df466aa",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "5e6943e34214ae60be579588bacf58bb",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e53615d54b5461d3a07466af04b22b51",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "cb6ba3de43e68610778684978ccc776d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "e53615d54b5461d3a07466af04b22b51",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "7e91ba794e38909e0274e39d5d4fd22c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "e53615d54b5461d3a07466af04b22b51",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "bea6d70a4a85a325a793e9af6412ad85",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "e8b413074400ef50277b068b594dabec",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3df24a1140a59c627586458e990952dc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid 1",
+			"Transform": {
+				"Translation": {
+					"X": 747.188720703125,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "f5526fcc40819896095d1ca2c2d39d83",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "cc4c19174f08ea722d632c909d83827d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d0f6e4e946216ffd71b8018718a5afd1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a16aca90406f43a254245d801b5f9669",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d03b221c4d32c576e7a03484ad3f912b",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0a5baacb45824766276578886f22f0cd",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "8c48a7b14d9f71a97c3425bcb0fb08b0",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "230963a24a0c2fc49efacc98da41ecd1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "745ead10492e5f2a47aee09944027655",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "4d4bb4f44c30b56f1c4038b14f7daddf",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "745ead10492e5f2a47aee09944027655",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "f7cb9875431efec0e06c89806fdd8fd7",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "745ead10492e5f2a47aee09944027655",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8fac5f28428f81415e4a6ba6e179584d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "16e1d44c4212ca3c6566b9a1a3110d48",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "8fac5f28428f81415e4a6ba6e179584d",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "2ff066114ba381e7aaa7449e41f4d450",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "8fac5f28428f81415e4a6ba6e179584d",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
 		},
 		{
 			"ID": "7a38aec1400c090030620cb2111f9296",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Bottles"
+			"Name": "Bottles",
+			"StaticFlags": 0
 		},
 		{
 			"ID": "51babf9f4096be60d8b5e4a9792c1bfc",
@@ -1263,678 +1679,10 @@
 			"ParentID": "9fa22f164e33eccbe074578d15056a02"
 		},
 		{
-			"ID": "81147903423f4ca0e7c305b1af8f40ef",
-			"TypeName": "FlaxEngine.BoxBrush",
-			"ParentID": "7a38aec1400c090030620cb2111f9296",
-			"Name": "BoxBrush",
-			"Transform": {
-				"Translation": {
-					"X": -103.33860778808594,
-					"Y": 14.443038940429688,
-					"Z": 89.53966522216797
-				},
-				"Scale": {
-					"X": 14.190709114074707,
-					"Y": 0.4417211413383484,
-					"Z": 0.5609734654426575
-				}
-			},
-			"Surfaces": [
-				{},
-				{},
-				{},
-				{},
-				{},
-				{}
-			]
-		},
-		{
-			"ID": "532002234cd1d6d5dca3a49ab8a3a329",
-			"TypeName": "FlaxEngine.MeshCollider",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CSG.Collider",
-			"HideFlags": 4,
-			"CollisionData": "25e86a7144a1590f21726fbb60a13550"
-		},
-		{
-			"ID": "733cf5754acbb7af74c0f399e1abf263",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CSG.Model",
-			"HideFlags": 4,
-			"Model": "c91570f843acc5d741133b803211d574",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "63abba49426bd1e6b257429d35f029a2",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Pyramids"
-		},
-		{
-			"ID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "63abba49426bd1e6b257429d35f029a2",
-			"Name": "Pyramid"
-		},
-		{
-			"ID": "9c2e269747703dee454ad28dc559e7e0",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube 1",
-			"Transform": {
-				"Translation": {
-					"X": -73.12026977539063,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "25a0e6e144c5bff71dba18b24e8efb0e",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "9c2e269747703dee454ad28dc559e7e0"
-		},
-		{
-			"ID": "a501a1e54f30805c8b01fca75c338b58",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "9c2e269747703dee454ad28dc559e7e0",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "23cfb57c44f1afcb653edc81075671ee",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube 4",
-			"Transform": {
-				"Translation": {
-					"X": -194.95196533203126,
-					"Y": 336.8212890625,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "489f7716499ac98ae124589f34213d6c",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "23cfb57c44f1afcb653edc81075671ee"
-		},
-		{
-			"ID": "305c62134d35a32e66d3919d86f07b58",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "23cfb57c44f1afcb653edc81075671ee",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "eaed246649ecdc43e0f6229b38c776fe",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube 3",
-			"Transform": {
-				"Translation": {
-					"X": -129.850341796875,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "6392974d4647999ce2589a851e81eaff",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "eaed246649ecdc43e0f6229b38c776fe"
-		},
-		{
-			"ID": "666c053243fb0ea057b96db3d897ecc9",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "eaed246649ecdc43e0f6229b38c776fe",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "554858c54f74094047103b95d3481ae6",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube 0",
-			"Transform": {
-				"Translation": {
-					"X": -207.28372192382813,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "70dfd2094d46feca96a05781a1ac9ec8",
-			"TypeName": "FlaxEngine.BoxCollider",
-			"ParentID": "554858c54f74094047103b95d3481ae6",
-			"Name": "BoxCollider 0",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 0.0,
-					"Z": 1.81097412109375
-				}
-			}
-		},
-		{
-			"ID": "0dbaf86247a88a378eac9dadc25dfb26",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "554858c54f74094047103b95d3481ae6"
-		},
-		{
-			"ID": "ef6ba6ae4ad4612ecb4897bb919bca35",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "554858c54f74094047103b95d3481ae6",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "6a217e8243c3414d034dcfb3b5223485",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube 2",
-			"Transform": {
-				"Translation": {
-					"X": -268.1393127441406,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "28e04d094669d6b6fc5d1caddd70630c",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "6a217e8243c3414d034dcfb3b5223485"
-		},
-		{
-			"ID": "3f53873c46f4ff99138e77a7ddf6977b",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "6a217e8243c3414d034dcfb3b5223485",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "e7a87c9f451f90c39288968310361d34",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
-			"Name": "PhysicsCube",
-			"Transform": {
-				"Translation": {
-					"X": -345.57269287109377,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "c4f1eec14e137dc6b941a0b099cf7449",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "e7a87c9f451f90c39288968310361d34"
-		},
-		{
-			"ID": "4ec8ee2a4cf5d74fefd0a196e18c2ae7",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "e7a87c9f451f90c39288968310361d34",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "63abba49426bd1e6b257429d35f029a2",
-			"Name": "Pyramid 0",
-			"Transform": {
-				"Translation": {
-					"X": 507.8978271484375,
-					"Y": 0.0,
-					"Z": 0.0
-				}
-			}
-		},
-		{
-			"ID": "eba5c9a44cbb1870ce0e7baac9758d37",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube 1",
-			"Transform": {
-				"Translation": {
-					"X": -73.12026977539063,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "50e47d62435a9b21b80fa598accdae7f",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37"
-		},
-		{
-			"ID": "b62af99c4a922ddf8db1bcb9e64f3497",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "66bc3aab481702ae9a31cc8b7be7b796",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube 4",
-			"Transform": {
-				"Translation": {
-					"X": -194.95196533203126,
-					"Y": 336.8212890625,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "b40be325416bd37f61af06b95b45dce4",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796"
-		},
-		{
-			"ID": "d20c49e8494ffcb3b2583e9fa3557ab5",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "f059fd964c2b711a025da2bfeef636f4",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube 3",
-			"Transform": {
-				"Translation": {
-					"X": -129.850341796875,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "7280ceb846754ee6804e8bbcab30f89e",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "f059fd964c2b711a025da2bfeef636f4"
-		},
-		{
-			"ID": "a0988a6f483f09624c06df96b9168e86",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "f059fd964c2b711a025da2bfeef636f4",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "5e6943e34214ae60be579588bacf58bb",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube 0",
-			"Transform": {
-				"Translation": {
-					"X": -207.28372192382813,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "642ed4014ad86b4b3f8c8f9ae2496457",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "5e6943e34214ae60be579588bacf58bb"
-		},
-		{
-			"ID": "29ebd67a49fb1c93d90478b72df466aa",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "5e6943e34214ae60be579588bacf58bb",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "e53615d54b5461d3a07466af04b22b51",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube 2",
-			"Transform": {
-				"Translation": {
-					"X": -268.1393127441406,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "cb6ba3de43e68610778684978ccc776d",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "e53615d54b5461d3a07466af04b22b51"
-		},
-		{
-			"ID": "7e91ba794e38909e0274e39d5d4fd22c",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "e53615d54b5461d3a07466af04b22b51",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "2cd63dbe496bacb8d1860b91d3c548cc",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
-			"Name": "PhysicsCube",
-			"Transform": {
-				"Translation": {
-					"X": -345.57269287109377,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "bea6d70a4a85a325a793e9af6412ad85",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc"
-		},
-		{
-			"ID": "e8b413074400ef50277b068b594dabec",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "3df24a1140a59c627586458e990952dc",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "63abba49426bd1e6b257429d35f029a2",
-			"Name": "Pyramid 1",
-			"Transform": {
-				"Translation": {
-					"X": 1034.2164306640626,
-					"Y": 0.0,
-					"Z": 0.0
-				}
-			}
-		},
-		{
-			"ID": "8c2ec72b4d2fa669b1c31db8537aadae",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube 1",
-			"Transform": {
-				"Translation": {
-					"X": -73.12026977539063,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "f5526fcc40819896095d1ca2c2d39d83",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae"
-		},
-		{
-			"ID": "cc4c19174f08ea722d632c909d83827d",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "98b5ac104ba1aba7dbb4f3b0592932d1",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube 4",
-			"Transform": {
-				"Translation": {
-					"X": -194.95196533203126,
-					"Y": 336.8212890625,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "d0f6e4e946216ffd71b8018718a5afd1",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1"
-		},
-		{
-			"ID": "a16aca90406f43a254245d801b5f9669",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "1df4bfa047744c435a0e0fb0a65ce418",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube 3",
-			"Transform": {
-				"Translation": {
-					"X": -129.850341796875,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "d03b221c4d32c576e7a03484ad3f912b",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418"
-		},
-		{
-			"ID": "0a5baacb45824766276578886f22f0cd",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "b627f7ba42c94cb0b96e77baa26441ea",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube 0",
-			"Transform": {
-				"Translation": {
-					"X": -207.28372192382813,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "8c48a7b14d9f71a97c3425bcb0fb08b0",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea"
-		},
-		{
-			"ID": "230963a24a0c2fc49efacc98da41ecd1",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "745ead10492e5f2a47aee09944027655",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube 2",
-			"Transform": {
-				"Translation": {
-					"X": -268.1393127441406,
-					"Y": 209.1565399169922,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "4d4bb4f44c30b56f1c4038b14f7daddf",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "745ead10492e5f2a47aee09944027655"
-		},
-		{
-			"ID": "f7cb9875431efec0e06c89806fdd8fd7",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "745ead10492e5f2a47aee09944027655",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
-			"ID": "8fac5f28428f81415e4a6ba6e179584d",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
-			"ParentID": "3df24a1140a59c627586458e990952dc",
-			"Name": "PhysicsCube",
-			"Transform": {
-				"Translation": {
-					"X": -345.57269287109377,
-					"Y": 73.11369323730469,
-					"Z": 566.9802856445313
-				}
-			}
-		},
-		{
-			"ID": "16e1d44c4212ca3c6566b9a1a3110d48",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
-			"ParentID": "8fac5f28428f81415e4a6ba6e179584d"
-		},
-		{
-			"ID": "2ff066114ba381e7aaa7449e41f4d450",
-			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
-			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
-			"ParentID": "8fac5f28428f81415e4a6ba6e179584d",
-			"Buffer": {
-				"Entries": [
-					{}
-				]
-			}
-		},
-		{
 			"ID": "1418cf794d3d22e2377369a7f2559c09",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "InfoPanel",
-			"Transform": {
-				"Translation": {
-					"X": 157.2845458984375,
-					"Y": -10.90545654296875,
-					"Z": -108.7095947265625
-				}
-			}
+			"Name": "InfoPanel"
 		},
 		{
 			"ID": "7b663a0b4390b4e26c00e8bab01292a5",
@@ -1943,15 +1691,15 @@
 			"Name": "Box 0",
 			"Transform": {
 				"Translation": {
-					"X": -829.4373168945313,
-					"Y": 125.69447326660156,
-					"Z": -840.995849609375
+					"X": 624.0049438476563,
+					"Y": 115.43661499023438,
+					"Z": -115.49201965332031
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.7071068286895752,
+					"Y": 0.9509591460227966,
 					"Z": 0.0,
-					"W": 0.7071068286895752
+					"W": -0.30931681394577029
 				},
 				"Scale": {
 					"X": 3.626884937286377,
@@ -1978,15 +1726,15 @@
 			"Name": "Box",
 			"Transform": {
 				"Translation": {
-					"X": -674.0741577148438,
-					"Y": 125.69447326660156,
-					"Z": -476.746826171875
+					"X": 827.1498413085938,
+					"Y": 115.43661499023438,
+					"Z": -455.4143371582031
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.9063078165054321,
+					"Y": -0.7878181338310242,
 					"Z": 0.0,
-					"W": 0.42261824011802676
+					"W": 0.6159080862998962
 				},
 				"Scale": {
 					"X": 3.626884937286377,
@@ -2013,16 +1761,22 @@
 			"Name": "TextRender 2",
 			"Transform": {
 				"Translation": {
-					"X": -858.9121704101563,
-					"Y": 15.23373794555664,
-					"Z": 227.04876708984376
+					"X": 1505.0079345703126,
+					"Y": 4.975879669189453,
+					"Z": -719.9930419921875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.8911544680595398,
+					"Z": 0.0,
+					"W": 0.4537000060081482
 				}
 			},
 			"Text": "Object reference not set to an instance of an object",
 			"Color": {
-				"R": 0.5989182591438294,
-				"G": 0.7232222557067871,
-				"B": 0.6893212199211121,
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
 				"A": 1.0
 			},
 			"Size": 6,
@@ -2038,23 +1792,28 @@
 			"Name": "TextRender 1",
 			"Transform": {
 				"Translation": {
-					"X": -715.8637084960938,
-					"Y": 45.95918273925781,
-					"Z": -529.2562866210938
+					"X": 825.4131469726563,
+					"Y": 35.701324462890628,
+					"Z": -455.6380920410156
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.9063078165054321,
+					"Y": -0.7878181338310242,
 					"Z": 0.0,
-					"W": 0.42261824011802676
+					"W": 0.6159080862998962
 				}
 			},
-			"Text": "Project comes with a basic character movement \nand camera handling script and a basic  \nway of implementing a weapon.",
+			"Text": "This project containsa basic character movement \nand camera handling script and a basic  \nway of implementing a weapon.",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
 			"Size": 10,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-			"ShadowsMode": 0,
-			"HAlignment": 0
+			"ShadowsMode": 0
 		},
 		{
 			"ID": "28fceee4491aeddee1745782682c9298",
@@ -2063,19 +1822,25 @@
 			"Name": "TextRender 0",
 			"Transform": {
 				"Translation": {
-					"X": -715.511962890625,
-					"Y": 119.66676330566406,
-					"Z": -528.8365478515625
+					"X": 809.406982421875,
+					"Y": 109.40890502929688,
+					"Z": -391.26177978515627
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.9063078165054321,
+					"Y": -0.7878181338310242,
 					"Z": 0.0,
-					"W": 0.42261824011802676
+					"W": 0.6159080862998962
 				}
 			},
-			"Text": "Left Click - Shoot\nRight Click - Zoom\nShift - Sprint\nSpace - Jump\n",
-			"Size": 20,
+			"Text": "Left Click - Shoot\nRight Click - Aim\nShift - Sprint\nSpace - Jump\n",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 18,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0,
@@ -2088,18 +1853,24 @@
 			"Name": "TextRender 5",
 			"Transform": {
 				"Translation": {
-					"X": -809.8501586914063,
-					"Y": 30.279327392578126,
-					"Z": -838.9454345703125
+					"X": 614.1394653320313,
+					"Y": 20.021469116210939,
+					"Z": -132.5371856689453
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.7071068286895752,
+					"Y": 0.9509591460227966,
 					"Z": 0.0,
-					"W": 0.7071068286895752
+					"W": -0.30931681394577029
 				}
 			},
 			"Text": "*Certain assets have a CC Attribution license",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
 			"Size": 9,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
@@ -2112,23 +1883,40 @@
 			"Name": "TextRender 4",
 			"Transform": {
 				"Translation": {
-					"X": -809.8501586914063,
-					"Y": 154.45445251464845,
-					"Z": -904.448974609375
+					"X": 561.1713256835938,
+					"Y": 144.19659423828126,
+					"Z": -94.0022964477539
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.7071068286895752,
+					"Y": 0.9509591460227966,
 					"Z": 0.0,
-					"W": 0.7071068286895752
+					"W": -0.30931681394577029
 				}
 			},
-			"Text": "This project shows how a Thirdperson game\ncould be made.\n\nFeel free to use any part of this project in your own :)",
-			"Size": 10,
+			"Text": "This project shows how simple third-person game could be made.\n\nFeel free to deconstruct or use these examples within your own Flax project.\n",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 12,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0,
-			"HAlignment": 0
+			"Bounds": {
+				"Location": {
+					"X": -88.0,
+					"Y": -39.0
+				},
+				"Size": {
+					"X": 314.0,
+					"Y": 150.0
+				}
+			},
+			"HAlignment": 0,
+			"Wrapping": 1
 		},
 		{
 			"ID": "5adb5cb14d3427ac649a419af8bdf567",
@@ -2137,19 +1925,25 @@
 			"Name": "TextRender 3",
 			"Transform": {
 				"Translation": {
-					"X": -809.8501586914063,
-					"Y": 216.62893676757813,
-					"Z": -839.484619140625
+					"X": 613.7041625976563,
+					"Y": 206.37107849121095,
+					"Z": -132.2204132080078
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.7071068286895752,
+					"Y": 0.9509591460227966,
 					"Z": 0.0,
-					"W": 0.7071068286895752
+					"W": -0.30931681394577029
 				}
 			},
-			"Text": "Thirdperson Sample",
-			"Size": 28,
+			"Text": "Third Person Shooter",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 24,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
@@ -2161,22 +1955,52 @@
 			"Name": "TextRender",
 			"Transform": {
 				"Translation": {
-					"X": -673.0681762695313,
-					"Y": 216.62893676757813,
-					"Z": -478.2537841796875
+					"X": 825.3397216796875,
+					"Y": 206.37107849121095,
+					"Z": -455.3414001464844
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.9063078165054321,
+					"Y": -0.7878181338310242,
 					"Z": 0.0,
-					"W": 0.42261824011802676
+					"W": 0.6159080862998962
 				}
 			},
 			"Text": "Controls",
-			"Size": 28,
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 24,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
+		},
+		{
+			"ID": "68cbdc034cf034379933d18822372d0f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 635.9317626953125,
+					"Y": 115.43661499023438,
+					"Z": -99.09795379638672
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				},
+				"Scale": {
+					"X": 3.6367101669311525,
+					"Y": 2.435857057571411,
+					"Z": 0.5019422173500061
+				}
+			}
 		},
 		{
 			"ID": "79a52b4b418581f24437128b589df68e",
@@ -2185,22 +2009,276 @@
 			"Name": "BoxCollider",
 			"Transform": {
 				"Translation": {
-					"X": -688.3817749023438,
-					"Y": 123.89572143554688,
-					"Z": -460.22454833984377
+					"X": 848.0638427734375,
+					"Y": 113.63786315917969,
+					"Z": -450.0899963378906
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.9063078165054321,
+					"Y": -0.7878181338310242,
 					"Z": 0.0,
-					"W": 0.42261824011802676
+					"W": 0.6159080862998962
 				},
 				"Scale": {
-					"X": 3.7173573970794679,
+					"X": 3.6367101669311525,
 					"Y": 2.435857057571411,
 					"Z": 0.5019422173500061
 				}
 			}
+		},
+		{
+			"ID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CharacterController",
+			"Transform": {
+				"Translation": {
+					"X": 260.3531799316406,
+					"Y": 55.5609130859375,
+					"Z": -334.5616760253906
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Material": "38b53c054812183ddbf74d918b64b23b",
+			"NonWalkableMode": 1,
+			"Radius": 30.0,
+			"Height": 40.0
+		},
+		{
+			"ID": "5519e2b74e59d5a2728ca2850ecf6f8d",
+			"TypeName": "Game.Character",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"V": {
+	"CharacterObj": "41dccecb443dddf8ca8951bec7c0d644",
+	"Speed": 200.0,
+	"JumpStrength": 1.0,
+	"CameraView": "097615424e695a5f2f892fb3ff07243c",
+	"MouseSensitivity": 3.08086538,
+	"CameraLag": 12.3620024
+}
+		},
+		{
+			"ID": "41dccecb443dddf8ca8951bec7c0d644",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"Name": "Character",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4bb7dccc428df0a472678d8195107170",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "41dccecb443dddf8ca8951bec7c0d644",
+			"Name": "DealWithIt",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 73.71049499511719,
+					"Z": 22.099990844726564
+				},
+				"Scale": {
+					"X": 0.75,
+					"Y": 1.0,
+					"Z": 0.699999988079071
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "e1277d394333bb5c4df8efadef0c647b",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e1694e1b46f5f1c4c1c378b911692591",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"Name": "CameraSocket",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "097615424e695a5f2f892fb3ff07243c",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
+			"Name": "TPSCamera",
+			"Transform": {
+				"Translation": {
+					"X": 45.0,
+					"Y": 49.99999237060547,
+					"Z": -150.0
+				}
+			},
+			"StaticFlags": 0,
+			"FOV": 80.0
+		},
+		{
+			"ID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
+			"Name": "Weapon (AK-74)",
+			"Transform": {
+				"Translation": {
+					"X": 30.096637725830079,
+					"Y": 0.0,
+					"Z": 30.126441955566408
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "e460725d4504789a1ba76cb5b827b5e1",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e381211046438ce1de1cb3b2ab211a89",
+			"TypeName": "Game.Weapon",
+			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"V": {
+	"WeaponSettings": "922c917c4f978946baa3d4909c80020e",
+	"BulletSpawnPoint": "558dfa63445bf74e55a9ebac08dd4a5b"
+}
+		},
+		{
+			"ID": "558dfa63445bf74e55a9ebac08dd4a5b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"Name": "ProjectileSpawn",
+			"Transform": {
+				"Translation": {
+					"X": -82.7171401977539,
+					"Y": 10.497055053710938,
+					"Z": -0.00000986065060715191
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0
 		}
 	]
 }

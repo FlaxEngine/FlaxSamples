@@ -7,13 +7,6 @@
 		"ID": "52b4dda447945310e936b38fe4f611d5",
 		"TypeName": "FlaxEngine.RigidBody",
 		"Name": "RigidBody",
-		"Transform": {
-			"Translation": {
-				"X": 196.37554931640626,
-				"Y": 85.13272094726563,
-				"Z": -447.40338134765627
-			}
-		},
 		"OverrideMass": true,
 		"Mass": 1000.0
 	},

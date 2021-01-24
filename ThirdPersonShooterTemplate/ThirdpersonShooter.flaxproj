@@ -1,7 +1,7 @@
 {
-	"Name": "ThirdpersonShooter",
+	"Name": "ThirdPersonShooter",
 	"Version": "1.0",
-	"Company": "My Company",
+	"Company": "",
 	"Copyright": "",
 	"GameTarget": "GameTarget",
 	"EditorTarget": "GameEditorTarget",

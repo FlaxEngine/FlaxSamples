@@ -6,7 +6,7 @@
 	{
 		"ID": "028b37484bd7e9e9c243f28deeb8640e",
 		"TypeName": "FlaxEngine.RigidBody",
-		"Name": "RigidBody",
+		"Name": "Bottle",
 		"StaticFlags": 0,
 		"OverrideMass": true,
 		"Mass": 500.0,
@@ -16,7 +16,7 @@
 		"ID": "64c2d0274c3a9d5ed1f2eb9660796262",
 		"TypeName": "FlaxEngine.StaticModel",
 		"ParentID": "028b37484bd7e9e9c243f28deeb8640e",
-		"Name": "AsahiBottleClosed",
+		"Name": "Model",
 		"StaticFlags": 0,
 		"Model": "2aabab7e4e3dcaa2b5493ebbf34e37b2",
 		"Buffer": {

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using FlaxEngine;
+﻿using FlaxEngine;
 
 namespace Game
 {
@@ -15,10 +13,8 @@ namespace Game
         [EditorOrder(1)]
         public Actor BulletSpawnPoint;
 
-
         private float _timeToFire;
         private WeaponData _data;
-
 
         public override void OnStart()
         {
@@ -30,14 +26,14 @@ namespace Game
                 return;
             }
 
-            _data = (WeaponData)WeaponSettings.CreateInstance();
+            _data = WeaponSettings.CreateInstance<WeaponData>();
         }
 
         public override void OnUpdate()
         {
-            if (Input.GetMouseButton(MouseButton.Left) && Time.GameTime >= _timeToFire)
+            if (Input.GetAction("Fire") && Time.GameTime >= _timeToFire)
             {
-                _timeToFire = Time.GameTime + 1f / _data.FireRate;
+                _timeToFire = Time.GameTime + 1.0f / _data.FireRate;
 
                 var bullet = new RigidBody
                 {
@@ -53,7 +49,7 @@ namespace Game
                     StaticFlags = StaticFlags.None
                 };
 
-                // Ideally you would also use raycasting to determine if something was hit.
+                // Ideally you would also use raycasting to determine if something was hit
                 new SphereCollider
                 {
                     Parent = bullet,

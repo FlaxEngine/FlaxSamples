@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using FlaxEngine;
+﻿using FlaxEngine;
 
 namespace Game
 {
@@ -9,7 +7,6 @@ namespace Game
     /// </summary>
     public class WeaponData
     {
-        [Space(10)]
         [Range(0, 20), EditorOrder(0), EditorDisplay("Weapon Data")]
         public float FireRate = 20f;
 
