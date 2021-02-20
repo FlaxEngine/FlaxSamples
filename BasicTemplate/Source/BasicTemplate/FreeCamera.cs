@@ -10,6 +10,9 @@ namespace BasicTemplate
         [Tooltip("Camera rotation smoothing factor")]
         public float CameraSmoothing { get; set; } = 20.0f;
 
+        [Tooltip("Camera mouse movement sensitivity")]
+        public float Sensitivity { get; set; } = 1.0f;
+
         public bool UseMouse = true;
 
         private float _pitch;
@@ -81,6 +84,7 @@ namespace BasicTemplate
                 Screen.CursorLock = CursorLockMode.Locked;
 
                 Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+                mouseDelta *= Sensitivity;
                 _pitch = Mathf.Clamp(_pitch + mouseDelta.Y, -88, 88);
                 _yaw += mouseDelta.X;
             }
