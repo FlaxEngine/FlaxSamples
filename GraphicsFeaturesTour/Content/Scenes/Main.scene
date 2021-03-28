@@ -1,19 +1,12 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6213,
+	"EngineBuild": 6217,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
 			"TypeName": "FlaxEngine.Scene",
 			"Name": "Main",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 10.0,
-					"Z": 0.0
-				}
-			},
 			"StaticFlags": 5,
 			"Lightmaps": [
 				{
