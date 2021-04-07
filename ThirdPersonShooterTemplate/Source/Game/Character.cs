@@ -98,12 +98,6 @@ namespace Game
 
             // Character Movement
             {
-                // If the character is grounded we just set it to 0, avoiding constantly adding to Y
-                if (_controller.IsGrounded)
-                {
-                    _velocity.Y = 0f;
-                }
-
                 // Get input axes
                 var inputH = Input.GetAxis("Horizontal");
                 var inputV = Input.GetAxis("Vertical");
