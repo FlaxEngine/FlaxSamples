@@ -3,7 +3,7 @@
 	"TypeName": "FlaxEditor.Content.Settings.TimeSettings",
 	"EngineBuild": 6145,
 	"Data": {
-	"UpdateFPS": 30.0,
+	"UpdateFPS": 60.0,
 	"PhysicsFPS": 60.0,
 	"DrawFPS": 60.0,
 	"TimeScale": 1.0
