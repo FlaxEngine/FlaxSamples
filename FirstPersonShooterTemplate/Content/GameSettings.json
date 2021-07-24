@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6200,
+	"EngineBuild": 6222,
 	"Data": {
 	"ProductName": "FirstPersonShooter",
 	"CompanyName": "Flax",
@@ -14,7 +14,9 @@
 	"Input": "f4c1c67842f6b745a6976aa8e7eff360",
 	"Graphics": "72a90a6e4f5d8520b2c934ad1b2521ae",
 	"Navigation": "4b6b6da1463c5e9ecd07f182b0fa4c17",
+	"Localization": "b80924f94890620c900217be64e00536",
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
+	"Streaming": "ef71a6c144025c1c81e7fbba7bc64cdc",
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
 	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
 	"LinuxPlatform": "b7b4a03e48d2108e5b26118af8cb3afe",

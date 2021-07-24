@@ -1,7 +1,7 @@
 {
 	"ID": "7871f0364d398555ccd9e297acdc8983",
 	"TypeName": "FlaxEditor.Content.Settings.PhysicsSettings",
-	"EngineBuild": 6137,
+	"EngineBuild": 6222,
 	"Data": {
 	"DefaultGravity": {
 		"X": 0.0,
@@ -14,9 +14,12 @@
 	"FrictionCombineMode": 0,
 	"RestitutionCombineMode": 0,
 	"DisableCCD": false,
+	"EnableAdaptiveForce": false,
+	"MaxDeltaTime": 0.1,
 	"EnableSubstepping": false,
 	"SubstepDeltaTime": 0.008333334,
 	"MaxSubsteps": 5,
+	"SupportCookingAtRuntime": false,
 	"LayerMasks": [
 		4294967295,
 		4294967295,

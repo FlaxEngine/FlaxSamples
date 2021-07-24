@@ -1,13 +1,11 @@
 using FlaxEngine;
 
-namespace BasicTemplate
+public class ExitOnEsc : Script
 {
-    public class ExitOnEsc : Script
+    /// <inheritdoc />
+    public override void OnUpdate()
     {
-        public override void OnUpdate()
-        {
-            if (Input.GetKeyUp(KeyboardKeys.Escape))
-                Engine.RequestExit();
-        }
+        if (Input.GetKeyUp(KeyboardKeys.Escape))
+            Engine.RequestExit();
     }
 }
