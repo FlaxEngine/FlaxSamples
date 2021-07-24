@@ -7,6 +7,9 @@ public class VirtualThumbStick : Control
     private Vector2 _input;
     private Vector2 _inputLocation;
 
+    [Tooltip("If checked, the control will auto-size based on the screen size")]
+    public bool AutoSize = true;
+
     [EditorDisplay("Style"), EditorOrder(2000)]
     public IBrush CircleBrush { get; set; }
 
@@ -66,6 +69,19 @@ public class VirtualThumbStick : Control
     {
         _isPressed = false;
         _input = Vector2.Zero;
+    }
+    
+    /// <inheritdoc />
+    public override void PerformLayout(bool force = false)
+    {
+        base.PerformLayout(force);
+
+        if (AutoSize && Parent != null)
+        {
+            var anchorPreset = AnchorPreset;
+            Size = new Vector2(Parent.Size.MinValue * 0.4f);
+            SetAnchorPreset(anchorPreset, false);
+        }
     }
 
     /// <inheritdoc />
