@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6200,
+	"EngineBuild": 6222,
 	"Data": {
 	"ProductName": "MaterialsFeaturesTour",
 	"CompanyName": "Flax",
@@ -14,7 +14,9 @@
 	"Input": "f4c1c67842f6b745a6976aa8e7eff360",
 	"Graphics": "4eaf325e4cd72aa4cdeb6393cad05466",
 	"Navigation": "82e936724a508f1f74892ab6c1fff514",
+	"Localization": "e8a4596b4ee70e9a4aef32abc6675884",
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
+	"Streaming": "9cdc3f4c49e56b9dde7d73b00d9a9f09",
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
 	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
 	"LinuxPlatform": "b11d0f3a415403ce5e4a67a4e947009d",

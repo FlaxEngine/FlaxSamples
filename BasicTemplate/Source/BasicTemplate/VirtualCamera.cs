@@ -1,5 +1,4 @@
 ﻿using System;
-using BasicTemplate;
 using FlaxEngine;
 
 /// <summary>

@@ -1,7 +1,7 @@
 {
 	"ID": "4eaf325e4cd72aa4cdeb6393cad05466",
 	"TypeName": "FlaxEditor.Content.Settings.GraphicsSettings",
-	"EngineBuild": 6145,
+	"EngineBuild": 6222,
 	"Data": {
 	"UseVSync": true,
 	"AAQuality": 2,

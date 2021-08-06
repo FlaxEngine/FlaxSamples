@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6215,
+	"EngineBuild": 6222,
 	"Data": {
 	"ProductName": "ThirdPersonTemplate",
 	"CompanyName": "Flax",
@@ -15,7 +15,9 @@
 	"Input": "f4c1c67842f6b745a6976aa8e7eff360",
 	"Graphics": "4eaf325e4cd72aa4cdeb6393cad05466",
 	"Navigation": "9d5e29604efb16eff6b815aa4a110227",
+	"Localization": "78cf8d3a4839fb26bf97a58ec0b0fb02",
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
+	"Streaming": "3b08fcff44d5c9b425f46d8bbbbbfaef",
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
 	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
 	"LinuxPlatform": "1bf4eedd41508974d6646e8faa55420a",

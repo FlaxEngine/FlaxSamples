@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6217,
+	"EngineBuild": 6222,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -10241,12 +10241,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1020.0,
-		"Y": 598.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "11202b1d41da4548e670528e408f5ece",
@@ -10264,18 +10259,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "ca05768642c0b7f657b8d79aad32f09a",
 			"Name": "VirtualThumbstick_Right",
-			"Transform": {
-				"Translation": {
-					"X": 870.0,
-					"Y": 448.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -10298,10 +10288,10 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -150.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -10323,8 +10313,7 @@
 		"A": 0.0
 	},
 	"Enabled": true,
-	"Visible": true,
-	"AutoFocus": true
+	"Visible": true
 }
 		},
 		{
@@ -10332,18 +10321,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "ca05768642c0b7f657b8d79aad32f09a",
 			"Name": "VirtualThumbstick_Left",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 448.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -10367,9 +10351,9 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -10391,8 +10375,7 @@
 		"A": 0.0
 	},
 	"Enabled": true,
-	"Visible": true,
-	"AutoFocus": true
+	"Visible": true
 }
 		},
 		{
@@ -10409,12 +10392,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1020.0,
-		"Y": 598.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "bcb532ed4adeeaebca33b18f9eb8e303",
@@ -10493,8 +10471,7 @@
 		"A": 0.0
 	},
 	"Enabled": true,
-	"Visible": true,
-	"AutoFocus": false
+	"Visible": true
 }
 		},
 		{

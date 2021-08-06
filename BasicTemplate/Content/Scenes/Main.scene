@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6213,
+	"EngineBuild": 6222,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -27,7 +27,7 @@
 		},
 		{
 			"ID": "3d81d377468b44e298a558ad98af0d12",
-			"TypeName": "BasicTemplate.ExitOnEsc",
+			"TypeName": "ExitOnEsc",
 			"ParentID": "a470726f441936acfe25318b162c336c",
 			"V": {}
 		},
@@ -194,7 +194,7 @@
 		},
 		{
 			"ID": "5dd6fd6641ce223a7ec079803296d798",
-			"TypeName": "BasicTemplate.FreeCamera",
+			"TypeName": "FreeCamera",
 			"ParentID": "5543ed36412ccd0f04717a90d39e877e",
 			"V": {
 	"MoveSpeed": 10.0
