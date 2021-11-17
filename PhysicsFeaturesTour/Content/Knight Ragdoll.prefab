@@ -1,0 +1,980 @@
+{
+	"ID": "cc1779884233f02151624b81ccb6b30e",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6226,
+	"Data": [
+	{
+		"ID": "db31754542cf5b665dd0f091ee42c0e0",
+		"TypeName": "FlaxEngine.AnimatedModel",
+		"Name": "KnightRagdoll",
+		"StaticFlags": 0,
+		"SkinnedModel": "3fe6112c42c2e1d43f3675ab9e5cba71",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "9884362147a39a739083618f71611721",
+		"TypeName": "FlaxEngine.Ragdoll",
+		"ParentID": "db31754542cf5b665dd0f091ee42c0e0",
+		"Name": "Ragdoll",
+		"StaticFlags": 0
+	},
+	{
+		"ID": "0d72f26b4de907c6497aa2a3480249f9",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "Hips",
+		"Transform": {
+			"Translation": {
+				"X": 0.4262962341308594,
+				"Y": 103.10781860351563,
+				"Z": -0.33510589599609377
+			},
+			"Orientation": {
+				"X": -0.024839160963892938,
+				"Y": -0.4958754777908325,
+				"Z": -0.01419150922447443,
+				"W": 0.8679224252700806
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 20.0
+	},
+	{
+		"ID": "15dff856443f9e65bbff4b82ff0ae648",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "0d72f26b4de907c6497aa2a3480249f9",
+		"Name": "Capsule",
+		"StaticFlags": 0,
+		"Radius": 25.0,
+		"Height": 0.0
+	},
+	{
+		"ID": "2ad6591945d72267c5c50f925bdafbaa",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "Spine1",
+		"Transform": {
+			"Translation": {
+				"X": 0.14417648315429688,
+				"Y": 132.46609497070313,
+				"Z": -2.3544845581054689
+			},
+			"Orientation": {
+				"X": 0.005486856214702129,
+				"Y": 0.685639500617981,
+				"Z": -0.005168283823877573,
+				"W": 0.7279022336006165
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 20.0
+	},
+	{
+		"ID": "733ad3ef48d8f2dfab5fb3a305ea2334",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "2ad6591945d72267c5c50f925bdafbaa",
+		"Name": "Capsule",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 22.0,
+		"Height": 14.0
+	},
+	{
+		"ID": "9ba43928430c68bbb5b5eb9aed425ed6",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "2ad6591945d72267c5c50f925bdafbaa",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": -2.800041913986206,
+				"Y": -7.368237495422363,
+				"Z": 0.13364028930664063
+			},
+			"Orientation": {
+				"X": -0.005486856214702129,
+				"Y": -0.685639500617981,
+				"Z": 0.00516828428953886,
+				"W": 0.7279022932052612
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "0d72f26b4de907c6497aa2a3480249f9",
+		"TargetAnchor": {
+			"X": 0.4525231122970581,
+			"Y": 21.909282684326173,
+			"Z": 2.018460512161255
+		},
+		"TargetAnchorRotation": {
+			"X": 0.024839159101247789,
+			"Y": 0.49587541818618777,
+			"Z": 0.01419150736182928,
+			"W": 0.867922306060791
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "Spine2",
+		"Transform": {
+			"Translation": {
+				"X": 0.1894855499267578,
+				"Y": 155.9566650390625,
+				"Z": 1.3208446502685547
+			},
+			"Orientation": {
+				"X": -0.03215513378381729,
+				"Y": 0.6396287083625794,
+				"Z": 0.02679632417857647,
+				"W": 0.7675435543060303
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 10.0
+	},
+	{
+		"ID": "afe7250946bc04bad2affd95e34bd098",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": -0.7174415588378906,
+				"Y": -6.0203776359558109,
+				"Z": 0.08373114466667175
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 22.0,
+		"Height": 12.0
+	},
+	{
+		"ID": "e6f63e454a26b93ed0f1b1bf1d266b7a",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 1.128023624420166,
+				"Y": -20.668750762939454,
+				"Z": -2.1361210346221926
+			},
+			"Orientation": {
+				"X": 0.03215513378381729,
+				"Y": -0.6396287083625794,
+				"Z": -0.02679632417857647,
+				"W": 0.7675435543060303
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "2ad6591945d72267c5c50f925bdafbaa",
+		"TargetAnchor": {
+			"X": -2.4978482723236086,
+			"Y": 2.71533465385437,
+			"Z": -0.03647483140230179
+		},
+		"TargetAnchorRotation": {
+			"X": -0.005486856214702129,
+			"Y": -0.685639500617981,
+			"Z": 0.00516828428953886,
+			"W": 0.7279022932052612
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "c182dc91468632972740a7967fe9fc5d",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "Neck",
+		"Transform": {
+			"Translation": {
+				"X": -0.0511322021484375,
+				"Y": 184.72508239746095,
+				"Z": -2.419435501098633
+			},
+			"Orientation": {
+				"X": -0.6548447608947754,
+				"Y": 0.015870539471507074,
+				"Z": 0.013756626285612584,
+				"W": 0.7554715275764465
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 20.0
+	},
+	{
+		"ID": "a8cc0424459e7042269060b86a8189a3",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "c182dc91468632972740a7967fe9fc5d",
+		"Name": "Capsule",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.7071068286895752,
+				"Z": 0.0,
+				"W": 0.7071068286895752
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 18.0,
+		"Height": 13.987606048583985
+	},
+	{
+		"ID": "ab81058d47892f55eac43681b4c949bf",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "c182dc91468632972740a7967fe9fc5d",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": -0.11396680027246475,
+				"Y": -7.123749732971191,
+				"Z": -22.09427261352539
+			},
+			"Orientation": {
+				"X": 0.6548448204994202,
+				"Y": -0.01587056927382946,
+				"Z": -0.013756660744547844,
+				"W": 0.7554714679718018
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"TargetAnchor": {
+			"X": -0.2071491777896881,
+			"Y": 5.878899574279785,
+			"Z": 0.3377643823623657
+		},
+		"TargetAnchorRotation": {
+			"X": 0.03215513378381729,
+			"Y": -0.6396287083625794,
+			"Z": -0.02679632417857647,
+			"W": 0.7675435543060303
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -30.0,
+		"LimitTwist.Upper": 30.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "2c7b10db40364fc5727d0c8c2197c29f",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "LeftArm",
+		"Transform": {
+			"Translation": {
+				"X": 51.96745681762695,
+				"Y": 155.03265380859376,
+				"Z": 4.893531799316406
+			},
+			"Orientation": {
+				"X": -0.07091381400823593,
+				"Y": -0.6831516027450562,
+				"Z": -0.06693718582391739,
+				"W": 0.7237365245819092
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 10.0
+	},
+	{
+		"ID": "8a7763e34e2c4129fcb868ba68af3c88",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "2c7b10db40364fc5727d0c8c2197c29f",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": 0.20331130921840669,
+				"Y": 0.25161856412887576,
+				"Z": -3.5394668579101564
+			},
+			"Orientation": {
+				"X": 0.04950479790568352,
+				"Y": 0.7045621275901794,
+				"Z": 0.05545008182525635,
+				"W": 0.7057384848594666
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 16.0,
+		"Height": 45.0
+	},
+	{
+		"ID": "217b95a0424726550b852bbfad61ed4d",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "2c7b10db40364fc5727d0c8c2197c29f",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": -4.83907413482666,
+				"Y": -7.564623832702637,
+				"Z": 26.21073341369629
+			},
+			"Orientation": {
+				"X": 0.07091379910707474,
+				"Y": 0.6831516027450562,
+				"Z": 0.0669371709227562,
+				"W": 0.7237365245819092
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"TargetAnchor": {
+			"X": 4.089596748352051,
+			"Y": -5.254836082458496,
+			"Z": 23.663475036621095
+		},
+		"TargetAnchorRotation": {
+			"X": 0.03215513378381729,
+			"Y": -0.6396287083625794,
+			"Z": -0.02679632417857647,
+			"W": 0.7675435543060303
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "09f96ee7438f430f9590b7902db50d45",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "LeftHand",
+		"Transform": {
+			"Translation": {
+				"X": 108.94015502929688,
+				"Y": 150.90322875976563,
+				"Z": -1.3374805450439454
+			},
+			"Orientation": {
+				"X": -0.027801644057035447,
+				"Y": 0.6118471026420593,
+				"Z": 0.021526804193854333,
+				"W": 0.7901941537857056
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 8.0
+	},
+	{
+		"ID": "916688344b0113ce3b6002a67d5ebaa1",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "09f96ee7438f430f9590b7902db50d45",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": -9.185185432434082,
+				"Y": 3.9998016357421877,
+				"Z": -18.046167373657228
+			},
+			"Orientation": {
+				"X": 0.027801645919680597,
+				"Y": -0.6118471026420593,
+				"Z": -0.021526804193854333,
+				"W": 0.7901942133903503
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "2c7b10db40364fc5727d0c8c2197c29f",
+		"TargetAnchor": {
+			"X": 0.21900689601898194,
+			"Y": 5.804959774017334,
+			"Z": -36.59075164794922
+		},
+		"TargetAnchorRotation": {
+			"X": 0.07091379910707474,
+			"Y": 0.6831516027450562,
+			"Z": 0.0669371709227562,
+			"W": 0.7237365245819092
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "5c043374426b911063dedebe4f1a41b7",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "09f96ee7438f430f9590b7902db50d45",
+		"Name": "Box",
+		"Transform": {
+			"Translation": {
+				"X": -2.4342446327209474,
+				"Y": 3.0922820568084719,
+				"Z": 2.476917028427124
+			},
+			"Orientation": {
+				"X": 0.045710284262895587,
+				"Y": 0.12577711045742036,
+				"Z": 0.02409418858587742,
+				"W": 0.99071204662323
+			}
+		},
+		"StaticFlags": 0,
+		"Size": {
+			"X": 17.0,
+			"Y": 7.0,
+			"Z": 28.0
+		}
+	},
+	{
+		"ID": "99da41f343b250683245abad0de546ae",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "RightArm",
+		"Transform": {
+			"Translation": {
+				"X": -51.23004913330078,
+				"Y": 155.60763549804688,
+				"Z": 5.096586227416992
+			},
+			"Orientation": {
+				"X": -0.06076636537909508,
+				"Y": 0.6863043904304504,
+				"Z": 0.05772457271814346,
+				"W": 0.7224690914154053
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 10.0
+	},
+	{
+		"ID": "0a82ed9b47ed663283b4f5a503b78592",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "99da41f343b250683245abad0de546ae",
+		"Name": "Capsule",
+		"Transform": {
+			"Orientation": {
+				"X": 0.012738696299493313,
+				"Y": 0.7071067094802856,
+				"Z": 0.011510402895510197,
+				"W": 0.7068983316421509
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 15.0,
+		"Height": 48.0
+	},
+	{
+		"ID": "2281854c490be7e4cfe207a13e6d493a",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "99da41f343b250683245abad0de546ae",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 4.831169605255127,
+				"Y": -7.278837203979492,
+				"Z": 25.601974487304689
+			},
+			"Orientation": {
+				"X": 0.06076636165380478,
+				"Y": -0.6863044500350952,
+				"Z": -0.05772457271814346,
+				"W": 0.7224690914154053
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "d44ee46547a855fb3fd6a1aa34a45fc8",
+		"TargetAnchor": {
+			"X": -4.766002178192139,
+			"Y": -1.2063724994659424,
+			"Z": -24.473661422729493
+		},
+		"TargetAnchorRotation": {
+			"X": 0.03215513378381729,
+			"Y": -0.6396287083625794,
+			"Z": -0.02679632417857647,
+			"W": 0.7675435543060303
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "845e04994d1348bb0913f7a253cc4c46",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "RightHand",
+		"Transform": {
+			"Translation": {
+				"X": -109.48960876464844,
+				"Y": 149.5882568359375,
+				"Z": 0.6110019683837891
+			},
+			"Orientation": {
+				"X": -0.027622293680906297,
+				"Y": -0.6307271122932434,
+				"Z": -0.022474735975265504,
+				"W": 0.7751872539520264
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 8.0
+	},
+	{
+		"ID": "22d84993491805f7d4acf3b8ecc21221",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "845e04994d1348bb0913f7a253cc4c46",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 6.428178787231445,
+				"Y": 5.331558704376221,
+				"Z": -18.975553512573243
+			},
+			"Orientation": {
+				"X": 0.027622295543551446,
+				"Y": 0.6307271122932434,
+				"Z": 0.022474737837910653,
+				"W": 0.7751873135566711
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "99da41f343b250683245abad0de546ae",
+		"TargetAnchor": {
+			"X": 0.16314172744750977,
+			"Y": 4.342269420623779,
+			"Z": -37.91500473022461
+		},
+		"TargetAnchorRotation": {
+			"X": 0.06076636165380478,
+			"Y": -0.6863044500350952,
+			"Z": -0.05772457271814346,
+			"W": 0.7224690914154053
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "5981c1fc42ab177d6e8e41ba4e50383c",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "845e04994d1348bb0913f7a253cc4c46",
+		"Name": "Box",
+		"Transform": {
+			"Translation": {
+				"X": 1.798122525215149,
+				"Y": 4.895574569702148,
+				"Z": 1.3444578647613526
+			},
+			"Orientation": {
+				"X": 0.09948043525218964,
+				"Y": -0.052941251546144488,
+				"Z": 0.02235838770866394,
+				"W": 0.9933786392211914
+			}
+		},
+		"StaticFlags": 0,
+		"Size": {
+			"X": 17.0,
+			"Y": 7.0,
+			"Z": 28.0
+		}
+	},
+	{
+		"ID": "7dfec7d542c1cc5547d4da969039d608",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "LeftUpLeg",
+		"Transform": {
+			"Translation": {
+				"X": 14.510607719421387,
+				"Y": 54.84135818481445,
+				"Z": 0.6098575592041016
+			},
+			"Orientation": {
+				"X": -0.46931836009025576,
+				"Y": 0.5273264646530151,
+				"Z": 0.4582339823246002,
+				"W": 0.5400822758674622
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 20.0
+	},
+	{
+		"ID": "5dd004c6404a8d36f3e282aae8786e0b",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "7dfec7d542c1cc5547d4da969039d608",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": -0.0000011753511444112519,
+				"Y": -1.107436180114746,
+				"Z": -7.859619617462158
+			},
+			"Orientation": {
+				"X": -0.044624004513025287,
+				"Y": 0.7046533226966858,
+				"Z": -0.04432758316397667,
+				"W": 0.706758439540863
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 12.0,
+		"Height": 45.0
+	},
+	{
+		"ID": "63c8e053499763ed1eca72ab4aa9ff5b",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "7dfec7d542c1cc5547d4da969039d608",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 0.5107468366622925,
+				"Y": 6.797850131988525,
+				"Z": 37.51057052612305
+			},
+			"Orientation": {
+				"X": 0.4693183898925781,
+				"Y": -0.5273264050483704,
+				"Z": -0.4582340121269226,
+				"W": 0.5400822758674622
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "0d72f26b4de907c6497aa2a3480249f9",
+		"TargetAnchor": {
+			"X": 6.7412309646606449,
+			"Y": -9.548510551452637,
+			"Z": -11.21585464477539
+		},
+		"TargetAnchorRotation": {
+			"X": 0.024839159101247789,
+			"Y": 0.49587541818618777,
+			"Z": 0.01419150736182928,
+			"W": 0.867922306060791
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "433a0eb34a0d3d2018fcdc9d20449aeb",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "LeftFoot",
+		"Transform": {
+			"Translation": {
+				"X": 14.662399291992188,
+				"Y": 8.862930297851563,
+				"Z": -6.64373779296875
+			},
+			"Orientation": {
+				"X": -0.01949893683195114,
+				"Y": -0.02573028951883316,
+				"Z": -0.0005019750096835196,
+				"W": 0.9994786381721497
+			}
+		},
+		"StaticFlags": 0,
+		"Mass": 6.300000190734863
+	},
+	{
+		"ID": "76fb6ad6450457bbcaa9b5a5200eb09e",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "433a0eb34a0d3d2018fcdc9d20449aeb",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": -1.1453365087509156,
+				"Y": 7.760458469390869,
+				"Z": 9.652331352233887
+			},
+			"Orientation": {
+				"X": 0.01949893683195114,
+				"Y": 0.025730282068252565,
+				"Z": 0.000501975417137146,
+				"W": 0.9994786977767944
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "7dfec7d542c1cc5547d4da969039d608",
+		"TargetAnchor": {
+			"X": -2.0522000789642336,
+			"Y": -3.8705198764801027,
+			"Z": -37.67588806152344
+		},
+		"TargetAnchorRotation": {
+			"X": 0.46931833028793337,
+			"Y": -0.5273263454437256,
+			"Z": -0.45823395252227785,
+			"W": 0.5400822162628174
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -40.0,
+		"LimitTwist.Upper": 40.0,
+		"LimitSwing.YLimitAngle": 10.0,
+		"LimitSwing.ZLimitAngle": 35.0
+	},
+	{
+		"ID": "d332d85d407bf8bb219c6f9679486fdb",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "433a0eb34a0d3d2018fcdc9d20449aeb",
+		"Name": "Box",
+		"Transform": {
+			"Translation": {
+				"X": 0.054919999092817309,
+				"Y": -3.748946189880371,
+				"Z": 0.888329803943634
+			}
+		},
+		"StaticFlags": 0,
+		"Size": {
+			"X": 18.0,
+			"Y": 10.0,
+			"Z": 35.0
+		}
+	},
+	{
+		"ID": "c4fd8254414a77055a50ea808b500707",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "RightUpLeg",
+		"Transform": {
+			"Translation": {
+				"X": -15.158287048339844,
+				"Y": 55.139076232910159,
+				"Z": 0.8873844146728516
+			},
+			"Orientation": {
+				"X": 0.48987916111946108,
+				"Y": 0.5037209987640381,
+				"Z": -0.4434746205806732,
+				"W": 0.5564295649528503
+			}
+		},
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 20.0
+	},
+	{
+		"ID": "ae45c37143ebec2ffa14e29c9d821572",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "c4fd8254414a77055a50ea808b500707",
+		"Name": "Capsule",
+		"Transform": {
+			"Translation": {
+				"X": 0.050805799663066867,
+				"Y": -0.4954395294189453,
+				"Z": 7.90172815322876
+			},
+			"Orientation": {
+				"X": 0.04889710620045662,
+				"Y": 0.7006649374961853,
+				"Z": 0.04767746478319168,
+				"W": 0.7102145552635193
+			}
+		},
+		"StaticFlags": 0,
+		"Radius": 12.0,
+		"Height": 45.0
+	},
+	{
+		"ID": "587f20f446f8b552d5a513a12a7074b2",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "c4fd8254414a77055a50ea808b500707",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 1.0311048030853272,
+				"Y": 6.8113908767700199,
+				"Z": -37.23146438598633
+			},
+			"Orientation": {
+				"X": -0.48987913131713869,
+				"Y": -0.5037210583686829,
+				"Z": 0.44347459077835085,
+				"W": 0.5564295649528503
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "0d72f26b4de907c6497aa2a3480249f9",
+		"TargetAnchor": {
+			"X": -6.488298416137695,
+			"Y": -10.832054138183594,
+			"Z": 11.190370559692383
+		},
+		"TargetAnchorRotation": {
+			"X": 0.024839159101247789,
+			"Y": 0.49587541818618777,
+			"Z": 0.01419150736182928,
+			"W": 0.867922306060791
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -15.0,
+		"LimitTwist.Upper": 15.0,
+		"LimitSwing.YLimitAngle": 45.0,
+		"LimitSwing.ZLimitAngle": 45.0
+	},
+	{
+		"ID": "67a4618e4e38b6cabca3deb926dfc45e",
+		"TypeName": "FlaxEngine.RigidBody",
+		"ParentID": "9884362147a39a739083618f71611721",
+		"Name": "RightFoot",
+		"Transform": {
+			"Translation": {
+				"X": -14.520102500915528,
+				"Y": 8.863407135009766,
+				"Z": -6.643762588500977
+			},
+			"Orientation": {
+				"X": -0.022703742608428,
+				"Y": 0.025931671261787416,
+				"Z": 0.0005890960455872119,
+				"W": 0.9994056820869446
+			}
+		},
+		"StaticFlags": 0,
+		"Mass": 6.300000190734863
+	},
+	{
+		"ID": "075b85524467701115c03e9c12cfc37b",
+		"TypeName": "FlaxEngine.D6Joint",
+		"ParentID": "67a4618e4e38b6cabca3deb926dfc45e",
+		"Name": "Joint",
+		"Transform": {
+			"Translation": {
+				"X": 1.0230458974838257,
+				"Y": 7.698143005371094,
+				"Z": 9.696197509765625
+			},
+			"Orientation": {
+				"X": 0.02270374447107315,
+				"Y": -0.02593168616294861,
+				"Z": -0.0005890969187021256,
+				"W": 0.9994057416915894
+			}
+		},
+		"StaticFlags": 0,
+		"Target": "c4fd8254414a77055a50ea808b500707",
+		"TargetAnchor": {
+			"X": -1.518985390663147,
+			"Y": -2.545389175415039,
+			"Z": 38.12993621826172
+		},
+		"TargetAnchorRotation": {
+			"X": -0.48987913131713869,
+			"Y": -0.5037210583686829,
+			"Z": 0.44347459077835085,
+			"W": 0.5564295649528503
+		},
+		"EnableCollision": false,
+		"EnableAutoAnchor": true,
+		"Motion3": 1,
+		"Motion4": 1,
+		"Motion5": 1,
+		"LimitTwist.Lower": -40.0,
+		"LimitTwist.Upper": 40.0,
+		"LimitSwing.YLimitAngle": 10.0,
+		"LimitSwing.ZLimitAngle": 35.0
+	},
+	{
+		"ID": "e5c1a9e44731a505af3697a448dbea9e",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "67a4618e4e38b6cabca3deb926dfc45e",
+		"Name": "Box",
+		"Transform": {
+			"Translation": {
+				"X": -0.054923251271247867,
+				"Y": -3.748946189880371,
+				"Z": 0.888329803943634
+			}
+		},
+		"StaticFlags": 0,
+		"Size": {
+			"X": 18.0,
+			"Y": 10.0,
+			"Z": 35.0
+		}
+	}
+]
+}
