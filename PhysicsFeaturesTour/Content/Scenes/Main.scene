@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6217,
+	"EngineBuild": 6226,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -3179,7 +3179,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "8978666040e08d5baa7c878af74bb946",
@@ -3225,7 +3225,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "e5fa71404a60a94c58c439b92cd49610",
@@ -3277,7 +3277,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "c42ebcf14360377bd613b6a5ca8f48bd",
@@ -3323,7 +3323,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "e0c3f68e4f2ac434882c5693dee6a5de",
@@ -3375,7 +3375,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "567327eb4d4834ccec1b168afa788df5",
@@ -3421,7 +3421,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "8a318dd6429b9dba69988696d4d529bd",
@@ -3467,7 +3467,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "2117c4d04156e67b8d2efcb38e254317",
@@ -3513,7 +3513,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "0a361f99490bd8afc0143ea5c33a0bad",
@@ -3565,7 +3565,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "cdbf92754b2eed20bc3990847aa4008c",
@@ -3611,7 +3611,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "f3de1f964a742a9899faddb078451534",
@@ -3657,7 +3657,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "f43283824b5da3617a88afa50e04ff86",
@@ -3703,7 +3703,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "d017cb7f482fd34a206c73b8cefa7db6",
@@ -3749,7 +3749,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "d0fef8d14a1f4a2d08160c889a6a7ad6",
@@ -3795,7 +3795,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "27437c9e4dfa2b804b2ce4b297bc8781",
@@ -3841,7 +3841,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "f2a3c0e34a072b4bfe1555bf979a21f3",
@@ -3887,7 +3887,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "586091a94e86e8fcae1d1a97845119cb",
@@ -3939,7 +3939,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "798962c041b28425ae028987ba05f2e9",
@@ -3991,7 +3991,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "b673a9c74220fc9f114aca8d8df8f548",
@@ -4043,7 +4043,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "edbddb7c486adf68288876851bc7eace",
@@ -4089,7 +4089,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "3916390f4d1a8721f4cdd0b656914839",
@@ -4135,7 +4135,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "773d178047fb2f4db3e63b8001f3942b",
@@ -4181,7 +4181,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "9bc9bd2f477d10cc4ab269867627d8dd",
@@ -4233,7 +4233,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "5e24533e47e50a86db07d69ca84288a9",
@@ -4285,7 +4285,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "ac7acdeb49946ab868464f919b66bfed",
@@ -4337,7 +4337,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "8af0185f45f0ae93a5c519880c518a47",
@@ -4383,7 +4383,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "bd38b694467d611d421af98117a814c6",
@@ -4429,7 +4429,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "8d4d5950417f6e981a62829f3aea380e",
@@ -5210,7 +5210,8 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 19464.755859375
+			"OverrideMass": true,
+			"Mass": 20.0
 		},
 		{
 			"ID": "70345b594fa54f3c10f51abf9db0394c",
@@ -6583,7 +6584,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 9457.416015625,
+			"Mass": 200.00003051757813,
 			"IsKinematic": true
 		},
 		{
@@ -6804,7 +6805,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 100.0
+			"Mass": 15.0
 		},
 		{
 			"ID": "81fbfc5e4de0d4c9acd6cd8d33829431",
@@ -6885,7 +6886,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 4756.82861328125,
+			"Mass": 80.0,
 			"IsKinematic": true
 		},
 		{
@@ -7089,7 +7090,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 19464.755859375
+			"Mass": 523.5988159179688
 		},
 		{
 			"ID": "d50811d34ed37299c061ba952019a18b",
@@ -7134,7 +7135,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 18803.015625,
+			"Mass": 500.0000305175781,
 			"IsKinematic": true
 		},
 		{
@@ -7347,7 +7348,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 3038.01220703125,
+			"Mass": 44.000003814697269,
 			"IsKinematic": true
 		},
 		{
@@ -7429,7 +7430,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Mass": 8738.853515625
+			"Mass": 180.0000457763672
 		},
 		{
 			"ID": "09e7116b41812fc9125d8f9bde50e8c3",
