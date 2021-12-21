@@ -11,6 +11,46 @@
 			"MouseButton": 1,
 			"GamepadButton": 14,
 			"Gamepad": 0
+		},
+		{
+			"Name": "NavigateUp",
+			"Mode": 0,
+			"Key": 38,
+			"MouseButton": 0,
+			"GamepadButton": 1,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateDown",
+			"Mode": 0,
+			"Key": 40,
+			"MouseButton": 0,
+			"GamepadButton": 2,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateLeft",
+			"Mode": 0,
+			"Key": 37,
+			"MouseButton": 0,
+			"GamepadButton": 3,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateRight",
+			"Mode": 0,
+			"Key": 39,
+			"MouseButton": 0,
+			"GamepadButton": 4,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateSubmit",
+			"Mode": 1,
+			"Key": 13,
+			"MouseButton": 0,
+			"GamepadButton": 13,
+			"Gamepad": -1
 		}
 	],
 	"AxisMappings": [
