@@ -1,14 +1,14 @@
 {
 	"ID": "d2e6df3843d12ebf0e7fa2b33c15826f",
 	"TypeName": "FlaxEngine.Prefab",
-	"EngineBuild": 6215,
+	"EngineBuild": 6226,
 	"Data": [
 	{
 		"ID": "52b4dda447945310e936b38fe4f611d5",
 		"TypeName": "FlaxEngine.RigidBody",
 		"Name": "RigidBody",
 		"OverrideMass": true,
-		"Mass": 1000.0
+		"Mass": 8.0
 	},
 	{
 		"ID": "253a4fa54eabf286ee1925b2b02cdab5",

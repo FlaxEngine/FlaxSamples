@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6217,
+	"EngineBuild": 6226,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -569,7 +569,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "10e9070243579e3eef5eaaa4de9624d4",
@@ -611,7 +611,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "32ab6b7c4bbaf9bb44c2058bbe237722",
@@ -653,7 +653,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "5efebcb244ac0b3929ea0fa4077019e0",
@@ -695,7 +695,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "23fa5841421565ed9cf24894a1cee8c1",
@@ -743,7 +743,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "b256f54f4af31b90663e3c93a980c0dc",
@@ -791,7 +791,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "a70f0ce946c0c229222b7582d36bc817",
@@ -839,7 +839,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "85025c8a488e23d90a1800b675a6fe50",
@@ -881,7 +881,7 @@
 			},
 			"StaticFlags": 0,
 			"OverrideMass": true,
-			"Mass": 500.0
+			"Mass": 5.0
 		},
 		{
 			"ID": "5e3a402b4960daf5bf2ea9b840f9686a",
