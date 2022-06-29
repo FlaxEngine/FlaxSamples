@@ -43,7 +43,7 @@ namespace Game
         public float FOVZoom { get; set; } = 50;
 
         [Tooltip("Determines the min and max pitch value for the camera"), EditorDisplay(CameraGroup, "Pitch Min Max"), EditorOrder(12)]
-        public Vector2 PitchMinMax { get; set; } = new Vector2(-45, 45);
+        public Float2 PitchMinMax { get; set; } = new Float2(-45, 45);
 
 
         private CharacterController _controller;

@@ -4,8 +4,8 @@ using FlaxEngine.GUI;
 public class VirtualThumbStick : Control
 {
     private bool _isPressed;
-    private Vector2 _input;
-    private Vector2 _inputLocation;
+    private Float2 _input;
+    private Float2 _inputLocation;
 
     [Tooltip("If checked, the control will auto-size based on the screen size")]
     public bool AutoSize = true;
@@ -27,7 +27,7 @@ public class VirtualThumbStick : Control
     /// <summary>
     /// Gets the thumb input (2D direction).
     /// </summary>
-    public Vector2 Input => _input;
+    public Float2 Input => _input;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="VirtualThumbStick"/> class.
@@ -40,7 +40,7 @@ public class VirtualThumbStick : Control
     /// Called when thumb starts to be pressed by the used (via mouse or touch).
     /// </summary>
     /// <param name="location">The input position (in control space).</param>
-    protected virtual void OnPressBegin(Vector2 location)
+    protected virtual void OnPressBegin(Float2 location)
     {
         _isPressed = true;
         if (AutoFocus)
@@ -52,14 +52,14 @@ public class VirtualThumbStick : Control
     /// Called when thumb input moves but continues to be pressed (via mouse or touch).
     /// </summary>
     /// <param name="location">The input position (in control space).</param>
-    protected virtual void OnPressMove(Vector2 location)
+    protected virtual void OnPressMove(Float2 location)
     {
         var sizeHalf = Size * 0.5f;
         var dir = location - sizeHalf;
         var intensity = dir.Length / sizeHalf.Length;
-        var dirNormalized = Vector2.Normalize(dir);
+        var dirNormalized = Float2.Normalize(dir);
         _inputLocation = sizeHalf + dirNormalized * sizeHalf * intensity;
-        _input = new Vector2(location.X - sizeHalf.X, sizeHalf.Y - location.Y) / sizeHalf;
+        _input = new Float2(location.X - sizeHalf.X, sizeHalf.Y - location.Y) / sizeHalf;
     }
 
     /// <summary>
@@ -68,7 +68,7 @@ public class VirtualThumbStick : Control
     protected virtual void OnPressEnd()
     {
         _isPressed = false;
-        _input = Vector2.Zero;
+        _input = Float2.Zero;
     }
     
     /// <inheritdoc />
@@ -79,7 +79,7 @@ public class VirtualThumbStick : Control
         if (AutoSize && Parent != null)
         {
             var anchorPreset = AnchorPreset;
-            Size = new Vector2(Parent.Size.MinValue * 0.4f);
+            Size = new Float2(Parent.Size.MinValue * 0.4f);
             SetAnchorPreset(anchorPreset, false);
         }
     }
@@ -94,7 +94,7 @@ public class VirtualThumbStick : Control
             circleColor *= 0.5f;
         var pressedScale = 0.3f;
         var normalSize = 0.5f;
-        var circleBounds = _isPressed ? new Rectangle(Vector2.Clamp(_inputLocation, size * (pressedScale / 2), size * (1 - pressedScale / 2)) - size * (pressedScale / 2), size * pressedScale) : new Rectangle(size * (0.5f - normalSize * 0.5f), size * normalSize);
+        var circleBounds = _isPressed ? new Rectangle(Float2.Clamp(_inputLocation, size * (pressedScale / 2), size * (1 - pressedScale / 2)) - size * (pressedScale / 2), size * pressedScale) : new Rectangle(size * (0.5f - normalSize * 0.5f), size * normalSize);
         CircleBrush?.Draw(circleBounds, circleColor);
     }
 
@@ -110,7 +110,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override bool OnMouseDown(Vector2 location, MouseButton button)
+    public override bool OnMouseDown(Float2 location, MouseButton button)
     {
         if (button == MouseButton.Left && !_isPressed)
         {
@@ -122,7 +122,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override void OnMouseMove(Vector2 location)
+    public override void OnMouseMove(Float2 location)
     {
         if (_isPressed)
         {
@@ -133,7 +133,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override bool OnMouseUp(Vector2 location, MouseButton button)
+    public override bool OnMouseUp(Float2 location, MouseButton button)
     {
         if (button == MouseButton.Left && _isPressed)
         {
@@ -145,7 +145,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override bool OnTouchDown(Vector2 location, int pointerId)
+    public override bool OnTouchDown(Float2 location, int pointerId)
     {
         if (!_isPressed)
         {
@@ -157,7 +157,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override void OnTouchMove(Vector2 location, int pointerId)
+    public override void OnTouchMove(Float2 location, int pointerId)
     {
         if (_isPressed)
         {
@@ -168,7 +168,7 @@ public class VirtualThumbStick : Control
     }
 
     /// <inheritdoc />
-    public override bool OnTouchUp(Vector2 location, int pointerId)
+    public override bool OnTouchUp(Float2 location, int pointerId)
     {
         if (_isPressed)
         {

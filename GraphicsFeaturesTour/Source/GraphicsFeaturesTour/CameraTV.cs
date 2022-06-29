@@ -101,7 +101,8 @@ namespace GraphicsFeaturesTour
         /// <inheritdoc />
         public override void OnUpdate()
         {
-            _task.Enabled = Vector3.Distance(Actor.Position, MainRenderTask.Instance.View.Position) <= ViewDistance;
+            var mainView = MainRenderTask.Instance.View;
+            _task.Enabled = Vector3.Distance(Actor.Position, mainView.Origin + mainView.Position) <= ViewDistance;
         }
 
         /// <inheritdoc />

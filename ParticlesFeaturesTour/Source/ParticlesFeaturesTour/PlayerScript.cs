@@ -52,7 +52,7 @@ public class PlayerScript : Script
             Screen.CursorLock = CursorLockMode.Locked;
 
             // Mouse
-            Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+            var mouseDelta = new Float2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             _pitch = Mathf.Clamp(_pitch + mouseDelta.Y, -88, 88);
             _yaw += mouseDelta.X;
         }
@@ -160,7 +160,7 @@ public class PlayerScript : Script
     // maxVelocity: The server-defined maximum player velocity (this is not strictly adhered to due to strafejumping)
     private Vector3 Accelerate(Vector3 accelDir, Vector3 prevVelocity, float accelerate, float maxVelocity)
     {
-        float projVel = Vector3.Dot(prevVelocity, accelDir); // Vector projection of Current velocity onto accelDir
+        float projVel = (float)Vector3.Dot(prevVelocity, accelDir); // Vector projection of Current velocity onto accelDir
         float accelVel = accelerate * Time.DeltaTime; // Accelerated velocity in direction of movement
 
         // If necessary, truncate the accelerated velocity so the vector projection does not exceed max velocity
@@ -173,10 +173,10 @@ public class PlayerScript : Script
     private Vector3 MoveGround(Vector3 accelDir, Vector3 prevVelocity)
     {
         // Apply Friction
-        float speed = prevVelocity.Length;
+        var speed = prevVelocity.Length;
         if (Math.Abs(speed) > 0.01f) // To avoid divide by zero errors
         {
-            float drop = speed * Friction * Time.DeltaTime;
+            var drop = speed * Friction * Time.DeltaTime;
             prevVelocity *= Mathf.Max(speed - drop, 0) / speed; // Scale the velocity based on friction
         }
 
