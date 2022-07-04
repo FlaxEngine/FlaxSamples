@@ -23,7 +23,7 @@ public class FreeCamera : Script
         Screen.CursorVisible = false;
         Screen.CursorLock = CursorLockMode.Locked;
 
-        Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        var mouseDelta = new Float2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         pitch = Mathf.Clamp(pitch + mouseDelta.Y, -88, 88);
         yaw += mouseDelta.X;
     }

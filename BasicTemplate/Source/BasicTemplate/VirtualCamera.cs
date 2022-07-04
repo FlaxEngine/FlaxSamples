@@ -25,8 +25,8 @@ public class VirtualCamera : Script
     /// <inheritdoc />
     public override void OnUpdate()
     {
-        var movement = Vector2.Zero;
-        var rotation = Vector2.Zero;
+        var movement = Float2.Zero;
+        var rotation = Float2.Zero;
 
         if (VirtualThumbStick_Left != null)
         {
