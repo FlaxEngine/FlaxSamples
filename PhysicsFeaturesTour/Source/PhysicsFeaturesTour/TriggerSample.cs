@@ -46,7 +46,7 @@ namespace PhysicsFeaturesTour
         private void OnTriggerEnter(PhysicsColliderActor collider)
         {
             // Check player
-            if (collider is CharacterController)
+            if (collider is CharacterController || collider.Parent.GetScript<CarScript>())
             {
                 LightOn = true;
             }
@@ -55,7 +55,7 @@ namespace PhysicsFeaturesTour
         private void OnTriggerExit(PhysicsColliderActor collider)
         {
             // Check player
-            if (collider is CharacterController)
+            if (collider is CharacterController || collider.Parent.GetScript<CarScript>())
             {
                 LightOn = false;
             }
