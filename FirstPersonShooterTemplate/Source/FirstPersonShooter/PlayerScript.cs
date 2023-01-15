@@ -114,7 +114,12 @@ public class PlayerScript : Script
 
         var velocity = new Vector3(inputH, 0.0f, inputV);
         velocity.Normalize();
-        velocity = CameraTarget.Transform.TransformDirection(velocity);
+
+        Vector3 Rotation = CameraTarget.LocalEulerAngles;
+        Rotation.X = 0;
+        Rotation.Z = 0;
+
+        velocity = Vector3.Transform(velocity, Quaternion.Euler(Rotation));
 
         if (PlayerController.IsGrounded)
         {
