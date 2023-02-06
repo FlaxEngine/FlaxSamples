@@ -3,7 +3,8 @@ using FlaxEngine;
 
 public class PlayerScript : Script
 {
-    public CharacterController PlayerController;
+    public CharacterController PlayerController;    
+    public LayersMask VehicleLayer;
     public Actor CameraTarget;
     public Camera Camera;
 
@@ -55,6 +56,18 @@ public class PlayerScript : Script
             var mouseDelta = new Float2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
             _pitch = Mathf.Clamp(_pitch + mouseDelta.Y, -88, 88);
             _yaw += mouseDelta.X;
+        }
+
+        // Vehicle detection
+        bool vehicleDetected = Physics.RayCast(Camera.Position, Camera.Transform.Forward, out RayCastHit hit, 200f, VehicleLayer);
+        if(vehicleDetected && Input.GetKeyDown(KeyboardKeys.F))
+        {
+            CarScript carScript = hit.Collider.Parent.GetScript<CarScript>();
+            if(carScript != null)
+            {
+                carScript.Enabled = true;
+                this.Actor.IsActive = false;
+            }
         }
 
         // Jump
