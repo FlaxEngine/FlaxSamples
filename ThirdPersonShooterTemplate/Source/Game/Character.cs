@@ -117,7 +117,8 @@ namespace Game
                 movementDirection += (_velocity * 0.5f);
 
                 // Apply controller movement, evaluate whether we are sprinting or not
-                _controller.Move(movementDirection * Time.DeltaTime * (Input.GetAction("Sprint") ? SprintSpeed : Speed));
+                var speed = (Input.GetAction("Sprint") ? SprintSpeed : Speed) * Time.DeltaTime;
+                _controller.Move(movementDirection * speed);
             }
         }
     }
