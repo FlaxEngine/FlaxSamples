@@ -74,7 +74,20 @@ namespace GraphicsFeaturesTour
             _task.Order = -100;
             _task.Camera = Cam;
             _task.Output = _output;
-            _task.ViewFlags = ViewFlags.Reflections | ViewFlags.Decals | ViewFlags.AO | ViewFlags.GI | ViewFlags.DirectionalLights | ViewFlags.PointLights | ViewFlags.SpotLights | ViewFlags.SkyLights | ViewFlags.Shadows | ViewFlags.SpecularLight | ViewFlags.CustomPostProcess | ViewFlags.ToneMapping;
+            _task.ViewFlags = 
+                ViewFlags.Reflections | 
+                ViewFlags.Decals | 
+                ViewFlags.AO | 
+                ViewFlags.GI | 
+                ViewFlags.DirectionalLights | 
+                ViewFlags.PointLights | 
+                ViewFlags.SpotLights | 
+                ViewFlags.SkyLights | 
+                ViewFlags.Sky | 
+                ViewFlags.Shadows | 
+                ViewFlags.SpecularLight | 
+                ViewFlags.CustomPostProcess | 
+                ViewFlags.ToneMapping;
             _task.Enabled = false;
 
             if (Material && _material == null)
