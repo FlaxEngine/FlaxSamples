@@ -114,12 +114,10 @@ public class PlayerScript : Script
 
         var velocity = new Vector3(inputH, 0.0f, inputV);
         velocity.Normalize();
-
-        Vector3 Rotation = CameraTarget.LocalEulerAngles;
-        Rotation.X = 0;
-        Rotation.Z = 0;
-
-        velocity = Vector3.Transform(velocity, Quaternion.Euler(Rotation));
+        Vector3 rotation = CameraTarget.LocalEulerAngles;
+        rotation.X = 0;
+        rotation.Z = 0;
+        velocity = Vector3.Transform(velocity, Quaternion.Euler(rotation));
 
         if (PlayerController.IsGrounded)
         {
@@ -136,9 +134,9 @@ public class PlayerScript : Script
         if (velocity.Length < 0.05f)
             velocity = Vector3.Zero;
 
+        // Jump
         if (_jump && PlayerController.IsGrounded)
             velocity.Y = JumpForce;
-
         _jump = false;
 
         // Apply gravity
