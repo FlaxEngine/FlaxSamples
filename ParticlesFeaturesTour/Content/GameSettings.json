@@ -1,24 +1,36 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6222,
+	"EngineBuild": 6337,
 	"Data": {
 	"ProductName": "ParticlesFeaturesTour",
 	"CompanyName": "Flax",
+	"CopyrightNotice": null,
+	"Icon": null,
 	"FirstScene": "a470726f441936acfe25318b162c336c",
 	"NoSplashScreen": false,
+	"SplashScreen": null,
 	"Time": "9acd18b0496064d35799f390d3a2b374",
 	"Audio": "d87cf08f4ec96bfd969a5f886d63bf67",
 	"LayersAndTags": "bb6fbecf458db0ecffa5e2a5155b2b4f",
 	"Physics": "7871f0364d398555ccd9e297acdc8983",
 	"Input": "f4c1c67842f6b745a6976aa8e7eff360",
 	"Graphics": "4eaf325e4cd72aa4cdeb6393cad05466",
+	"Network": "2451fd48479c454234dfcd8f63a3a4ae",
 	"Navigation": "82e936724a508f1f74892ab6c1fff514",
 	"Localization": "146d517541211c2abf7eb59848b053c4",
 	"GameCooking": "2364031e4e327637c1ad88b415fa756e",
 	"Streaming": "87e9f9db48e8276beab020adac3c1afa",
+	"CustomSettings": null,
 	"WindowsPlatform": "79ac390447f4263e30f56e9190a70dbc",
 	"UWPPlatform": "8660bbf44f1ea61cb9bc4580b3631973",
-	"LinuxPlatform": "838f68cb41d790911bd155bb1204a997"
+	"LinuxPlatform": "838f68cb41d790911bd155bb1204a997",
+	"PS4Platform": null,
+	"XboxOnePlatform": null,
+	"XboxScarlettPlatform": null,
+	"AndroidPlatform": null,
+	"SwitchPlatform": null,
+	"PS5Platform": null,
+	"MacPlatform": null
 }
 }

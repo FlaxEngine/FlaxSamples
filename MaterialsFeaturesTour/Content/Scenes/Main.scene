@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6217,
+	"EngineBuild": 6337,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -6567,6 +6567,7 @@
 			},
 			"Settings": {
 				"AO": {},
+				"GI": {},
 				"Bloom": {
 					"OverrideFlags": 2,
 					"Intensity": 1.100000023841858,
@@ -12157,7 +12158,7 @@
 				}
 			},
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
-			"DrawModes": 30,
+			"DrawModes": 126,
 			"Buffer": {
 				"Entries": [
 					{
@@ -12187,7 +12188,7 @@
 				}
 			},
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
-			"DrawModes": 30,
+			"DrawModes": 126,
 			"Buffer": {
 				"Entries": [
 					{
@@ -12764,6 +12765,7 @@
 			},
 			"Settings": {
 				"AO": {},
+				"GI": {},
 				"Bloom": {
 					"BlurSigma": 3.5999999046325685
 				},
@@ -14636,6 +14638,7 @@
 					"OverrideFlags": 1,
 					"Enabled": false
 				},
+				"GI": {},
 				"Bloom": {
 					"OverrideFlags": 1,
 					"Enabled": false

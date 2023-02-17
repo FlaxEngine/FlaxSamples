@@ -1,7 +1,7 @@
 {
 	"ID": "74a68a984824b4510d12589f199ad68f",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6215,
+	"EngineBuild": 6337,
 	"Data": [
 		{
 			"ID": "74a68a984824b4510d12589f199ad68f",
@@ -360,20 +360,6 @@
 			"StaticFlags": 0
 		},
 		{
-			"ID": "70dfd2094d46feca96a05781a1ac9ec8",
-			"TypeName": "FlaxEngine.BoxCollider",
-			"ParentID": "554858c54f74094047103b95d3481ae6",
-			"Name": "BoxCollider 0",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 0.0,
-					"Z": 1.81097412109375
-				}
-			},
-			"StaticFlags": 0
-		},
-		{
 			"ID": "0dbaf86247a88a378eac9dadc25dfb26",
 			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
 			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
@@ -391,6 +377,20 @@
 					{}
 				]
 			}
+		},
+		{
+			"ID": "70dfd2094d46feca96a05781a1ac9ec8",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1.81097412109375
+				}
+			},
+			"StaticFlags": 0
 		},
 		{
 			"ID": "6a217e8243c3414d034dcfb3b5223485",
