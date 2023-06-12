@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6337,
+	"EngineBuild": 6340,
 	"Data": {
 	"ProductName": "ThirdPersonTemplate",
 	"CompanyName": "Flax",
@@ -31,6 +31,7 @@
 	"AndroidPlatform": "9ac06a884463f4ae9435e2b03c866259",
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": null
+	"MacPlatform": "595e242d4e925ed400d64c910800b4a7",
+	"iOSPlatform": "de090d134fbf26cc580a799fc286ab9d"
 }
 }

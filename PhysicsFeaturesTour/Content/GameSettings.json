@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6337,
+	"EngineBuild": 6340,
 	"Data": {
 	"ProductName": "PhysicsFeaturesTour",
 	"CompanyName": "Flax",
@@ -31,6 +31,7 @@
 	"AndroidPlatform": "babd7e284b164de5cb7c8ca933064e43",
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": null
+	"MacPlatform": "d6f31ac14c3573b4f36be081c46cca9e",
+	"iOSPlatform": "d61254694fa0c55d2b87969f9d816f92"
 }
 }

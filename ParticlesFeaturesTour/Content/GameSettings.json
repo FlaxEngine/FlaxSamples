@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6337,
+	"EngineBuild": 6340,
 	"Data": {
 	"ProductName": "ParticlesFeaturesTour",
 	"CompanyName": "Flax",
@@ -28,9 +28,10 @@
 	"PS4Platform": null,
 	"XboxOnePlatform": null,
 	"XboxScarlettPlatform": null,
-	"AndroidPlatform": null,
+	"AndroidPlatform": "babd7e284b164de5cb7c8ca933064e43",
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": null
+	"MacPlatform": "56e70d564df5c7b23c14a9bdd968ea24",
+	"iOSPlatform": "28315d5649acefba796f13b85eb98c17"
 }
 }

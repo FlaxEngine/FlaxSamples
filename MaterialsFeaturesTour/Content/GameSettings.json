@@ -1,7 +1,7 @@
 {
 	"ID": "9eba3d2a4cee4c099117f49c5dffc171",
 	"TypeName": "FlaxEditor.Content.Settings.GameSettings",
-	"EngineBuild": 6337,
+	"EngineBuild": 6340,
 	"Data": {
 	"ProductName": "MaterialsFeaturesTour",
 	"CompanyName": "Flax",
@@ -31,6 +31,7 @@
 	"AndroidPlatform": "babd7e284b164de5cb7c8ca933064e43",
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": null
+	"MacPlatform": "a984d48140a9b6beb9a602b88037ea33",
+	"iOSPlatform": "d0ec9961491370ecdcbb55820c1d7b2e"
 }
 }

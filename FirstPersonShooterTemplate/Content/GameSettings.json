@@ -31,6 +31,7 @@
 	"AndroidPlatform": "babd7e284b164de5cb7c8ca933064e43",
 	"SwitchPlatform": null,
 	"PS5Platform": null,
-	"MacPlatform": null
+	"MacPlatform": "75bd19e74a6374527894128f50255afc",
+	"iOSPlatform": "566e82f843ff75bccec548b3323af932"
 }
 }
