@@ -11,6 +11,7 @@ public class PlayerScript : Script
 
     public float CameraSmoothing = 20.0f;
 
+    public bool CanShoot = true;
     public bool CanJump = true;
     public bool UseMouse = true;
     public float JumpForce = 800;
@@ -62,7 +63,7 @@ public class PlayerScript : Script
             _jump = true;
 
         // Shoot
-        if (Input.GetAction("Fire") && SphereModel)
+        if (CanShoot && Input.GetAction("Fire") && SphereModel)
         {
             var ball = new RigidBody
             {
