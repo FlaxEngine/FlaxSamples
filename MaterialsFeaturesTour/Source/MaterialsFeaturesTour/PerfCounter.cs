@@ -11,6 +11,12 @@ public class PerfCounter : Script
     {
         _label = Actor.As<UIControl>().Get<Label>();
         _format = _label.Text;
+#if !BUILD_RELEASE && FLAX_1_7_OR_NEWER
+        if (_label.Visible)
+        {
+            ProfilerGPU.Enabled = true; // Force enable GPU profiler to get GPU timings
+        }
+#endif
     }
 
     /// <inheritdoc />
@@ -23,6 +29,8 @@ public class PerfCounter : Script
     /// <inheritdoc />
     public override void OnUpdate()
     {
+        if (!_label.Visible)
+            return;
 #if !BUILD_RELEASE
         var stats = ProfilingTools.Stats;
         _label.Text = string.Format(_format, stats.FPS, stats.DrawGPUTimeMs, stats.DrawCPUTimeMs, stats.UpdateTimeMs);
