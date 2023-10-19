@@ -3,8 +3,8 @@
 	"Version": "1.0",
 	"Company": "",
 	"Copyright": "",
-	"GameTarget": "PhysicsFeaturesTourTarget",
-	"EditorTarget": "PhysicsFeaturesTourEditorTarget",
+	"GameTarget": "GameTarget",
+	"EditorTarget": "GameEditorTarget",
 	"References": [
 		{
 			"Name": "$(EnginePath)/Flax.flaxproj"
