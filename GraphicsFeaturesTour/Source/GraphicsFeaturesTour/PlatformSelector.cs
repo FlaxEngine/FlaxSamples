@@ -6,32 +6,88 @@ using FlaxEngine;
 /// </summary>
 public class PlatformSelector : Script
 {
-    public PlatformType[] Platforms;
+    private bool _restorePrev;
+    private Quality _prevAAQuality, _prevSSRQuality, _prevSSAOQuality, _prevShadowMapsQuality, _prevShadowsQuality, _prevVolumetricFogQuality;
+    private bool _prevAllowCSMBlending;
+
+    /// <summary>
+    /// List of platforms to scale their quality down.
+    /// </summary>
+    public PlatformType[] Platforms = { PlatformType.Android, PlatformType.iOS, PlatformType.Switch };
+
+    /// <summary>
+    /// Inverts the Platforms list check.
+    /// </summary>
     public bool Invert;
+
+#if FLAX_EDITOR
+    /// <summary>
+    /// Enables visual preview in Editor (during play-mode).
+    /// </summary>
+    public bool PreviewInEditor = false;
+#endif
+
+    /// <summary>
+    /// Forces graphics quality to Low.
+    /// </summary>
     public bool UseLowGraphicsQuality = true;
+
+    /// <summary>
+    /// Disables any dynamic shadows on all lights in the level (sets ShadowsCastingMode.StaticOnly).
+    /// </summary>
     public bool DisableDynamicShadows = true;
 
     /// <inheritdoc />
     public override void OnAwake()
     {
-        if (Platforms == null || !Enabled)
+        if (!Enabled)
             return;
-        Actor.IsActive = Platforms.Contains(Platform.PlatformType) ^ Invert;
-        if (Actor.IsActiveInHierarchy)
-        {
-            if (UseLowGraphicsQuality)
-            {
-                Graphics.AAQuality = Quality.Low;
-                Graphics.SSRQuality = Quality.Low;
-                Graphics.ShadowMapsQuality = Quality.Low;
-                Graphics.ShadowsQuality = Quality.Low;
-                Graphics.VolumetricFogQuality = Quality.Low;
-            }
+        bool enable = Platforms != null && (Platforms.Contains(Platform.PlatformType) ^ Invert);
+#if FLAX_EDITOR
+        enable |= PreviewInEditor;
+#endif
+        Actor.IsActive = enable;
+        if (!Actor.IsActiveInHierarchy)
+            return;
 
-            if (DisableDynamicShadows)
-            {
-                DoDisableDynamicShadows(Scene);
-            }
+        if (UseLowGraphicsQuality)
+        {
+            _restorePrev = true;
+            _prevAAQuality = Graphics.AAQuality;
+            _prevSSRQuality = Graphics.SSRQuality;
+            _prevSSAOQuality = Graphics.SSAOQuality;
+            _prevShadowMapsQuality = Graphics.ShadowMapsQuality;
+            _prevShadowsQuality = Graphics.ShadowsQuality;
+            _prevVolumetricFogQuality = Graphics.VolumetricFogQuality;
+            _prevAllowCSMBlending = Graphics.AllowCSMBlending;
+
+            Graphics.AAQuality = Quality.Low;
+            Graphics.SSRQuality = Quality.Low;
+            Graphics.SSAOQuality = Quality.Low;
+            Graphics.ShadowMapsQuality = Quality.Low;
+            Graphics.ShadowsQuality = Quality.Low;
+            Graphics.VolumetricFogQuality = Quality.Low;
+            Graphics.AllowCSMBlending = false;
+        }
+
+        if (DisableDynamicShadows)
+        {
+            DoDisableDynamicShadows(Scene);
+        }
+    }
+
+    public override void OnDisable()
+    {
+        if (_restorePrev)
+        {
+            _restorePrev = false;
+            Graphics.AAQuality = _prevAAQuality;
+            Graphics.SSRQuality = _prevSSRQuality;
+            Graphics.SSAOQuality = _prevSSAOQuality;
+            Graphics.ShadowMapsQuality = _prevShadowMapsQuality;
+            Graphics.ShadowsQuality = _prevShadowsQuality;
+            Graphics.VolumetricFogQuality = _prevVolumetricFogQuality;
+            Graphics.AllowCSMBlending = _prevAllowCSMBlending;
         }
     }
 
