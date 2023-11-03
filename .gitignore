@@ -15,15 +15,16 @@ imgui.ini
 *.sln
 launchSettings.json
 
-# Ignore Visual Code project files (generated locally)
+# Ignore Visual Studio Code project files (generated locally)
 *.code-workspace
 *.vscode/
 
 # Ignore Rider project files (generated locally)
 *.idea/
 
-# Ignore thumbnails created by Windows
+# Ignore thumbnails created by Windows and MacOS
 Thumbs.db
+.DS_Store
 
 # Ignore files built by Visual Studio
 *.obj
