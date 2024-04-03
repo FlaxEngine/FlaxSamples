@@ -1,0 +1,225 @@
+{
+	"ID": "f35accbe4e74eff983252ba2a66c9524",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6218,
+	"Data": [
+		{
+			"ID": "f35accbe4e74eff983252ba2a66c9524",
+			"TypeName": "FlaxEngine.Scene",
+			"Lightmaps": [
+				{
+					"Lightmap0": "00000000000000000000000000000000",
+					"Lightmap1": "00000000000000000000000000000000",
+					"Lightmap2": "00000000000000000000000000000000"
+				}
+			],
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 100
+			}
+		},
+		{
+			"ID": "28553d634087c67c711ebd96080482aa",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "f35accbe4e74eff983252ba2a66c9524",
+			"Name": "Visuals"
+		},
+		{
+			"ID": "bc81376747666609b0974580a21519a1",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": -69.65292358398438,
+					"Y": 75.30659484863281,
+					"Z": -14.423166275024414
+				}
+			},
+			"Sun": "deecf0894777293a4f478dadacf2a6f8"
+		},
+		{
+			"ID": "da5e1c454a56377517d41686ebb0348f",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Environment Probe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 108.5870361328125,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "deecf0894777293a4f478dadacf2a6f8",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Directional Light",
+			"Transform": {
+				"Translation": {
+					"X": -1.6893305778503419,
+					"Y": 90.0248794555664,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.1200082004070282,
+					"Y": 0.8772756457328796,
+					"Z": -0.2897253632545471,
+					"W": 0.36337947845458987
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.9606999754905701,
+				"B": 0.8050000071525574,
+				"A": 1.0
+			},
+			"MinRoughness": 0.0,
+			"ShadowsDistance": 2000.0,
+			"ShadowsFadeDistance": 50.0,
+			"ShadowsDepthBias": 0.0010000000474974514
+		},
+		{
+			"ID": "eb18e84d41670d6314174b89a1d5ffea",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Mode": 0
+		},
+		{
+			"ID": "b0d72c3746caebca055e1f921ca21c7c",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "f35accbe4e74eff983252ba2a66c9524",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 117.32794952392578,
+					"Y": -6.272453308105469,
+					"Z": 30.38385772705078
+				},
+				"Orientation": {
+					"X": -0.2035505473613739,
+					"Y": -0.5214164853096008,
+					"Z": -0.12967604398727418,
+					"W": 0.8184596300125122
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "19e5b65e47bdf97134a99694e87dde16",
+			"TypeName": "MainMenuSample.FreeCamera",
+			"ParentID": "b0d72c3746caebca055e1f921ca21c7c",
+			"V": {}
+		},
+		{
+			"ID": "f6ef8d0b4de3eb3893da73986e2f0422",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "f35accbe4e74eff983252ba2a66c9524",
+			"Name": "Text",
+			"Transform": {
+				"Translation": {
+					"X": -102.9065933227539,
+					"Y": 92.81654357910156,
+					"Z": 149.02386474609376
+				},
+				"Orientation": {
+					"X": 0.15251487493515016,
+					"Y": 0.7963897585868836,
+					"Z": -0.2531026601791382,
+					"W": 0.5276757478713989
+				}
+			},
+			"Text": "Assign your own scene\nin the properties window, in the\nButtonFunctions script.",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 14,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "0198158547901d990682a999e98e88e6",
+			"TypeName": "FlaxEngine.PostFxVolume",
+			"ParentID": "f35accbe4e74eff983252ba2a66c9524",
+			"Name": "PPFX_Disabler",
+			"Priority": 25,
+			"IsBounded": false,
+			"Settings": {
+				"AO": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"Bloom": {
+					"OverrideFlags": 7,
+					"Intensity": 0.15000000596046449,
+					"Threshold": 0.699999988079071
+				},
+				"ToneMapping": {
+					"OverrideFlags": 4,
+					"Mode": 1
+				},
+				"ColorGrading": {},
+				"EyeAdaptation": {},
+				"CameraArtifacts": {
+					"OverrideFlags": 1,
+					"VignetteIntensity": 1.0,
+					"VignetteShapeFactor": 0.00009999999747378752,
+					"GrainAmount": 0.0,
+					"GrainParticleSize": 1.0,
+					"GrainSpeed": 0.0,
+					"ScreenFadeColor": {
+						"R": 1.0010000467300416,
+						"G": 1.0010000467300416,
+						"B": 1.0010000467300416,
+						"A": 0.0
+					}
+				},
+				"LensFlares": {
+					"OverrideFlags": 1,
+					"Intensity": 0.25
+				},
+				"DepthOfField": {
+					"OverrideFlags": 1
+				},
+				"MotionBlur": {
+					"OverrideFlags": 5,
+					"Enabled": false,
+					"SampleCount": 4
+				},
+				"SSR": {
+					"OverrideFlags": 1,
+					"Intensity": 0.125
+				},
+				"AA": {
+					"OverrideFlags": 1
+				},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "436f2ca340254fdc0eca30ab24048cd4",
+			"TypeName": "MainMenuSample.PostProcessingDisabler",
+			"ParentID": "0198158547901d990682a999e98e88e6",
+			"V": {}
+		}
+	]
+}
