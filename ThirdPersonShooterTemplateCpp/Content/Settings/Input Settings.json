@@ -1,0 +1,203 @@
+{
+	"ID": "f4c1c67842f6b745a6976aa8e7eff360",
+	"TypeName": "FlaxEditor.Content.Settings.InputSettings",
+	"EngineBuild": 6215,
+	"Data": {
+	"ActionMappings": [
+		{
+			"Name": "Fire",
+			"Mode": 0,
+			"Key": 0,
+			"MouseButton": 1,
+			"GamepadButton": 14,
+			"Gamepad": 0
+		},
+		{
+			"Name": "Aim",
+			"Mode": 0,
+			"Key": 0,
+			"MouseButton": 3,
+			"GamepadButton": 10,
+			"Gamepad": 0
+		},
+		{
+			"Name": "Jump",
+			"Mode": 1,
+			"Key": 32,
+			"MouseButton": 0,
+			"GamepadButton": 13,
+			"Gamepad": 0
+		},
+		{
+			"Name": "Sprint",
+			"Mode": 0,
+			"Key": 16,
+			"MouseButton": 0,
+			"GamepadButton": 9,
+			"Gamepad": 0
+		},
+		{
+			"Name": "NavigateUp",
+			"Mode": 0,
+			"Key": 38,
+			"MouseButton": 0,
+			"GamepadButton": 1,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateDown",
+			"Mode": 0,
+			"Key": 40,
+			"MouseButton": 0,
+			"GamepadButton": 2,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateLeft",
+			"Mode": 0,
+			"Key": 37,
+			"MouseButton": 0,
+			"GamepadButton": 3,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateRight",
+			"Mode": 0,
+			"Key": 39,
+			"MouseButton": 0,
+			"GamepadButton": 4,
+			"Gamepad": -1
+		},
+		{
+			"Name": "NavigateSubmit",
+			"Mode": 1,
+			"Key": 13,
+			"MouseButton": 0,
+			"GamepadButton": 13,
+			"Gamepad": -1
+		}
+	],
+	"AxisMappings": [
+		{
+			"Name": "Mouse X",
+			"Axis": 0,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.0,
+			"Sensitivity": 0.4,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse Y",
+			"Axis": 1,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.0,
+			"Sensitivity": 0.4,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Horizontal",
+			"Axis": 9,
+			"Gamepad": 0,
+			"PositiveButton": 68,
+			"NegativeButton": 65,
+			"DeadZone": 0.01,
+			"Sensitivity": 5.0,
+			"Gravity": 5.0,
+			"Scale": 1.0,
+			"Snap": true
+		},
+		{
+			"Name": "Vertical",
+			"Axis": 9,
+			"Gamepad": 0,
+			"PositiveButton": 87,
+			"NegativeButton": 83,
+			"DeadZone": 0.01,
+			"Sensitivity": 5.0,
+			"Gravity": 5.0,
+			"Scale": 1.0,
+			"Snap": true
+		},
+		{
+			"Name": "Horizontal",
+			"Axis": 9,
+			"Gamepad": 0,
+			"PositiveButton": 39,
+			"NegativeButton": 37,
+			"DeadZone": 0.01,
+			"Sensitivity": 5.0,
+			"Gravity": 5.0,
+			"Scale": 1.0,
+			"Snap": true
+		},
+		{
+			"Name": "Vertical",
+			"Axis": 9,
+			"Gamepad": 0,
+			"PositiveButton": 38,
+			"NegativeButton": 40,
+			"DeadZone": 0.001,
+			"Sensitivity": 5.0,
+			"Gravity": 5.0,
+			"Scale": 1.0,
+			"Snap": true
+		},
+		{
+			"Name": "Horizontal",
+			"Axis": 3,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Vertical",
+			"Axis": 4,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 1.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse X",
+			"Axis": 5,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": 4.0,
+			"Snap": false
+		},
+		{
+			"Name": "Mouse Y",
+			"Axis": 6,
+			"Gamepad": 0,
+			"PositiveButton": 0,
+			"NegativeButton": 0,
+			"DeadZone": 0.19,
+			"Sensitivity": 1.0,
+			"Gravity": 1.0,
+			"Scale": -4.0,
+			"Snap": false
+		}
+	]
+}
+}

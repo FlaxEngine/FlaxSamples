@@ -1,0 +1,27 @@
+{
+	"Name": "ThirdPersonShooterCpp",
+	"Version": "1.0",
+	"Company": "",
+	"Copyright": "",
+	"GameTarget": "GameTarget",
+	"EditorTarget": "GameEditorTarget",
+	"References": [
+		{
+			"Name": "$(EnginePath)/Flax.flaxproj"
+		}
+	],
+	"DefaultScene": "74a68a984824b4510d12589f199ad68f",
+	"DefaultSceneSpawn": {
+		"Position": {
+			"X": -122.675407,
+			"Y": 208.905624,
+			"Z": -1069.79956
+		},
+		"Direction": {
+			"X": -0.8062482,
+			"Y": -0.133547381,
+			"Z": 0.576306343
+		}
+	},
+	"MinEngineVersion": "0.0.6194"
+}

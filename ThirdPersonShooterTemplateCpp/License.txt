@@ -1,0 +1,9 @@
+Credit for Assets
+
+Assets used:
+DealwithIt: 	https://sketchfab.com/3d-models/deal-with-it-sunglasses-cd4d5594a09d422b9c588dd9941476d9
+AK-74: 		https://sketchfab.com/3d-models/low-poly-ak-74-b27f9003622a4c7499bfd8d2a06dc47b
+BeerBottle: 	https://sketchfab.com/3d-models/asahi-beer-bottle-59d240f56a7e49f18704e5a6958bdb2d
+
+These assets are licensed under the CC Attribution license!
+https://creativecommons.org/licenses/by/4.0/

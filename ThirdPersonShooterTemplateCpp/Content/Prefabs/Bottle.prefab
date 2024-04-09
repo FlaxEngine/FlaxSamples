@@ -1,0 +1,42 @@
+{
+	"ID": "63d3018340f0f78dff4e96b031d6e736",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6226,
+	"Data": [
+	{
+		"ID": "028b37484bd7e9e9c243f28deeb8640e",
+		"TypeName": "FlaxEngine.RigidBody",
+		"Name": "Bottle",
+		"StaticFlags": 0,
+		"OverrideMass": true,
+		"Mass": 5.0,
+		"UseCCD": true
+	},
+	{
+		"ID": "64c2d0274c3a9d5ed1f2eb9660796262",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "028b37484bd7e9e9c243f28deeb8640e",
+		"Name": "Model",
+		"StaticFlags": 0,
+		"Model": "2aabab7e4e3dcaa2b5493ebbf34e37b2",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "8391b6da40053a988a0959ab9f26f700",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "f500f7ea4652508ebe9996b025bb0138",
+		"TypeName": "FlaxEngine.MeshCollider",
+		"ParentID": "028b37484bd7e9e9c243f28deeb8640e",
+		"Name": "MeshCollider",
+		"StaticFlags": 0,
+		"CollisionData": "9678a5ae463acdf59e8d5dad2c0cc9d6"
+	}
+]
+}

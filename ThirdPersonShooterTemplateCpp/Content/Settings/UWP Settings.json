@@ -1,0 +1,12 @@
+{
+	"ID": "8660bbf44f1ea61cb9bc4580b3631973",
+	"TypeName": "FlaxEditor.Content.Settings.UWPPlatformSettings",
+	"EngineBuild": 6222,
+	"Data": {
+	"PreferredLaunchWindowingMode": 0,
+	"AutoRotationPreferences": 15,
+	"CertificateLocation": "",
+	"SupportDX11": true,
+	"SupportDX10": false
+}
+}

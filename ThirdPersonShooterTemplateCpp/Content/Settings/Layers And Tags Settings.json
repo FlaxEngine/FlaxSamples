@@ -1,0 +1,45 @@
+{
+	"ID": "bb6fbecf458db0ecffa5e2a5155b2b4f",
+	"TypeName": "FlaxEditor.Content.Settings.LayersAndTagsSettings",
+	"EngineBuild": 6222,
+	"Data": {
+	"Tags": [
+		"Player",
+		"Bullet"
+	],
+	"Layers": [
+		"Default",
+		"Player",
+		"Bullets",
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null
+	]
+}
+}
