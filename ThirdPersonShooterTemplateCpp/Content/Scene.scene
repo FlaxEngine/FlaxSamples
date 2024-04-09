@@ -1,0 +1,2280 @@
+{
+	"ID": "74a68a984824b4510d12589f199ad68f",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6510,
+	"Data": [
+		{
+			"ID": "74a68a984824b4510d12589f199ad68f",
+			"TypeName": "FlaxEngine.Scene",
+			"Lightmaps": [
+				{
+					"Lightmap0": "00000000000000000000000000000000",
+					"Lightmap1": "00000000000000000000000000000000",
+					"Lightmap2": "00000000000000000000000000000000"
+				}
+			],
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 100
+			},
+			"CSG": {
+				"Model": "c91570f843acc5d741133b803211d574",
+				"Data": "0e5f7de9441f282e370327b31385c016",
+				"CollisionData": "25e86a7144a1590f21726fbb60a13550"
+			}
+		},
+		{
+			"ID": "6ff0581d474c84230b3d0fa9f17e0972",
+			"TypeName": "ExitOnEsc",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"V": {}
+		},
+		{
+			"ID": "28553d634087c67c711ebd96080482aa",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Visuals"
+		},
+		{
+			"ID": "bc81376747666609b0974580a21519a1",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": -69.65292358398438,
+					"Y": 75.30659484863281,
+					"Z": -14.423166275024414
+				}
+			},
+			"Sun": "deecf0894777293a4f478dadacf2a6f8"
+		},
+		{
+			"ID": "da5e1c454a56377517d41686ebb0348f",
+			"TypeName": "FlaxEngine.EnvironmentProbe",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Environment Probe",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 429.8046875,
+					"Z": -83.56109619140625
+				}
+			},
+			"ProbeID": "e1681ef14507bd14c6e4d09e234b4bb7"
+		},
+		{
+			"ID": "deecf0894777293a4f478dadacf2a6f8",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "Directional Light",
+			"Transform": {
+				"Translation": {
+					"X": -1.6893305778503419,
+					"Y": 90.0248794555664,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.38149431347846987,
+					"Y": 0.32370027899742129,
+					"Z": 0.030091024935245515,
+					"W": 0.865317702293396
+				}
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 0.9843137264251709,
+				"B": 0.9725490212440491,
+				"A": 1.0
+			},
+			"Brightness": 6.0,
+			"ShadowsDistance": 2000.0
+		},
+		{
+			"ID": "eb18e84d41670d6314174b89a1d5ffea",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "28553d634087c67c711ebd96080482aa",
+			"Name": "SkyLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "StaticGeometry",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 125.35466003417969,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "d630fee5404ffbb1e265259579ea799b",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"Name": "BoxBrush",
+			"Size": {
+				"X": 2000.0,
+				"Y": 300.0,
+				"Z": 2000.0
+			},
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"ID": "0b15b4194f89170d5278ee84d26dbf11",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "d630fee5404ffbb1e265259579ea799b",
+			"Name": "BoxBrush 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 27.71718406677246,
+					"Z": 0.0
+				}
+			},
+			"Mode": 1,
+			"Size": {
+				"X": 1900.0,
+				"Y": 300.0,
+				"Z": 1900.0
+			},
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"ID": "81147903423f4ca0e7c305b1af8f40ef",
+			"TypeName": "FlaxEngine.BoxBrush",
+			"ParentID": "a21079d6493dbabe6af818b2f5c8a2bc",
+			"Name": "BoxBrush",
+			"Transform": {
+				"Translation": {
+					"X": -103.33860778808594,
+					"Y": -111.16258239746094,
+					"Z": 89.53966522216797
+				},
+				"Scale": {
+					"X": 14.190709114074707,
+					"Y": 0.4417211413383484,
+					"Z": 0.5609734654426575
+				}
+			},
+			"Surfaces": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"ID": "532002234cd1d6d5dca3a49ab8a3a329",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CSG.Collider",
+			"HideFlags": 4,
+			"CollisionData": "25e86a7144a1590f21726fbb60a13550"
+		},
+		{
+			"ID": "733cf5754acbb7af74c0f399e1abf263",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CSG.Model",
+			"HideFlags": 4,
+			"Model": "c91570f843acc5d741133b803211d574",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "63abba49426bd1e6b257429d35f029a2",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Pyramids",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid",
+			"Transform": {
+				"Translation": {
+					"X": -287.02764892578127,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "9c2e269747703dee454ad28dc559e7e0",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "25a0e6e144c5bff71dba18b24e8efb0e",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "9c2e269747703dee454ad28dc559e7e0",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a501a1e54f30805c8b01fca75c338b58",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "9c2e269747703dee454ad28dc559e7e0",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "23cfb57c44f1afcb653edc81075671ee",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "489f7716499ac98ae124589f34213d6c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "23cfb57c44f1afcb653edc81075671ee",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "305c62134d35a32e66d3919d86f07b58",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "23cfb57c44f1afcb653edc81075671ee",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "eaed246649ecdc43e0f6229b38c776fe",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "6392974d4647999ce2589a851e81eaff",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "eaed246649ecdc43e0f6229b38c776fe",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "666c053243fb0ea057b96db3d897ecc9",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "eaed246649ecdc43e0f6229b38c776fe",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "554858c54f74094047103b95d3481ae6",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0dbaf86247a88a378eac9dadc25dfb26",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "ef6ba6ae4ad4612ecb4897bb919bca35",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "70dfd2094d46feca96a05781a1ac9ec8",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "554858c54f74094047103b95d3481ae6",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1.81097412109375
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "6a217e8243c3414d034dcfb3b5223485",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "28e04d094669d6b6fc5d1caddd70630c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "6a217e8243c3414d034dcfb3b5223485",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "3f53873c46f4ff99138e77a7ddf6977b",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "6a217e8243c3414d034dcfb3b5223485",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e7a87c9f451f90c39288968310361d34",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "1a8d6ffd4dc134d344ce3484057e864f",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "c4f1eec14e137dc6b941a0b099cf7449",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "e7a87c9f451f90c39288968310361d34",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "4ec8ee2a4cf5d74fefd0a196e18c2ae7",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "e7a87c9f451f90c39288968310361d34",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid 0",
+			"Transform": {
+				"Translation": {
+					"X": 220.87017822265626,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "50e47d62435a9b21b80fa598accdae7f",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "b62af99c4a922ddf8db1bcb9e64f3497",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "eba5c9a44cbb1870ce0e7baac9758d37",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "b40be325416bd37f61af06b95b45dce4",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d20c49e8494ffcb3b2583e9fa3557ab5",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "66bc3aab481702ae9a31cc8b7be7b796",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f059fd964c2b711a025da2bfeef636f4",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "7280ceb846754ee6804e8bbcab30f89e",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "f059fd964c2b711a025da2bfeef636f4",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a0988a6f483f09624c06df96b9168e86",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "f059fd964c2b711a025da2bfeef636f4",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5e6943e34214ae60be579588bacf58bb",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "642ed4014ad86b4b3f8c8f9ae2496457",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "5e6943e34214ae60be579588bacf58bb",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "29ebd67a49fb1c93d90478b72df466aa",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "5e6943e34214ae60be579588bacf58bb",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e53615d54b5461d3a07466af04b22b51",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "cb6ba3de43e68610778684978ccc776d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "e53615d54b5461d3a07466af04b22b51",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "7e91ba794e38909e0274e39d5d4fd22c",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "e53615d54b5461d3a07466af04b22b51",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "e19efb5b4f7f332a717d60b64d6f4f3b",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "bea6d70a4a85a325a793e9af6412ad85",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "e8b413074400ef50277b068b594dabec",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "2cd63dbe496bacb8d1860b91d3c548cc",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "3df24a1140a59c627586458e990952dc",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "63abba49426bd1e6b257429d35f029a2",
+			"Name": "Pyramid 1",
+			"Transform": {
+				"Translation": {
+					"X": 747.188720703125,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 1",
+			"Transform": {
+				"Translation": {
+					"X": -73.12026977539063,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "f5526fcc40819896095d1ca2c2d39d83",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "cc4c19174f08ea722d632c909d83827d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "8c2ec72b4d2fa669b1c31db8537aadae",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 4",
+			"Transform": {
+				"Translation": {
+					"X": -194.95196533203126,
+					"Y": 336.8212890625,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d0f6e4e946216ffd71b8018718a5afd1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "a16aca90406f43a254245d801b5f9669",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "98b5ac104ba1aba7dbb4f3b0592932d1",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 3",
+			"Transform": {
+				"Translation": {
+					"X": -129.850341796875,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d03b221c4d32c576e7a03484ad3f912b",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0a5baacb45824766276578886f22f0cd",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "1df4bfa047744c435a0e0fb0a65ce418",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 0",
+			"Transform": {
+				"Translation": {
+					"X": -207.28372192382813,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "8c48a7b14d9f71a97c3425bcb0fb08b0",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "230963a24a0c2fc49efacc98da41ecd1",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "b627f7ba42c94cb0b96e77baa26441ea",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "745ead10492e5f2a47aee09944027655",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube 2",
+			"Transform": {
+				"Translation": {
+					"X": -268.1393127441406,
+					"Y": 209.1565399169922,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "4d4bb4f44c30b56f1c4038b14f7daddf",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "745ead10492e5f2a47aee09944027655",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "f7cb9875431efec0e06c89806fdd8fd7",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "745ead10492e5f2a47aee09944027655",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8fac5f28428f81415e4a6ba6e179584d",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "52b4dda447945310e936b38fe4f611d5",
+			"ParentID": "3df24a1140a59c627586458e990952dc",
+			"Name": "PhysicsCube",
+			"Transform": {
+				"Translation": {
+					"X": -345.57269287109377,
+					"Y": 73.11369323730469,
+					"Z": 566.9802856445313
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "16e1d44c4212ca3c6566b9a1a3110d48",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "253a4fa54eabf286ee1925b2b02cdab5",
+			"ParentID": "8fac5f28428f81415e4a6ba6e179584d",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "2ff066114ba381e7aaa7449e41f4d450",
+			"PrefabID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+			"PrefabObjectID": "90e75a0345a52328142e258f34e10246",
+			"ParentID": "8fac5f28428f81415e4a6ba6e179584d",
+			"StaticFlags": 0,
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7a38aec1400c090030620cb2111f9296",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Bottles",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "51babf9f4096be60d8b5e4a9792c1bfc",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 32",
+			"Transform": {
+				"Translation": {
+					"X": -103.12065887451172,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "07417a394c1b0a8f879966a4e9cc82a6",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "51babf9f4096be60d8b5e4a9792c1bfc",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "024dd21b49c79a3e24163694835ed04a",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "51babf9f4096be60d8b5e4a9792c1bfc"
+		},
+		{
+			"ID": "f444a83443c95e026806868f2fc0ed73",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 31",
+			"Transform": {
+				"Translation": {
+					"X": -157.58517456054688,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "e44a8cc34fec92306b79068750efeb25",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "f444a83443c95e026806868f2fc0ed73",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "62e069b54c7a3b08d81259a910dcb438",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "f444a83443c95e026806868f2fc0ed73"
+		},
+		{
+			"ID": "c658740341cb649b2f202eb533441c2b",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 20",
+			"Transform": {
+				"Translation": {
+					"X": 553.566162109375,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "803fb6094a6ec3225a7eaf97916b2b68",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "c658740341cb649b2f202eb533441c2b",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5935b5054aaf9cc784a7e1b92550c76c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "c658740341cb649b2f202eb533441c2b"
+		},
+		{
+			"ID": "02697cfb48141ca8489aacad91b49546",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 30",
+			"Transform": {
+				"Translation": {
+					"X": -214.76983642578126,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "3b82a6f4463df182015120a750a8c3bb",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "02697cfb48141ca8489aacad91b49546",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "661e6e32492b7f5c201cdd9f43b30822",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "02697cfb48141ca8489aacad91b49546"
+		},
+		{
+			"ID": "855eb7c44bd3befd2dcc9686536549df",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 19",
+			"Transform": {
+				"Translation": {
+					"X": 496.3816223144531,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "5f7fdedf42d759a42fbf9dbe075d2c4d",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "855eb7c44bd3befd2dcc9686536549df",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "828b2f684e68650058961bba170a0a64",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "855eb7c44bd3befd2dcc9686536549df"
+		},
+		{
+			"ID": "b73603864ae1fb93000f38befd0d27e9",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 29",
+			"Transform": {
+				"Translation": {
+					"X": -273.1353454589844,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "0cd4d45a416a91f9afd3baa0b7517cce",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "b73603864ae1fb93000f38befd0d27e9",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "545ba60c4170d380cbaffe8c007fab6b",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "b73603864ae1fb93000f38befd0d27e9"
+		},
+		{
+			"ID": "17b4512f4417d3c00136199db39c9d4c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 18",
+			"Transform": {
+				"Translation": {
+					"X": 438.0160827636719,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "90a460144ffe96fadd70018f12aa904f",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "17b4512f4417d3c00136199db39c9d4c",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9a0fcdca45e72dcc46b1cc92fd290b34",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "17b4512f4417d3c00136199db39c9d4c"
+		},
+		{
+			"ID": "966c24e14b5ef5a8539b2faa93dcc1eb",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 28",
+			"Transform": {
+				"Translation": {
+					"X": -317.46148681640627,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "4712e4c64bb875520c507a991a2332ab",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "966c24e14b5ef5a8539b2faa93dcc1eb",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "7d03c76f42b136df7bd403b36ee1bb01",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "966c24e14b5ef5a8539b2faa93dcc1eb"
+		},
+		{
+			"ID": "a59042c646273f130f455f80b689a56d",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 17",
+			"Transform": {
+				"Translation": {
+					"X": 386.4533996582031,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "85297a854c25b65f68c3af8f82cc5365",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "a59042c646273f130f455f80b689a56d",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "41b9c258411a0cfb83cf31abd261a629",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "a59042c646273f130f455f80b689a56d"
+		},
+		{
+			"ID": "3b79c1114d828e5b7c48d4814152142c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 26",
+			"Transform": {
+				"Translation": {
+					"X": -375.6403503417969,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "02703d3f4bb2584497be5aacda816798",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "3b79c1114d828e5b7c48d4814152142c",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5dc19a6747520d4d4a8f508c8f2def59",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "3b79c1114d828e5b7c48d4814152142c"
+		},
+		{
+			"ID": "f3273ecd40c3e783d2709c8c65133192",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 27",
+			"Transform": {
+				"Translation": {
+					"X": -431.8522644042969,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "cb6eb78149206876fc481c9e9bc88abc",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "f3273ecd40c3e783d2709c8c65133192",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "41599fda489c365479136aa48afbe5de",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "f3273ecd40c3e783d2709c8c65133192"
+		},
+		{
+			"ID": "e6f63eac459fab961272e0973a8d7430",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 15",
+			"Transform": {
+				"Translation": {
+					"X": 335.5111389160156,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "bcd0033146b66c192d6e15861e2573b1",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "e6f63eac459fab961272e0973a8d7430",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "197639564beb6b98a723a8a331b06795",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "e6f63eac459fab961272e0973a8d7430"
+		},
+		{
+			"ID": "103ccf9043a57781e38833b6f44c3107",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 16",
+			"Transform": {
+				"Translation": {
+					"X": 279.2992248535156,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "84aec3604539e8407d71e1b42e996644",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "103ccf9043a57781e38833b6f44c3107",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c012a8004abd5df73b1d31bf428adc22",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "103ccf9043a57781e38833b6f44c3107"
+		},
+		{
+			"ID": "16743dcf46ca859f4ad8d5892a32ce6b",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 25",
+			"Transform": {
+				"Translation": {
+					"X": -490.9070739746094,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "c231dab04047298c1ba413881b026921",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "16743dcf46ca859f4ad8d5892a32ce6b",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ae48017648267465dac7d6a86b8f7843",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "16743dcf46ca859f4ad8d5892a32ce6b"
+		},
+		{
+			"ID": "bbf58ac04e664d9e347243b44ec84756",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 14",
+			"Transform": {
+				"Translation": {
+					"X": 215.97332763671876,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "3ba052f24536cab2a1083582e04cce7c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "bbf58ac04e664d9e347243b44ec84756",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d2c6056b4b269a002745c7b7c3c917c7",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "bbf58ac04e664d9e347243b44ec84756"
+		},
+		{
+			"ID": "2166581948096ca581c55980169557fd",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 24",
+			"Transform": {
+				"Translation": {
+					"X": -549.6696166992188,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "9ab07e864520d141f7c455b92715291c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "2166581948096ca581c55980169557fd",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "83b6ee484391c7822c9aff8437e9f4cb",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "2166581948096ca581c55980169557fd"
+		},
+		{
+			"ID": "cb528ce0406233e01638d4b2366f159f",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 13",
+			"Transform": {
+				"Translation": {
+					"X": 166.29580688476563,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "47e254d74dce38b16f5b7db85e2b3251",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "cb528ce0406233e01638d4b2366f159f",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f6b18ddc48f33e3c95ef5db09a23bfd0",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "cb528ce0406233e01638d4b2366f159f"
+		},
+		{
+			"ID": "8989c7004b1f9163134666b61f62b393",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 23",
+			"Transform": {
+				"Translation": {
+					"X": -610.8319702148438,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "4a21b8be47dcd0618e88a58b782cba34",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "8989c7004b1f9163134666b61f62b393",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ab907cd2450c4486bc72db8e8cf18e71",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "8989c7004b1f9163134666b61f62b393"
+		},
+		{
+			"ID": "24d534c847000218d43c9d90d61ca938",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 33",
+			"Transform": {
+				"Translation": {
+					"X": 116.1059341430664,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "4d66d3be413440633fd72fba143337c7",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "24d534c847000218d43c9d90d61ca938",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0c2531bc474ca17f34ed4ebbde698195",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "24d534c847000218d43c9d90d61ca938"
+		},
+		{
+			"ID": "95b187c9451f54f309020d9e37a7c419",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 12",
+			"Transform": {
+				"Translation": {
+					"X": 65.74994659423828,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "a45b5e2345a0b2208e023a9f2f6cda41",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "95b187c9451f54f309020d9e37a7c419",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "ca742b9b4d2c3d2e32c14981dfb6ddb0",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "95b187c9451f54f309020d9e37a7c419"
+		},
+		{
+			"ID": "b363e4d44ebce3089d76c0a2500eb04e",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 34",
+			"Transform": {
+				"Translation": {
+					"X": -711.8240356445313,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "e70df0f140e0c338739dde823b64f06a",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "b363e4d44ebce3089d76c0a2500eb04e",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0cbaf29a4d2fbdb23d7a468cee5f981a",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "b363e4d44ebce3089d76c0a2500eb04e"
+		},
+		{
+			"ID": "faa6e58842f13c0d34f379b844dd1a4d",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 22",
+			"Transform": {
+				"Translation": {
+					"X": -662.468994140625,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "ecf096ce4535f6bad201fd9a7304f7e8",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "faa6e58842f13c0d34f379b844dd1a4d",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "0f3f95d54712fa00817d13be4adbc166",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "faa6e58842f13c0d34f379b844dd1a4d"
+		},
+		{
+			"ID": "2cc2256c48a99898f7f67baeb86cdf4c",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 11",
+			"Transform": {
+				"Translation": {
+					"X": 11.262992858886719,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "a121ddcf4788f60bb528508071a20555",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "2cc2256c48a99898f7f67baeb86cdf4c",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "122b92894d30c7265ac3c9bc0cf777dc",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "2cc2256c48a99898f7f67baeb86cdf4c"
+		},
+		{
+			"ID": "f2de4c6c4cdf0ca44eb2729b7302bfd5",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 21",
+			"Transform": {
+				"Translation": {
+					"X": -757.7252807617188,
+					"Y": 38.448143005371097,
+					"Z": 88.65089416503906
+				}
+			}
+		},
+		{
+			"ID": "88098aad45260ada606adea26b50ffde",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "f2de4c6c4cdf0ca44eb2729b7302bfd5",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e9cfbb1a470ef0534c6636b3a74f6b13",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "f2de4c6c4cdf0ca44eb2729b7302bfd5"
+		},
+		{
+			"ID": "9fa22f164e33eccbe074578d15056a02",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "028b37484bd7e9e9c243f28deeb8640e",
+			"ParentID": "7a38aec1400c090030620cb2111f9296",
+			"Name": "PracticeBottle 10",
+			"Transform": {
+				"Translation": {
+					"X": -46.57379913330078,
+					"Y": 38.448143005371097,
+					"Z": 88.37374877929688
+				}
+			}
+		},
+		{
+			"ID": "e14ecfd94fa55364d7bb13aadb5e3438",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "64c2d0274c3a9d5ed1f2eb9660796262",
+			"ParentID": "9fa22f164e33eccbe074578d15056a02",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "26504a7f4755eab0b1e643b213c07668",
+			"PrefabID": "63d3018340f0f78dff4e96b031d6e736",
+			"PrefabObjectID": "f500f7ea4652508ebe9996b025bb0138",
+			"ParentID": "9fa22f164e33eccbe074578d15056a02"
+		},
+		{
+			"ID": "1418cf794d3d22e2377369a7f2559c09",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "InfoPanel"
+		},
+		{
+			"ID": "7b663a0b4390b4e26c00e8bab01292a5",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "Box 0",
+			"Transform": {
+				"Translation": {
+					"X": 624.0049438476563,
+					"Y": 115.43661499023438,
+					"Z": -115.49201965332031
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				},
+				"Scale": {
+					"X": 3.626884937286377,
+					"Y": 2.420827865600586,
+					"Z": 0.4256167709827423
+				}
+			},
+			"Model": "8555587e41b402f298d803bc7a28ef75",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "f5353ab84cbdcba5d6f92197f27cf06f",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b892c62c4fa142ff80c5eaa8a1f4fde0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "Box",
+			"Transform": {
+				"Translation": {
+					"X": 827.1498413085938,
+					"Y": 115.43661499023438,
+					"Z": -455.4143371582031
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7878181338310242,
+					"Z": 0.0,
+					"W": 0.6159080862998962
+				},
+				"Scale": {
+					"X": 3.626884937286377,
+					"Y": 2.420827865600586,
+					"Z": 0.4256167709827423
+				}
+			},
+			"Model": "8555587e41b402f298d803bc7a28ef75",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "f5353ab84cbdcba5d6f92197f27cf06f",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9b1d52ec4185c102feaa8cafdedfa9c7",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 2",
+			"Transform": {
+				"Translation": {
+					"X": 1505.0079345703126,
+					"Y": 4.975879669189453,
+					"Z": -719.9930419921875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.8911544680595398,
+					"Z": 0.0,
+					"W": 0.4537000060081482
+				}
+			},
+			"Text": "Object reference not set to an instance of an object",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 6.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0,
+			"HAlignment": 0
+		},
+		{
+			"ID": "bcb8127d457875bc0c68159ee1b52a96",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 1",
+			"Transform": {
+				"Translation": {
+					"X": 825.4131469726563,
+					"Y": 35.701324462890628,
+					"Z": -455.6380920410156
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7878181338310242,
+					"Z": 0.0,
+					"W": 0.6159080862998962
+				}
+			},
+			"Text": "This project containsa basic character movement \nand camera handling script and a basic  \nway of implementing a weapon.",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 10.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "28fceee4491aeddee1745782682c9298",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 0",
+			"Transform": {
+				"Translation": {
+					"X": 809.406982421875,
+					"Y": 109.40890502929688,
+					"Z": -391.26177978515627
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7878181338310242,
+					"Z": 0.0,
+					"W": 0.6159080862998962
+				}
+			},
+			"Text": "Left Click - Shoot\nRight Click - Aim\nShift - Sprint\nSpace - Jump\n",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 18.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0,
+			"HAlignment": 0
+		},
+		{
+			"ID": "43fc8c5642682f9596afd382d77445d9",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 5",
+			"Transform": {
+				"Translation": {
+					"X": 614.1394653320313,
+					"Y": 20.021469116210939,
+					"Z": -132.5371856689453
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				}
+			},
+			"Text": "*Certain assets have a CC Attribution license",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 9.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "3ba4b72a4738f799b7b79a939b762450",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 4",
+			"Transform": {
+				"Translation": {
+					"X": 561.1713256835938,
+					"Y": 144.19659423828126,
+					"Z": -94.0022964477539
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				}
+			},
+			"Text": "This project shows how simple third-person game could be made.\n\nFeel free to deconstruct or use these examples within your own Flax project.\n",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 12.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0,
+			"Bounds": {
+				"Location": {
+					"X": -88.0,
+					"Y": -39.0
+				},
+				"Size": {
+					"X": 314.0,
+					"Y": 150.0
+				}
+			},
+			"HAlignment": 0,
+			"Wrapping": 1
+		},
+		{
+			"ID": "5adb5cb14d3427ac649a419af8bdf567",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender 3",
+			"Transform": {
+				"Translation": {
+					"X": 613.7041625976563,
+					"Y": 206.37107849121095,
+					"Z": -132.2204132080078
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				}
+			},
+			"Text": "Third Person Shooter",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 24.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "e54ac1ec4d48435a55c0f9be3a6c0038",
+			"TypeName": "FlaxEngine.TextRender",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "TextRender",
+			"Transform": {
+				"Translation": {
+					"X": 825.3397216796875,
+					"Y": 206.37107849121095,
+					"Z": -455.3414001464844
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7878181338310242,
+					"Z": 0.0,
+					"W": 0.6159080862998962
+				}
+			},
+			"Text": "Controls",
+			"Color": {
+				"R": 0.001000046730041504,
+				"G": 0.001000046730041504,
+				"B": 0.001000046730041504,
+				"A": 1.0
+			},
+			"Size": 24.0,
+			"Material": "e72782bd4d898e2f236ca3be780438af",
+			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "68cbdc034cf034379933d18822372d0f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 635.9317626953125,
+					"Y": 115.43661499023438,
+					"Z": -99.09795379638672
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.9509591460227966,
+					"Z": 0.0,
+					"W": -0.30931681394577029
+				},
+				"Scale": {
+					"X": 3.6367101669311525,
+					"Y": 2.435857057571411,
+					"Z": 0.5019422173500061
+				}
+			}
+		},
+		{
+			"ID": "79a52b4b418581f24437128b589df68e",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "1418cf794d3d22e2377369a7f2559c09",
+			"Name": "BoxCollider",
+			"Transform": {
+				"Translation": {
+					"X": 848.0638427734375,
+					"Y": 113.63786315917969,
+					"Z": -450.0899963378906
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7878181338310242,
+					"Z": 0.0,
+					"W": 0.6159080862998962
+				},
+				"Scale": {
+					"X": 3.6367101669311525,
+					"Y": 2.435857057571411,
+					"Z": 0.5019422173500061
+				}
+			}
+		},
+		{
+			"ID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "CharacterController",
+			"Transform": {
+				"Translation": {
+					"X": 260.3531799316406,
+					"Y": 55.5609130859375,
+					"Z": -334.5616760253906
+				}
+			},
+			"StaticFlags": 0,
+			"Layer": 1,
+			"Tag": "Player",
+			"Material": "38b53c054812183ddbf74d918b64b23b",
+			"Radius": 30.0,
+			"Height": 40.0,
+			"NonWalkableMode": 1
+		},
+		{
+			"ID": "132b44c449a8a87be337c7a37b16e2b0",
+			"TypeName": "Game.CharacterCPP",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"CharacterObj": "41dccecb443dddf8ca8951bec7c0d644",
+			"Speed": 200.98406982421876,
+			"JumpStrength": 1.0660133361816407,
+			"CameraView": "097615424e695a5f2f892fb3ff07243c",
+			"MouseSensitivity": 10.0,
+			"CameraLag": 12.250921249389649
+		},
+		{
+			"ID": "41dccecb443dddf8ca8951bec7c0d644",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"Name": "Character",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -50.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4bb7dccc428df0a472678d8195107170",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "41dccecb443dddf8ca8951bec7c0d644",
+			"Name": "DealWithIt",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 73.71049499511719,
+					"Z": 22.099990844726564
+				},
+				"Scale": {
+					"X": 0.75,
+					"Y": 1.0,
+					"Z": 0.699999988079071
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "e1277d394333bb5c4df8efadef0c647b",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e1694e1b46f5f1c4c1c378b911692591",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "3d5d480e47c4e5aa7108ddaad0c7ed67",
+			"Name": "CameraSocket",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "097615424e695a5f2f892fb3ff07243c",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
+			"Name": "TPSCamera",
+			"Transform": {
+				"Translation": {
+					"X": 45.0,
+					"Y": 49.99999237060547,
+					"Z": -150.0
+				}
+			},
+			"StaticFlags": 0,
+			"FOV": 80.0
+		},
+		{
+			"ID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e1694e1b46f5f1c4c1c378b911692591",
+			"Name": "Weapon (AK-74)",
+			"Transform": {
+				"Translation": {
+					"X": 30.096637725830079,
+					"Y": 0.0,
+					"Z": 30.126441955566408
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "e460725d4504789a1ba76cb5b827b5e1",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c0a43245400daaa41619908cc59fcdd9",
+			"TypeName": "Game.WeaponCPP",
+			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"WeaponSettings": "45b9b406471fd05dc1e090897885431f",
+			"BulletSpawnPoint": "558dfa63445bf74e55a9ebac08dd4a5b"
+		},
+		{
+			"ID": "558dfa63445bf74e55a9ebac08dd4a5b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4a2ce6374424a237208cf8ad245b3f9f",
+			"Name": "ProjectileSpawn",
+			"Transform": {
+				"Translation": {
+					"X": -82.7171401977539,
+					"Y": 10.497055053710938,
+					"Z": -0.00000986065060715191
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0
+		}
+	]
+}

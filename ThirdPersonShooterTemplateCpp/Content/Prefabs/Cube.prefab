@@ -1,0 +1,37 @@
+{
+	"ID": "d2e6df3843d12ebf0e7fa2b33c15826f",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6226,
+	"Data": [
+	{
+		"ID": "52b4dda447945310e936b38fe4f611d5",
+		"TypeName": "FlaxEngine.RigidBody",
+		"Name": "RigidBody",
+		"OverrideMass": true,
+		"Mass": 8.0
+	},
+	{
+		"ID": "253a4fa54eabf286ee1925b2b02cdab5",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "52b4dda447945310e936b38fe4f611d5",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "90e75a0345a52328142e258f34e10246",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "52b4dda447945310e936b38fe4f611d5",
+		"Name": "Cube",
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6521e29b4ef4231e4cfc8abbfce7a485",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}
