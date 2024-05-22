@@ -8,7 +8,6 @@ public class PlatformSelector : Script
 {
     private bool _restorePrev;
     private Quality _prevAAQuality, _prevSSRQuality, _prevSSAOQuality, _prevShadowMapsQuality, _prevShadowsQuality, _prevVolumetricFogQuality;
-    private bool _prevAllowCSMBlending;
 
     /// <summary>
     /// List of platforms to scale their quality down.
@@ -59,7 +58,6 @@ public class PlatformSelector : Script
             _prevShadowMapsQuality = Graphics.ShadowMapsQuality;
             _prevShadowsQuality = Graphics.ShadowsQuality;
             _prevVolumetricFogQuality = Graphics.VolumetricFogQuality;
-            _prevAllowCSMBlending = Graphics.AllowCSMBlending;
 
             Graphics.AAQuality = Quality.Low;
             Graphics.SSRQuality = Quality.Low;
@@ -67,7 +65,6 @@ public class PlatformSelector : Script
             Graphics.ShadowMapsQuality = Quality.Low;
             Graphics.ShadowsQuality = Quality.Low;
             Graphics.VolumetricFogQuality = Quality.Low;
-            Graphics.AllowCSMBlending = false;
         }
 
         if (DisableDynamicShadows)
@@ -87,7 +84,6 @@ public class PlatformSelector : Script
             Graphics.ShadowMapsQuality = _prevShadowMapsQuality;
             Graphics.ShadowsQuality = _prevShadowsQuality;
             Graphics.VolumetricFogQuality = _prevVolumetricFogQuality;
-            Graphics.AllowCSMBlending = _prevAllowCSMBlending;
         }
     }
 
