@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6337,
+	"EngineBuild": 6604,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -3578,9 +3578,9 @@
 			"Layer": 1,
 			"Tag": "Player",
 			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 20.0,
+			"Height": 100.0,
 			"SlopeLimit": 20.0,
-			"Height": 100.0
+			"StepOffset": 20.0
 		},
 		{
 			"ID": "2da06d4a42a5e7826cce909edda72a28",
@@ -3774,7 +3774,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3961,7 +3961,7 @@
 				}
 			},
 			"Text": "Blue Ball\n",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4055,7 +4055,7 @@
 				}
 			},
 			"Text": "Red Ball",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4156,7 +4156,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 19,
+			"Size": 19.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4361,7 +4361,7 @@
 				}
 			},
 			"Text": "Wooden Chair",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4455,7 +4455,7 @@
 				}
 			},
 			"Text": "Metallic Material",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4556,7 +4556,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4743,7 +4743,7 @@
 				}
 			},
 			"Text": "Textured",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4837,7 +4837,7 @@
 				}
 			},
 			"Text": "Solid Color",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4938,7 +4938,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5125,7 +5125,7 @@
 				}
 			},
 			"Text": "Metal",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5219,7 +5219,7 @@
 				}
 			},
 			"Text": "Plastic",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5320,7 +5320,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5538,7 +5538,7 @@
 				}
 			},
 			"Text": "0.6",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5639,7 +5639,7 @@
 				}
 			},
 			"Text": "0.4",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5740,7 +5740,7 @@
 				}
 			},
 			"Text": "0.1",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5848,7 +5848,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6035,7 +6035,7 @@
 				}
 			},
 			"Text": "1",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6129,7 +6129,7 @@
 				}
 			},
 			"Text": "0",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6230,7 +6230,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6426,7 +6426,7 @@
 				}
 			},
 			"Text": "Emissive Textures",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6520,7 +6520,7 @@
 				}
 			},
 			"Text": "Emissive Color",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6667,7 +6667,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6854,7 +6854,7 @@
 				}
 			},
 			"Text": "Texcoords",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -6948,7 +6948,7 @@
 				}
 			},
 			"Text": "Color",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7049,7 +7049,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7236,7 +7236,7 @@
 				}
 			},
 			"Text": "Reflective Glass",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7330,7 +7330,7 @@
 				}
 			},
 			"Text": "Colored Glass",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7431,7 +7431,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7649,7 +7649,7 @@
 				}
 			},
 			"Text": "0.6",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7750,7 +7750,7 @@
 				}
 			},
 			"Text": "0.4",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7851,7 +7851,7 @@
 				}
 			},
 			"Text": "0.1",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -7959,7 +7959,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8156,7 +8156,7 @@
 				}
 			},
 			"Text": "Cutoff Mask",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8250,7 +8250,7 @@
 				}
 			},
 			"Text": "Opacity Mask",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8351,7 +8351,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8532,7 +8532,7 @@
 				}
 			},
 			"Text": "Offset",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8626,7 +8626,7 @@
 				}
 			},
 			"Text": "Normal Offset",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -8727,7 +8727,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -9024,7 +9024,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -9351,7 +9351,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -9648,7 +9648,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -9890,7 +9890,7 @@
 				}
 			},
 			"Text": "Phong",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10101,7 +10101,7 @@
 				}
 			},
 			"Text": "PN",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10312,7 +10312,7 @@
 				}
 			},
 			"Text": "Flat",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10523,7 +10523,7 @@
 				}
 			},
 			"Text": "None",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10624,7 +10624,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10842,7 +10842,7 @@
 				}
 			},
 			"Text": "Two Sided",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -10943,7 +10943,7 @@
 				}
 			},
 			"Text": "Normal",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11044,7 +11044,7 @@
 				}
 			},
 			"Text": "Wireframe",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11152,7 +11152,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11339,7 +11339,7 @@
 				}
 			},
 			"Text": "Material Instance",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11433,7 +11433,7 @@
 				}
 			},
 			"Text": "Base Material",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11534,7 +11534,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11772,7 +11772,7 @@
 				}
 			},
 			"Text": "Mix",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11873,7 +11873,7 @@
 				}
 			},
 			"Text": "Layer B",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -11974,7 +11974,7 @@
 				}
 			},
 			"Text": "Layer A",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12082,7 +12082,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12267,7 +12267,7 @@
 				}
 			},
 			"Text": "Sample AO",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12368,7 +12368,7 @@
 				}
 			},
 			"Text": "Sample Roughness",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12593,7 +12593,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12718,7 +12718,7 @@
 				}
 			},
 			"Text": "Enter This Area",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -12863,7 +12863,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13075,7 +13075,7 @@
 				}
 			},
 			"Text": "Multiply",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13262,7 +13262,7 @@
 				}
 			},
 			"Text": "Additive",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13449,7 +13449,7 @@
 				}
 			},
 			"Text": "Transparent",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13636,7 +13636,7 @@
 				}
 			},
 			"Text": "Opaque",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13739,7 +13739,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -13875,6 +13875,7 @@
 			"Brightness": 80.0,
 			"ViewDistance": 3000.0,
 			"MinRoughness": 1.0,
+			"ShadowsFadeDistance": 200.0,
 			"OuterAngle": 28.0,
 			"InnerAngle": 20.0
 		},
@@ -13996,6 +13997,7 @@
 			},
 			"Brightness": 5.0,
 			"ViewDistance": 3000.0,
+			"ShadowsFadeDistance": 200.0,
 			"OuterAngle": 40.0,
 			"InnerAngle": 30.0
 		},
@@ -14105,7 +14107,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -14682,12 +14684,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1091.0,
-		"Y": 580.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "ef4fbe804f649fe49366348e87e6b07d",
@@ -14705,18 +14702,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "60bb8287411d6dfcc76ae4975c8e3347",
 			"Name": "VirtualThumbstick_Right",
-			"Transform": {
-				"Translation": {
-					"X": 941.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -14739,10 +14731,10 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -150.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -14763,6 +14755,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -14773,18 +14766,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "60bb8287411d6dfcc76ae4975c8e3347",
 			"Name": "VirtualThumbstick_Left",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -14808,9 +14796,9 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -14831,6 +14819,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -14850,12 +14839,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 0.0,
-		"Y": 0.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "f0122f624f9d7326b30ad88eeb56024d",
@@ -14865,6 +14849,9 @@
 			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
 	"Text": "FPS: {0}\nDraw GPU: {1:##0.00} ms\nDraw CPU: {2:##0.00} ms\nUpdate CPU: {3:##0.00} ms",
+	"CaseOption": 0,
+	"Bold": false,
+	"Italic": false,
 	"TextColor": {
 		"R": 1.0,
 		"G": 1.0,
@@ -14880,10 +14867,12 @@
 	"HorizontalAlignment": 0,
 	"VerticalAlignment": 0,
 	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 8
+		"Size": 8.0
 	},
+	"Material": null,
 	"Margin": {
 		"Left": 10.0,
 		"Right": 10.0,
@@ -14933,6 +14922,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": false

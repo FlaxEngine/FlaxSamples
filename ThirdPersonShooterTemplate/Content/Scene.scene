@@ -1,7 +1,7 @@
 {
 	"ID": "74a68a984824b4510d12589f199ad68f",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6337,
+	"EngineBuild": 6604,
 	"Data": [
 		{
 			"ID": "74a68a984824b4510d12589f199ad68f",
@@ -1779,7 +1779,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 6,
+			"Size": 6.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0,
@@ -1810,7 +1810,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 10,
+			"Size": 10.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
@@ -1840,7 +1840,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 18,
+			"Size": 18.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0,
@@ -1871,7 +1871,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 9,
+			"Size": 9.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
@@ -1901,7 +1901,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 12,
+			"Size": 12.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0,
@@ -1943,7 +1943,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 24,
+			"Size": 24.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
@@ -1973,7 +1973,7 @@
 				"B": 0.001000046730041504,
 				"A": 1.0
 			},
-			"Size": 24,
+			"Size": 24.0,
 			"Material": "e72782bd4d898e2f236ca3be780438af",
 			"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 			"ShadowsMode": 0
@@ -2042,9 +2042,9 @@
 			"Layer": 1,
 			"Tag": "Player",
 			"Material": "38b53c054812183ddbf74d918b64b23b",
-			"NonWalkableMode": 1,
 			"Radius": 30.0,
-			"Height": 40.0
+			"Height": 40.0,
+			"NonWalkableMode": 1
 		},
 		{
 			"ID": "5519e2b74e59d5a2728ca2850ecf6f8d",
@@ -2055,8 +2055,8 @@
 	"Speed": 200.0,
 	"JumpStrength": 1.0,
 	"CameraView": "097615424e695a5f2f892fb3ff07243c",
-	"MouseSensitivity": 3.08086538,
-	"CameraLag": 12.3620024
+	"MouseSensitivity": 3.0808654,
+	"CameraLag": 12.362002
 }
 		},
 		{

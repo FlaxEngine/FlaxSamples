@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6337,
+	"EngineBuild": 6604,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -2417,9 +2417,9 @@
 			"Layer": 1,
 			"Tag": "Player",
 			"ContactOffset": 0.10000000149011612,
-			"StepOffset": 20.0,
+			"Height": 100.0,
 			"SlopeLimit": 20.0,
-			"Height": 100.0
+			"StepOffset": 20.0
 		},
 		{
 			"ID": "dfaec6df4971de07eda4e1803e33de95",
@@ -2626,7 +2626,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -2805,7 +2805,7 @@
 				}
 			},
 			"Text": "Blue Ball\n",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -2891,7 +2891,7 @@
 				}
 			},
 			"Text": "Red Ball",
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -2992,7 +2992,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3140,7 +3140,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3391,7 +3391,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3539,7 +3539,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3687,7 +3687,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -3835,7 +3835,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4042,7 +4042,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4190,7 +4190,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4338,7 +4338,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4487,7 +4487,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 30,
+			"Size": 30.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4702,7 +4702,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 25,
+			"Size": 25.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4862,7 +4862,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -4995,7 +4995,7 @@
 				"B": 1.0010000467300416,
 				"A": 1.0
 			},
-			"Size": 28,
+			"Size": 28.0,
 			"Material": "5bae28aa4c20d881304d29aac911cd7e",
 			"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
 			"ShadowsMode": 0,
@@ -5131,12 +5131,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 0.0,
-		"Y": 0.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "2684caea4268761978a1cdb7bab97278",
@@ -5154,18 +5149,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "e70180d245a4939d4dad1e8951549a17",
 			"Name": "VirtualThumbstick_Right",
-			"Transform": {
-				"Translation": {
-					"X": -150.0,
-					"Y": -150.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -5188,10 +5178,10 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -150.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -5212,6 +5202,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -5222,18 +5213,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "e70180d245a4939d4dad1e8951549a17",
 			"Name": "VirtualThumbstick_Left",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": -150.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -5257,9 +5243,9 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -5280,6 +5266,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -5299,12 +5286,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1920.0,
-		"Y": 936.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "4d4c12be491160827cdfa2b9b407a322",
@@ -5314,6 +5296,9 @@
 			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
 	"Text": "FPS: {0}\nDraw GPU: {1:##0.00} ms\nDraw CPU: {2:##0.00} ms\nUpdate CPU: {3:##0.00} ms",
+	"CaseOption": 0,
+	"Bold": false,
+	"Italic": false,
 	"TextColor": {
 		"R": 1.0,
 		"G": 1.0,
@@ -5329,10 +5314,12 @@
 	"HorizontalAlignment": 0,
 	"VerticalAlignment": 0,
 	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 8
+		"Size": 8.0
 	},
+	"Material": null,
 	"Margin": {
 		"Left": 10.0,
 		"Right": 10.0,
@@ -5382,6 +5369,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": false

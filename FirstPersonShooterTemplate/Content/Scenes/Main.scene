@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6337,
+	"EngineBuild": 6604,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -1028,12 +1028,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1091.0,
-		"Y": 580.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "5cecc91941ad43f9c29c7aab95c457c0",
@@ -1051,18 +1046,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "6f69f8844b81602bf76aae993fe88bb2",
 			"Name": "VirtualThumbstick_Right",
-			"Transform": {
-				"Translation": {
-					"X": 941.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -1085,10 +1075,10 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -150.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -1109,6 +1099,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -1119,18 +1110,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "6f69f8844b81602bf76aae993fe88bb2",
 			"Name": "VirtualThumbstick_Left",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -1154,9 +1140,9 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -1177,6 +1163,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -1196,12 +1183,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 0.0,
-		"Y": 0.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "2a6eff9c4862e0546efbd0bf2b3c3a7b",
@@ -1211,6 +1193,9 @@
 			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
 	"Text": "FPS: {0}\nDraw GPU: {1:##0.00} ms\nDraw CPU: {2:##0.00} ms\nUpdate CPU: {3:##0.00} ms",
+	"CaseOption": 0,
+	"Bold": false,
+	"Italic": false,
 	"TextColor": {
 		"R": 1.0,
 		"G": 1.0,
@@ -1226,10 +1211,12 @@
 	"HorizontalAlignment": 0,
 	"VerticalAlignment": 0,
 	"Wrapping": 0,
+	"BaseLinesGapScale": 1.0,
 	"Font": {
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
-		"Size": 8
+		"Size": 8.0
 	},
+	"Material": null,
 	"Margin": {
 		"Left": 40.0,
 		"Right": 40.0,
@@ -1279,6 +1266,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": false

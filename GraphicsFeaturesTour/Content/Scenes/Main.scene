@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6601,
+	"EngineBuild": 6604,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -10358,6 +10358,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": false
@@ -10558,6 +10559,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -10621,6 +10623,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": true
@@ -10723,6 +10726,7 @@
 		"B": 0.0,
 		"A": 0.0
 	},
+	"BackgroundBrush": null,
 	"Enabled": true,
 	"Visible": true,
 	"AutoFocus": false
