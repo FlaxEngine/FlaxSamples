@@ -105,7 +105,8 @@
 				}
 			},
 			"StaticFlags": 0,
-			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3"
+			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3",
+			"VolumetricFogEnable": true
 		},
 		{
 			"ID": "b62b160e4ce7ebe5156fbfa40db2e480",
@@ -1607,9 +1608,9 @@
 			"Name": "Back Plane 1",
 			"Transform": {
 				"Translation": {
-					"X": 508.2373046875,
+					"X": 633.28759765625,
 					"Y": 50.0,
-					"Z": 509.94232177734377
+					"Z": 509.9425048828125
 				},
 				"Scale": {
 					"X": 14.0,
@@ -1636,9 +1637,9 @@
 			"Name": "Back Plane 2",
 			"Transform": {
 				"Translation": {
-					"X": 58.842037200927737,
+					"X": 561.4241333007813,
 					"Y": 74.74301147460938,
-					"Z": -23.740236282348634
+					"Z": -23.740169525146486
 				},
 				"Orientation": {
 					"X": 0.0,
@@ -1671,15 +1672,15 @@
 			"Name": "Cube 0",
 			"Transform": {
 				"Translation": {
-					"X": 96.76390838623047,
+					"X": 599.3460083007813,
 					"Y": 144.0774688720703,
-					"Z": -34.022953033447269
+					"Z": -34.02288055419922
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": -0.7071067690849304,
+					"Y": -0.7071068286895752,
 					"Z": 0.0,
-					"W": 0.7071067690849304
+					"W": 0.7071068286895752
 				},
 				"Scale": {
 					"X": 13.09390640258789,
@@ -1706,14 +1707,14 @@
 			"Name": "Wall 5",
 			"Transform": {
 				"Translation": {
-					"X": 38.95295715332031,
+					"X": 541.5350341796875,
 					"Y": -8.0,
-					"Z": -733.7601928710938
+					"Z": -733.76025390625
 				},
 				"Orientation": {
-					"X": -0.4999234080314636,
+					"X": -0.4999234676361084,
 					"Y": -0.499923437833786,
-					"Z": -0.4912734031677246,
+					"Z": -0.4912734627723694,
 					"W": 0.5087274312973023
 				},
 				"Scale": {
@@ -1748,14 +1749,14 @@
 			"Name": "Wall 4",
 			"Transform": {
 				"Translation": {
-					"X": 50.64476776123047,
+					"X": 553.2268676757813,
 					"Y": -8.0,
-					"Z": -33.50341796875
+					"Z": -33.50335693359375
 				},
 				"Orientation": {
-					"X": -0.4999234080314636,
+					"X": -0.4999234676361084,
 					"Y": -0.499923437833786,
-					"Z": -0.4912734031677246,
+					"Z": -0.4912734627723694,
 					"W": 0.5087274312973023
 				},
 				"Scale": {
@@ -1782,6 +1783,76 @@
 			"ParentID": "ef84089049f14b08840cf89aec92fb20",
 			"Name": "Wall_Collision",
 			"CollisionData": "80a4311f4246c960424d1ea504cc7492"
+		},
+		{
+			"ID": "9cb9998b4326dc53cafc909e29c594fb",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "63785cdf4df341f56258cc8336d466c2",
+			"Name": "Back Plane 3",
+			"Transform": {
+				"Translation": {
+					"X": -520.87548828125,
+					"Y": 50.0,
+					"Z": -510.0010986328125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -1.0,
+					"Z": 0.0,
+					"W": -1.1920927533992654e-7
+				},
+				"Scale": {
+					"X": 14.0,
+					"Y": 4.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c86e15f44467300da041b29858d148b0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "63785cdf4df341f56258cc8336d466c2",
+			"Name": "Back Plane 4",
+			"Transform": {
+				"Translation": {
+					"X": 809.1742553710938,
+					"Y": 50.0,
+					"Z": -510.0009460449219
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": -1.0,
+					"Z": 0.0,
+					"W": -1.1920927533992654e-7
+				},
+				"Scale": {
+					"X": 14.0,
+					"Y": 4.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "54a1ff4a42af9f018234f7b39b1366b3",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
 		},
 		{
 			"ID": "13a9d4e547d2cefb3365c2a01fc1453d",
@@ -4791,7 +4862,6 @@
 			"ID": "095f01cd4c445215f6a257a9bcb458bf",
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "38afc49e474b5f895227f4b7e3b10ad1",
-			"IsActive": false,
 			"Name": "Stand 12",
 			"Transform": {
 				"Translation": {
@@ -4855,7 +4925,7 @@
 				}
 			},
 			"StaticFlags": 0,
-			"Text": "12. ",
+			"Text": "12. Volumetric Fog",
 			"Color": {
 				"R": 1.0010000467300416,
 				"G": 1.0010000467300416,
@@ -4919,6 +4989,73 @@
 			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
 			"Name": "Target"
+		},
+		{
+			"ID": "44641b284be2bae9f89bf1890beeeab6",
+			"TypeName": "FlaxEngine.ParticleEffect",
+			"ParentID": "095f01cd4c445215f6a257a9bcb458bf",
+			"Name": "Particles",
+			"Transform": {
+				"Translation": {
+					"X": -11.655414581298829,
+					"Y": 136.727294921875,
+					"Z": -148.31886291503907
+				}
+			},
+			"StaticFlags": 0,
+			"Overrides": [],
+			"ParticleSystem": "633bae614e8c91baa3fbbba538843737"
+		},
+		{
+			"ID": "121175164d6ebf946d136bb04ea1f08b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "44641b284be2bae9f89bf1890beeeab6",
+			"Name": "Cylinder",
+			"Transform": {
+				"Translation": {
+					"X": -0.000009575334843248129,
+					"Y": 2.0564117431640627,
+					"Z": -80.32373809814453
+				},
+				"Orientation": {
+					"X": -0.7071067690849304,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 0.20000000298023225,
+					"Y": 1.5,
+					"Z": 0.20000000298023225
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "223aa9894e90973780ab508621517526",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "310735bd4103a78699b72797010081e1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "84b9c468488cec86513589ab7d0a795f",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "121175164d6ebf946d136bb04ea1f08b",
+			"Name": "CapsuleCollider",
+			"Transform": {
+				"Orientation": {
+					"X": 1.1347779604875541e-8,
+					"Y": 5.960463766996327e-8,
+					"Z": 0.7071067690849304,
+					"W": 0.70710688829422
+				}
+			},
+			"Radius": 6.5
 		},
 		{
 			"ID": "16d1976749d18e718396f5bc6900678f",
