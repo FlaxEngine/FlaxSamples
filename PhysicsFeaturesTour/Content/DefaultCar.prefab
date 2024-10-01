@@ -1,0 +1,426 @@
+{
+	"ID": "56b8bc1444c5f2d29c89cd9398d73d5a",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6604,
+	"Data": [
+	{
+		"ID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"TypeName": "FlaxEngine.WheeledVehicle",
+		"Name": "DefaultCar",
+		"StaticFlags": 0,
+		"Layer": 3,
+		"OverrideMass": true,
+		"Mass": 1500.0,
+		"CenterOfMassOffset": {
+			"X": 0.0,
+			"Y": -50.0,
+			"Z": 0.0
+		},
+		"Wheels": [
+			{
+				"Mass": 20.0,
+				"Radius": 35.0,
+				"Width": 20.0,
+				"MaxSteerAngle": 70.0,
+				"DampingRate": 0.25,
+				"MaxBrakeTorque": 1500.0,
+				"MaxHandBrakeTorque": 0.0,
+				"Collider": "576f3be44f19f8f322278e90b9c81b69",
+				"SprungMassMultiplier": 1.0,
+				"SuspensionDampingRate": 1.0,
+				"SuspensionMaxRaise": 10.0,
+				"SuspensionMaxDrop": 10.0,
+				"SuspensionForceOffset": 0.0,
+				"TireLateralStiffness": 17.0,
+				"TireLateralMax": 2.0,
+				"TireLongitudinalStiffness": 1000.0,
+				"TireFrictionScale": 1.0
+			},
+			{
+				"Mass": 20.0,
+				"Radius": 35.0,
+				"Width": 20.0,
+				"MaxSteerAngle": 70.0,
+				"DampingRate": 0.25,
+				"MaxBrakeTorque": 1500.0,
+				"MaxHandBrakeTorque": 0.0,
+				"Collider": "0e8560e941ac862c06978f9822f92278",
+				"SprungMassMultiplier": 1.0,
+				"SuspensionDampingRate": 1.0,
+				"SuspensionMaxRaise": 10.0,
+				"SuspensionMaxDrop": 10.0,
+				"SuspensionForceOffset": 0.0,
+				"TireLateralStiffness": 17.0,
+				"TireLateralMax": 2.0,
+				"TireLongitudinalStiffness": 1000.0,
+				"TireFrictionScale": 1.0
+			},
+			{
+				"Mass": 20.0,
+				"Radius": 35.0,
+				"Width": 20.0,
+				"MaxSteerAngle": 0.0,
+				"DampingRate": 0.25,
+				"MaxBrakeTorque": 1500.0,
+				"MaxHandBrakeTorque": 2000.0,
+				"Collider": "5409cebd4638eee5c4badda066955355",
+				"SprungMassMultiplier": 1.0,
+				"SuspensionDampingRate": 1.0,
+				"SuspensionMaxRaise": 10.0,
+				"SuspensionMaxDrop": 10.0,
+				"SuspensionForceOffset": 0.0,
+				"TireLateralStiffness": 17.0,
+				"TireLateralMax": 2.0,
+				"TireLongitudinalStiffness": 1000.0,
+				"TireFrictionScale": 1.0
+			},
+			{
+				"Mass": 20.0,
+				"Radius": 35.0,
+				"Width": 20.0,
+				"MaxSteerAngle": 0.0,
+				"DampingRate": 0.25,
+				"MaxBrakeTorque": 1500.0,
+				"MaxHandBrakeTorque": 2000.0,
+				"Collider": "953406e04dbcbe4e2d8f72b9d4ae5d95",
+				"SprungMassMultiplier": 1.0,
+				"SuspensionDampingRate": 1.0,
+				"SuspensionMaxRaise": 10.0,
+				"SuspensionMaxDrop": 10.0,
+				"SuspensionForceOffset": 0.0,
+				"TireLateralStiffness": 17.0,
+				"TireLateralMax": 2.0,
+				"TireLongitudinalStiffness": 1000.0,
+				"TireFrictionScale": 1.0
+			}
+		],
+		"DriveControl": {
+			"SteerVsSpeed": [
+				{
+					"Speed": 800.0,
+					"Steer": 1.0
+				},
+				{
+					"Speed": 1500.0,
+					"Steer": 0.699999988079071
+				},
+				{
+					"Speed": 2500.0,
+					"Steer": 0.5
+				},
+				{
+					"Speed": 5000.0,
+					"Steer": 0.20000000298023225
+				}
+			]
+		},
+		"Engine": {},
+		"Differential": {},
+		"Gearbox": {}
+	},
+	{
+		"ID": "6d0fdced45c4646ceb4dc288cfce94e6",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "Camera Target",
+		"Transform": {
+			"Translation": {
+				"X": 4.76837158203125e-7,
+				"Y": 38.09867477416992,
+				"Z": -3.543911933898926
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": -0.70710688829422,
+				"Z": 0.0,
+				"W": 0.7071067094802856
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 3,
+		"Tag": "Player"
+	},
+	{
+		"ID": "dd413e6b4fbee13454372eb407d80a9d",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "BoxCollider 0",
+		"Transform": {
+			"Translation": {
+				"X": 0.0000019073486328125,
+				"Y": 24.043792724609376,
+				"Z": -16.446474075317384
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": -0.70710688829422,
+				"Z": 0.0,
+				"W": 0.7071067094802856
+			},
+			"Scale": {
+				"X": 1.2783974409103394,
+				"Y": 0.6000000238418579,
+				"Z": 1.2698173522949219
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 3
+	},
+	{
+		"ID": "73cfde62466a14f5a30d6192cb04d442",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "dd413e6b4fbee13454372eb407d80a9d",
+		"Name": "Cube",
+		"StaticFlags": 0,
+		"Layer": 3,
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "8555cb3848c317d515df969e35144845",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "BoxCollider",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": -28.1876220703125,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": -0.70710688829422,
+				"Z": 0.0,
+				"W": 0.7071067094802856
+			},
+			"Scale": {
+				"X": 3.4000000953674318,
+				"Y": 0.6000000238418579,
+				"Z": 1.399999976158142
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 3
+	},
+	{
+		"ID": "08390adb40b552b8a533f7b461b72b0f",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "8555cb3848c317d515df969e35144845",
+		"Name": "Cube",
+		"StaticFlags": 0,
+		"Layer": 3,
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "953406e04dbcbe4e2d8f72b9d4ae5d95",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "Wheel_RR",
+		"Transform": {
+			"Translation": {
+				"X": 73.14820098876953,
+				"Y": -61.28427505493164,
+				"Z": -110.23991394042969
+			},
+			"Orientation": {
+				"X": 0.5,
+				"Y": -0.5,
+				"Z": 0.5,
+				"W": 0.5
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Radius": 35.0
+	},
+	{
+		"ID": "cdcdc86444001c09788d098b303b6b11",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "953406e04dbcbe4e2d8f72b9d4ae5d95",
+		"Name": "Cylinder",
+		"Transform": {
+			"Scale": {
+				"X": 0.699999988079071,
+				"Y": 0.20000000298023225,
+				"Z": 0.699999988079071
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "0e8560e941ac862c06978f9822f92278",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "Wheel_FR",
+		"Transform": {
+			"Translation": {
+				"X": 73.1481704711914,
+				"Y": -61.28428268432617,
+				"Z": 112.38441467285156
+			},
+			"Orientation": {
+				"X": 0.5,
+				"Y": -0.5,
+				"Z": 0.5,
+				"W": 0.5
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Radius": 35.0
+	},
+	{
+		"ID": "3262c6af4f1bc3a4449079ab222c3209",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "0e8560e941ac862c06978f9822f92278",
+		"Name": "Cylinder",
+		"Transform": {
+			"Scale": {
+				"X": 0.699999988079071,
+				"Y": 0.20000000298023225,
+				"Z": 0.699999988079071
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "5409cebd4638eee5c4badda066955355",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "Wheel_RL",
+		"Transform": {
+			"Translation": {
+				"X": -73.13993072509766,
+				"Y": -61.28427505493164,
+				"Z": -110.23992919921875
+			},
+			"Orientation": {
+				"X": 0.5,
+				"Y": -0.5,
+				"Z": 0.5,
+				"W": 0.5
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Radius": 35.0
+	},
+	{
+		"ID": "bfcb176e4b1e45e7770705a7de4e072e",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5409cebd4638eee5c4badda066955355",
+		"Name": "Cylinder",
+		"Transform": {
+			"Scale": {
+				"X": 0.699999988079071,
+				"Y": 0.20000000298023225,
+				"Z": 0.699999988079071
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "576f3be44f19f8f322278e90b9c81b69",
+		"TypeName": "FlaxEngine.SphereCollider",
+		"ParentID": "701dc46c4f8ee62ab4301d9e2fc9159f",
+		"Name": "Wheel_FL",
+		"Transform": {
+			"Translation": {
+				"X": -73.13996124267578,
+				"Y": -61.28428268432617,
+				"Z": 112.3843994140625
+			},
+			"Orientation": {
+				"X": 0.5,
+				"Y": -0.5,
+				"Z": 0.5,
+				"W": 0.5
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Radius": 35.0
+	},
+	{
+		"ID": "71d814a644dbc85fe19f1b8f90119e20",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "576f3be44f19f8f322278e90b9c81b69",
+		"Name": "Cylinder",
+		"Transform": {
+			"Scale": {
+				"X": 0.699999988079071,
+				"Y": 0.20000000298023225,
+				"Z": 0.699999988079071
+			}
+		},
+		"StaticFlags": 0,
+		"Layer": 4,
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}
