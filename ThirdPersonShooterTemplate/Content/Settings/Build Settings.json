@@ -15,15 +15,9 @@
 			"Name": "Development",
 			"Targets": [
 				{
-					"Name": "Windows 64bit",
+					"Name": "Windows",
 					"Output": "Output\\Win64",
 					"Platform": 2,
-					"Mode": 1
-				},
-				{
-					"Name": "Windows 32bit",
-					"Output": "Output\\Win32",
-					"Platform": 1,
 					"Mode": 1
 				}
 			]
@@ -32,27 +26,9 @@
 			"Name": "Release",
 			"Targets": [
 				{
-					"Name": "Windows 64bit",
+					"Name": "Windows",
 					"Output": "Output\\Win64",
 					"Platform": 2,
-					"Mode": 0
-				},
-				{
-					"Name": "Windows 32bit",
-					"Output": "Output\\Win32",
-					"Platform": 1,
-					"Mode": 0
-				},
-				{
-					"Name": "Xbox One",
-					"Output": "Output\\XboxOne",
-					"Platform": 5,
-					"Mode": 0
-				},
-				{
-					"Name": "UWP 64bit",
-					"Output": "Output\\WinStore64",
-					"Platform": 4,
 					"Mode": 0
 				}
 			]
