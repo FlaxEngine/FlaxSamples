@@ -16,7 +16,7 @@
 			"Targets": [
 				{
 					"Name": "Windows",
-					"Output": "Output\\Win64",
+					"Output": "Output\\Windows",
 					"Platform": 2,
 					"Mode": 1
 				}
@@ -27,7 +27,7 @@
 			"Targets": [
 				{
 					"Name": "Windows",
-					"Output": "Output\\Win64",
+					"Output": "Output\\Windows",
 					"Platform": 2,
 					"Mode": 0
 				}
