@@ -29,33 +29,6 @@
 					"CustomDefines": null,
 					"PreBuildAction": null,
 					"PostBuildAction": null
-				},
-				{
-					"Name": "Linux",
-					"Output": "Output\\LInux",
-					"Platform": 6,
-					"Mode": 1,
-					"CustomDefines": null,
-					"PreBuildAction": null,
-					"PostBuildAction": null
-				},
-				{
-					"Name": "Android",
-					"Output": "Output\\Android",
-					"Platform": 9,
-					"Mode": 1,
-					"CustomDefines": null,
-					"PreBuildAction": null,
-					"PostBuildAction": null
-				},
-				{
-					"Name": "iOS",
-					"Output": "Output\\iOS",
-					"Platform": 14,
-					"Mode": 1,
-					"CustomDefines": null,
-					"PreBuildAction": null,
-					"PostBuildAction": null
 				}
 			]
 		},
