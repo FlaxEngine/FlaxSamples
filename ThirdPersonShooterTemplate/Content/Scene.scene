@@ -1,7 +1,7 @@
 {
 	"ID": "74a68a984824b4510d12589f199ad68f",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6704,
+	"EngineBuild": 6705,
 	"Data": [
 		{
 			"ID": "74a68a984824b4510d12589f199ad68f",
@@ -53,7 +53,8 @@
 					"Z": -14.423166275024414
 				}
 			},
-			"Sun": "deecf0894777293a4f478dadacf2a6f8"
+			"Sun": "deecf0894777293a4f478dadacf2a6f8",
+			"SunPower": 16.0
 		},
 		{
 			"ID": "da5e1c454a56377517d41686ebb0348f",
@@ -87,14 +88,11 @@
 					"W": 0.865317702293396
 				}
 			},
-			"Color": {
-				"R": 1.0,
-				"G": 0.9843137264251709,
-				"B": 0.9725490212440491,
-				"A": 1.0
-			},
-			"Brightness": 6.0,
-			"ShadowsDistance": 2000.0
+			"Brightness": 10.0,
+			"ShadowsDistance": 2000.0,
+			"ShadowsDepthBias": 0.0010000000474974513,
+			"ShadowsNormalOffsetScale": 100.0,
+			"PartitionMode": 2
 		},
 		{
 			"ID": "eb18e84d41670d6314174b89a1d5ffea",
@@ -108,7 +106,9 @@
 					"Z": 0.0
 				}
 			},
-			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+			"Brightness": 1.0,
+			"BakedProbe": "e8dd1aae4c404b998acbe7a0d2cb6b46",
+			"Mode": 0
 		},
 		{
 			"ID": "a21079d6493dbabe6af818b2f5c8a2bc",
