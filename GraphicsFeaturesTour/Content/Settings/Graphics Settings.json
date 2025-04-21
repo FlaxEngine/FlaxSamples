@@ -193,7 +193,7 @@
 			"Mode": 2,
 			"SpeedUp": 1.0,
 			"SpeedDown": 1.0,
-			"PreExposure": 1.0,
+			"PreExposure": 0.5,
 			"PostExposure": 0.0,
 			"MinBrightness": 0.03,
 			"MaxBrightness": 15.0,
