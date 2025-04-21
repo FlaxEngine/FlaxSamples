@@ -89,7 +89,8 @@
 				}
 			},
 			"Brightness": 10.0,
-			"ShadowsDistance": 2000.0,
+			"ShadowsDistance": 3000.0,
+			"ShadowsFadeDistance": 200.0,
 			"ShadowsDepthBias": 0.0010000000474974513,
 			"ShadowsNormalOffsetScale": 100.0,
 			"PartitionMode": 2

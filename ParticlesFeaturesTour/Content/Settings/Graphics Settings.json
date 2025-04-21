@@ -11,7 +11,7 @@
 	"ShadowsQuality": 2,
 	"ShadowMapsQuality": 2,
 	"AllowCSMBlending": true,
-	"DefaultProbeResolution": 128,
+	"DefaultProbeResolution": 0,
 	"UseHDRProbes": true,
 	"EnableGlobalSDF": true,
 	"GlobalSDFDistance": 15000.0,
