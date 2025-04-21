@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6704,
+	"EngineBuild": 6705,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -55,7 +55,9 @@
 					"Z": -2270.049560546875
 				}
 			},
-			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+			"Brightness": 1.0,
+			"BakedProbe": "67855bbf4c8cf86aea5300a733bcd38f",
+			"Mode": 0
 		},
 		{
 			"ID": "0442142849ec2b814cc380897a623811",
@@ -69,7 +71,8 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
+			"SunPower": 16.0
 		},
 		{
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
@@ -89,17 +92,12 @@
 					"W": 0.865317702293396
 				}
 			},
-			"Color": {
-				"R": 1.0,
-				"G": 0.9843137264251709,
-				"B": 0.9725490212440491,
-				"A": 1.0
-			},
-			"Brightness": 6.0,
-			"VolumetricScatteringIntensity": 10.0,
-			"ShadowsDistance": 3000.0,
-			"ShadowsFadeDistance": 200.0,
-			"ShadowsNormalOffsetScale": 50.0
+			"Brightness": 10.0,
+			"ShadowsDistance": 6000.0,
+			"ShadowsFadeDistance": 800.0,
+			"ShadowsDepthBias": 0.0010000000474974513,
+			"ShadowsNormalOffsetScale": 100.0,
+			"PartitionMode": 2
 		},
 		{
 			"ID": "758af305431ccbcf439d048e8434f276",
@@ -114,19 +112,8 @@
 				}
 			},
 			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3",
-			"VolumetricFogScatteringDistribution": 0.10000000149011612,
-			"VolumetricFogAlbedo": {
-				"R": 0.45510101318359375,
-				"G": 1.0,
-				"B": 0.5387160181999207,
-				"A": 1.0
-			},
-			"VolumetricFogEmissive": {
-				"R": 0.003920000046491623,
-				"G": 0.0,
-				"B": 0.0,
-				"A": 0.4277760088443756
-			},
+			"VolumetricFogEnable": true,
+			"VolumetricFogScatteringDistribution": 0.4000000059604645,
 			"VolumetricFogDistance": 2000.0
 		},
 		{
@@ -4121,7 +4108,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "79ebd6f14445ac87a783bb8be21a50ba",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -4151,7 +4138,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "79ebd6f14445ac87a783bb8be21a50ba",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -4346,7 +4333,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "630f7faf47124b0d92f86da10bddea26",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -4649,7 +4636,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "2ef4f96d41de690a50e11f8daf5f0278",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5183,7 +5170,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5214,7 +5201,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5463,7 +5450,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5494,7 +5481,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5731,7 +5718,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "708227bc4b10ab9f791146926da38b96",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -5762,7 +5749,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "aba41fe446a36cbbeb8c58bcbedfdc60",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -10121,7 +10108,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "f36adc574a3392b792b3c3bf7c5f707d",
+						"Material": "00000000000000000000000000000000",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -10134,8 +10121,7 @@
 			"TypeName": "GraphicsFeaturesTour.CameraTV",
 			"ParentID": "6ecfedd84cf9ddbd5ad4cd8ace0a0b83",
 			"V": {
-	"Cam": "5d375b6849ad777dfb482c943e5933e5",
-	"Material": "f36adc574a3392b792b3c3bf7c5f707d"
+	"Cam": "5d375b6849ad777dfb482c943e5933e5"
 }
 		},
 		{
