@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6604,
+	"EngineBuild": 6705,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -43,7 +43,9 @@
 					"Z": 0.0
 				}
 			},
-			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+			"Brightness": 1.0,
+			"BakedProbe": "30bdfe574f621e6b505ccc929a6877bc",
+			"Mode": 0
 		},
 		{
 			"ID": "0442142849ec2b814cc380897a623811",
@@ -57,7 +59,8 @@
 					"Z": 20.0
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
+			"SunPower": 16.0
 		},
 		{
 			"ID": "d53a41bc451cdac2bf32199f7f0afa72",
@@ -91,16 +94,12 @@
 					"W": 0.8520640730857849
 				}
 			},
-			"Color": {
-				"R": 1.0,
-				"G": 0.9843137264251709,
-				"B": 0.9725490212440491,
-				"A": 1.0
-			},
-			"Brightness": 6.0,
-			"ShadowsDistance": 2000.0,
+			"Brightness": 10.0,
+			"ShadowsDistance": 3000.0,
 			"ShadowsFadeDistance": 200.0,
-			"ShadowsNormalOffsetScale": 50.0
+			"ShadowsDepthBias": 0.0010000000474974513,
+			"ShadowsNormalOffsetScale": 100.0,
+			"PartitionMode": 2
 		},
 		{
 			"ID": "c186d8c64da6153e725e638df4679e98",
@@ -110,7 +109,7 @@
 			"Transform": {
 				"Scale": {
 					"X": 10.0,
-					"Y": 0.20000000298023225,
+					"Y": 0.20000000298023224,
 					"Z": 10.0
 				}
 			},
@@ -140,13 +139,13 @@
 			"Name": "Cube",
 			"Transform": {
 				"Translation": {
-					"X": -3.7920401096343996,
+					"X": -3.7920401096343994,
 					"Y": 56.70222091674805,
 					"Z": 176.7799530029297
 				},
 				"Orientation": {
 					"X": 0.0,
-					"Y": 0.24613164365291596,
+					"Y": 0.24613164365291595,
 					"Z": 0.0,
 					"W": 0.9692364931106567
 				}
@@ -183,8 +182,8 @@
 				},
 				"Orientation": {
 					"X": 0.11699046194553375,
-					"Y": 0.19940078258514405,
-					"Z": -0.023980094119906427,
+					"Y": 0.19940078258514404,
+					"Z": -0.023980094119906425,
 					"W": 0.9726138114929199
 				}
 			},
