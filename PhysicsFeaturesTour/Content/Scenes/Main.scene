@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6704,
+	"EngineBuild": 6705,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -47,7 +47,9 @@
 					"Z": -2270.049560546875
 				}
 			},
-			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+			"Brightness": 1.0,
+			"BakedProbe": "cdaed0554cac1b4e5a0e54945e960ae4",
+			"Mode": 0
 		},
 		{
 			"ID": "0442142849ec2b814cc380897a623811",
@@ -61,7 +63,8 @@
 					"Z": 14.81579303741455
 				}
 			},
-			"Sun": "9b72fc4a47c39fca64f3058b692784c3"
+			"Sun": "9b72fc4a47c39fca64f3058b692784c3",
+			"SunPower": 16.0
 		},
 		{
 			"ID": "9b72fc4a47c39fca64f3058b692784c3",
@@ -81,16 +84,12 @@
 					"W": 0.8653169870376587
 				}
 			},
-			"Color": {
-				"R": 1.0,
-				"G": 0.95686274766922,
-				"B": 0.9058823585510254,
-				"A": 1.0
-			},
-			"Brightness": 6.0,
-			"ShadowsDistance": 3000.0,
-			"ShadowsFadeDistance": 200.0,
-			"ShadowsNormalOffsetScale": 100.0
+			"Brightness": 10.0,
+			"ShadowsDistance": 6000.0,
+			"ShadowsFadeDistance": 800.0,
+			"ShadowsDepthBias": 0.0010000000474974513,
+			"ShadowsNormalOffsetScale": 100.0,
+			"PartitionMode": 2
 		},
 		{
 			"ID": "758af305431ccbcf439d048e8434f276",
@@ -105,7 +104,9 @@
 				}
 			},
 			"StaticFlags": 0,
-			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3"
+			"DirectionalInscatteringLight": "9b72fc4a47c39fca64f3058b692784c3",
+			"VolumetricFogEnable": true,
+			"VolumetricFogScatteringDistribution": 0.4000000059604645
 		},
 		{
 			"ID": "b62b160e4ce7ebe5156fbfa40db2e480",
