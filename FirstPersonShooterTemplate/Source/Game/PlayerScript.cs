@@ -196,6 +196,6 @@ public class PlayerScript : Script
     public override void OnDebugDraw()
     {
         var trans = PlayerController.Transform;
-        DebugDraw.DrawWireTube(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), PlayerController.Radius, PlayerController.Height, Color.Blue);
+        DebugDraw.DrawWireCapsule(trans.Translation, trans.Orientation * Quaternion.Euler(90, 0, 0), PlayerController.Radius, PlayerController.Height, Color.Blue);
     }
 }
