@@ -10108,7 +10108,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "00000000000000000000000000000000",
+						"Material": "f36adc574a3392b792b3c3bf7c5f707d",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -10121,7 +10121,8 @@
 			"TypeName": "GraphicsFeaturesTour.CameraTV",
 			"ParentID": "6ecfedd84cf9ddbd5ad4cd8ace0a0b83",
 			"V": {
-	"Cam": "5d375b6849ad777dfb482c943e5933e5"
+	"Cam": "5d375b6849ad777dfb482c943e5933e5",
+	"Material": "f36adc574a3392b792b3c3bf7c5f707d"
 }
 		},
 		{

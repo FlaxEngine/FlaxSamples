@@ -8080,13 +8080,7 @@
 			"ID": "5f9458814dfcbc30a20837a5ff5c64f7",
 			"PrefabID": "cc1779884233f02151624b81ccb6b30e",
 			"PrefabObjectID": "76fb6ad6450457bbcaa9b5a5200eb09e",
-			"ParentID": "c9c0196e4e4a792e0f6e86aa847ec23a",
-			"TargetAnchorRotation": {
-				"X": 0.46931833028793335,
-				"Y": -0.5273263454437256,
-				"Z": -0.45823395252227783,
-				"W": 0.5400822162628174
-			}
+			"ParentID": "c9c0196e4e4a792e0f6e86aa847ec23a"
 		},
 		{
 			"ID": "b5ed167b473a60f48381108d4bfc9fba",

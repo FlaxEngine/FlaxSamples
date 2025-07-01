@@ -11,15 +11,15 @@
 	"ShadowsQuality": 2,
 	"ShadowMapsQuality": 2,
 	"AllowCSMBlending": true,
-	"DefaultProbeResolution": 0,
+	"DefaultProbeResolution": 128,
 	"UseHDRProbes": true,
-	"EnableGlobalSDF": true,
+	"EnableGlobalSDF": false,
 	"GlobalSDFDistance": 15000.0,
 	"GlobalSDFQuality": 2,
-	"GenerateSDFOnModelImport": true,
+	"GenerateSDFOnModelImport": false,
 	"GIQuality": 2,
 	"GIProbesSpacing": 100.0,
-	"GICascadesBlending": true,
+	"GICascadesBlending": false,
 	"GlobalSurfaceAtlasResolution": 2048,
 	"PostProcessSettings": {
 		"AO": {
@@ -189,10 +189,10 @@
 			"LutWeight": 1.0
 		},
 		"EyeAdaptation": {
-			"OverrideFlags": 14,
+			"OverrideFlags": 8,
 			"Mode": 2,
-			"SpeedUp": 1.0,
-			"SpeedDown": 1.0,
+			"SpeedUp": 3.0,
+			"SpeedDown": 10.0,
 			"PreExposure": 0.5,
 			"PostExposure": 0.0,
 			"MinBrightness": 0.03,
