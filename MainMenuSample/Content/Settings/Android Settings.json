@@ -1,0 +1,8 @@
+{
+	"ID": "9ac06a884463f4ae9435e2b03c866259",
+	"TypeName": "FlaxEditor.Content.Settings.AndroidPlatformSettings",
+	"EngineBuild": 6213,
+	"Data": {
+	"PackageName": "com.${COMPANY_NAME}.${PROJECT_NAME}"
+}
+}
