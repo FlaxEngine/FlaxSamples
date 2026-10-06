@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6705,
+	"EngineBuild": 7011,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -4489,7 +4489,6 @@
 					"DepthResolution": 1,
 					"RayTracePassResolution": 1,
 					"BRDFBias": 0.8399990200996399,
-					"ResolvePassResolution": 2,
 					"ResolveSamples": 6
 				},
 				"AA": {},
@@ -8804,7 +8803,7 @@
 					"W": 0.7071068286895752
 				}
 			},
-			"Brightness": 200000.0,
+			"Brightness": 44.72135925292969,
 			"ShadowsMode": 0,
 			"UseInverseSquaredFalloff": true
 		},
@@ -10452,8 +10451,7 @@
 					"BokehEnabled": false
 				},
 				"MotionBlur": {
-					"OverrideFlags": 1,
-					"Enabled": false
+					"OverrideFlags": 1
 				},
 				"SSR": {
 					"OverrideFlags": 1025,

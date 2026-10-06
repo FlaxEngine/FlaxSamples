@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6910,
+	"EngineBuild": 7011,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -252,8 +252,7 @@
 					"BokehEnabled": false
 				},
 				"MotionBlur": {
-					"OverrideFlags": 1,
-					"Enabled": false
+					"OverrideFlags": 1
 				},
 				"SSR": {
 					"OverrideFlags": 1025,

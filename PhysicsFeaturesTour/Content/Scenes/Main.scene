@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6705,
+	"EngineBuild": 7011,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -4988,7 +4988,7 @@
 				"B": 0.0,
 				"A": 1.0
 			},
-			"Brightness": 100000.0,
+			"Brightness": 31.62277603149414,
 			"ShadowsMode": 0,
 			"Radius": 800.0,
 			"UseInverseSquaredFalloff": true
@@ -7901,11 +7901,6 @@
 					"Z": 0.0029128866735845804,
 					"W": 0.18992021679878235
 				}
-			},
-			"Buffer": {
-				"Entries": [
-					{}
-				]
 			}
 		},
 		{
@@ -8274,12 +8269,6 @@
 					"Z": 0.0,
 					"W": -0.9999618530273438
 				}
-			},
-			"Buffer": {
-				"Entries": [
-					{},
-					{}
-				]
 			}
 		},
 		{
@@ -8287,21 +8276,12 @@
 			"PrefabID": "7e1617d241f6973166e81d875ee118b8",
 			"PrefabObjectID": "bedcbd0a45b78ba99d58999858d294f2",
 			"ParentID": "0f02aad04ff90fb6deff80b11d372e97",
-			"Mesh": {},
-			"Force": {},
-			"Collision": {},
 			"Simulation": {
 				"WindVelocity": {
 					"X": 0.0,
 					"Y": 0.0,
 					"Z": 500.0
 				}
-			},
-			"Fabric": {
-				"Vertical": {},
-				"Horizontal": {},
-				"Bending": {},
-				"Shearing": {}
 			}
 		},
 		{
@@ -8433,29 +8413,13 @@
 					"Z": 0.0,
 					"W": 0.7071068286895752
 				}
-			},
-			"Buffer": {
-				"Entries": [
-					{},
-					{}
-				]
 			}
 		},
 		{
 			"ID": "2aaedba540058242cecd02b2389589e4",
 			"PrefabID": "7e1617d241f6973166e81d875ee118b8",
 			"PrefabObjectID": "bedcbd0a45b78ba99d58999858d294f2",
-			"ParentID": "721ab4174a55ac829eb5159c1d7bee34",
-			"Mesh": {},
-			"Force": {},
-			"Collision": {},
-			"Simulation": {},
-			"Fabric": {
-				"Vertical": {},
-				"Horizontal": {},
-				"Bending": {},
-				"Shearing": {}
-			}
+			"ParentID": "721ab4174a55ac829eb5159c1d7bee34"
 		},
 		{
 			"ID": "3275a34049beedd8e43e6aaf05e23fa3",
@@ -8678,30 +8642,7 @@
 					"TireLongitudinalStiffness": 1000.0,
 					"TireFrictionScale": 1.0
 				}
-			],
-			"DriveControl": {
-				"SteerVsSpeed": [
-					{
-						"Speed": 800.0,
-						"Steer": 1.0
-					},
-					{
-						"Speed": 1500.0,
-						"Steer": 0.699999988079071
-					},
-					{
-						"Speed": 2500.0,
-						"Steer": 0.5
-					},
-					{
-						"Speed": 5000.0,
-						"Steer": 0.20000000298023224
-					}
-				]
-			},
-			"Engine": {},
-			"Differential": {},
-			"Gearbox": {}
+			]
 		},
 		{
 			"ID": "20edb4a9456f940bf13eecbca0bf1a44",
@@ -8900,8 +8841,7 @@
 					"BokehEnabled": false
 				},
 				"MotionBlur": {
-					"OverrideFlags": 1,
-					"Enabled": false
+					"OverrideFlags": 1
 				},
 				"SSR": {
 					"OverrideFlags": 1025,
