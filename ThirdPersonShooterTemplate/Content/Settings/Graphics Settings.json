@@ -15,7 +15,7 @@
 	"OcclusionBufferedFrames": 2,
 	"OcclusionBoundsScale": 1.1,
 	"DefaultProbeResolution": 128,
-	"DefaultProbeCubemapFormat": 2,
+	"DefaultProbeCubemapFormat": 3,
 	"EnableGlobalSDF": false,
 	"GlobalSDFDistance": 15000.0,
 	"GlobalSDFQuality": 2,
